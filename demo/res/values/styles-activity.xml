@@ -10,7 +10,13 @@
         <item name="android:textColorPrimary">@color/black</item>
         <item name="toolbarNavigationButtonStyle">@style/myToolbarNavigationButtonStyle</item>
     </style>
+    <!-- 自定义checkbox主题 -->
+    <style name="CustomCheckboxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/selector_common_checkbox</item>
+        <item name="android:width">@dimen/user_reg_phone_checkbox_read_protocal_width_or_height</item>
+        <item name="android:height">@dimen/user_reg_phone_checkbox_read_protocal_width_or_height</item>
 
+    </style>
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>

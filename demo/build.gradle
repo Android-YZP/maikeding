@@ -14,7 +14,7 @@ android {
     useLibrary 'org.apache.http.legacy'
 
     defaultConfig {
-        minSdkVersion 9
+        minSdkVersion 16
         targetSdkVersion 23
         buildConfigField "String", "GIT_REVISION", "\"${getGitVersion()}\""
         buildConfigField "String", "BUILD_DATE", "\"${new Date().toLocaleString()}\"";
@@ -80,11 +80,8 @@ android {
 dependencies {
     compile fileTree(include: '*.jar', dir: 'libs')
     compile project(path: ':uikit')
-
-
-
-
-
-
+    compile 'org.xutils:xutils:3.3.36'
     compile 'com.android.support:multidex:1.0.0'
+    compile 'org.greenrobot:eventbus:3.0.0'
+    compile 'com.google.code.gson:gson:2.7'
 }

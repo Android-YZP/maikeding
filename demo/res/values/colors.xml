@@ -74,4 +74,121 @@
     <color name="color_black_ff999999">#ff999999</color>
     <color name="color_gray_bfc2c5">#bfc2c5</color>
 
+    <!-- guid -->
+    <color name="guid_border_bg_color">#FF5D5E</color>
+
+    <!-- |main-bottom-tabbar -->
+    <color name="main_tabbar_bg_color">#ffffff</color>
+    <color name="main_tabbar_item_text_font_color_unsel">#b5b6b6</color>
+    <color name="main_tabbar_item_text_font_color_sel">#d81759</color>
+    <color name="main_tabbar_border_color">#dcdcdd</color>
+
+    <!-- |common main topbar -->
+    <color name="common_topbar_bg_color">#d81759</color>
+    <color name="common_topbar_text_font_color">#ffffff</color>
+    <color name="common_bg_color">#f7f5f5</color>
+    <color name="common_white_color">#ffffff</color>
+    <color name="common_et_bg_border_color">#d2d2d2</color>
+    <color name="common_et_text_font_color">#959595</color>
+
+    <color name="common_content_dark_text_font_color">#d81759</color>
+    <color name="common_content_text_font_color">#959595</color>
+    <color name="common_content_dark_gray_text_font_color">#626262</color>
+    <color name="common_content_gray_text_font_color">#7d7d7d</color>
+
+    <!-- |index start -->
+    <color name="index_search_et_text_font_color">#959595</color>
+    <color name="index_search_listview_history_item_text_font_color">#959595</color>
+    <color name="index_search_listview_history_item_divide_color">#d2d2d2</color>
+    <color name="index_search_listview_clean_history_font_color">#d82058</color>
+    <color name="index_search_listview_clean_history_bg_color">#e5e5e5</color>
+
+    <!-- cate -->
+    <color name="index_cate_bg_color">#fbfafa</color>
+    <color name="index_cate_border_color">#b4b5b5</color>
+    <color name="index_cate_item_text_font_color">#d82058</color>
+
+    <!-- creative -->
+    <color name="index_creative_titlebar_title_text_font_color">#d81759</color>
+    <color name="index_creative_titlebar_line_bg_color">#d81759</color>
+    <color name="index_creative_titlebar_more_text_font_color">#595757</color>
+
+    <color name="index_creative_item_bg_border_color">#e1e0e0</color>
+    <color name="index_creative_item_bg_color">#fbfafa</color>
+    <color name="index_creative_item_text_font_color">#626262</color>
+    <color name="index_creative_item_text_info_font_color">#7d7d7d</color>
+
+    <!-- |index end -->
+
+
+    <!-- |find start -->
+    <!-- topbar -->
+    <!-- list -->
+    <color name="find_bg_color">#f7f6f5</color>
+    <color name="find_commit_text_font_color">#ffffff</color>
+    <color name="find_list_border_color">#d2d2d2</color>
+    <color name="find_list_bg_color">#ffffff</color>
+    <color name="find_list_text_font_color">#7d7d7d</color>
+
+    <!-- |find end -->
+
+    <!-- |pscenter start -->
+    <!-- <color name="pscenter_bg_color">#f7f5f5</color> -->
+    <color name="pscenter_content_bg_color">#ffffff</color>
+
+    <!-- psinfo -->
+    <color name="pscenter_psinfo_border_color">#dcdddd</color>
+    <color name="pscenter_psinfo_btn_border_color">#d82058</color>
+
+    <color name="pscenter_psinfo_username_text_font_color">#595757</color>
+    <color name="pscenter_psinfo_sign_text_font_color">#9f9fa0</color>
+
+    <color name="pscenter_psinfo_my_creative_num_text_font_color">#595757</color>
+    <color name="pscenter_psinfo_my_creative_text_font_color">#9f9fa0</color>
+
+    <!-- pscreative -->
+    <color name="pscenter_pscreative_title_text_font_color">#595757</color>
+
+    <!-- |pscenter end -->
+
+    <!-- |find-creativelist start -->
+    <color name="creativelist_cate_text_font_color">#7d7d7d</color>
+    <color name="creativelist_cate_text_font_color_sel">#d81759</color>
+    <!-- |find-creativelist end -->
+
+    <!-- |creativedetail start -->
+    <color name="creativedetail_title_text_font_color">#626262</color>
+    <color name="creativedetail_desc_text_font_color">#959595</color>
+    <color name="creativedetail_tabbar_line_color">#d82058</color>
+    <color name="creativedetail_source_leftbar_color">#d82058</color>
+    <color name="creativedetail_detail_leftbar_color">#fbd731</color>
+    <color name="creativedetail_bottombar_border_color">#e5e5e5</color>
+
+    <color name="creativedetail_common_bg_color">#ffffff</color>
+    <color name="creativedetail_common_line_color">#d2d2d2</color>
+
+    <!-- comment -->
+    <color name="creativedetail_comment_username_font_color">#959595</color>
+    <color name="creativedetail_comment_datetime_font_color">#b5b5b5</color>
+    <color name="creativedetail_comment_content_font_color">#a0a0a0</color>
+    <color name="creativedetail_comment_reply_text_font_color">#d82058</color>
+
+    <color name="creativedetail_commentbar_commit_font_color">#a0a0a0</color>
+    <color name="creativedetail_commentbar_commit_border_bg_color">#a0a0a0</color>
+
+
+    <!-- |creativedetail end -->
+
+    <!-- user login -->
+    <color name="user_login_btn_bg_color">#d82058</color>
+    <color name="user_login_bg_border_color">#d81759</color>
+    <color name="user_login_btn_press_color">#7fd81759</color>
+
+    <color name="user_login_visit_by_easy_press_color">#7fd81759</color>
+
+    <color name="user_reg_phone_et_text_font_color">#959595</color>
+
+    <!-- activity_mkf_article_detail -->
+    <color name="mkf_article_content_font_color">#7d7d7d</color>
+
 </resources>
