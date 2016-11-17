@@ -15,7 +15,6 @@ import android.widget.Toast;
 import com.netease.nim.demo.R;
 import com.netease.nim.demo.avchat.AVChatProfile;
 import com.netease.nim.demo.avchat.activity.AVChatActivity;
-import com.netease.nim.demo.chatroom.helper.ChatRoomHelper;
 import com.netease.nim.demo.contact.activity.AddFriendActivity;
 import com.netease.nim.demo.login.LoginActivity;
 import com.netease.nim.demo.login.LogoutHelper;
@@ -142,10 +141,6 @@ public class MainActivity extends UI {
     private void onInit() {
         // 加载主页面
         showMainFragment();
-
-        // 聊天室初始化
-        ChatRoomHelper.init();
-
         LogUtil.ui("NIM SDK cache path=" + NIMClient.getSdkStorageDirPath());
     }
 

@@ -4,6 +4,10 @@
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
     }

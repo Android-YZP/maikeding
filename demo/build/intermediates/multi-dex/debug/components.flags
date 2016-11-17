@@ -1,5 +1,5 @@
--injars 'D:\AndroidStudioProjects\NIM_Android_Demo_v3.1.0\nim_demo\demo\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar'
--outjars 'D:\AndroidStudioProjects\NIM_Android_Demo_v3.1.0\nim_demo\demo\build\intermediates\multi-dex\debug\componentClasses.jar'
+-injars 'D:\AndroidStudioProjects\maikeding\demo\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar'
+-outjars 'D:\AndroidStudioProjects\maikeding\demo\build\intermediates\multi-dex\debug\componentClasses.jar'
 
 -libraryjars 'D:\soft\Android\sdk\build-tools\22.0.1\lib\shrinkedAndroid.jar'
 
@@ -10,7 +10,7 @@
 -dontpreverify
 -dontnote **
 -dontwarn **
--printconfiguration 'D:\AndroidStudioProjects\NIM_Android_Demo_v3.1.0\nim_demo\demo\build\intermediates\multi-dex\debug\components.flags'
+-printconfiguration 'D:\AndroidStudioProjects\maikeding\demo\build\intermediates\multi-dex\debug\components.flags'
 
 
 -keep class com.netease.nim.demo.NimApplication {

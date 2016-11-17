@@ -1,4 +1,4 @@
-#Sun Nov 13 15:11:05 CST 2016
-base.0=D\:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+#Thu Nov 17 09:19:07 CST 2016
+base.0=D\:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
-file.0=D\:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+file.0=D\:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

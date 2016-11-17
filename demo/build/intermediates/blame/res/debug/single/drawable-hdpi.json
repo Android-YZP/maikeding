@@ -4,10 +4,6 @@
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\nim_white_round_button_pressed.9.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_left_type_audio.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_left_type_audio.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\g_white_btn_normal.9.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\g_white_btn_normal.9.png"
     },
@@ -20,12 +16,8 @@
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\room_cover_37.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_excel.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\file_ic_session_excel.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\user_pwd_lock_icon.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\user_pwd_lock_icon.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_audio_open.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\icon_audio_open.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_pdf.png",
@@ -40,14 +32,6 @@
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\new_message_notify.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_view_holder_right_snapchat.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\message_view_holder_right_snapchat.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_mute_speaker_bg_checked.9.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_mute_speaker_bg_checked.9.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_mp3.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\file_ic_detail_mp3.png"
     },
@@ -56,20 +40,16 @@
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\no_announce.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_guess_normal.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\message_plus_guess_normal.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_switch_camera_pressed.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_video_switch_camera_pressed.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nim_ic_messge_history.png",
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\nim_ic_messge_history.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\record_start.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\record_start.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_record_pressed.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_video_record_pressed.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\record_start.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\record_start.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_loaction_normal.png",
@@ -80,52 +60,52 @@
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_receive_bg_pressed.9.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\head_icon_7.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\head_icon_7.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\actionbar_white_logo_icon.png",
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\actionbar_white_logo_icon.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_bottom_logout_normal.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_video_bottom_logout_normal.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_add_friends.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\ic_add_friends.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_audio_call_wifi_unavailable.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_audio_call_wifi_unavailable.9.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_audio_record_icon_disable.png",
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_audio_record_icon_disable.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_mute_speaker_bg_disable.9.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_mute_speaker_bg_disable.9.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_search_team.png",
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\ic_search_team.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_mute_pressed.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_video_mute_pressed.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_refuse_bg_normal.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_refuse_bg_normal.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_audio_close.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\icon_audio_close.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_close_camera_disable.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_video_close_camera_disable.png"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_audio_record_icon_checked.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_audio_record_icon_checked.png"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_word.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\file_ic_detail_word.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_bottom_logout_normal.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_video_bottom_logout_normal.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\head_icon_1.png",
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\head_icon_1.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nim_female.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\nim_female.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_close_video_send.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_close_video_send.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\actionbar_dark_back_icon.png",
@@ -156,10 +136,6 @@
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\message_plus_tip_normal.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_mute_normal.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_video_mute_normal.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_multiport.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\ic_multiport.png"
     },
@@ -168,24 +144,24 @@
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\file_ic_detail_excel.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_video_chat_normal.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\message_plus_video_chat_normal.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_refuse_bg_pressed.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_refuse_bg_pressed.9.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_advanced_team.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\ic_advanced_team.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_switch_camera_disable.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_video_switch_camera_disable.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_video_chat_normal.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\message_plus_video_chat_normal.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_add_friends.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\ic_add_friends.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_search_team.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\ic_search_team.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\g_white_btn_pressed.9.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\g_white_btn_pressed.9.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_view_holder_right_snapchat_disable.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\message_view_holder_right_snapchat_disable.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_mute_icon_normal.png",
@@ -200,48 +176,32 @@
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\chat_room_back_arrow_pressed.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_audio_call_wifi_unavailable.9.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_audio_call_wifi_unavailable.9.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_record_disable.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_video_record_disable.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\directory.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\directory.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nick_name_icon.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\nick_name_icon.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\room_cover_36.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\room_cover_36.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_audio_record_icon_pressed.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_audio_record_icon_pressed.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_png.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\file_ic_detail_png.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_black_list.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\ic_black_list.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_switch_mode_video_icon.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_switch_mode_video_icon.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_jpg.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\file_ic_session_jpg.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_left_type_video.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_left_type_video.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\user_account_icon.png",
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\user_account_icon.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_file_pressed.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\message_plus_file_pressed.png"
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_jpg.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\file_ic_session_jpg.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_switch_mode_audio_icon.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_switch_mode_audio_icon.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tip_bar_yellow_background.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\tip_bar_yellow_background.9.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_audio_record_icon_pressed.png",
@@ -256,56 +216,44 @@
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\g_ic_close_yellow_pressed.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_verify_remind.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\icon_verify_remind.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_audio_record_icon_disable.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_audio_record_icon_disable.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_secretary.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\ic_secretary.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_gif.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\file_ic_detail_gif.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\g_ic_close_yellow.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\g_ic_close_yellow.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_multiport_detail.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\ic_multiport_detail.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_mute_disable.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_video_mute_disable.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_txt.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\file_ic_detail_txt.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_refuse_bg_normal.9.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_refuse_bg_normal.9.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_receive_bg_normal.9.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_receive_bg_normal.9.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_html.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\file_ic_session_html.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_record_pressed.png",
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_video_record_pressed.png"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\network_grade_0.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\network_grade_0.png"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\login_bg.png",
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\login_bg.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\g_red_long_btn_nomal.9.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\g_red_long_btn_nomal.9.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_png.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\file_ic_session_png.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_gif.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\file_ic_session_gif.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nick_name_icon.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\nick_name_icon.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nim_ic_message_actionbar_p2p_add.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\nim_ic_message_actionbar_p2p_add.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\actionbar_dark_logo_icon.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\actionbar_dark_logo_icon.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_audio_record_icon_checked.png",
@@ -324,48 +272,28 @@
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\nim_checkbox_not_checked.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_loaction_pressed.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\btn_loaction_pressed.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\room_cover_36.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\room_cover_36.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pin.png",
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\pin.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_record_normal.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_video_record_normal.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_speaker_icon_normal.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_speaker_icon_normal.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pin.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\pin.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_receive_bg_pressed.9.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_receive_bg_pressed.9.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\head_icon_9.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\head_icon_9.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_logo.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\ic_logo.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\head_icon_3.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\head_icon_3.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_jpg.png",
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\file_ic_detail_jpg.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_mute_normal.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_video_mute_normal.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_rar.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\file_ic_session_rar.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_video_chat_pressed.png",
@@ -380,16 +308,20 @@
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\nim_red_round_button_pressed.9.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\action_bar_black_more_icon.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\action_bar_black_more_icon.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_mute_icon_checked.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_mute_icon_checked.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_close_video_send.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_close_video_send.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_mute_pressed.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_video_mute_pressed.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_rts_normal.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\message_plus_rts_normal.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\head_icon_6.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\head_icon_6.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\head_icon_10.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\head_icon_10.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\register_right_top_btn_normal.9.png",
@@ -400,6 +332,1046 @@
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\head_icon_8.png"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_loaction_pressed.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\btn_loaction_pressed.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\g_ic_close_yellow.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\g_ic_close_yellow.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\network_grade_1.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\network_grade_1.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_no_pickup.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_no_pickup.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\head_icon_5.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\head_icon_5.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\user_account_icon.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\user_account_icon.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_excel.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\file_ic_session_excel.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_view_holder_left_snapchat_disable.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\message_view_holder_left_snapchat_disable.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_rts_pressed.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\message_plus_rts_pressed.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\head_icon.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\head_icon.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_rar.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\file_ic_detail_rar.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nim_checkbox_not_checked.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\nim_checkbox_not_checked.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_ppt.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\file_ic_detail_ppt.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\room_cover_72.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\room_cover_72.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_left_type_video.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_left_type_video.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_file_normal.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\message_plus_file_normal.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\actionbar_dark_logo_icon.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\actionbar_dark_logo_icon.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\g_white_btn_pressed.9.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\g_white_btn_pressed.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\actionbar_dark_back_icon.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\actionbar_dark_back_icon.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_switch_camera_disable.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_video_switch_camera_disable.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\g_ic_close_yellow.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\g_ic_close_yellow.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_audio_chat_pressed.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\message_plus_audio_chat_pressed.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_audio_record_icon_checked.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_audio_record_icon_checked.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_audio_close.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\icon_audio_close.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nim_ic_message_actionbar_team.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\nim_ic_message_actionbar_team.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_unknow.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\file_ic_detail_unknow.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_snapchat_normal.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\message_plus_snapchat_normal.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialog_toast_bg.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\dialog_toast_bg.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_multiport_detail.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\ic_multiport_detail.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_close_camera_normal.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_video_close_camera_normal.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_audio_chat_normal.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\message_plus_audio_chat_normal.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\head_icon.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\head_icon.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_switch_camera_pressed.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_video_switch_camera_pressed.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nim_male.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\nim_male.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\g_ic_failed_small.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\g_ic_failed_small.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nim_ic_messge_history.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\nim_ic_messge_history.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_snapchat_pressed.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\message_plus_snapchat_pressed.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_switch_mode_video_icon.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_switch_mode_video_icon.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_audio_record_icon_normal.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_audio_record_icon_normal.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\head_icon_5.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\head_icon_5.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_excel.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\file_ic_detail_excel.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_bottom_logout_normal.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_video_bottom_logout_normal.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_black_list.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\ic_black_list.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\new_message_notify.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\new_message_notify.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_ppt.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\file_ic_detail_ppt.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_word.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\file_ic_session_word.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nim_white_round_button.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\nim_white_round_button.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_secretary.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\ic_secretary.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_view_holder_left_snapchat_disable.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\message_view_holder_left_snapchat_disable.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\user_account_icon.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\user_account_icon.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_html.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\file_ic_detail_html.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_audio_call_wifi_unavailable.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_audio_call_wifi_unavailable.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_jpg.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\file_ic_detail_jpg.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_advanced_team.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\ic_advanced_team.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\login_bg.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\login_bg.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\head_icon.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\head_icon.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\edittext_white_normal.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\edittext_white_normal.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\action_bar_black_more_icon.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\action_bar_black_more_icon.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_view_holder_right_snapchat_disable.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\message_view_holder_right_snapchat_disable.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\register_right_top_btn_disable.9.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\register_right_top_btn_disable.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_zip.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\file_ic_session_zip.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\g_ic_failed_small.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\g_ic_failed_small.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_switch_mode_audio_icon.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_switch_mode_audio_icon.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_snapchat_normal.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\message_plus_snapchat_normal.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\room_cover_50.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\room_cover_50.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\g_red_long_btn_nomal.9.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\g_red_long_btn_nomal.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_unknow.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\file_ic_session_unknow.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\room_cover_50.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\room_cover_50.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_mute_icon_pressed.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_mute_icon_pressed.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nim_ic_message_actionbar_team.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\nim_ic_message_actionbar_team.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialog_toast_bg.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\dialog_toast_bg.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_png.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\file_ic_detail_png.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\chat_room_back_arrow_normal.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\chat_room_back_arrow_normal.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\user_pwd_lock_icon.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\user_pwd_lock_icon.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_view_holder_left_snapchat.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\message_view_holder_left_snapchat.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\g_ic_close_yellow_pressed.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\g_ic_close_yellow_pressed.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_jpg.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\file_ic_session_jpg.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_mp3.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\file_ic_detail_mp3.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\g_ic_failed_small.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\g_ic_failed_small.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_audio_chat_normal.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\message_plus_audio_chat_normal.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\address.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\address.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\about_logo.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\about_logo.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_word.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\file_ic_detail_word.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_mute_icon_disable.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_mute_icon_disable.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\room_cover_36.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\room_cover_36.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_multiport_detail.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\ic_multiport_detail.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nim_checkbox_not_checked.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\nim_checkbox_not_checked.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_rts_send.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\icon_rts_send.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_word.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\file_ic_detail_word.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_audio_record_icon_normal.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_audio_record_icon_normal.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\chat_room_announce.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\chat_room_announce.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_speaker_icon_normal.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_speaker_icon_normal.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\register_right_top_btn_disable.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\register_right_top_btn_disable.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_rar.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\file_ic_session_rar.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_verify_remind.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\icon_verify_remind.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_video_chat_pressed.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\message_plus_video_chat_pressed.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_left_type_video.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_left_type_video.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\admin_icon.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\admin_icon.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_record_disable.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_video_record_disable.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_multiport.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\ic_multiport.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\room_cover_37.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\room_cover_37.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_audio_open.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\icon_audio_open.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_video_chat_normal.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\message_plus_video_chat_normal.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_logo.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\ic_logo.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nim_ic_message_actionbar_p2p_add.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\nim_ic_message_actionbar_p2p_add.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\room_cover_37.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\room_cover_37.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_rar.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\file_ic_detail_rar.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_mute_icon_checked.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_mute_icon_checked.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\room_cover_49.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\room_cover_49.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_bottom_logout_pressed.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_video_bottom_logout_pressed.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_pdf.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\file_ic_detail_pdf.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_pdf.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\file_ic_session_pdf.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_mute_speaker_bg_pressed.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_mute_speaker_bg_pressed.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_close_camera_disable.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_video_close_camera_disable.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_pdf.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\file_ic_detail_pdf.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\actionbar_white_logo_icon.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\actionbar_white_logo_icon.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_loaction_pressed.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\btn_loaction_pressed.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_switch_mode_audio_icon.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_switch_mode_audio_icon.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_png.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\file_ic_session_png.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\file.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_menu.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\main_menu.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_speaker_icon_pressed.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_speaker_icon_pressed.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\shadow_right.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\shadow_right.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_right_type_video.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_right_type_video.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tip_bar_yellow_background.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\tip_bar_yellow_background.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\head_icon_3.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\head_icon_3.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\room_cover_49.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\room_cover_49.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_add_friends.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\ic_add_friends.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_record_bg.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_record_bg.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_mp3.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\file_ic_session_mp3.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_file_normal.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\message_plus_file_normal.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avatar_def.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avatar_def.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\head_icon_2.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\head_icon_2.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\no_announce.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\no_announce.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\g_white_btn_normal.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\g_white_btn_normal.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\network_grade_3.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\network_grade_3.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_unknow.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\file_ic_session_unknow.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_bottom_logout_pressed.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_video_bottom_logout_pressed.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_refuse_bg_pressed.9.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_refuse_bg_pressed.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\room_cover_57.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\room_cover_57.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\g_red_long_btn_nomal.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\g_red_long_btn_nomal.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avatar_def.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avatar_def.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_html.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\file_ic_detail_html.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\video_audio_mode_switch_bg_pressed.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\video_audio_mode_switch_bg_pressed.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nim_white_round_button.9.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\nim_white_round_button.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\head_icon_1.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\head_icon_1.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\room_cover_58.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\room_cover_58.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_rts_normal.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\message_plus_rts_normal.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nim_white_round_button.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\nim_white_round_button.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_multiport.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\ic_multiport.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\sdk_share_dialog_thumb_default.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\sdk_share_dialog_thumb_default.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_audio_record_icon_normal.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_audio_record_icon_normal.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\shadow_right.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\shadow_right.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\g_red_long_btn_pressed.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\g_red_long_btn_pressed.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\shadow_left.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\shadow_left.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\master_icon.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\master_icon.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\back_arrow.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\back_arrow.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_rar.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\file_ic_detail_rar.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\head_icon_10.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\head_icon_10.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\g_ic_close_yellow_pressed.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\g_ic_close_yellow_pressed.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\network_grade_2.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\network_grade_2.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\shadow_bottom.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\shadow_bottom.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\record_video.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\record_video.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_close_camera_disable.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_video_close_camera_disable.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_rts_pressed.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\message_plus_rts_pressed.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_mute_icon_normal.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_mute_icon_normal.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_right_type_audio.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_right_type_audio.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\shadow_bottom.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\shadow_bottom.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_speaker_icon_checked.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_speaker_icon_checked.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nick_name_icon.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\nick_name_icon.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_advanced_team.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\ic_advanced_team.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\network_grade_3.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\network_grade_3.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\welcome_bg.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\welcome_bg.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_jpg.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\file_ic_detail_jpg.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_bottom_logout_pressed.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_video_bottom_logout_pressed.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_speaker_icon_disable.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_speaker_icon_disable.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\head_icon_3.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\head_icon_3.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\video_audio_mode_switch_bg_normal.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\video_audio_mode_switch_bg_normal.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\head_icon_8.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\head_icon_8.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_file_pressed.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\message_plus_file_pressed.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_mute_icon_checked.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_mute_icon_checked.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_tip_normal.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\message_plus_tip_normal.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nim_female.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\nim_female.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_mp3.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\file_ic_session_mp3.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_mute_icon_disable.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_mute_icon_disable.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nim_white_round_button_pressed.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\nim_white_round_button_pressed.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\directory.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\directory.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_guess_normal.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\message_plus_guess_normal.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_rar.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\file_ic_session_rar.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\action_bar_search_view_icon.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\action_bar_search_view_icon.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_audio_record_icon_pressed.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_audio_record_icon_pressed.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_view_holder_right_snapchat.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\message_view_holder_right_snapchat.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_zip.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\file_ic_detail_zip.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\about_logo.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\about_logo.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_record_normal.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_video_record_normal.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_tip_pressed.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\message_plus_tip_pressed.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\room_cover_57.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\room_cover_57.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_left_type_audio.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_left_type_audio.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_excel.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\file_ic_session_excel.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\user_pwd_lock_icon.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\user_pwd_lock_icon.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_view_holder_right_snapchat.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\message_view_holder_right_snapchat.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_mute_speaker_bg_checked.9.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_mute_speaker_bg_checked.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\actionbar_dropdown_bg.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\actionbar_dropdown_bg.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_guess_normal.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\message_plus_guess_normal.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\shadow_left.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\shadow_left.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\record_start.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\record_start.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_record_pressed.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_video_record_pressed.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\address.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\address.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\head_icon_7.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\head_icon_7.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_bottom_logout_normal.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_video_bottom_logout_normal.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_add_friends.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\ic_add_friends.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_mute_speaker_bg_disable.9.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_mute_speaker_bg_disable.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_mute_pressed.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_video_mute_pressed.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\actionbar_white_logo_icon.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\actionbar_white_logo_icon.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_mp4.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\file_ic_detail_mp4.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_bottom_logout_normal.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_video_bottom_logout_normal.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_mute_normal.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_video_mute_normal.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\head_icon_4.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\head_icon_4.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nim_ic_message_actionbar_p2p_add.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\nim_ic_message_actionbar_p2p_add.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_advanced_team.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\ic_advanced_team.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_search_team.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\ic_search_team.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\g_white_btn_pressed.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\g_white_btn_pressed.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_audio_call_wifi_unavailable.9.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_audio_call_wifi_unavailable.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\g_green_btn_pressed.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\g_green_btn_pressed.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_record_disable.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_video_record_disable.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\room_cover_36.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\room_cover_36.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_png.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\file_ic_detail_png.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_menu.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\main_menu.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_black_list.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\ic_black_list.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_switch_mode_video_icon.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_switch_mode_video_icon.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_file_pressed.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\message_plus_file_pressed.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_switch_mode_audio_icon.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_switch_mode_audio_icon.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_verify_remind.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\icon_verify_remind.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_gif.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\file_ic_detail_gif.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_multiport_detail.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\ic_multiport_detail.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_txt.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\file_ic_detail_txt.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_refuse_bg_normal.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_refuse_bg_normal.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_video_chat_pressed.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\message_plus_video_chat_pressed.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_receive_bg_normal.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_receive_bg_normal.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_no_pickup.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_no_pickup.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\g_red_long_btn_nomal.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\g_red_long_btn_nomal.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_gif.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\file_ic_session_gif.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nick_name_icon.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\nick_name_icon.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nim_ic_message_actionbar_p2p_add.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\nim_ic_message_actionbar_p2p_add.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_speaker_icon_disable.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_speaker_icon_disable.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_loaction_pressed.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\btn_loaction_pressed.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_speaker_icon_normal.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_speaker_icon_normal.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_record_normal.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_video_record_normal.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_receive_bg_pressed.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_receive_bg_pressed.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_mp3.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\file_ic_session_mp3.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_logo.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\ic_logo.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\head_icon_3.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\head_icon_3.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_mute_normal.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_video_mute_normal.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\video_audio_mode_switch_bg_pressed.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\video_audio_mode_switch_bg_pressed.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\action_bar_black_more_icon.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\action_bar_black_more_icon.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_my_computer.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\ic_my_computer.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_close_video_send.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_close_video_send.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\action_bar_black_more_icon.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\action_bar_black_more_icon.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_rts_normal.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\message_plus_rts_normal.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\user_pwd_lock_icon.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\user_pwd_lock_icon.png"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_stat_notify_msg.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\ic_stat_notify_msg.png"
     },
@@ -408,32 +1380,20 @@
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\file_ic_detail_unknow.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\g_ic_close_yellow.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\g_ic_close_yellow.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_no_pickup.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_no_pickup.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\action_bar_search_view_icon.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\action_bar_search_view_icon.png"
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\sdk_share_dialog_thumb_default.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\sdk_share_dialog_thumb_default.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\marker_info_bg.9.png",
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\marker_info_bg.9.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\network_grade_1.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\network_grade_1.png"
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\action_bar_search_view_icon.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\action_bar_search_view_icon.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\sdk_share_dialog_thumb_default.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\sdk_share_dialog_thumb_default.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\head_icon_5.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\head_icon_5.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_pdf.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\file_ic_session_pdf.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_switch_camera_normal.png",
@@ -452,112 +1412,88 @@
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_speaker_icon_checked.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_excel.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\file_ic_session_excel.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_secretary.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\ic_secretary.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_search_team.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\ic_search_team.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\g_red_long_btn_pressed.9.png",
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\g_red_long_btn_pressed.9.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_view_holder_left_snapchat_disable.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\message_view_holder_left_snapchat_disable.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_rts_pressed.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\message_plus_rts_pressed.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\head_icon.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\head_icon.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nim_checkbox_not_checked.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\nim_checkbox_not_checked.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_ppt.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\file_ic_detail_ppt.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_receive_bg_normal.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_receive_bg_normal.9.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_png.png",
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\file_ic_session_png.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\room_cover_72.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\room_cover_72.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_left_type_video.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_left_type_video.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_refuse_bg_normal.9.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_refuse_bg_normal.9.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_file_normal.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\message_plus_file_normal.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_speaker_icon_checked.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_speaker_icon_checked.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\actionbar_dark_logo_icon.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\actionbar_dark_logo_icon.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_verify_remind.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\icon_verify_remind.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\g_white_btn_pressed.9.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\g_white_btn_pressed.9.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_switch_camera_disable.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_video_switch_camera_disable.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\room_cover_72.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\room_cover_72.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\head_icon_6.png",
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\head_icon_6.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\g_ic_close_yellow.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\g_ic_close_yellow.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_audio_chat_pressed.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\message_plus_audio_chat_pressed.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_view_holder_left_snapchat_disable.png",
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\message_view_holder_left_snapchat_disable.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_audio_record_icon_checked.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_audio_record_icon_checked.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_audio_close.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\icon_audio_close.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\network_grade_0.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\network_grade_0.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_txt.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\file_ic_detail_txt.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nim_ic_messge_history.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\nim_ic_messge_history.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nim_ic_message_actionbar_team.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\nim_ic_message_actionbar_team.png"
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\network_grade_0.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\network_grade_0.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_switch_camera_pressed.png",
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_video_switch_camera_pressed.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_unknow.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\file_ic_detail_unknow.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_guess_pressed.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\message_plus_guess_pressed.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nim_red_round_button_pressed.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\nim_red_round_button_pressed.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\network_grade_2.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\network_grade_2.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\head_icon_7.png",
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\head_icon_7.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\marker_info_bg.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\marker_info_bg.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\g_white_btn_normal.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\g_white_btn_normal.9.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_snapchat_pressed.png",
@@ -572,24 +1508,28 @@
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\file.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_snapchat_normal.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\message_plus_snapchat_normal.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialog_toast_bg.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\dialog_toast_bg.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\video_audio_mode_switch_bg_normal.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\video_audio_mode_switch_bg_normal.9.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_mp4.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\file_ic_session_mp4.png"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_rts_normal.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\message_plus_rts_normal.png"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_unknow.png",
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\file_ic_session_unknow.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_audio_chat_normal.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\message_plus_audio_chat_normal.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_loaction_normal.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\btn_loaction_normal.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_mute_speaker_bg_checked.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_mute_speaker_bg_checked.9.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_audio_chat_normal.png",
@@ -600,24 +1540,12 @@
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\shadow_right.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_switch_camera_pressed.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_video_switch_camera_pressed.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_black_list.png",
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\ic_black_list.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_switch_camera_disable.png",
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_video_switch_camera_disable.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nim_male.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\nim_male.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\g_ic_failed_small.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\g_ic_failed_small.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_tab_new_message_notify.png",
@@ -648,6 +1576,10 @@
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\dialog_toast_bg.png"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nim_ic_message_actionbar_team.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\nim_ic_message_actionbar_team.png"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\shadow_left.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\shadow_left.png"
     },
@@ -656,16 +1588,16 @@
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\file_ic_detail_zip.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\head_icon_5.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\head_icon_5.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_stat_notify_msg.png",
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\ic_stat_notify_msg.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_excel.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\file_ic_detail_excel.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_html.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\file_ic_detail_html.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_rts_pressed.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\message_plus_rts_pressed.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_zip.png",
@@ -688,6 +1620,10 @@
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\message_plus_tip_pressed.png"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\network_grade_1.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\network_grade_1.png"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\room_cover_64.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\room_cover_64.png"
     },
@@ -704,10 +1640,6 @@
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\file_ic_session_gif.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_secretary.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\ic_secretary.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_my_computer.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\ic_my_computer.png"
     },
@@ -716,40 +1648,16 @@
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\actionbar_dropdown_bg.9.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\user_account_icon.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\user_account_icon.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\g_white_btn_pressed.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\g_white_btn_pressed.9.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_html.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\file_ic_detail_html.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_audio_call_wifi_unavailable.9.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_audio_call_wifi_unavailable.9.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_jpg.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\file_ic_detail_jpg.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\head_icon.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\head_icon.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_mute_speaker_bg_normal.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_mute_speaker_bg_normal.9.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\scrollbar_handle_holo_dark.9.png",
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\scrollbar_handle_holo_dark.9.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\action_bar_black_more_icon.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\action_bar_black_more_icon.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_view_holder_right_snapchat_disable.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\message_view_holder_right_snapchat_disable.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\register_right_top_btn_disable.9.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\register_right_top_btn_disable.9.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_switch_mode_video_icon.png",
@@ -772,64 +1680,76 @@
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\tip_bar_yellow_background.9.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_snapchat_normal.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\message_plus_snapchat_normal.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bg_team_announce.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\bg_team_announce.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_tab_new_message_notify.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\main_tab_new_message_notify.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_audio_chat_pressed.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\message_plus_audio_chat_pressed.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_view_holder_left_snapchat.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\message_view_holder_left_snapchat.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_mute_disable.png",
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_video_mute_disable.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nim_male.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\nim_male.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\file.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\room_cover_50.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\room_cover_50.png"
+        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nim_male.png",
+        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\nim_male.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\record_video.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\record_video.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\g_red_long_btn_nomal.9.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\g_red_long_btn_nomal.9.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_mute_icon_pressed.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_mute_icon_pressed.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\marker_info_bg.9.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\marker_info_bg.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_speaker_icon_normal.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_speaker_icon_normal.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_right_type_video.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_right_type_video.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nim_ic_message_actionbar_team.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\nim_ic_message_actionbar_team.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\room_cover_64.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\room_cover_64.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\new_message_notify.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\new_message_notify.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\chat_room_back_arrow_normal.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\chat_room_back_arrow_normal.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\register_right_top_btn_normal.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\register_right_top_btn_normal.9.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\room_cover_64.png",
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\room_cover_64.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\user_pwd_lock_icon.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\user_pwd_lock_icon.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\welcome_bg.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\welcome_bg.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nim_red_round_button_pressed.9.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\nim_red_round_button_pressed.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\back_arrow.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\back_arrow.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_mp4.png",
@@ -856,28 +1776,20 @@
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_speaker_icon_disable.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_view_holder_left_snapchat.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\message_view_holder_left_snapchat.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\g_ic_close_yellow_pressed.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\g_ic_close_yellow_pressed.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\head_icon_5.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\head_icon_5.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\admin_icon.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\admin_icon.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_mp3.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\file_ic_detail_mp3.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\g_ic_failed_small.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\g_ic_failed_small.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\address.9.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\address.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_excel.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\file_ic_detail_excel.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_mute_speaker_bg_normal.9.png",
@@ -892,36 +1804,28 @@
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\sdk_share_dialog_thumb_default.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\address.9.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\address.9.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_word.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\file_ic_detail_word.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_mute_speaker_bg_pressed.9.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_mute_speaker_bg_pressed.9.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_mute_icon_disable.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_mute_icon_disable.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_unknow.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\file_ic_detail_unknow.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\chat_room_back_arrow_pressed.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\chat_room_back_arrow_pressed.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_tab_new_message_notify.png",
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\main_tab_new_message_notify.png"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\head_icon_7.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\head_icon_7.png"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\network_grade_2.png",
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\network_grade_2.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\room_cover_36.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\room_cover_36.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_multiport_detail.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\ic_multiport_detail.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\scrollbar_handle_holo_dark.9.png",
@@ -932,6 +1836,10 @@
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_left_type_audio.png"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\action_bar_search_view_icon.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\action_bar_search_view_icon.png"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_mute_speaker_bg_checked.9.png",
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_mute_speaker_bg_checked.9.png"
     },
@@ -940,60 +1848,32 @@
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\back_arrow.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_rts_send.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\icon_rts_send.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_file_pressed.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\message_plus_file_pressed.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_audio_record_icon_normal.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_audio_record_icon_normal.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_speaker_icon_normal.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_speaker_icon_normal.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\chat_room_back_arrow_normal.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\chat_room_back_arrow_normal.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_rar.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\file_ic_session_rar.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_jpg.png",
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\file_ic_session_jpg.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_verify_remind.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\icon_verify_remind.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_video_chat_pressed.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\message_plus_video_chat_pressed.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_left_type_video.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_left_type_video.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\admin_icon.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\admin_icon.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_audio_close.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\icon_audio_close.png"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_switch_camera_normal.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_video_switch_camera_normal.png"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_receive_bg_normal.9.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_receive_bg_normal.9.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_multiport.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\ic_multiport.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_mp3.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\file_ic_detail_mp3.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_zip.png",
@@ -1008,8 +1888,8 @@
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_mute_icon_pressed.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_audio_open.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\icon_audio_open.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_mp4.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\file_ic_session_mp4.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nim_red_round_button.9.png",
@@ -1024,28 +1904,20 @@
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\actionbar_dark_logo_icon.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_video_chat_normal.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\message_plus_video_chat_normal.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_close_camera_pressed.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_video_close_camera_pressed.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_logo.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\ic_logo.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nim_ic_message_actionbar_p2p_add.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\nim_ic_message_actionbar_p2p_add.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\room_cover_37.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\room_cover_37.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_rar.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\file_ic_detail_rar.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_mute_normal.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_video_mute_normal.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_audio_open.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\icon_audio_open.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\logo.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\logo.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_png.png",
@@ -1056,8 +1928,8 @@
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\room_cover_72.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_mute_icon_checked.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_mute_icon_checked.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_receive_bg_pressed.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_receive_bg_pressed.9.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\g_green_btn_pressed.9.png",
@@ -1076,16 +1948,12 @@
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\g_green_btn_pressed.9.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\room_cover_49.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\room_cover_49.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nim_male.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\nim_male.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_pdf.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\file_ic_detail_pdf.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_pdf.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\file_ic_session_pdf.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_record_pressed.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_video_record_pressed.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_html.png",
@@ -1104,64 +1972,64 @@
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_video_close_camera_normal.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\actionbar_white_logo_icon.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\actionbar_white_logo_icon.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\admin_icon.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\admin_icon.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_html.png",
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\file_ic_session_html.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_loaction_pressed.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\btn_loaction_pressed.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_logo.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\ic_logo.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_png.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\file_ic_session_png.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_gif.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\file_ic_detail_gif.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_switch_mode_audio_icon.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_switch_mode_audio_icon.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pin.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\pin.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_tip_pressed.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\message_plus_tip_pressed.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\directory.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\directory.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\head_icon_9.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\head_icon_9.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\file.png"
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\directory.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\directory.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\head_icon_2.png",
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\head_icon_2.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_menu.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\main_menu.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_speaker_icon_pressed.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_speaker_icon_pressed.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\shadow_right.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\shadow_right.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_guess_pressed.png",
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\message_plus_guess_pressed.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tip_bar_yellow_background.9.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\tip_bar_yellow_background.9.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nim_white_round_button_pressed.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\nim_white_round_button_pressed.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_stat_notify_msg.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\ic_stat_notify_msg.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_excel.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\file_ic_session_excel.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\head_icon_6.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\head_icon_6.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_gif.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\file_ic_session_gif.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_ppt.png",
@@ -1172,32 +2040,12 @@
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\icon_rts_send.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_mp3.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\file_ic_session_mp3.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\head_icon_2.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\head_icon_2.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\g_white_btn_normal.9.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\g_white_btn_normal.9.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_unknow.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\file_ic_session_unknow.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_rts_send.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\icon_rts_send.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\head_icon_1.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\head_icon_1.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_bottom_logout_pressed.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_video_bottom_logout_pressed.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_refuse_bg_pressed.9.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_refuse_bg_pressed.9.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_ppt.png",
@@ -1208,28 +2056,20 @@
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\logo.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\room_cover_57.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\room_cover_57.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_mute_speaker_bg_disable.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_mute_speaker_bg_disable.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_record_normal.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_video_record_normal.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\shadow_bottom.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\shadow_bottom.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avatar_def.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avatar_def.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_html.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\file_ic_detail_html.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\video_audio_mode_switch_bg_pressed.9.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\video_audio_mode_switch_bg_pressed.9.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nim_white_round_button.9.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\nim_white_round_button.9.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_txt.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\file_ic_session_txt.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_mute_speaker_bg_normal.9.png",
@@ -1240,14 +2080,6 @@
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\head_icon_4.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\room_cover_58.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\room_cover_58.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_rts_normal.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\message_plus_rts_normal.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_mute_icon_normal.png",
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_mute_icon_normal.png"
     },
@@ -1256,12 +2088,12 @@
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_refuse_bg_pressed.9.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nim_white_round_button.9.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\nim_white_round_button.9.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_guess_normal.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\message_plus_guess_normal.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\room_cover_58.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\room_cover_58.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_record_disable.png",
@@ -1272,16 +2104,8 @@
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_record_bg.9.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_audio_record_icon_normal.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_audio_record_icon_normal.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\shadow_left.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\shadow_left.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\master_icon.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\master_icon.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_speaker_icon_pressed.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_speaker_icon_pressed.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_mp4.png",
@@ -1290,14 +2114,6 @@
     {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_right_type_video.png",
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_right_type_video.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\back_arrow.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\back_arrow.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_rar.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\file_ic_detail_rar.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_tip_normal.png",
@@ -1312,8 +2128,8 @@
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\register_right_top_btn_disable.9.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\head_icon_10.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\head_icon_10.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_right_type_audio.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_right_type_audio.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_txt.png",
@@ -1324,10 +2140,6 @@
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\g_red_long_btn_pressed.9.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\network_grade_2.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\network_grade_2.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\edittext_white_normal.9.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\edittext_white_normal.9.png"
     },
@@ -1336,84 +2148,56 @@
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\actionbar_dark_back_icon.png"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\master_icon.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\master_icon.png"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_txt.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\file_ic_detail_txt.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\shadow_bottom.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\shadow_bottom.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_close_camera_disable.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_video_close_camera_disable.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_file_normal.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\message_plus_file_normal.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_rts_pressed.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\message_plus_rts_pressed.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_mute_icon_pressed.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_mute_icon_pressed.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\login_bg.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\login_bg.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_right_type_audio.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_right_type_audio.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\head_icon_2.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\head_icon_2.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\head_icon_9.png",
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\head_icon_9.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_speaker_icon_checked.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_speaker_icon_checked.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\record_start.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\record_start.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_advanced_team.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\ic_advanced_team.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\network_grade_3.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\network_grade_3.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\welcome_bg.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\welcome_bg.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\network_grade_3.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\network_grade_3.png"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_ppt.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\file_ic_session_ppt.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_snapchat_normal.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\message_plus_snapchat_normal.png"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\video_audio_mode_switch_bg_pressed.9.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\video_audio_mode_switch_bg_pressed.9.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_bottom_logout_pressed.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_video_bottom_logout_pressed.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_speaker_icon_disable.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_speaker_icon_disable.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\video_audio_mode_switch_bg_normal.9.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\video_audio_mode_switch_bg_normal.9.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\head_icon_3.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\head_icon_3.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\video_audio_mode_switch_bg_normal.9.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\video_audio_mode_switch_bg_normal.9.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avatar_def.png",
@@ -1428,8 +2212,8 @@
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_speaker_icon_pressed.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_mute_icon_checked.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_mute_icon_checked.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nim_red_round_button.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\nim_red_round_button.9.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_switch_camera_normal.png",
@@ -1440,32 +2224,32 @@
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\file_ic_session_word.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nim_female.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\nim_female.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_audio_chat_pressed.png",
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\message_plus_audio_chat_pressed.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\chat_room_back_arrow_normal.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\chat_room_back_arrow_normal.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_video_chat_normal.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\message_plus_video_chat_normal.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\logo.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\logo.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_mp3.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\file_ic_session_mp3.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\scrollbar_handle_holo_dark.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\scrollbar_handle_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_left_type_audio.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_left_type_audio.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_word.png",
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\file_ic_session_word.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nim_white_round_button_pressed.9.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\nim_white_round_button_pressed.9.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\directory.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\directory.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_menu.png",
@@ -1480,28 +2264,16 @@
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\room_cover_57.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_rar.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\file_ic_session_rar.png"
+        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\chat_room_back_arrow_pressed.png",
+        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\chat_room_back_arrow_pressed.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\actionbar_dropdown_bg.9.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\actionbar_dropdown_bg.9.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\chat_room_back_arrow_pressed.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\chat_room_back_arrow_pressed.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\action_bar_search_view_icon.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\action_bar_search_view_icon.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\no_announce.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\no_announce.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_audio_record_icon_pressed.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\avchat_audio_record_icon_pressed.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\about_logo.png",
@@ -1514,14 +2286,6 @@
     {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_session_ppt.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\file_ic_session_ppt.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\about_logo.png",
-        "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-hdpi\\about_logo.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_record_normal.png",
-        "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-hdpi\\avchat_video_record_normal.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bg_team_announce.9.png",

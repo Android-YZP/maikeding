@@ -8,8 +8,16 @@
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\drawable-xxhdpi\\ic_logo.png"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_stat_notify_msg.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-xxhdpi\\ic_stat_notify_msg.png"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_logo.png",
         "source": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\demo\\res\\drawable-xxhdpi\\ic_logo.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_logo.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-xxhdpi\\ic_logo.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_stat_notify_msg.png",

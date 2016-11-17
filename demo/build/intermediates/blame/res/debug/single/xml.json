@@ -1,5 +1,9 @@
 [
     {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\xml\\nrtc_setting_pref.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\xml\\nrtc_setting_pref.xml"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\build\\intermediates\\res\\merged\\debug\\xml\\nrtc_setting_pref.xml",
         "source": "D:\\AndroidStudioProjects\\maikejiaIM\\demo\\res\\xml\\nrtc_setting_pref.xml"
     },
