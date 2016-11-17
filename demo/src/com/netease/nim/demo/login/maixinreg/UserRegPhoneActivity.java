@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -16,7 +15,6 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.netease.nim.demo.R;
 import com.netease.nim.demo.business.IUserBusiness;
 import com.netease.nim.demo.business.imp.UserBusinessImp;
@@ -24,7 +22,6 @@ import com.netease.nim.demo.config.CommonConstants;
 import com.netease.nim.demo.exception.ServiceException;
 import com.netease.nim.demo.utils.CheckUtil;
 import com.netease.nim.demo.utils.CommonUtil;
-
 import org.apache.http.conn.ConnectTimeoutException;
 import org.json.JSONObject;
 import java.lang.ref.WeakReference;
