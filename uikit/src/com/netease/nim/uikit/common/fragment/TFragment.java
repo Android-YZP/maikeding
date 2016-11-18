@@ -128,9 +128,21 @@ public abstract class TFragment extends Fragment {
         return (T) (getView().findViewById(resId));
     }
 
-    protected void setToolBar(int toolbarId, int titleId, int logoId) {
+   protected void setToolBar(int toolbarId, int titleId) {
         if (getActivity() != null && getActivity() instanceof UI) {
-            ((UI)getActivity()).setToolBar(toolbarId, titleId, logoId);
+            ((UI)getActivity()).setToolBar(toolbarId, titleId);
+        }
+    }
+
+    protected void setToolBar(int toolbarId, int toolTitle, int titleId) {
+        if (getActivity() != null && getActivity() instanceof UI) {
+            ((UI)getActivity()).setToolBar(toolbarId, toolTitle,titleId);
+        }
+    }
+
+    protected void setTitle(int titleId) {
+        if (getActivity() != null && getActivity() instanceof UI) {
+            getActivity().setTitle(titleId);
         }
     }
     protected void setTitle(int titleId) {
