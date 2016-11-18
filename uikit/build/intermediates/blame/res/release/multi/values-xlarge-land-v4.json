@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\uikit\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-xlarge-land-v4\\values-xlarge-land-v4.xml",
+        "outputFile": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-xlarge-land-v4\\values-xlarge-land-v4.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 114
                 },
                 "from": {
-                    "file": "D:\\AndroidStudioProjects\\NIM_Android_Demo_v3.1.0\\nim_demo\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-xlarge-land-v4\\values-xlarge-land-v4.xml",
+                    "file": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-xlarge-land-v4\\values-xlarge-land-v4.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
