@@ -291,13 +291,6 @@
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="stateHidden|adjustResize" />
 
-        <!-- 聊天室 -->
-        <activity
-            android:name=".chatroom.activity.ChatRoomActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:windowSoftInputMode="stateHidden|adjustResize" />
-
         <!-- NRTC Settings -->
         <activity
             android:name=".avchat.activity.AVChatSettingsActivity"
