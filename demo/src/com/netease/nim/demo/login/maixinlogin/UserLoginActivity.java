@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 import com.netease.nim.demo.R;
 import com.netease.nim.demo.login.maixinreg.UserRegPhoneActivity;
+import com.netease.nim.demo.main.activity.MainActivity;
 
 public class UserLoginActivity extends AppCompatActivity {
 
@@ -65,7 +66,13 @@ public class UserLoginActivity extends AppCompatActivity {
                 startActivity(new Intent(UserLoginActivity.this,UserRegPhoneActivity.class));
             }
         });
-
+        //登录
+        mBtnLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(UserLoginActivity.this,MainActivity.class));
+            }
+        });
     }
 
 

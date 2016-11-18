@@ -65,13 +65,28 @@
 
         <!-- 导航页 -->
         <activity
-            android:name=".login.maixinlogin.UserLoginActivity"
+            android:name=".main.activity.WelcomeActivity"
             android:configChanges="keyboardHidden|orientation"
             android:hardwareAccelerated="true"
             android:label="@string/app_name"
             android:launchMode="singleTop"
             android:screenOrientation="portrait"
             android:theme="@style/WelcomeEntranceActionBarTheme"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 自己的登录页面 -->
+        <activity
+            android:name=".login.maixinlogin.UserLoginActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustPan">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -302,7 +317,7 @@
         <activity
             android:name=".avchat.activity.AVChatSettingsActivity"
             android:screenOrientation="portrait" />
-<!--==========================================================================================-->
+        <!--==========================================================================================-->
         <!-- NRTC Settings -->
         <activity
             android:name=".login.maixinlogin.UserForgotCodeActivity"
