@@ -13,12 +13,16 @@
 -printconfiguration 'D:\AndroidStudioProjects\maikeding\demo\build\intermediates\multi-dex\debug\components.flags'
 
 
--keep class com.netease.nim.demo.NimApplication {
+-keep class com.netease.nim.demo.utils.MyApplication {
     <init>();
     void attachBaseContext(android.content.Context);
 }
 
 -keep class com.netease.nim.demo.main.activity.WelcomeActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.demo.login.maixinlogin.UserLoginActivity {
     <init>();
 }
 
@@ -139,6 +143,26 @@
 }
 
 -keep class com.netease.nim.demo.avchat.activity.AVChatSettingsActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.demo.login.maixinlogin.UserForgotCodeActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.demo.login.maixinlogin.UserForgotPhoneActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.demo.login.maixinreg.UserRegCodeActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.demo.login.maixinreg.UserRegPhoneActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.demo.login.maixinreg.UserRegUserNameActivity {
     <init>();
 }
 

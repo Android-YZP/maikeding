@@ -32,6 +32,10 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable\\skin_global_bg.xml"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_visit_by_easy.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable\\selector_visit_by_easy.xml"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\actionbar_dark_logo_space.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable\\actionbar_dark_logo_space.xml"
     },
@@ -58,6 +62,10 @@
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_visit_by_easy_no.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable\\bg_visit_by_easy_no.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\white_edit_text_bg.xml",
@@ -94,6 +102,10 @@
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_team_member_add_selector.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\maikeding\\uikit\\unspecified\\res\\drawable\\nim_team_member_add_selector.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_visit_by_easy_press.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable\\bg_visit_by_easy_press.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\splash_bg.xml",
@@ -162,6 +174,10 @@
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_btn_user_login_no.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable\\bg_btn_user_login_no.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\actionbar_item_background_selector.xml",
@@ -296,12 +312,12 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\maikeding\\uikit\\unspecified\\res\\drawable\\nim_message_item_right_selector.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\actionbar_blue_bg_pressed.xml",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable\\actionbar_blue_bg_pressed.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\video_audio_mode_switch_bg.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable\\video_audio_mode_switch_bg.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\actionbar_blue_bg_pressed.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable\\actionbar_blue_bg_pressed.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
@@ -348,6 +364,10 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_btn_user_login_press.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable\\bg_btn_user_login_press.xml"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\register_right_top_btn_selector.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable\\register_right_top_btn_selector.xml"
     },
@@ -378,6 +398,10 @@
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_btn_user_login.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable\\selector_btn_user_login.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_message_button_bottom_text_selector.xml",
@@ -432,6 +456,10 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\maikeding\\uikit\\unspecified\\res\\drawable\\nim_emoji_item_selector.xml"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_border_common_et.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable\\bg_border_common_et.xml"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\avchat_switch_camera_bg.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable\\avchat_switch_camera_bg.xml"
     },
@@ -446,6 +474,10 @@
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_audio_animation_list_right.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\maikeding\\uikit\\unspecified\\res\\drawable\\nim_audio_animation_list_right.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_common_checkbox.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable\\selector_common_checkbox.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\actionbar_white_logo_space.xml",

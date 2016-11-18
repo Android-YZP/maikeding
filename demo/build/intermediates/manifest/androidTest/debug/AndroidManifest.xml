@@ -3,7 +3,7 @@
     package="com.netease.nim.demo.test" >
 
     <uses-sdk
-        android:minSdkVersion="9"
+        android:minSdkVersion="16"
         android:targetSdkVersion="23" />
 
     <instrumentation

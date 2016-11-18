@@ -185,6 +185,6 @@ public class P2PMessageActivity extends BaseMessageActivity {
     @Override
     protected void initToolBar() {
         ToolBarOptions options = new ToolBarOptions();
-        setToolBar(R.id.toolbar, options);
+        setToolBar(R.id.toolbar, options, R.id.toolbar_message_title);
     }
 }

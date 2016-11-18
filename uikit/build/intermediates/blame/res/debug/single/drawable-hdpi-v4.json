@@ -44,10 +44,6 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\nim_icon_download_pause.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_actionbar_dark_back_icon.png",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\nim_actionbar_dark_back_icon.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_red_round_button_pressed.9.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\nim_red_round_button_pressed.9.png"
     },
@@ -556,12 +552,12 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\nim_watch_video_download_progress_background.9.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_contact_letter_view_hit_point.png",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\nim_contact_letter_view_hit_point.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\explosion_four.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\explosion_four.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_contact_letter_view_hit_point.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\nim_contact_letter_view_hit_point.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_focused_holo.9.png",

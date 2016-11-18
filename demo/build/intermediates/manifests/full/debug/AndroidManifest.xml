@@ -6,7 +6,7 @@
     android:versionName="3.1.0" >
 
     <uses-sdk
-        android:minSdkVersion="9"
+        android:minSdkVersion="16"
         android:targetSdkVersion="23" />
 
     <!-- 加入应用需要的权限 -->
@@ -48,9 +48,9 @@
     <uses-permission android:name="com.netease.nim.demo.permission.RECEIVE_MSG" />
 
     <application
-        android:name="com.netease.nim.demo.NimApplication"
+        android:name="com.netease.nim.demo.utils.MyApplication"
         android:allowBackup="true"
-        android:icon="@drawable/ic_logo"
+        android:icon="@drawable/logo"
         android:label="@string/app_name"
         android:theme="@style/AppTheme.NoActionBar" >
 
@@ -75,6 +75,21 @@
             android:launchMode="singleTop"
             android:screenOrientation="portrait"
             android:theme="@style/WelcomeEntranceActionBarTheme"
+            android:windowSoftInputMode="adjustPan" >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 自己的登录页面 -->
+        <activity
+            android:name="com.netease.nim.demo.login.maixinlogin.UserLoginActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustPan" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -281,10 +296,34 @@
             android:windowSoftInputMode="stateHidden|adjustResize" />
 
         <!-- NRTC Settings -->
+        <activity android:name="com.netease.nim.demo.avchat.activity.AVChatSettingsActivity" />
+        <!-- ========================================================================================== -->
+        <!-- NRTC Settings -->
         <activity
-            android:name="com.netease.nim.demo.avchat.activity.AVChatSettingsActivity"
+            android:name="com.netease.nim.demo.login.maixinlogin.UserForgotCodeActivity"
             android:screenOrientation="portrait" />
 
+        <!-- NRTC Settings -->
+        <activity
+            android:name="com.netease.nim.demo.login.maixinlogin.UserForgotPhoneActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- NRTC Settings -->
+        <activity
+            android:name="com.netease.nim.demo.login.maixinreg.UserRegCodeActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- NRTC Settings -->
+        <activity
+            android:name="com.netease.nim.demo.login.maixinreg.UserRegPhoneActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- NRTC Settings -->
+        <activity
+            android:name="com.netease.nim.demo.login.maixinreg.UserRegUserNameActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- ========================================================================================== -->
         <!-- 声明云信后台服务 -->
         <service
             android:name="com.netease.nimlib.service.NimService"

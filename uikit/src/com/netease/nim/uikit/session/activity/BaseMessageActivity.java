@@ -3,6 +3,7 @@ package com.netease.nim.uikit.session.activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -90,6 +91,7 @@ public abstract class BaseMessageActivity extends UI {
         for (final SessionCustomization.OptionsButton button : buttons) {
             ImageView imageView = new ImageView(activity);
             imageView.setImageResource(button.iconId);
+            Log.d("zzz------------",String.valueOf(button.iconId));
             imageView.setBackgroundResource(R.drawable.nim_nim_action_bar_button_selector);
             imageView.setPadding(ScreenUtil.dip2px(10), 0, ScreenUtil.dip2px(10), 0);
             imageView.setOnClickListener(new View.OnClickListener() {

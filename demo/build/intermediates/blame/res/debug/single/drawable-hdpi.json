@@ -252,10 +252,6 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_speaker_icon_disable.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\logo.png",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\logo.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_receive_bg_pressed.9.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_receive_bg_pressed.9.png"
     },
@@ -310,10 +306,6 @@
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avchat_video_mute_pressed.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\avchat_video_mute_pressed.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_logo.png",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\ic_logo.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_ic_detail_gif.png",
@@ -546,10 +538,6 @@
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\g_ic_close_yellow_pressed.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\g_ic_close_yellow_pressed.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nim_ic_messge_history.png",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\nim_ic_messge_history.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_snapchat_pressed.png",

@@ -78,7 +78,7 @@ public abstract class UI extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-   public void setToolBar(int toolBarId, ToolBarOptions options) {
+    public void setToolBar(int toolBarId, ToolBarOptions options) {
         toolbar = (Toolbar) findViewById(toolBarId);
         if (options.titleId != 0) {
             toolbar.setTitle(options.titleId);
@@ -89,6 +89,31 @@ public abstract class UI extends AppCompatActivity {
         if (options.logoId != 0) {
             toolbar.setLogo(options.logoId);
         }
+        setSupportActionBar(toolbar);
+
+        if (options.isNeedNavigate) {
+            toolbar.setNavigationIcon(options.navigateId);
+            toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    onNavigateUpClicked();
+                }
+            });
+        }
+    }
+
+    public void setToolBar(int toolBarId, ToolBarOptions options, int toolTitle) {
+        toolbar = (Toolbar) findViewById(toolBarId);
+        textView = (TextView) findViewById(toolTitle);
+        if (options.titleId != 0) {
+            toolbar.setTitle("");
+            textView.setText(options.titleId);
+        }
+        if (!TextUtils.isEmpty(options.titleString)) {
+            toolbar.setTitle("");
+            textView.setText(options.titleString);
+        }
+        toolbar.setTitle("");
         setSupportActionBar(toolbar);
 
         if (options.isNeedNavigate) {
@@ -135,8 +160,8 @@ public abstract class UI extends AppCompatActivity {
     @Override
     public void setTitle(CharSequence title) {
         super.setTitle(title);
-        if (toolbar != null) {
-            toolbar.setTitle(title);
+        if (textView != null) {
+            textView.setText(title);
         }
     }
 

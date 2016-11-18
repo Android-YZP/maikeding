@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.os.Build;
 import android.text.TextUtils;
 import android.view.View;
-import android.widget.Toast;
 
 import com.netease.nim.demo.DemoCache;
 import com.netease.nim.demo.R;
@@ -18,7 +17,6 @@ import com.netease.nim.demo.session.action.RTSAction;
 import com.netease.nim.demo.session.action.SnapChatAction;
 import com.netease.nim.demo.session.action.TipAction;
 import com.netease.nim.demo.session.activity.MessageHistoryActivity;
-import com.netease.nim.demo.session.activity.MessageInfoActivity;
 import com.netease.nim.demo.session.extension.CustomAttachParser;
 import com.netease.nim.demo.session.extension.CustomAttachment;
 import com.netease.nim.demo.session.extension.GuessAttachment;
@@ -35,7 +33,6 @@ import com.netease.nim.demo.session.viewholder.MsgViewHolderSnapChat;
 import com.netease.nim.demo.session.viewholder.MsgViewHolderSticker;
 import com.netease.nim.demo.session.viewholder.MsgViewHolderTip;
 import com.netease.nim.uikit.NimUIKit;
-import com.netease.nim.uikit.cache.TeamDataCache;
 import com.netease.nim.uikit.common.ui.dialog.EasyAlertDialogHelper;
 import com.netease.nim.uikit.common.ui.popupmenu.NIMPopupMenu;
 import com.netease.nim.uikit.common.ui.popupmenu.PopupMenuItem;
@@ -58,7 +55,6 @@ import com.netease.nimlib.sdk.msg.constant.MsgDirectionEnum;
 import com.netease.nimlib.sdk.msg.constant.MsgTypeEnum;
 import com.netease.nimlib.sdk.msg.constant.SessionTypeEnum;
 import com.netease.nimlib.sdk.msg.model.IMMessage;
-import com.netease.nimlib.sdk.team.model.Team;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -166,19 +162,19 @@ public class SessionHelper {
                     initPopuptWindow(context, view, sessionId, SessionTypeEnum.P2P);
                 }
             };
-            cloudMsgButton.iconId = R.drawable.nim_ic_messge_history;
+            cloudMsgButton.iconId = R.drawable.nav_chatting_records_icon;
 
-            SessionCustomization.OptionsButton infoButton = new SessionCustomization.OptionsButton() {
-                @Override
-                public void onClick(Context context, View view, String sessionId) {
-                    MessageInfoActivity.startActivity(context, sessionId); //打开聊天信息
-                }
-            };
-
-            infoButton.iconId = R.drawable.nim_ic_message_actionbar_p2p_add;
+//            SessionCustomization.OptionsButton infoButton = new SessionCustomization.OptionsButton() {
+//                @Override
+//                public void onClick(Context context, View view, String sessionId) {
+//                    MessageInfoActivity.startActivity(context, sessionId); //打开聊天信息
+//                }
+//            };
+//
+//            infoButton.iconId = R.drawable.nim_ic_message_actionbar_p2p_add;
 
             buttons.add(cloudMsgButton);
-            buttons.add(infoButton);
+//            buttons.add(infoButton);
             p2pCustomization.buttons = buttons;
         }
 
@@ -236,7 +232,7 @@ public class SessionHelper {
                 }
             };
 
-            cloudMsgButton.iconId = R.drawable.nim_ic_messge_history;
+            cloudMsgButton.iconId = R.drawable.nav_chatting_records_icon;
 
             buttons.add(cloudMsgButton);
             myP2pCustomization.buttons = buttons;
@@ -282,22 +278,22 @@ public class SessionHelper {
                     initPopuptWindow(context, view, sessionId, SessionTypeEnum.Team);
                 }
             };
-            cloudMsgButton.iconId = R.drawable.nim_ic_messge_history;
+            cloudMsgButton.iconId = R.drawable.nav_chatting_records_icon;
 
-            SessionCustomization.OptionsButton infoButton = new SessionCustomization.OptionsButton() {
-                @Override
-                public void onClick(Context context, View view, String sessionId) {
-                    Team team = TeamDataCache.getInstance().getTeamById(sessionId);
-                    if (team != null && team.isMyTeam()) {
-                        NimUIKit.startTeamInfo(context, sessionId);
-                    } else {
-                        Toast.makeText(context, R.string.team_invalid_tip, Toast.LENGTH_SHORT).show();
-                    }
-                }
-            };
-            infoButton.iconId = R.drawable.nim_ic_message_actionbar_team;
+//            SessionCustomization.OptionsButton infoButton = new SessionCustomization.OptionsButton() {
+//                @Override
+//                public void onClick(Context context, View view, String sessionId) {
+//                    Team team = TeamDataCache.getInstance().getTeamById(sessionId);
+//                    if (team != null && team.isMyTeam()) {
+//                        NimUIKit.startTeamInfo(context, sessionId);
+//                    } else {
+//                        Toast.makeText(context, R.string.team_invalid_tip, Toast.LENGTH_SHORT).show();
+//                    }
+//                }
+//            };
+//            infoButton.iconId = R.drawable.nim_ic_message_actionbar_team;
             buttons.add(cloudMsgButton);
-            buttons.add(infoButton);
+//            buttons.add(infoButton);
             teamCustomization.buttons = buttons;
 
             teamCustomization.withSticker = true;

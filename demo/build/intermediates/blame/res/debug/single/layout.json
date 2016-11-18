@@ -272,6 +272,10 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\layout\\activity_welcome.xml"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_forgot_code.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\layout\\activity_user_forgot_code.xml"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_activity_chooser_view.xml"
     },
@@ -298,6 +302,14 @@
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_login.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\layout\\activity_user_login.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_reg_username.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\layout\\activity_user_reg_username.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\edit_nick_activity.xml",
@@ -346,6 +358,10 @@
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_team_name_activity.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\maikeding\\uikit\\unspecified\\res\\layout\\nim_team_name_activity.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_reg_phone.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\layout\\activity_user_reg_phone.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_message_item_name_layout.xml",
@@ -684,6 +700,10 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\maikeding\\uikit\\unspecified\\res\\layout\\nim_easy_alert_dialog_with_listview.xml"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_reg_code.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\layout\\activity_user_reg_code.xml"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\user_profile_birth_layout.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\layout\\user_profile_birth_layout.xml"
     },
@@ -694,6 +714,10 @@
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_picker_photo_grid_item.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\maikeding\\uikit\\unspecified\\res\\layout\\nim_picker_photo_grid_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_forgot_phone.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\layout\\activity_user_forgot_phone.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
@@ -750,6 +774,10 @@
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\layout_common_topbar.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\layout\\layout_common_topbar.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_time_text_view_layout.xml",

@@ -128,12 +128,12 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable\\nim_message_item_right_selector.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_audio_animation_list_left.xml",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable\\nim_audio_animation_list_left.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_audio_animation_list_left.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable\\nim_audio_animation_list_left.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_bg_edittext_rectangle_normal.xml",
@@ -224,12 +224,12 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable\\nim_message_view_bottom.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_message_unread_news_icon_selector.xml",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable\\nim_message_unread_news_icon_selector.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_message_unread_news_icon_selector.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable\\nim_message_unread_news_icon_selector.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_message_item_left_selector.xml",
