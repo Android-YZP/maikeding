@@ -52,12 +52,12 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-xhdpi\\admin_icon.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\logo.png",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-xhdpi\\logo.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\message_plus_tip_normal.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-xhdpi\\message_plus_tip_normal.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\logo.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-xhdpi\\logo.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\user_pwd_lock_icon.png",

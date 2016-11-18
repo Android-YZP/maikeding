@@ -32,7 +32,6 @@
 -keep class com.netease.nim.demo.rts.activity.RTSActivity { <init>(); }
 -keep class com.netease.nim.demo.session.search.SearchMessageActivity { <init>(); }
 -keep class com.netease.nim.demo.session.search.DisplayMessageActivity { <init>(); }
--keep class com.netease.nim.demo.chatroom.activity.ChatRoomActivity { <init>(); }
 -keep class com.netease.nim.demo.avchat.activity.AVChatSettingsActivity { <init>(); }
 -keep class com.netease.nimlib.service.NimService { <init>(); }
 -keep class com.netease.nimlib.service.NimService$Aux { <init>(); }

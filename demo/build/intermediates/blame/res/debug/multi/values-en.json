@@ -30,7 +30,14 @@
                     "endOffset": 184
                 },
                 "from": {
-                    "file": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\values-en\\strings.xml"
+                    "file": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 96,
+                        "endColumn": 92,
+                        "endOffset": 184
+                    }
                 }
             },
             {
@@ -42,7 +49,14 @@
                     "endOffset": 278
                 },
                 "from": {
-                    "file": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\values-en\\strings.xml"
+                    "file": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 189,
+                        "endColumn": 93,
+                        "endOffset": 278
+                    }
                 }
             },
             {
@@ -54,7 +68,14 @@
                     "endOffset": 360
                 },
                 "from": {
-                    "file": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\values-en\\strings.xml"
+                    "file": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 283,
+                        "endColumn": 81,
+                        "endOffset": 360
+                    }
                 }
             },
             {
@@ -66,7 +87,14 @@
                     "endOffset": 449
                 },
                 "from": {
-                    "file": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\values-en\\strings.xml"
+                    "file": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 999,
+                        "endColumn": 88,
+                        "endOffset": 1083
+                    }
                 }
             },
             {
@@ -78,7 +106,14 @@
                     "endOffset": 535
                 },
                 "from": {
-                    "file": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\values-en\\strings.xml"
+                    "file": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 643,
+                        "endColumn": 85,
+                        "endOffset": 724
+                    }
                 }
             },
             {
@@ -90,7 +125,14 @@
                     "endOffset": 626
                 },
                 "from": {
-                    "file": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\values-en\\strings.xml"
+                    "file": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 365,
+                        "endColumn": 90,
+                        "endOffset": 451
+                    }
                 }
             },
             {
@@ -102,7 +144,14 @@
                     "endOffset": 730
                 },
                 "from": {
-                    "file": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\values-en\\strings.xml"
+                    "file": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 456,
+                        "endColumn": 103,
+                        "endOffset": 555
+                    }
                 }
             },
             {
@@ -114,7 +163,14 @@
                     "endOffset": 813
                 },
                 "from": {
-                    "file": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\values-en\\strings.xml"
+                    "file": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 560,
+                        "endColumn": 82,
+                        "endOffset": 638
+                    }
                 }
             },
             {
@@ -126,7 +182,14 @@
                     "endOffset": 897
                 },
                 "from": {
-                    "file": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\values-en\\strings.xml"
+                    "file": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 729,
+                        "endColumn": 83,
+                        "endOffset": 808
+                    }
                 }
             },
             {
@@ -138,7 +201,14 @@
                     "endOffset": 991
                 },
                 "from": {
-                    "file": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\values-en\\strings.xml"
+                    "file": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 813,
+                        "endColumn": 93,
+                        "endOffset": 902
+                    }
                 }
             },
             {
@@ -150,7 +220,14 @@
                     "endOffset": 1083
                 },
                 "from": {
-                    "file": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\values-en\\strings.xml"
+                    "file": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 907,
+                        "endColumn": 91,
+                        "endOffset": 994
+                    }
                 }
             }
         ]

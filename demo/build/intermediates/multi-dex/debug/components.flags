@@ -138,10 +138,6 @@
     <init>();
 }
 
--keep class com.netease.nim.demo.chatroom.activity.ChatRoomActivity {
-    <init>();
-}
-
 -keep class com.netease.nim.demo.avchat.activity.AVChatSettingsActivity {
     <init>();
 }

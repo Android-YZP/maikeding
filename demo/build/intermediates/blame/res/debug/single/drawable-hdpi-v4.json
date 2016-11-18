@@ -48,12 +48,12 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\maikeding\\uikit\\unspecified\\res\\drawable-hdpi-v4\\nim_message_right_blue_bg.9.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_message_input_emotion_pressed.png",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\maikeding\\uikit\\unspecified\\res\\drawable-hdpi-v4\\nim_message_input_emotion_pressed.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_contact_checkbox_checked_green.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\maikeding\\uikit\\unspecified\\res\\drawable-hdpi-v4\\nim_contact_checkbox_checked_green.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_message_input_emotion_pressed.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\maikeding\\uikit\\unspecified\\res\\drawable-hdpi-v4\\nim_message_input_emotion_pressed.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
