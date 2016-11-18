@@ -78,7 +78,7 @@ public abstract class UI extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void setToolBar(int toolBarId, ToolBarOptions options) {
+   public void setToolBar(int toolBarId, ToolBarOptions options) {
         toolbar = (Toolbar) findViewById(toolBarId);
         if (options.titleId != 0) {
             toolbar.setTitle(options.titleId);
