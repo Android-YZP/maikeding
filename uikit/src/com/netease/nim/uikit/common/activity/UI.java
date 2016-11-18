@@ -14,6 +14,7 @@ import android.view.KeyEvent;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
+import android.widget.TextView;
 
 import com.netease.nim.uikit.common.fragment.TFragment;
 import com.netease.nim.uikit.common.util.log.LogUtil;
@@ -30,6 +31,7 @@ public abstract class UI extends AppCompatActivity {
     private static Handler handler;
 
     private Toolbar toolbar;
+    private TextView textView;
 
     @Override
     protected void onStart() {
@@ -100,10 +102,17 @@ public abstract class UI extends AppCompatActivity {
         }
     }
 
-    public void setToolBar(int toolbarId, int titleId, int logoId) {
+    public void setToolBar(int toolbarId, int toolTitle, int titleId) {
+        toolbar = (Toolbar) findViewById(toolbarId);
+        toolbar.setTitle("");
+        textView = (TextView) findViewById(toolTitle);
+        textView.setText(titleId);
+        setSupportActionBar(toolbar);
+    }
+
+    public void setToolBar(int toolbarId, int titleId) {
         toolbar = (Toolbar) findViewById(toolbarId);
         toolbar.setTitle(titleId);
-        toolbar.setLogo(logoId);
         setSupportActionBar(toolbar);
     }
 
