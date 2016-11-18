@@ -2,7 +2,7 @@
 <resources>
 
     <color name="transparent">#00000000</color>
-    <color name="main_tabbar_border_color">#d2d2d2</color>
+    <color name="main_tabbar_border_color2">#d2d2d2</color>
     <color name="white">#FFFFFF</color>
     <color name="theme">#d82058</color>
     <color name="black">#000000</color>

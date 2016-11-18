@@ -242,19 +242,19 @@
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
             android:theme="@style/global_search_bg"
-            android:windowSoftInputMode="stateUnspecified"></activity>
+            android:windowSoftInputMode="stateUnspecified"/>
 
         <activity
             android:name=".main.activity.GlobalSearchDetailActivity"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar"/>
 
         <activity
             android:name=".main.activity.GlobalSearchDetailActivity2"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar"/>
 
         <!-- 查看阅后即焚 -->
         <activity
@@ -308,7 +308,7 @@
 
         <!-- NRTC Settings -->
         <activity
-            android:name=".avchat.activity.AVChatSettingsActivity"
+            android:name=".avchat.activity.AVChatSettingsActivity"/>
         <!--==========================================================================================-->
         <!-- NRTC Settings -->
         <activity
