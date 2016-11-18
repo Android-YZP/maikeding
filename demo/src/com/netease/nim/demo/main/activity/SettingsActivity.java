@@ -14,7 +14,6 @@ import android.widget.Toast;
 import com.netease.nim.demo.DemoCache;
 import com.netease.nim.demo.R;
 import com.netease.nim.demo.avchat.activity.AVChatSettingsActivity;
-import com.netease.nim.demo.config.ServerConfig;
 import com.netease.nim.demo.config.preference.Preferences;
 import com.netease.nim.demo.config.preference.UserPreferences;
 import com.netease.nim.demo.contact.activity.UserProfileSettingActivity;
@@ -171,7 +170,7 @@ public class SettingsActivity extends UI implements SettingsAdapter.SwitchChange
         items.add(disturbItem);
         items.add(SettingTemplate.addLine());
         items.add(new SettingTemplate(TAG_MULTIPORT_PUSH, getString(R.string.multiport_push), SettingType.TYPE_TOGGLE,
-               !NIMClient.getService(SettingsService.class).isMultiportPushOpen()));
+                !NIMClient.getService(SettingsService.class).isMultiportPushOpen()));
         items.add(SettingTemplate.makeSeperator());
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.ICE_CREAM_SANDWICH) {

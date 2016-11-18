@@ -4,7 +4,7 @@
 
     <item
         android:id="@+id/message_activity_menu_action"
-        android:icon="@drawable/action_bar_black_more_icon"
+        android:icon="@drawable/nav_addfriends_btn"
         android:title=""
         app:showAsAction="always"/>
 

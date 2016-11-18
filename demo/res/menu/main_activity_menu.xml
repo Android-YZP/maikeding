@@ -3,27 +3,27 @@
       xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/search_btn"
-        android:icon="@drawable/action_bar_search_view_icon"
+        android:icon="@drawable/nav_search_btn"
         android:title=""
         app:showAsAction="always"/>
     <item
         android:id="@+id/welcome_menu"
-        android:icon="@drawable/action_bar_black_more_icon"
+        android:icon="@drawable/nav_addfriends_btn"
         android:title=""
         app:showAsAction="always">
         <menu>
             <item
                 android:id="@+id/add_buddy"
                 android:title="@string/add_buddy"/>
-            <item
-                android:id="@+id/create_normal_team"
-                android:title="@string/create_normal_team"/>
-            <item
-                android:id="@+id/create_regular_team"
-                android:title="@string/create_advanced_team"/>
-            <item
-                android:id="@+id/search_advanced_team"
-                android:title="@string/search_advanced_team"/>
+            <!--<item-->
+                <!--android:id="@+id/create_normal_team"-->
+                <!--android:title="@string/create_normal_team"/>-->
+            <!--<item-->
+                <!--android:id="@+id/create_regular_team"-->
+                <!--android:title="@string/create_advanced_team"/>-->
+            <!--<item-->
+                <!--android:id="@+id/search_advanced_team"-->
+                <!--android:title="@string/search_advanced_team"/>-->
             <item
                 android:id="@+id/about"
                 android:title="@string/settings"/>

@@ -1,36 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:background="@drawable/background_tab"
-    android:gravity="center"
-    android:orientation="horizontal" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_tab">
 
-    <TextView
-        android:id="@+id/tab_title_label"
+    <RelativeLayout
+        android:id="@+id/tab_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical"
-        android:textColor="@color/action_bar_tittle_color_555555"
-        android:textSize="15sp" />
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/tab_title_image"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bottom_home_nor" />
+
+        <TextView
+            android:id="@+id/tab_title_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tab_title_image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="3dp"
+            android:textColor="@color/action_bar_tittle_color_555555"
+            android:textSize="10sp" />
+    </RelativeLayout>
 
     <ImageView
         android:id="@+id/tab_new_indicator"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignRight="@+id/tab_layout"
         android:contentDescription="@string/empty"
         android:src="@drawable/nim_main_tab_new_message_notify"
         android:visibility="gone" />
 
     <com.netease.nim.uikit.common.ui.drop.DropFake
         android:id="@+id/tab_new_msg_label"
-        android:layout_width="28dip"
-        android:layout_height="28dip"
-        android:layout_gravity="center_vertical"
-        android:gravity="center"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignRight="@+id/tab_layout"
         android:singleLine="true"
         android:textColor="@android:color/white"
         android:textSize="12sp"
-        android:visibility="gone"/>
-</LinearLayout>
+        android:visibility="gone" />
+</RelativeLayout>

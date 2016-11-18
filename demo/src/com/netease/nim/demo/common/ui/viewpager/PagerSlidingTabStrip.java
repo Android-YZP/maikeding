@@ -39,6 +39,7 @@ import android.view.ViewTreeObserver.OnGlobalLayoutListener;
 import android.widget.HorizontalScrollView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.netease.nim.demo.R;
@@ -256,14 +257,32 @@ public class PagerSlidingTabStrip extends HorizontalScrollView implements OnPage
 
     private void setChooseTabViewTextColor(int position) {
         int childCount = tabsContainer.getChildCount();
-        LinearLayout tabView;
+        RelativeLayout tabView;
         TextView textView;
+        ImageView imageView;
         for (int i = 0; i < childCount; ++i) {
-            tabView = (LinearLayout) tabsContainer.getChildAt(i);
+            tabView = (RelativeLayout) tabsContainer.getChildAt(i);
+            imageView = (ImageView) tabView.findViewById(R.id.tab_title_image);
             textView = (TextView) tabView.findViewById(R.id.tab_title_label);
             if (i == position) {
+                switch (i) {
+                    case 0:
+                        imageView.setImageResource(R.drawable.bottom_home_sel);
+                        break;
+                    case 1:
+                        imageView.setImageResource(R.drawable.bottom_message_sel);
+                        break;
+                }
                 textView.setTextColor(getResources().getColor(checkedTextColor));
             } else {
+                switch (i) {
+                    case 0:
+                        imageView.setImageResource(R.drawable.bottom_home_nor);
+                        break;
+                    case 1:
+                        imageView.setImageResource(R.drawable.bottom_message_nor);
+                        break;
+                }
                 textView.setTextColor(getResources().getColor(unCheckedTextColor));
             }
         }
@@ -289,7 +308,7 @@ public class PagerSlidingTabStrip extends HorizontalScrollView implements OnPage
         final boolean needAdaptation = ScreenUtil.density <= 1.5 && screenAdaptation;
         final Resources resources = getContext().getResources();
         if (titleTV != null) {
-            titleTV.setTextSize(TypedValue.COMPLEX_UNIT_PX, needAdaptation ? resources.getDimensionPixelSize(R.dimen.text_size_11) : resources.getDimensionPixelSize(R.dimen.text_size_15));
+            titleTV.setTextSize(TypedValue.COMPLEX_UNIT_PX, needAdaptation ? resources.getDimensionPixelSize(R.dimen.text_size_10) : resources.getDimensionPixelSize(R.dimen.text_size_10));
             titleTV.setText(title);
         }
 
@@ -356,7 +375,7 @@ public class PagerSlidingTabStrip extends HorizontalScrollView implements OnPage
     }
 
     public void updateTab(int index, ReminderItem item) {
-        LinearLayout tabView = (LinearLayout) tabsContainer.getChildAt(index);
+        RelativeLayout tabView = (RelativeLayout) tabsContainer.getChildAt(index);
         ImageView indicatorView = (ImageView) tabView.findViewById(R.id.tab_new_indicator);
         final DropFake unreadTV = ((DropFake) tabView.findViewById(R.id.tab_new_msg_label));
 
@@ -397,38 +416,38 @@ public class PagerSlidingTabStrip extends HorizontalScrollView implements OnPage
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-
-        if (isInEditMode() || tabCount == 0) {
-            return;
-        }
-
-        final int height = getHeight();
-
-        // draw underline
-
-        rectPaint.setColor(underlineColor);
-        canvas.drawRect(0, height - underlineHeight, tabsContainer.getWidth(), height, rectPaint);
-
-        // draw indicator line
-        rectPaint.setColor(indicatorColor);
-
-        // default: line below current tab
-        View currentTab = tabsContainer.getChildAt(currentPosition);
-        float lineLeft = currentTab.getLeft();
-        float lineRight = currentTab.getRight();
-
-        // if there is an offset, start interpolating left and right coordinates between current and next tab
-        if (currentPositionOffset > 0f && currentPosition < tabCount - 1) {
-
-            View nextTab = tabsContainer.getChildAt(currentPosition + 1);
-            final float nextTabLeft = nextTab.getLeft();
-            final float nextTabRight = nextTab.getRight();
-
-            lineLeft = (currentPositionOffset * nextTabLeft + (1f - currentPositionOffset) * lineLeft);
-            lineRight = (currentPositionOffset * nextTabRight + (1f - currentPositionOffset) * lineRight);
-        }
-
-        canvas.drawRect(lineLeft, height - indicatorHeight, lineRight, height, rectPaint);
+//
+//        if (isInEditMode() || tabCount == 0) {
+//            return;
+//        }
+//
+//        final int height = getHeight();
+//
+//        // draw underline
+//
+//        rectPaint.setColor(underlineColor);
+//        canvas.drawRect(0, height - underlineHeight, tabsContainer.getWidth(), height, rectPaint);
+//
+//        // draw indicator line
+//        rectPaint.setColor(indicatorColor);
+//
+//        // default: line below current tab
+//        View currentTab = tabsContainer.getChildAt(currentPosition);
+//        float lineLeft = currentTab.getLeft();
+//        float lineRight = currentTab.getRight();
+//
+//        // if there is an offset, start interpolating left and right coordinates between current and next tab
+//        if (currentPositionOffset > 0f && currentPosition < tabCount - 1) {
+//
+//            View nextTab = tabsContainer.getChildAt(currentPosition + 1);
+//            final float nextTabLeft = nextTab.getLeft();
+//            final float nextTabRight = nextTab.getRight();
+//
+//            lineLeft = (currentPositionOffset * nextTabLeft + (1f - currentPositionOffset) * lineLeft);
+//            lineRight = (currentPositionOffset * nextTabRight + (1f - currentPositionOffset) * lineRight);
+//        }
+//
+//        canvas.drawRect(lineLeft, height - indicatorHeight, lineRight, height, rectPaint);
 
         // draw divider
 

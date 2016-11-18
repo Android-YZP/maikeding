@@ -12,7 +12,6 @@ import com.netease.nim.demo.DemoCache;
 import com.netease.nim.demo.R;
 import com.netease.nim.demo.contact.activity.BlackListActivity;
 import com.netease.nim.demo.main.activity.SystemMessageActivity;
-import com.netease.nim.demo.main.activity.TeamListActivity;
 import com.netease.nim.demo.main.helper.SystemMessageUnreadManager;
 import com.netease.nim.demo.main.model.MainTab;
 import com.netease.nim.demo.main.reminder.ReminderId;
@@ -49,8 +48,8 @@ public class ContactListFragment extends MainTabFragment {
      */
     public final static class FuncItem extends AbsContactItem {
         static final FuncItem VERIFY = new FuncItem();
-        static final FuncItem NORMAL_TEAM = new FuncItem();
-        static final FuncItem ADVANCED_TEAM = new FuncItem();
+//        static final FuncItem NORMAL_TEAM = new FuncItem();
+//        static final FuncItem ADVANCED_TEAM = new FuncItem();
         static final FuncItem BLACK_LIST = new FuncItem();
         static final FuncItem MY_COMPUTER = new FuncItem();
 
@@ -97,13 +96,15 @@ public class ContactListFragment extends MainTabFragment {
                             updateUnreadNum(item.getUnread());
                         }
                     });
-                } else if (item == NORMAL_TEAM) {
-                    funcName.setText("讨论组");
-                    image.setImageResource(R.drawable.ic_secretary);
-                } else if (item == ADVANCED_TEAM) {
-                    funcName.setText("高级群");
-                    image.setImageResource(R.drawable.ic_advanced_team);
-                } else if (item == BLACK_LIST) {
+                }
+//                else if (item == NORMAL_TEAM) {
+//                    funcName.setText("讨论组");
+//                    image.setImageResource(R.drawable.ic_secretary);
+//                } else if (item == ADVANCED_TEAM) {
+//                    funcName.setText("高级群");
+//                    image.setImageResource(R.drawable.ic_advanced_team);
+//                }
+                else if (item == BLACK_LIST) {
                     funcName.setText("黑名单");
                     image.setImageResource(R.drawable.ic_black_list);
                 } else if (item == MY_COMPUTER) {
@@ -131,8 +132,8 @@ public class ContactListFragment extends MainTabFragment {
         static List<AbsContactItem> provide() {
             List<AbsContactItem> items = new ArrayList<AbsContactItem>();
             items.add(VERIFY);
-            items.add(NORMAL_TEAM);
-            items.add(ADVANCED_TEAM);
+//            items.add(NORMAL_TEAM);
+//            items.add(ADVANCED_TEAM);
             items.add(BLACK_LIST);
             items.add(MY_COMPUTER);
 
@@ -142,11 +143,13 @@ public class ContactListFragment extends MainTabFragment {
         static void handle(Context context, AbsContactItem item) {
             if (item == VERIFY) {
                 SystemMessageActivity.start(context);
-            } else if (item == NORMAL_TEAM) {
-                TeamListActivity.start(context, ItemTypes.TEAMS.NORMAL_TEAM);
-            } else if (item == ADVANCED_TEAM) {
-                TeamListActivity.start(context, ItemTypes.TEAMS.ADVANCED_TEAM);
-            } else if (item == MY_COMPUTER) {
+            }
+//            else if (item == NORMAL_TEAM) {
+//                TeamListActivity.start(context, ItemTypes.TEAMS.NORMAL_TEAM);
+//            } else if (item == ADVANCED_TEAM) {
+//                TeamListActivity.start(context, ItemTypes.TEAMS.ADVANCED_TEAM);
+//            }
+            else if (item == MY_COMPUTER) {
                 SessionHelper.startP2PSession(context, DemoCache.getAccount());
             } else if (item == BLACK_LIST) {
                 BlackListActivity.start(context);

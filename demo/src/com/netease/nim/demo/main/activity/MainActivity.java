@@ -21,9 +21,7 @@ import com.netease.nim.demo.login.LogoutHelper;
 import com.netease.nim.demo.main.fragment.HomeFragment;
 import com.netease.nim.demo.session.SessionHelper;
 import com.netease.nim.demo.team.TeamCreateHelper;
-import com.netease.nim.demo.team.activity.AdvancedTeamSearchActivity;
 import com.netease.nim.uikit.LoginSyncDataStatusObserver;
-import com.netease.nim.uikit.NimUIKit;
 import com.netease.nim.uikit.common.activity.UI;
 import com.netease.nim.uikit.common.ui.dialog.DialogMaker;
 import com.netease.nim.uikit.common.util.log.LogUtil;
@@ -31,7 +29,6 @@ import com.netease.nim.uikit.contact_selector.activity.ContactSelectActivity;
 import com.netease.nim.uikit.permission.MPermission;
 import com.netease.nim.uikit.permission.annotation.OnMPermissionDenied;
 import com.netease.nim.uikit.permission.annotation.OnMPermissionGranted;
-import com.netease.nim.uikit.team.helper.TeamHelper;
 import com.netease.nimlib.sdk.NIMClient;
 import com.netease.nimlib.sdk.NimIntent;
 import com.netease.nimlib.sdk.Observer;
@@ -182,17 +179,17 @@ public class MainActivity extends UI {
             case R.id.about:
                 startActivity(new Intent(MainActivity.this, SettingsActivity.class));
                 break;
-            case R.id.create_normal_team:
-                ContactSelectActivity.Option option = TeamHelper.getCreateContactSelectOption(null, 50);
-                NimUIKit.startContactSelect(MainActivity.this, option, REQUEST_CODE_NORMAL);
-                break;
-            case R.id.create_regular_team:
-                ContactSelectActivity.Option advancedOption = TeamHelper.getCreateContactSelectOption(null, 50);
-                NimUIKit.startContactSelect(MainActivity.this, advancedOption, REQUEST_CODE_ADVANCED);
-                break;
-            case R.id.search_advanced_team:
-                AdvancedTeamSearchActivity.start(MainActivity.this);
-                break;
+//            case R.id.create_normal_team:
+//                ContactSelectActivity.Option option = TeamHelper.getCreateContactSelectOption(null, 50);
+//                NimUIKit.startContactSelect(MainActivity.this, option, REQUEST_CODE_NORMAL);
+//                break;
+//            case R.id.create_regular_team:
+//                ContactSelectActivity.Option advancedOption = TeamHelper.getCreateContactSelectOption(null, 50);
+//                NimUIKit.startContactSelect(MainActivity.this, advancedOption, REQUEST_CODE_ADVANCED);
+//                break;
+//            case R.id.search_advanced_team:
+//                AdvancedTeamSearchActivity.start(MainActivity.this);
+//                break;
             case R.id.add_buddy:
                 AddFriendActivity.start(MainActivity.this);
                 break;
