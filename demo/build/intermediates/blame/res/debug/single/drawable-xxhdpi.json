@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\bottom_set_sel.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-xxhdpi\\bottom_set_sel.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\nav_addfriends_btn.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-xxhdpi\\nav_addfriends_btn.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_stat_notify_msg.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-xxhdpi\\ic_stat_notify_msg.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_logo.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-xxhdpi\\ic_logo.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\bottom_home_sel.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-xxhdpi\\bottom_home_sel.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\nav_search_btn.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-xxhdpi\\nav_search_btn.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\bottom_message_sel.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-xxhdpi\\bottom_message_sel.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\bottom_home_nor.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-xxhdpi\\bottom_home_nor.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\bottom_set_nor.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-xxhdpi\\bottom_set_nor.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\bottom_message_nor.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-xxhdpi\\bottom_message_nor.png"
+    }
+]
