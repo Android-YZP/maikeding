@@ -76,7 +76,7 @@ public abstract class UI extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void setToolBar(int toolBarId, ToolBarOptions options) {
+   public void setToolBar(int toolBarId, ToolBarOptions options) {
         toolbar = (Toolbar) findViewById(toolBarId);
         if (options.titleId != 0) {
             toolbar.setTitle(options.titleId);
@@ -100,10 +100,17 @@ public abstract class UI extends AppCompatActivity {
         }
     }
 
-    public void setToolBar(int toolbarId, int titleId, int logoId) {
+    public void setToolBar(int toolbarId, int toolTitle, int titleId) {
+        toolbar = (Toolbar) findViewById(toolbarId);
+        toolbar.setTitle("");
+        textView = (TextView) findViewById(toolTitle);
+        textView.setText(titleId);
+        setSupportActionBar(toolbar);
+    }
+
+    public void setToolBar(int toolbarId, int titleId) {
         toolbar = (Toolbar) findViewById(toolbarId);
         toolbar.setTitle(titleId);
-        toolbar.setLogo(logoId);
         setSupportActionBar(toolbar);
     }
 
