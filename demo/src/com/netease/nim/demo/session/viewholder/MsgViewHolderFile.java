@@ -109,6 +109,6 @@ public class MsgViewHolderFile extends MsgViewHolderBase {
 
     @Override
     protected int rightBackground() {
-        return R.drawable.nim_message_right_blue_bg;
+        return R.drawable.nim_message_right_red_bg;
     }
 }

@@ -102,7 +102,7 @@ public class UserProfileActivity extends UI {
 
         ToolBarOptions options = new ToolBarOptions();
         options.titleId = R.string.user_profile;
-        setToolBar(R.id.toolbar, options);
+        setToolBar(R.id.toolbar, options, R.id.toolbar_user_profile_title);
 
         account = getIntent().getStringExtra(Extras.EXTRA_ACCOUNT);
 
@@ -173,14 +173,14 @@ public class UserProfileActivity extends UI {
         nickText = findView(R.id.user_nick);
         birthdayText = (TextView) birthdayLayout.findViewById(R.id.value);
         phoneLayout = findView(R.id.phone);
-        mobileText = (TextView) phoneLayout.findViewById(R.id.value);
+        mobileText = (TextView) findViewById(R.id.phone_value);
         emailLayout = findView(R.id.email);
         emailText = (TextView) emailLayout.findViewById(R.id.value);
         signatureLayout = findView(R.id.signature);
         signatureText = (TextView) signatureLayout.findViewById(R.id.value);
         aliasLayout = findView(R.id.alias);
         ((TextView) birthdayLayout.findViewById(R.id.attribute)).setText(R.string.birthday);
-        ((TextView) phoneLayout.findViewById(R.id.attribute)).setText(R.string.phone);
+        ((TextView) findViewById(R.id.phone_attribute)).setText(R.string.phone);
         ((TextView) emailLayout.findViewById(R.id.attribute)).setText(R.string.email);
         ((TextView) signatureLayout.findViewById(R.id.attribute)).setText(R.string.signature);
         ((TextView) aliasLayout.findViewById(R.id.attribute)).setText(R.string.alias);

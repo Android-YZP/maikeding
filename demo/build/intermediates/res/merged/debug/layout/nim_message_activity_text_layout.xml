@@ -17,8 +17,8 @@
 
         <ImageView
             android:id="@+id/buttonAudioMessage"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
             android:background="@drawable/nim_message_button_bottom_audio_selector"
             android:contentDescription="@string/empty"
             android:scaleType="center" />

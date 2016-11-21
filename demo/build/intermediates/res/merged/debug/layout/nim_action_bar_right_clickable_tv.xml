@@ -12,7 +12,6 @@
         android:id="@+id/action_bar_right_clickable_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/nim_message_button_bottom_send_selector"
         android:gravity="center"
         android:paddingLeft="10dip"
         android:paddingRight="10dip"

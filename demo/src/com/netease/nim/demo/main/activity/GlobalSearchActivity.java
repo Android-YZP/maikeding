@@ -116,12 +116,12 @@ public class GlobalSearchActivity extends UI implements OnItemClickListener {
         lvContacts = (ListView) findViewById(R.id.searchResultList);
         lvContacts.setVisibility(View.GONE);
         SearchGroupStrategy searchGroupStrategy = new SearchGroupStrategy();
-        IContactDataProvider dataProvider = new ContactDataProvider(ItemTypes.FRIEND, ItemTypes.TEAM, ItemTypes.MSG);
+        IContactDataProvider dataProvider = new ContactDataProvider(ItemTypes.FRIEND, ItemTypes.MSG);
 
         adapter = new ContactDataAdapter(this, searchGroupStrategy, dataProvider);
         adapter.addViewHolder(ItemTypes.LABEL, LabelHolder.class);
         adapter.addViewHolder(ItemTypes.FRIEND, ContactHolder.class);
-        adapter.addViewHolder(ItemTypes.TEAM, ContactHolder.class);
+//        adapter.addViewHolder(ItemTypes.TEAM, ContactHolder.class);
         adapter.addViewHolder(ItemTypes.MSG, MsgHolder.class);
 
         lvContacts.setAdapter(adapter);
@@ -159,12 +159,12 @@ public class GlobalSearchActivity extends UI implements OnItemClickListener {
 
     private static class SearchGroupStrategy extends ContactGroupStrategy {
         public static final String GROUP_FRIEND = "FRIEND";
-        public static final String GROUP_TEAM = "TEAM";
+        //        public static final String GROUP_TEAM = "TEAM";
         public static final String GROUP_MSG = "MSG";
 
         SearchGroupStrategy() {
             add(ContactGroupStrategy.GROUP_NULL, 0, "");
-            add(GROUP_TEAM, 1, "群组");
+//            add(GROUP_TEAM, 1, "群组");
             add(GROUP_FRIEND, 2, "好友");
             add(GROUP_MSG, 3, "聊天记录");
         }
@@ -174,8 +174,8 @@ public class GlobalSearchActivity extends UI implements OnItemClickListener {
             switch (item.getItemType()) {
                 case ItemTypes.FRIEND:
                     return GROUP_FRIEND;
-                case ItemTypes.TEAM:
-                    return GROUP_TEAM;
+//                case ItemTypes.TEAM:
+//                    return GROUP_TEAM;
                 case ItemTypes.MSG:
                     return GROUP_MSG;
                 default:
@@ -188,10 +188,10 @@ public class GlobalSearchActivity extends UI implements OnItemClickListener {
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         AbsContactItem item = (AbsContactItem) adapter.getItem(position);
         switch (item.getItemType()) {
-            case ItemTypes.TEAM: {
-                SessionHelper.startTeamSession(this, ((ContactItem) item).getContact().getContactId());
-                break;
-            }
+//            case ItemTypes.TEAM: {
+//                SessionHelper.startTeamSession(this, ((ContactItem) item).getContact().getContactId());
+//                break;
+//            }
 
             case ItemTypes.FRIEND: {
                 SessionHelper.startP2PSession(this, ((ContactItem) item).getContact().getContactId());
@@ -205,9 +205,10 @@ public class GlobalSearchActivity extends UI implements OnItemClickListener {
                 } else {
                     if (msgIndexRecord.getSessionType() == SessionTypeEnum.P2P) {
                         SessionHelper.startP2PSession(this, msgIndexRecord.getSessionId(), msgIndexRecord.getMessage());
-                    } else if (msgIndexRecord.getSessionType() == SessionTypeEnum.Team) {
-                        SessionHelper.startTeamSession(this, msgIndexRecord.getSessionId(), msgIndexRecord.getMessage());
                     }
+//                    else if (msgIndexRecord.getSessionType() == SessionTypeEnum.Team) {
+//                        SessionHelper.startTeamSession(this, msgIndexRecord.getSessionId(), msgIndexRecord.getMessage());
+//                    }
                 }
                 break;
             }
