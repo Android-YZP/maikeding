@@ -24,7 +24,6 @@ public class MainTabPagerAdapter extends SlidingTabPagerAdapter {
 		for (MainTab tab : MainTab.values()) {
 			try {
 				MainTabFragment fragment = null;
-
 				List<Fragment> fs = fm.getFragments();
 				if (fs != null) {
 					for (Fragment f : fs) {
@@ -36,7 +35,7 @@ public class MainTabPagerAdapter extends SlidingTabPagerAdapter {
 				}
 
 				if (fragment == null) {
-					fragment = tab.clazz.newInstance();
+					fragment = (MainTabFragment) tab.clazz.newInstance();
 				}
 
 				fragment.setState(this);
@@ -49,6 +48,7 @@ public class MainTabPagerAdapter extends SlidingTabPagerAdapter {
 				e.printStackTrace();
 			}
 		}
+
 	}
 
 	@Override

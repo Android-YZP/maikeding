@@ -12,6 +12,7 @@ import com.netease.nim.demo.avchat.activity.AVChatActivity;
 import com.netease.nim.demo.common.util.sys.SysInfoUtil;
 import com.netease.nim.demo.config.preference.Preferences;
 import com.netease.nim.demo.login.LoginActivity;
+import com.netease.nim.demo.login.maixinlogin.UserLoginActivity;
 import com.netease.nim.demo.main.model.Extras;
 import com.netease.nim.uikit.common.activity.UI;
 import com.netease.nim.uikit.common.util.log.LogUtil;
@@ -61,7 +62,7 @@ public class WelcomeActivity extends UI {
                     if (canAutoLogin()) {
                         onIntent();
                     } else {
-                        LoginActivity.start(WelcomeActivity.this);
+                        UserLoginActivity.start(WelcomeActivity.this);
                         finish();
                     }
                 }
@@ -109,7 +110,7 @@ public class WelcomeActivity extends UI {
         if (TextUtils.isEmpty(DemoCache.getAccount())) {
             // 判断当前app是否正在运行
             if (!SysInfoUtil.stackResumed(this)) {
-                LoginActivity.start(this);
+                UserLoginActivity.start(this);
             }
             finish();
         } else {

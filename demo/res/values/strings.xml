@@ -49,7 +49,7 @@
     <string name="delete_system_message">删除该条系统消息？</string>
     <string name="delete_success">删除成功</string>
     <string name="clear_all_success">清空成功</string>
-    <string name="login_failed">帐号或密码错误</string>
+    <string name="login_failed">重新手动登录</string>
     <string name="login_exception">无效输入</string>
     <string name="kick_out">帐号在其它设备登录</string>
     <string name="edittext_length_tips">你输入的字数已经超过了限制！</string>

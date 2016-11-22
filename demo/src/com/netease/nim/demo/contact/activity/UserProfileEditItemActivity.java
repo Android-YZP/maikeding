@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.text.InputFilter;
 import android.text.InputType;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.DatePicker;
 import android.widget.ImageView;
@@ -183,6 +184,9 @@ public class UserProfileEditItemActivity extends UI implements View.OnClickListe
                 } else if (key == UserConstant.KEY_GENDER) {
                     update(Integer.valueOf(gender));
                 } else {
+    /********************************这里会得到一个签名数据.同步到本地服务器成功之后再同步云信服务器************/
+
+                    Log.d("YZP=========>",editText.getText().toString().trim());
                     update(editText.getText().toString().trim());
                 }
             }

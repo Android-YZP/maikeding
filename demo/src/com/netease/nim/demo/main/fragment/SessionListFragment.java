@@ -1,14 +1,15 @@
 package com.netease.nim.demo.main.fragment;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.netease.nim.demo.R;
 import com.netease.nim.demo.config.preference.Preferences;
-import com.netease.nim.demo.login.LoginActivity;
 import com.netease.nim.demo.login.LogoutHelper;
+import com.netease.nim.demo.login.maixinlogin.UserLoginActivity;
 import com.netease.nim.demo.main.activity.MultiportActivity;
 import com.netease.nim.demo.main.model.MainTab;
 import com.netease.nim.demo.main.reminder.ReminderManager;
@@ -17,13 +18,16 @@ import com.netease.nim.demo.session.extension.GuessAttachment;
 import com.netease.nim.demo.session.extension.RTSAttachment;
 import com.netease.nim.demo.session.extension.SnapChatAttachment;
 import com.netease.nim.demo.session.extension.StickerAttachment;
+import com.netease.nim.demo.utils.CommonUtil;
 import com.netease.nim.uikit.common.activity.UI;
 import com.netease.nim.uikit.common.util.log.LogUtil;
 import com.netease.nim.uikit.recent.RecentContactsCallback;
 import com.netease.nim.uikit.recent.RecentContactsFragment;
 import com.netease.nimlib.sdk.NIMClient;
 import com.netease.nimlib.sdk.Observer;
+import com.netease.nimlib.sdk.RequestCallback;
 import com.netease.nimlib.sdk.StatusCode;
+import com.netease.nimlib.sdk.auth.AuthService;
 import com.netease.nimlib.sdk.auth.AuthServiceObserver;
 import com.netease.nimlib.sdk.auth.ClientType;
 import com.netease.nimlib.sdk.auth.OnlineClient;
@@ -79,6 +83,9 @@ public class SessionListFragment extends MainTabFragment {
     private void registerObservers(boolean register) {
         NIMClient.getService(AuthServiceObserver.class).observeOtherClients(clientsObserver, register);
         NIMClient.getService(AuthServiceObserver.class).observeOnlineStatus(userStatusObserver, register);
+
+        //多段登录互相踢出
+
     }
 
     private void findViews() {
@@ -100,7 +107,6 @@ public class SessionListFragment extends MainTabFragment {
      * 用户状态变化
      */
     Observer<StatusCode> userStatusObserver = new Observer<StatusCode>() {
-
         @Override
         public void onEvent(StatusCode code) {
             if (code.wontAutoLogin()) {
@@ -128,6 +134,7 @@ public class SessionListFragment extends MainTabFragment {
     Observer<List<OnlineClient>> clientsObserver = new Observer<List<OnlineClient>>() {
         @Override
         public void onEvent(List<OnlineClient> onlineClients) {
+
             SessionListFragment.this.onlineClients = onlineClients;
             if (onlineClients == null || onlineClients.size() == 0) {
                 multiportBar.setVisibility(View.GONE);
@@ -144,6 +151,7 @@ public class SessionListFragment extends MainTabFragment {
                         break;
                     case ClientType.iOS:
                     case ClientType.Android:
+                        kickOtherOut(client);
                         status.setText(getString(R.string.multiport_logging) + getString(R.string.mobile_version));
                         break;
                     default:
@@ -153,6 +161,24 @@ public class SessionListFragment extends MainTabFragment {
             }
         }
     };
+
+    private void kickOtherOut(OnlineClient client) {
+        NIMClient.getService(AuthService.class).kickOtherClient(client).setCallback(new RequestCallback<Void>() {
+            @Override
+            public void onSuccess(Void param) {
+            }
+
+            @Override
+            public void onFailed(int code) {
+
+            }
+
+            @Override
+            public void onException(Throwable exception) {
+
+            }
+        });
+    }
 
     private void kickOut(StatusCode code) {
         Preferences.saveUserToken("");
@@ -169,9 +195,9 @@ public class SessionListFragment extends MainTabFragment {
     // 注销
     private void onLogout() {
         // 清理缓存&注销监听&清除状态
+        CommonUtil.clearUserInfo(getActivity());
         LogoutHelper.logout();
-
-        LoginActivity.start(getActivity(), true);
+        UserLoginActivity.start(getActivity(), true);
         getActivity().finish();
     }
 
@@ -242,7 +268,6 @@ public class SessionListFragment extends MainTabFragment {
                         return (String) content.get("content");
                     }
                 }
-
                 return null;
             }
         });

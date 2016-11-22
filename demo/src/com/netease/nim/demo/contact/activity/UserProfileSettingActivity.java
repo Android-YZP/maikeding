@@ -29,6 +29,7 @@ import com.netease.nimlib.sdk.NIMClient;
 import com.netease.nimlib.sdk.RequestCallback;
 import com.netease.nimlib.sdk.RequestCallbackWrapper;
 import com.netease.nimlib.sdk.ResponseCode;
+import com.netease.nimlib.sdk.auth.LoginInfo;
 import com.netease.nimlib.sdk.nos.NosService;
 import com.netease.nimlib.sdk.uinfo.constant.GenderEnum;
 import com.netease.nimlib.sdk.uinfo.constant.UserInfoFieldEnum;
@@ -250,6 +251,9 @@ public class UserProfileSettingActivity extends UI implements View.OnClickListen
 
         LogUtil.i(TAG, "start upload avatar, local file path=" + file.getAbsolutePath());
         new Handler().postDelayed(outimeTask, AVATAR_TIME_OUT);
+
+        /**********************************************在这里会得到一个file头像文件，同步迈克家服务器，成功之后上传云信服务器*************************************************************/
+
         uploadAvatarFuture = NIMClient.getService(NosService.class).upload(file, PickImageAction.MIME_JPEG);
         uploadAvatarFuture.setCallback(new RequestCallbackWrapper<String>() {
             @Override
