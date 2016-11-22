@@ -151,8 +151,8 @@ public class SessionListFragment extends MainTabFragment {
                         break;
                     case ClientType.iOS:
                     case ClientType.Android:
-                        kickOtherOut(client);
                         status.setText(getString(R.string.multiport_logging) + getString(R.string.mobile_version));
+                        kickOtherOut(client);
                         break;
                     default:
                         multiportBar.setVisibility(View.GONE);
@@ -182,7 +182,6 @@ public class SessionListFragment extends MainTabFragment {
 
     private void kickOut(StatusCode code) {
         Preferences.saveUserToken("");
-
         if (code == StatusCode.PWD_ERROR) {
             LogUtil.e("Auth", "user password error");
             Toast.makeText(getActivity(), R.string.login_failed, Toast.LENGTH_SHORT).show();
@@ -251,7 +250,6 @@ public class SessionListFragment extends MainTabFragment {
                 } else if (attachment instanceof SnapChatAttachment) {
                     return "[阅后即焚]";
                 }
-
                 return null;
             }
 

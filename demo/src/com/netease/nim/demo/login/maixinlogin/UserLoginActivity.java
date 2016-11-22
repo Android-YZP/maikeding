@@ -4,7 +4,6 @@ import android.Manifest;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
@@ -13,7 +12,6 @@ import android.os.Handler;
 import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
-import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -29,7 +27,7 @@ import com.netease.nim.demo.config.CommonConstants;
 import com.netease.nim.demo.config.preference.Preferences;
 import com.netease.nim.demo.config.preference.UserPreferences;
 import com.netease.nim.demo.exception.ServiceException;
-import com.netease.nim.demo.login.LoginActivity;
+import com.netease.nim.demo.login.maixinreg.UserRegPhoneActivity;
 import com.netease.nim.demo.main.activity.MainActivity;
 import com.netease.nim.demo.utils.CommonUtil;
 import com.netease.nim.uikit.cache.DataCacheManager;
@@ -112,14 +110,24 @@ public class UserLoginActivity extends AppCompatActivity {
     }
 
     private void initData() {
-        // TODO Auto-generated method stub
 
     }
 
     private void setListener() {
         mBtnLogin.setOnClickListener(new UserLoginOnClickListener());
-        mTvGoRegister.setOnClickListener(new UserLoginOnClickListener());
-        mTvGoForgot.setOnClickListener(new UserLoginOnClickListener());
+        mTvGoRegister.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(UserLoginActivity.this, UserRegPhoneActivity.class));
+            }
+        });
+
+        mTvGoForgot.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(UserLoginActivity.this, UserForgotPhoneActivity.class));
+            }
+        });
     }
 
     private void onParseIntent() {

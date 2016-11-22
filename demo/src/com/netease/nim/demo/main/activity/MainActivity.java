@@ -11,6 +11,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.Toast;
+
 import com.netease.nim.demo.R;
 import com.netease.nim.demo.avchat.AVChatProfile;
 import com.netease.nim.demo.avchat.activity.AVChatActivity;
@@ -19,6 +20,7 @@ import com.netease.nim.demo.login.LogoutHelper;
 import com.netease.nim.demo.main.fragment.HomeFragment;
 import com.netease.nim.demo.session.SessionHelper;
 import com.netease.nim.demo.team.TeamCreateHelper;
+import com.netease.nim.demo.utils.MyApplication;
 import com.netease.nim.uikit.LoginSyncDataStatusObserver;
 import com.netease.nim.uikit.common.activity.UI;
 import com.netease.nim.uikit.common.ui.dialog.DialogMaker;
@@ -79,7 +81,12 @@ public class MainActivity extends UI {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_tab);
+        MyApplication.activities.add(MainActivity.this);
+    }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
         requestBasicPermission();
 
         onParseIntent();
@@ -98,6 +105,13 @@ public class MainActivity extends UI {
         }
 
         onInit();
+
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        MyApplication.activities.clear();
     }
 
     /**
@@ -114,7 +128,7 @@ public class MainActivity extends UI {
                         Manifest.permission.RECORD_AUDIO,
                         Manifest.permission.ACCESS_COARSE_LOCATION,
                         Manifest.permission.ACCESS_FINE_LOCATION
-                        )
+                )
                 .request();
     }
 
@@ -124,12 +138,12 @@ public class MainActivity extends UI {
     }
 
     @OnMPermissionGranted(BASIC_PERMISSION_REQUEST_CODE)
-    public void onBasicPermissionSuccess(){
+    public void onBasicPermissionSuccess() {
         Toast.makeText(this, "授权成功", Toast.LENGTH_SHORT).show();
     }
 
     @OnMPermissionDenied(BASIC_PERMISSION_REQUEST_CODE)
-    public void onBasicPermissionFailed(){
+    public void onBasicPermissionFailed() {
         Toast.makeText(this, "授权失败", Toast.LENGTH_SHORT).show();
     }
 
