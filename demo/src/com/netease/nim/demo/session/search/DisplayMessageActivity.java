@@ -47,7 +47,7 @@ public class DisplayMessageActivity extends UI implements ModuleProxy {
         setContentView(rootView);
 
         ToolBarOptions options = new ToolBarOptions();
-        setToolBar(R.id.toolbar, options);
+        setToolBar(R.id.toolbar, options, R.id.toolbar_message_history_title);
 
         onParseIntent();
 

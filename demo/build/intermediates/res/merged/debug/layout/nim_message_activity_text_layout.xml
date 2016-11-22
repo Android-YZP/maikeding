@@ -17,8 +17,8 @@
 
         <ImageView
             android:id="@+id/buttonAudioMessage"
-            android:layout_width="34dp"
-            android:layout_height="34dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:background="@drawable/nim_message_button_bottom_audio_selector"
             android:contentDescription="@string/empty"
             android:scaleType="center" />
@@ -56,7 +56,6 @@
 
     <EditText
         android:id="@+id/editTextMessage"
-        style="@style/edit_text_style"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginRight="@dimen/bottom_component_margin_horizontal"
@@ -64,6 +63,7 @@
         android:layout_toRightOf="@+id/switchLayout"
         android:autoLink="web|email|phone"
         android:background="@drawable/nim_message_input_edittext_box"
+        android:textColor="@color/black"
         android:maxHeight="72dip"
         android:maxLines="4"
         android:textSize="16sp" />

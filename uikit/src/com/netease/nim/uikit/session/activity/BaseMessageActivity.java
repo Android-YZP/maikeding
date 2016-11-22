@@ -93,7 +93,7 @@ public abstract class BaseMessageActivity extends UI {
             imageView.setImageResource(button.iconId);
             Log.d("zzz------------",String.valueOf(button.iconId));
             imageView.setBackgroundResource(R.drawable.nim_nim_action_bar_button_selector);
-            imageView.setPadding(ScreenUtil.dip2px(10), 0, ScreenUtil.dip2px(10), 0);
+            imageView.setPadding(ScreenUtil.dip2px(10), 0, ScreenUtil.dip2px(20), 0);
             imageView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {

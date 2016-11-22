@@ -52,7 +52,7 @@ public class MessageHistoryActivity extends UI implements ModuleProxy {
 
         ToolBarOptions options = new ToolBarOptions();
         options.titleId = R.string.message_history_query;
-        setToolBar(R.id.toolbar, options);
+        setToolBar(R.id.toolbar, options, R.id.toolbar_message_history_title);
 
         onParseIntent();
 

@@ -40,7 +40,7 @@ public class AddFriendActivity extends UI {
 
         ToolBarOptions options = new ToolBarOptions();
         options.titleId = R.string.add_buddy;
-        setToolBar(R.id.toolbar, options);
+        setToolBar(R.id.toolbar, options, R.id.toolbar_add_friend_title);
 
         findViews();
         initActionbar();

@@ -225,7 +225,7 @@ public class ContactSelectActivity extends UI implements View.OnClickListener, a
         setContentView(R.layout.nim_contacts_select);
 
         ToolBarOptions options = new ToolBarOptions();
-        setToolBar(R.id.toolbar, options);
+        setToolBar(R.id.toolbar, options, R.id.toolbar_contacts_select_title);
 
         parseIntentData();
         initAdapter();

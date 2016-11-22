@@ -49,6 +49,7 @@
             android:id="@+id/liv_index"
             android:layout_width="15dip"
             android:layout_height="fill_parent"
+            android:layout_marginBottom="49dp"
             android:layout_alignParentRight="true"
             android:background="#00000000"/>
     </RelativeLayout>
