@@ -1,8 +1,11 @@
 package com.netease.nim.demo.main.fragment;
 
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -68,24 +71,47 @@ public class SessionListFragment extends MainTabFragment {
 
     @Override
     public void onDestroy() {
-        registerObservers(false);
         super.onDestroy();
+        registerObservers(false);
     }
+
 
     @Override
     protected void onInit() {
         findViews();
         registerObservers(true);
-
         addRecentContactsFragment();
     }
 
-    private void registerObservers(boolean register) {
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
+
+    private void registerObservers(final boolean register) {
         NIMClient.getService(AuthServiceObserver.class).observeOtherClients(clientsObserver, register);
         NIMClient.getService(AuthServiceObserver.class).observeOnlineStatus(userStatusObserver, register);
-
-        //多段登录互相踢出
-
+        //子线程多段登录互相踢出
+        if (register) {
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    try {
+                        int a = 5;
+                        while (a > 0) {
+                            a--;
+                            Thread.sleep(5000);
+                            if (onlineClients != null && onlineClients.size() > 0) {
+                                kickOtherOut(onlineClients.get(0));
+                                a = 0;
+                            }
+                        }
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }).start();
+        }
     }
 
     private void findViews() {
@@ -102,6 +128,7 @@ public class SessionListFragment extends MainTabFragment {
             }
         });
     }
+
 
     /**
      * 用户状态变化
@@ -152,7 +179,6 @@ public class SessionListFragment extends MainTabFragment {
                     case ClientType.iOS:
                     case ClientType.Android:
                         status.setText(getString(R.string.multiport_logging) + getString(R.string.mobile_version));
-                        kickOtherOut(client);
                         break;
                     default:
                         multiportBar.setVisibility(View.GONE);
