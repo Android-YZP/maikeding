@@ -2,19 +2,17 @@ package com.netease.nim.demo.main.model;
 
 import com.netease.nim.demo.R;
 import com.netease.nim.demo.main.fragment.ContactListFragment;
-import com.netease.nim.demo.main.fragment.MainTabFragment;
 import com.netease.nim.demo.main.fragment.SessionListFragment;
 import com.netease.nim.demo.main.reminder.ReminderId;
 
 public enum MainTab {
     RECENT_CONTACTS(0, ReminderId.SESSION, SessionListFragment.class, R.string.main_tab_session, R.layout.session_list),
     CONTACT(1, ReminderId.CONTACT, ContactListFragment.class, R.string.main_tab_contact, R.layout.contacts_list);
-
     public final int tabIndex;
 
     public final int reminderId;
 
-    public final Class<? extends MainTabFragment> clazz;
+    public final Class clazz;
 
     public final int resId;
 
@@ -22,7 +20,7 @@ public enum MainTab {
 
     public final int layoutId;
 
-    MainTab(int index, int reminderId, Class<? extends MainTabFragment> clazz, int resId, int layoutId) {
+    MainTab(int index, int reminderId, Class clazz, int resId, int layoutId) {
         this.tabIndex = index;
         this.reminderId = reminderId;
         this.clazz = clazz;
