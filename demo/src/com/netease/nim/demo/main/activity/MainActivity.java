@@ -16,11 +16,11 @@ import com.netease.nim.demo.R;
 import com.netease.nim.demo.avchat.AVChatProfile;
 import com.netease.nim.demo.avchat.activity.AVChatActivity;
 import com.netease.nim.demo.contact.activity.AddFriendActivity;
-import com.netease.nim.demo.login.LoginActivity;
 import com.netease.nim.demo.login.LogoutHelper;
 import com.netease.nim.demo.main.fragment.HomeFragment;
 import com.netease.nim.demo.session.SessionHelper;
 import com.netease.nim.demo.team.TeamCreateHelper;
+import com.netease.nim.demo.utils.MyApplication;
 import com.netease.nim.uikit.LoginSyncDataStatusObserver;
 import com.netease.nim.uikit.common.activity.UI;
 import com.netease.nim.uikit.common.ui.dialog.DialogMaker;
@@ -81,7 +81,12 @@ public class MainActivity extends UI {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_tab);
+        MyApplication.activities.add(MainActivity.this);
+    }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
         requestBasicPermission();
 
         onParseIntent();
@@ -100,6 +105,13 @@ public class MainActivity extends UI {
         }
 
         onInit();
+
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        MyApplication.activities.clear();
     }
 
     /**
@@ -266,7 +278,6 @@ public class MainActivity extends UI {
         LogoutHelper.logout();
 
         // 启动登录
-        LoginActivity.start(this);
         finish();
     }
 }

@@ -197,7 +197,6 @@ public class SessionHelper {
                             if (TextUtils.isEmpty(tid)) {
                                 return;
                             }
-
                             startTeamSession(activity, tid);
                             activity.finish();
                         }

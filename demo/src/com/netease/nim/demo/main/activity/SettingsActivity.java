@@ -17,9 +17,12 @@ import com.netease.nim.demo.avchat.activity.AVChatSettingsActivity;
 import com.netease.nim.demo.config.preference.Preferences;
 import com.netease.nim.demo.config.preference.UserPreferences;
 import com.netease.nim.demo.contact.activity.UserProfileSettingActivity;
+import com.netease.nim.demo.login.maixinlogin.UserLoginActivity;
 import com.netease.nim.demo.main.adapter.SettingsAdapter;
 import com.netease.nim.demo.main.model.SettingTemplate;
 import com.netease.nim.demo.main.model.SettingType;
+import com.netease.nim.demo.utils.CommonUtil;
+import com.netease.nim.demo.utils.MyApplication;
 import com.netease.nim.uikit.common.activity.UI;
 import com.netease.nim.uikit.model.ToolBarOptions;
 import com.netease.nim.uikit.session.audio.MessageAudioControl;
@@ -232,9 +235,12 @@ public class SettingsActivity extends UI implements SettingsAdapter.SwitchChange
     private void logout() {
         removeLoginState();
         MainActivity.logout(SettingsActivity.this, false);
-
-        finish();
+        CommonUtil.clearUserInfo(this);
+        UserLoginActivity.start(SettingsActivity.this, false);
         NIMClient.getService(AuthService.class).logout();
+        if (MyApplication.activities.size() > 0)
+            MyApplication.activities.get(0).finish();
+        finish();
     }
 
     /**
