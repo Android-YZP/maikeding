@@ -58,6 +58,7 @@ public class SessionListFragment extends MainTabFragment {
     private View multiportBar;
 
     private RecentContactsFragment fragment;
+    private boolean isOtherPhone = false;
 
     public SessionListFragment() {
         this.setContainerId(MainTab.RECENT_CONTACTS.fragmentId);
@@ -97,14 +98,11 @@ public class SessionListFragment extends MainTabFragment {
                 @Override
                 public void run() {
                     try {
-                        int a = 5;
-                        while (a > 0) {
-                            a--;
-                            Thread.sleep(5000);
-                            if (onlineClients != null && onlineClients.size() > 0) {
-                                kickOtherOut(onlineClients.get(0));
-                                a = 0;
-                            }
+                        while (!isOtherPhone) {//当有其他手机登录时，跳出循环
+                            Thread.sleep(1000);
+                        }
+                        if (onlineClients != null && onlineClients.size() > 0) {
+                            kickOtherOut(onlineClients.get(0));
                         }
                     } catch (InterruptedException e) {
                         e.printStackTrace();
@@ -179,6 +177,7 @@ public class SessionListFragment extends MainTabFragment {
                     case ClientType.iOS:
                     case ClientType.Android:
                         status.setText(getString(R.string.multiport_logging) + getString(R.string.mobile_version));
+                        isOtherPhone = true;
                         break;
                     default:
                         multiportBar.setVisibility(View.GONE);
