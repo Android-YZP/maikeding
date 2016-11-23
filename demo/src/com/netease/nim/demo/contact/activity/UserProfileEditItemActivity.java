@@ -251,9 +251,9 @@ public class UserProfileEditItemActivity extends UI implements View.OnClickListe
     }
 
     private void genderCheck(int selected) {
-        otherCheck.setBackgroundResource(selected == GenderEnum.UNKNOWN.getValue() ? R.drawable.nim_contact_checkbox_checked_green : R.drawable.nim_checkbox_not_checked);
-        maleCheck.setBackgroundResource(selected == GenderEnum.MALE.getValue() ? R.drawable.nim_contact_checkbox_checked_green : R.drawable.nim_checkbox_not_checked);
-        femaleCheck.setBackgroundResource(selected == GenderEnum.FEMALE.getValue() ? R.drawable.nim_contact_checkbox_checked_green : R.drawable.nim_checkbox_not_checked);
+        otherCheck.setBackgroundResource(selected == GenderEnum.UNKNOWN.getValue() ? R.drawable.nim_contact_checkbox_checked_red : R.drawable.nim_checkbox_not_checked);
+        maleCheck.setBackgroundResource(selected == GenderEnum.MALE.getValue() ? R.drawable.nim_contact_checkbox_checked_red : R.drawable.nim_checkbox_not_checked);
+        femaleCheck.setBackgroundResource(selected == GenderEnum.FEMALE.getValue() ? R.drawable.nim_contact_checkbox_checked_red : R.drawable.nim_checkbox_not_checked);
     }
 
     private void openTimePicker() {

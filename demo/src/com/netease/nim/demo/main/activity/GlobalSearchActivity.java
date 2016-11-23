@@ -75,7 +75,6 @@ public class GlobalSearchActivity extends UI implements OnItemClickListener {
             @Override
             public boolean onMenuItemActionCollapse(MenuItem menuItem) {
                 finish();
-
                 return false;
             }
         });
