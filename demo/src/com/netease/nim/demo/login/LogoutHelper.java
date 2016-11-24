@@ -15,6 +15,6 @@ public class LogoutHelper {
         NimUIKit.clearCache();
         DemoCache.clear();
         LoginSyncDataStatusObserver.getInstance().reset();
-        DropManager.getInstance().destroy();
+//        DropManager.getInstance().destroy();
     }
 }

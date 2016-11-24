@@ -155,7 +155,12 @@ public class UserProfileSettingActivity extends UI implements View.OnClickListen
 
     private void updateUI() {
         userHead.loadBuddyAvatar(account);
-        nickText.setText(userInfo.getName());
+        if (userInfo != null && userInfo.getName() != null) {
+            nickText.setText(userInfo.getName());
+        } else {
+            nickText.setText("");
+        }
+
         if (userInfo.getGenderEnum() != null) {
             if (userInfo.getGenderEnum() == GenderEnum.MALE) {
                 genderText.setText("男");

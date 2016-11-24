@@ -38,7 +38,6 @@ import java.util.ArrayList;
 
 /**
  * 主界面
- * <p/>
  * Created by huangjun on 2015/3/25.
  */
 public class MainActivity extends UI {
@@ -88,9 +87,7 @@ public class MainActivity extends UI {
     protected void onResume() {
         super.onResume();
         requestBasicPermission();
-
         onParseIntent();
-
         // 等待同步数据完成
         boolean syncCompleted = LoginSyncDataStatusObserver.getInstance().observeSyncDataCompletedEvent(new Observer<Void>() {
             @Override
@@ -188,9 +185,9 @@ public class MainActivity extends UI {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.about:
-                startActivity(new Intent(MainActivity.this, SettingsActivity.class));
-                break;
+//            case R.id.about:
+//                startActivity(new Intent(MainActivity.this, SettingsActivity.class));
+//                break;
 //            case R.id.create_normal_team:
 //                ContactSelectActivity.Option option = TeamHelper.getCreateContactSelectOption(null, 50);
 //                NimUIKit.startContactSelect(MainActivity.this, option, REQUEST_CODE_NORMAL);
@@ -202,7 +199,7 @@ public class MainActivity extends UI {
 //            case R.id.search_advanced_team:
 //                AdvancedTeamSearchActivity.start(MainActivity.this);
 //                break;
-            case R.id.add_buddy:
+            case R.id.add_btn:
                 AddFriendActivity.start(MainActivity.this);
                 break;
             case R.id.search_btn:
@@ -230,7 +227,6 @@ public class MainActivity extends UI {
             }
         } else if (intent.hasExtra(EXTRA_APP_QUIT)) {
             onLogout();
-            return;
         } else if (intent.hasExtra(AVChatActivity.INTENT_ACTION_AVCHAT)) {
             if (AVChatProfile.getInstance().isAVChatting()) {
                 Intent localIntent = new Intent();
@@ -276,7 +272,6 @@ public class MainActivity extends UI {
     private void onLogout() {
         // 清理缓存&注销监听
         LogoutHelper.logout();
-
         // 启动登录
         finish();
     }

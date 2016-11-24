@@ -165,7 +165,6 @@ public class ContactsFragment extends TFragment {
         ImageView imgBackLetter = (ImageView) view.findViewById(R.id.img_hit_letter);
         TextView litterHit = (TextView) view.findViewById(R.id.tv_hit_letter);
         litterIdx = adapter.createLivIndex(listView, livIndex, litterHit, imgBackLetter);
-
         litterIdx.show();
     }
 
