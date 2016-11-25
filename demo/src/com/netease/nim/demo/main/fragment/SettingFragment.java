@@ -130,6 +130,7 @@ public class SettingFragment extends TFragment implements SettingsAdapter.Switch
                 onListItemClick(item);
             }
         });
+
         View logoutBtn = footer.findViewById(com.netease.nim.demo.R.id.settings_button_logout);
         logoutBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -146,7 +147,6 @@ public class SettingFragment extends TFragment implements SettingsAdapter.Switch
 
     private void initItems() {
         items.clear();
-
         items.add(new SettingTemplate(TAG_HEAD, SettingType.TYPE_HEAD));
         items.add(new SettingTemplate(TAG_NOTICE, getString(com.netease.nim.demo.R.string.msg_notice), SettingType.TYPE_TOGGLE,
                 UserPreferences.getNotificationToggle()));
@@ -159,7 +159,6 @@ public class SettingFragment extends TFragment implements SettingsAdapter.Switch
         items.add(new SettingTemplate(TAG_LED, getString(com.netease.nim.demo.R.string.led), SettingType.TYPE_TOGGLE,
                 UserPreferences.getLedToggle()));
         items.add(SettingTemplate.makeSeperator());
-
         items.add(new SettingTemplate(TAG_NOTICE_CONTENT, getString(com.netease.nim.demo.R.string.notice_content), SettingType.TYPE_TOGGLE,
                 UserPreferences.getNoticeContentToggle()));
         items.add(SettingTemplate.makeSeperator());
@@ -195,7 +194,6 @@ public class SettingFragment extends TFragment implements SettingsAdapter.Switch
 
     private void onListItemClick(SettingTemplate item) {
         if (item == null) return;
-
         switch (item.getId()) {
             case TAG_HEAD:
                 UserProfileSettingActivity.start(getActivity(), DemoCache.getAccount());
@@ -376,11 +374,5 @@ public class SettingFragment extends TFragment implements SettingsAdapter.Switch
         UserPreferences.setStatusConfig(config);
         NIMClient.updateStatusBarNotificationConfig(config);
     }
-
-
-
-
-
-
 
 }

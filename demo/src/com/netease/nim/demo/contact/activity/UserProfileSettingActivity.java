@@ -6,16 +6,23 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.Message;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.netease.nim.demo.R;
+import com.netease.nim.demo.config.CommonConstants;
 import com.netease.nim.demo.contact.constant.UserConstant;
 import com.netease.nim.demo.contact.helper.UserUpdateHelper;
+import com.netease.nim.demo.exception.ServiceException;
+import com.netease.nim.demo.login.maixinlogin.User;
 import com.netease.nim.demo.main.model.Extras;
+import com.netease.nim.demo.utils.CommonUtil;
+import com.netease.nim.demo.utils.JsonUtils;
+import com.netease.nim.demo.utils.NetWorkUtil;
 import com.netease.nim.uikit.cache.NimUserInfoCache;
 import com.netease.nim.uikit.common.activity.UI;
 import com.netease.nim.uikit.common.media.picker.PickImageHelper;
@@ -29,12 +36,11 @@ import com.netease.nimlib.sdk.NIMClient;
 import com.netease.nimlib.sdk.RequestCallback;
 import com.netease.nimlib.sdk.RequestCallbackWrapper;
 import com.netease.nimlib.sdk.ResponseCode;
-import com.netease.nimlib.sdk.auth.LoginInfo;
 import com.netease.nimlib.sdk.nos.NosService;
 import com.netease.nimlib.sdk.uinfo.constant.GenderEnum;
 import com.netease.nimlib.sdk.uinfo.constant.UserInfoFieldEnum;
 import com.netease.nimlib.sdk.uinfo.model.NimUserInfo;
-
+import org.json.JSONObject;
 import java.io.File;
 
 /**
@@ -64,10 +70,11 @@ public class UserProfileSettingActivity extends UI implements View.OnClickListen
     private TextView phoneText;
     private TextView emailText;
     private TextView signatureText;
-
+    private String mpicName = "touxiang.jpg";
     // data
     AbortableFuture<String> uploadAvatarFuture;
     private NimUserInfo userInfo;
+    private User mUser;
 
     public static void start(Context context, String account) {
         Intent intent = new Intent();
@@ -81,6 +88,7 @@ public class UserProfileSettingActivity extends UI implements View.OnClickListen
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.user_profile_set_activity);
+        mUser = CommonUtil.getUserInfo(this);
 
         ToolBarOptions options = new ToolBarOptions();
         options.titleId = R.string.user_information;
@@ -256,8 +264,11 @@ public class UserProfileSettingActivity extends UI implements View.OnClickListen
 
         LogUtil.i(TAG, "start upload avatar, local file path=" + file.getAbsolutePath());
         new Handler().postDelayed(outimeTask, AVATAR_TIME_OUT);
+        //上传服务器到麦客加服务器
 
         /**********************************************在这里会得到一个file头像文件，同步迈克家服务器，成功之后上传云信服务器*************************************************************/
+        Log.d("YZP=======>", file.getTotalSpace() + "");
+//        sendPicToServer(file);
 
         uploadAvatarFuture = NIMClient.getService(NosService.class).upload(file, PickImageAction.MIME_JPEG);
         uploadAvatarFuture.setCallback(new RequestCallbackWrapper<String>() {
@@ -286,6 +297,37 @@ public class UserProfileSettingActivity extends UI implements View.OnClickListen
         });
     }
 
+    /**
+     * 上传图片到服务器
+     */
+    private void sendPicToServer(final File file) {
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    String _withPhoto = NetWorkUtil.getResultFromUrlConnectionWithPhoto(
+                            CommonConstants.UPLOAD_IMAGE,
+                            null, mpicName, mUser.getVerifyCode(), file);
+                    //解析出上传图片的地址
+                    JSONObject _result = new JSONObject(_withPhoto);
+                    String _datas = JsonUtils.getString(_result, "Datas");
+                    String _message = JsonUtils.getString(_result, "Message");
+                    JSONObject _userimage = new JSONObject(_datas);
+                    String _userimagePath = JsonUtils.getString(_userimage, "userimage");
+                    mUser.setUserImg(_userimagePath);
+                    CommonUtil.saveUserInfo(mUser, UserProfileSettingActivity.this);//更新本地信息
+                    CommonUtil.sendErrorMessage(_message, handler);
+                } catch (ServiceException e) {
+                    e.printStackTrace();
+                    CommonUtil.sendErrorMessage(e.getMessage(), handler);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                    CommonUtil.sendErrorMessage("上传图片失败，数据异常", handler);
+                }
+            }
+        }).start();
+    }
+
     private void cancelUpload(int resId) {
         if (uploadAvatarFuture != null) {
             uploadAvatarFuture.abort();
@@ -306,4 +348,33 @@ public class UserProfileSettingActivity extends UI implements View.OnClickListen
         DialogMaker.dismissProgressDialog();
         getUserInfo();
     }
+
+
+    //处理消息队列
+    private Handler handler = new Handler() {
+        @Override
+        public void handleMessage(Message msg) {
+            int flag = msg.what;
+            switch (flag) {
+                case 0:
+                    String errorMsg = (String) msg.getData().getSerializable("ErrorMsg");
+                    try {
+                        if (errorMsg != null && errorMsg.equals("执行成功!")) {
+                            errorMsg = "上传成功";
+                        }
+                        Toast.makeText(UserProfileSettingActivity.this, errorMsg, Toast.LENGTH_SHORT).show();
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                    break;
+                case CommonConstants.FLAG_SET_TARGET_SUCCESS:
+                    //   setTargetCompleted();//操作完成
+
+                    Toast.makeText(UserProfileSettingActivity.this, "同步完成", Toast.LENGTH_SHORT).show();
+                    break;
+                default:
+                    break;
+            }
+        }
+    };
 }

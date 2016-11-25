@@ -272,6 +272,9 @@ public class PagerSlidingTabStrip extends HorizontalScrollView implements OnPage
                     case 1:
                         imageView.setImageResource(R.drawable.bottom_message_sel);
                         break;
+                    case 2:
+                        imageView.setImageResource(R.drawable.bottom_set_sel);
+                        break;
                 }
                 textView.setTextColor(getResources().getColor(checkedTextColor));
             } else {
@@ -281,6 +284,9 @@ public class PagerSlidingTabStrip extends HorizontalScrollView implements OnPage
                         break;
                     case 1:
                         imageView.setImageResource(R.drawable.bottom_message_nor);
+                        break;
+                    case 2:
+                        imageView.setImageResource(R.drawable.bottom_set_nor);
                         break;
                 }
                 textView.setTextColor(getResources().getColor(unCheckedTextColor));

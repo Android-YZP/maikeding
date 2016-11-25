@@ -89,7 +89,6 @@ public class ContactListFragment extends MainTabFragment {
                             if (item.getId() != ReminderId.CONTACT) {
                                 return;
                             }
-
                             updateUnreadNum(item.getUnread());
                         }
                     });
@@ -124,7 +123,6 @@ public class ContactListFragment extends MainTabFragment {
             items.add(VERIFY);
             items.add(BLACK_LIST);
             items.add(MY_COMPUTER);
-
             return items;
         }
 

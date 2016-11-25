@@ -100,9 +100,7 @@ public class MainActivity extends UI {
         if (!syncCompleted) {
             DialogMaker.showProgressDialog(MainActivity.this, getString(R.string.prepare_data)).setCanceledOnTouchOutside(false);
         }
-
         onInit();
-
     }
 
     @Override
@@ -265,7 +263,6 @@ public class MainActivity extends UI {
                 TeamCreateHelper.createAdvancedTeam(MainActivity.this, selected);
             }
         }
-
     }
 
     // 注销
