@@ -5,7 +5,7 @@
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
  *
- *      http://www.apache.org/licenses/LICENSE-2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
@@ -41,14 +41,12 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-
 import com.netease.nim.demo.R;
 import com.netease.nim.demo.main.reminder.ReminderItem;
 import com.netease.nim.demo.main.reminder.ReminderSettings;
 import com.netease.nim.uikit.common.ui.drop.DropFake;
 import com.netease.nim.uikit.common.ui.drop.DropManager;
 import com.netease.nim.uikit.common.util.sys.ScreenUtil;
-
 import java.util.Locale;
 
 public class PagerSlidingTabStrip extends HorizontalScrollView implements OnPageChangeListener {
@@ -314,7 +312,8 @@ public class PagerSlidingTabStrip extends HorizontalScrollView implements OnPage
         final boolean needAdaptation = ScreenUtil.density <= 1.5 && screenAdaptation;
         final Resources resources = getContext().getResources();
         if (titleTV != null) {
-            titleTV.setTextSize(TypedValue.COMPLEX_UNIT_PX, needAdaptation ? resources.getDimensionPixelSize(R.dimen.text_size_10) : resources.getDimensionPixelSize(R.dimen.text_size_10));
+            titleTV.setTextSize(TypedValue.COMPLEX_UNIT_PX, needAdaptation ?
+                    resources.getDimensionPixelSize(R.dimen.text_size_10) : resources.getDimensionPixelSize(R.dimen.text_size_10));
             titleTV.setText(title);
         }
 
@@ -367,7 +366,6 @@ public class PagerSlidingTabStrip extends HorizontalScrollView implements OnPage
             public boolean onDoubleTap(MotionEvent e) {
                 if (onTabDoubleTapListener != null)
                     onTabDoubleTapListener.onCurrentTabDoubleTap(position);
-
                 return true;
             }
         });
@@ -441,18 +439,18 @@ public class PagerSlidingTabStrip extends HorizontalScrollView implements OnPage
 //        View currentTab = tabsContainer.getChildAt(currentPosition);
 //        float lineLeft = currentTab.getLeft();
 //        float lineRight = currentTab.getRight();
-//
+
 //        // if there is an offset, start interpolating left and right coordinates between current and next tab
 //        if (currentPositionOffset > 0f && currentPosition < tabCount - 1) {
-//
+
 //            View nextTab = tabsContainer.getChildAt(currentPosition + 1);
 //            final float nextTabLeft = nextTab.getLeft();
 //            final float nextTabRight = nextTab.getRight();
-//
+
 //            lineLeft = (currentPositionOffset * nextTabLeft + (1f - currentPositionOffset) * lineLeft);
 //            lineRight = (currentPositionOffset * nextTabRight + (1f - currentPositionOffset) * lineRight);
 //        }
-//
+
 //        canvas.drawRect(lineLeft, height - indicatorHeight, lineRight, height, rectPaint);
 
         // draw divider
@@ -648,9 +646,8 @@ public class PagerSlidingTabStrip extends HorizontalScrollView implements OnPage
     public static class OnCustomTabListener {
 
         /**
-         * �?要自定义TAB的布�?�?
+         * �?要自定义TAB的布
          * 重写该方法，返回对应的layout id
-         *
          * @param position
          * @return
          */
@@ -661,7 +658,6 @@ public class PagerSlidingTabStrip extends HorizontalScrollView implements OnPage
         /**
          * �?要自定义TAB的布�?
          * 重写该方法，直接返回对应的view
-         *
          * @param inflater
          * @param position
          * @return
