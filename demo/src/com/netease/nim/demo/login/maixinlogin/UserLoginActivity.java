@@ -84,7 +84,7 @@ public class UserLoginActivity extends AppCompatActivity {
         User userInfo = CommonUtil.getUserInfo(this);
         if (userInfo != null) {
             //自动登录
-            new UserLoginOnClickListener().yunXinlogin(userInfo.getAccount() + "", userInfo.getToken());
+            new UserLoginOnClickListener().yunXinlogin(userInfo.getMobile() + "", userInfo.getToken());
             // 进入主界面
             MainActivity.start(UserLoginActivity.this, null);
             finish();

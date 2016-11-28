@@ -719,7 +719,6 @@ public class AVChatUI implements AVChatUIListener {
             isClosedCamera = false;
             avChatSurface.localVideoOn();
         }
-
     }
 
     /**

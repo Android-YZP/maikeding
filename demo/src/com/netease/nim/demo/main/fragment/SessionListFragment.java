@@ -99,7 +99,7 @@ public class SessionListFragment extends MainTabFragment {
                 public void run() {
                     try {
                         while (!isOtherPhone) {//当有其他手机登录时，跳出循环
-                            Thread.sleep(1000);
+                            Thread.sleep(5000);
                         }
                         if (onlineClients != null && onlineClients.size() > 0) {
                             kickOtherOut(onlineClients.get(0));
@@ -116,7 +116,6 @@ public class SessionListFragment extends MainTabFragment {
         notifyBar = getView().findViewById(R.id.status_notify_bar);
         notifyBarText = (TextView) getView().findViewById(R.id.status_desc_label);
         notifyBar.setVisibility(View.GONE);
-
         multiportBar = getView().findViewById(R.id.multiport_notify_bar);
         multiportBar.setVisibility(View.GONE);
         multiportBar.setOnClickListener(new View.OnClickListener() {

@@ -381,6 +381,11 @@ public class CommonConstants {
     public static final String USER_DETAIL = NOW_ADDRESS + "user/detail.json";
     //检查更新
     public static final String CHECK_APP_VERSION = NOW_ADDRESS + "version.json";
+    public static final int FLAG_SET_TARGET_SUCCESS = 21;
+    /**
+     * 上传图像
+     */
+    public static final String UPLOAD_IMAGE = "https://cloud.maikejia.com:8081/" + "WebServices/WatchServices/UploadImage";
 
     /**
      * wap页

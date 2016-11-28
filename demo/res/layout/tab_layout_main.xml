@@ -14,8 +14,7 @@
             android:id="@+id/tab_title_image"
             android:layout_width="25dp"
             android:layout_height="25dp"
-            android:layout_centerHorizontal="true"
-            android:background="@drawable/bottom_home_nor" />
+            android:layout_centerHorizontal="true" />
 
         <TextView
             android:id="@+id/tab_title_label"
