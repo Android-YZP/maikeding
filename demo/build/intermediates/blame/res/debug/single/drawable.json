@@ -32,12 +32,12 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable\\skin_global_bg.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\actionbar_dark_logo_space.xml",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable\\actionbar_dark_logo_space.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_visit_by_easy.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable\\selector_visit_by_easy.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\actionbar_dark_logo_space.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable\\actionbar_dark_logo_space.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
@@ -52,12 +52,12 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\maikeding\\uikit\\unspecified\\res\\drawable\\nim_message_view_bottom.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_bg_edittext_rectangle.xml",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\maikeding\\uikit\\unspecified\\res\\drawable\\nim_bg_edittext_rectangle.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_semitransparency_selector.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\maikeding\\uikit\\unspecified\\res\\drawable\\nim_semitransparency_selector.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_bg_edittext_rectangle.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\maikeding\\uikit\\unspecified\\res\\drawable\\nim_bg_edittext_rectangle.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
