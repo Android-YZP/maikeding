@@ -98,7 +98,7 @@ public class PickerAlbumPreviewActivity extends UI implements OnClickListener, O
 		setContentView(R.layout.nim_picker_image_preview_activity);
 
 		ToolBarOptions options = new ToolBarOptions();
-		setToolBar(R.id.toolbar, options);
+		setToolBar(R.id.toolbar, options, R.id.toolbar_picker_image_preview_title);
 
 		proceedExtras();
 		initActionBar();

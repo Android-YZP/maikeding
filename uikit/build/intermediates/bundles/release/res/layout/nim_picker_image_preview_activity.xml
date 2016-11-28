@@ -72,10 +72,19 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
+            android:paddingLeft="5dp"
             app:titleTextAppearance="@style/Toolbar.TitleText">
 
-            <include layout="@layout/nim_action_bar_right_picker_preview" />
+            <TextView
+                android:id="@+id/toolbar_picker_image_preview_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
 
+            <include layout="@layout/nim_action_bar_right_picker_preview" />
         </android.support.v7.widget.Toolbar>
     </android.support.design.widget.AppBarLayout>
 

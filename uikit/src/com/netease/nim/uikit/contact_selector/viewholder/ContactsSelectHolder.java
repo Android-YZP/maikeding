@@ -46,7 +46,7 @@ public class ContactsSelectHolder extends AbsContactViewHolder<ContactItem> {
                 getView().setBackgroundColor(context.getResources().getColor(R.color.transparent));
             } else if (selected) {
                 ViewCompat.setBackground(getView(), defaultBackground);
-                this.select.setBackgroundResource(R.drawable.nim_contact_checkbox_checked_green);
+                this.select.setBackgroundResource(R.drawable.nim_contact_checkbox_checked_red);
             } else {
                 ViewCompat.setBackground(getView(), defaultBackground);
                 this.select.setBackgroundResource(R.drawable.nim_contact_checkbox_unchecked);

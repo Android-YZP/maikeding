@@ -48,7 +48,6 @@ import com.netease.nimlib.sdk.msg.MsgService;
 import com.netease.nimlib.sdk.msg.MsgServiceObserve;
 import com.netease.nimlib.sdk.msg.attachment.AudioAttachment;
 import com.netease.nimlib.sdk.msg.attachment.FileAttachment;
-import com.netease.nimlib.sdk.msg.constant.AttachStatusEnum;
 import com.netease.nimlib.sdk.msg.constant.MsgDirectionEnum;
 import com.netease.nimlib.sdk.msg.constant.MsgStatusEnum;
 import com.netease.nimlib.sdk.msg.constant.MsgTypeEnum;
@@ -765,13 +764,13 @@ public class MessageListPanel implements TAdapterDelegate {
             // 4 delete
             longClickItemDelete(selectedItem, alertDialog);
             // 5 trans
-            longClickItemVoidToText(selectedItem, alertDialog, msgType);
+//            longClickItemVoidToText(selectedItem, alertDialog, msgType);
 
             if (!NimUIKit.getMsgForwardFilter().shouldIgnore(selectedItem) && !recordOnly) {
                 // 6 forward to person
                 longClickItemForwardToPerson(selectedItem, alertDialog);
                 // 7 forward to team
-                longClickItemForwardToTeam(selectedItem, alertDialog);
+//                longClickItemForwardToTeam(selectedItem, alertDialog);
             }
         }
 
@@ -846,24 +845,24 @@ public class MessageListPanel implements TAdapterDelegate {
         }
 
         // 长按菜单项 -- 音频转文字
-        private void longClickItemVoidToText(final IMMessage item, CustomAlertDialog alertDialog, MsgTypeEnum msgType) {
-            if (msgType != MsgTypeEnum.audio) return;
-
-            if (item.getDirect() == MsgDirectionEnum.In
-                    && item.getAttachStatus() != AttachStatusEnum.transferred)
-                return;
-            if (item.getDirect() == MsgDirectionEnum.Out
-                    && item.getAttachStatus() != AttachStatusEnum.transferred)
-                return;
-
-            alertDialog.addItem(container.activity.getString(R.string.voice_to_text), new CustomAlertDialog.onSeparateItemClickListener() {
-
-                @Override
-                public void onClick() {
-                    onVoiceToText(item);
-                }
-            });
-        }
+//        private void longClickItemVoidToText(final IMMessage item, CustomAlertDialog alertDialog, MsgTypeEnum msgType) {
+//            if (msgType != MsgTypeEnum.audio) return;
+//
+//            if (item.getDirect() == MsgDirectionEnum.In
+//                    && item.getAttachStatus() != AttachStatusEnum.transferred)
+//                return;
+//            if (item.getDirect() == MsgDirectionEnum.Out
+//                    && item.getAttachStatus() != AttachStatusEnum.transferred)
+//                return;
+//
+//            alertDialog.addItem(container.activity.getString(R.string.voice_to_text), new CustomAlertDialog.onSeparateItemClickListener() {
+//
+//                @Override
+//                public void onClick() {
+//                    onVoiceToText(item);
+//                }
+//            });
+//        }
 
         // 语音转文字
         private void onVoiceToText(IMMessage item) {
@@ -916,21 +915,21 @@ public class MessageListPanel implements TAdapterDelegate {
         }
 
         // 长按菜单项 -- 转发到群组
-        private void longClickItemForwardToTeam(final IMMessage item, CustomAlertDialog alertDialog) {
-            alertDialog.addItem(container.activity.getString(R.string.forward_to_team), new CustomAlertDialog.onSeparateItemClickListener() {
-
-                @Override
-                public void onClick() {
-                    forwardMessage = item;
-                    ContactSelectActivity.Option option = new ContactSelectActivity.Option();
-                    option.title = "选择转发的群";
-                    option.type = ContactSelectActivity.ContactSelectType.TEAM;
-                    option.multi = false;
-                    option.maxSelectNum = 1;
-                    NimUIKit.startContactSelect(container.activity, option, REQUEST_CODE_FORWARD_TEAM);
-                }
-            });
-        }
+//        private void longClickItemForwardToTeam(final IMMessage item, CustomAlertDialog alertDialog) {
+//            alertDialog.addItem(container.activity.getString(R.string.forward_to_team), new CustomAlertDialog.onSeparateItemClickListener() {
+//
+//                @Override
+//                public void onClick() {
+//                    forwardMessage = item;
+//                    ContactSelectActivity.Option option = new ContactSelectActivity.Option();
+//                    option.title = "选择转发的群";
+//                    option.type = ContactSelectActivity.ContactSelectType.TEAM;
+//                    option.multi = false;
+//                    option.maxSelectNum = 1;
+//                    NimUIKit.startContactSelect(container.activity, option, REQUEST_CODE_FORWARD_TEAM);
+//                }
+//            });
+//        }
 
         // 长按菜单项 -- 撤回消息
         private void longClickRevokeMsg(final IMMessage item, CustomAlertDialog alertDialog) {

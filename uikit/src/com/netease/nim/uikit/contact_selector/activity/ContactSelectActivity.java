@@ -3,6 +3,7 @@ package com.netease.nim.uikit.contact_selector.activity;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.view.MenuItemCompat;
@@ -197,7 +198,7 @@ public class ContactSelectActivity extends UI implements View.OnClickListener, a
     public boolean onCreateOptionsMenu(android.view.Menu menu) {
         // search view
         getMenuInflater().inflate(R.menu.contacts_search_menu, menu);
-        MenuItem item = menu.findItem(R.id.action_search);
+        MenuItem item = menu.findItem(R.id.action_contact_search);
         MenuItemCompat.setOnActionExpandListener(item, new MenuItemCompat.OnActionExpandListener() {
 
             @Override
@@ -212,6 +213,8 @@ public class ContactSelectActivity extends UI implements View.OnClickListener, a
             }
         });
         SearchView searchView = (SearchView) MenuItemCompat.getActionView(item);
+        SearchView.SearchAutoComplete textView = (SearchView.SearchAutoComplete) searchView.findViewById(R.id.search_src_text);
+        textView.setTextColor(Color.WHITE);
         this.searchView = searchView;
         this.searchView.setVisibility(option.searchVisible ? View.VISIBLE : View.GONE);
         searchView.setOnQueryTextListener(this);

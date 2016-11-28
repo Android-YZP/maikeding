@@ -4,12 +4,12 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\drawable\\nim_popup_menu_item_black_selector.xml",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable\\nim_popup_menu_item_black_selector.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\drawable\\nim_align_bottom_green_btn_selector.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable\\nim_align_bottom_green_btn_selector.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\drawable\\nim_popup_menu_item_black_selector.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable\\nim_popup_menu_item_black_selector.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\drawable\\nim_progress_small_white.xml",

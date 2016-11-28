@@ -148,10 +148,6 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\nim_checkbox_not_checked.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\directory.png",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\directory.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\g_green_btn_pressed.9.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\g_green_btn_pressed.9.png"
     },
@@ -478,6 +474,10 @@
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\head_icon_1.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\head_icon_1.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\files.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\files.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\video_audio_mode_switch_bg_normal.9.png",

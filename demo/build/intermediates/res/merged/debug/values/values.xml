@@ -328,6 +328,7 @@
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
     <color name="secondary_text_disabled_material_light">#24000000</color>
     <color name="split_line_grey_color_d9d9d9">#D9D9D9</color>
+    <color name="sticky_4DC0A4">#f3f3f7</color>
     <color name="switch_thumb_disabled_material_dark">#ff616161</color>
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
@@ -1028,8 +1029,8 @@
     <string name="file_transfer_state_downloaded">已下载</string>
     <string name="file_transfer_state_undownload">未下载</string>
     <string name="format_mylocation">我的位置：%s</string>
-    <string name="forward_to_person">转发到个人</string>
-    <string name="forward_to_team">转发到群组</string>
+    <string name="forward_to_person">转发给好友</string>
+    <string name="forward_to_team">转发给群组</string>
     <string name="friends_map_navigation_web">在网页中打开</string>
     <string name="fts_enable">全文检索(FTS4)</string>
     <string name="fts_prefix_hit">前缀匹配高亮检索结果</string>
@@ -1084,7 +1085,7 @@
     <string name="location_unable_to_get_you">暂时无法获取您的位置</string>
     <string name="login">登录</string>
     <string name="login_exception">无效输入</string>
-    <string name="login_failed">帐号或密码错误</string>
+    <string name="login_failed">重新手动登录</string>
     <string name="login_has_account">已有帐号？直接登录</string>
     <string name="login_hint_account">请输入帐号</string>
     <string name="login_hint_password">请输入密码</string>
@@ -2407,7 +2408,7 @@
 
     </style>
     <style name="DarkTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+        
         <item name="colorPrimary">@color/color_black_333333</item>
         <item name="colorPrimaryDark">@color/black</item>
         <item name="colorAccent">@color/color_blue_0888ff</item>

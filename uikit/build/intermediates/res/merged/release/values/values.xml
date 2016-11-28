@@ -183,6 +183,7 @@
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
     <color name="secondary_text_disabled_material_light">#24000000</color>
     <color name="split_line_grey_color_d9d9d9">#D9D9D9</color>
+    <color name="sticky_4DC0A4">#f3f3f7</color>
     <color name="switch_thumb_disabled_material_dark">#ff616161</color>
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
@@ -522,8 +523,8 @@
     <string name="empty"/>
     <string name="file_transfer_state_downloaded">已下载</string>
     <string name="file_transfer_state_undownload">未下载</string>
-    <string name="forward_to_person">转发到个人</string>
-    <string name="forward_to_team">转发到群组</string>
+    <string name="forward_to_person">转发给好友</string>
+    <string name="forward_to_team">转发给群组</string>
     <string name="fts_enable">全文检索(FTS4)</string>
     <string name="fts_prefix_hit">前缀匹配高亮检索结果</string>
     <string name="gallery_invalid">你的手机没有图库程序</string>
@@ -706,7 +707,7 @@
         <item name="android:windowExitAnimation">@anim/design_bottom_sheet_slide_out</item>
     </style>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+        
         <item name="colorPrimary">@color/white</item>
         <item name="colorPrimaryDark">@color/color_gray_d9d9d9</item>
         <item name="colorAccent">@color/color_blue_0888ff</item>
@@ -1685,7 +1686,7 @@
         <item name="tabSelectedTextColor">?android:textColorPrimary</item>
     </style>
     <style name="DarkTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+        
         <item name="colorPrimary">@color/color_black_333333</item>
         <item name="colorPrimaryDark">@color/black</item>
         <item name="colorAccent">@color/color_blue_0888ff</item>

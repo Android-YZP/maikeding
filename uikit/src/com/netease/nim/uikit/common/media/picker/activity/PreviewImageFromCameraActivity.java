@@ -49,7 +49,7 @@ public class PreviewImageFromCameraActivity extends UI {
 		setContentView(R.layout.nim_preview_image_from_camera_activity);
 
 		ToolBarOptions options = new ToolBarOptions();
-		setToolBar(R.id.toolbar, options);
+		setToolBar(R.id.toolbar, options, R.id.toolbar_preview_image_from_camera_title);
 
 		initActionBar();
 		getIntentData();
