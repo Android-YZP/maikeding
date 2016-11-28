@@ -5,12 +5,13 @@
     android:orientation="vertical"
     android:background="@color/common_bg_color"
      >
-    <include 
+
+    <include
         android:layout_width="match_parent"
         android:layout_height="@dimen/common_topbar_height"
         layout="@layout/layout_common_topbar"
         />
-    
+
     <EditText 
         android:id="@+id/et_user_forgot_phone"
         android:layout_width="match_parent"
