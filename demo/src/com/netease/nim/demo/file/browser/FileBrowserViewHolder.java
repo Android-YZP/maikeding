@@ -30,7 +30,7 @@ public class FileBrowserViewHolder extends TViewHolder{
 
     @Override
     protected void inflate() {
-        directoryBitmap = BitmapFactory.decodeResource(DemoCache.getContext().getResources(),R.drawable.directory);
+        directoryBitmap = BitmapFactory.decodeResource(DemoCache.getContext().getResources(),R.drawable.files);
         fileBitmap = BitmapFactory.decodeResource(DemoCache.getContext().getResources(), R.drawable.file);
         fileImage = (ImageView) view.findViewById(R.id.file_image);
         fileName = (TextView) view.findViewById(R.id.file_name);

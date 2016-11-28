@@ -115,8 +115,8 @@ public class WatchVideoActivity extends UI implements Callback {
         setContentView(R.layout.nim_watch_video_activity);
 
         ToolBarOptions options = new ToolBarOptions();
-        options.navigateId = R.drawable.nim_actionbar_white_back_icon;
-        setToolBar(R.id.toolbar, options);
+        options.titleId = R.string.video_play;
+        setToolBar(R.id.toolbar, options, R.id.toolbar_watch_video_title);
 
         parseIntent();
         findViews();

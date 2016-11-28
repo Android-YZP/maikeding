@@ -50,7 +50,8 @@ public class FileBrowserActivity extends UI implements TAdapterDelegate {
         setContentView(R.layout.file_browser_activity);
 
         ToolBarOptions options = new ToolBarOptions();
-        setToolBar(R.id.toolbar, options);
+        options.titleId = R.string.file_browser;
+        setToolBar(R.id.toolbar, options, R.id.toolbar_file_browser_title);
 
         findViews();
         showFileDir(ROOT_PATH);
@@ -62,9 +63,10 @@ public class FileBrowserActivity extends UI implements TAdapterDelegate {
 
     /**
      * 显示文件列表
+     *
      * @param path 根路径
      */
-    private void showFileDir(String path){
+    private void showFileDir(String path) {
         names = new ArrayList<>();
         paths = new ArrayList<>();
         File file = new File(path);

@@ -75,7 +75,7 @@ public class NavigationAmapActivity extends UI implements
 		mapView.onCreate(savedInstanceState);// 此方法必须重写
 
 		ToolBarOptions options = new ToolBarOptions();
-		setToolBar(R.id.toolbar, options);
+		setToolBar(R.id.toolbar, options, R.id.toolbar_amap_navigation_title);
 
 		initView();
 		initAmap();

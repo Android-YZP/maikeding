@@ -65,7 +65,7 @@ public class PickImageActivity extends UI {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.nim_pick_image_activity);
         ToolBarOptions options = new ToolBarOptions();
-        setToolBar(R.id.toolbar, options);
+        setToolBar(R.id.toolbar, options, R.id.toolbar_pick_image_title);
     }
 
     @Override

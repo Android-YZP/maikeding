@@ -72,7 +72,7 @@ public class LocationAmapActivity extends UI implements  OnCameraChangeListener,
     	mapView.onCreate(savedInstanceState);// 此方法必须重写
 
 		ToolBarOptions options = new ToolBarOptions();
-		setToolBar(R.id.toolbar, options);
+		setToolBar(R.id.toolbar, options, R.id.toolbar_map_view_amap_title);
 
     	initView();
         initAmap();
