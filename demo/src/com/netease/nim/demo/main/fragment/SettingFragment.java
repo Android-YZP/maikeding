@@ -153,21 +153,21 @@ public class SettingFragment extends TFragment implements SettingsAdapter.Switch
         items.add(SettingTemplate.addLine());
         items.add(new SettingTemplate(TAG_SPEAKER, getString(com.netease.nim.demo.R.string.msg_speaker), SettingType.TYPE_TOGGLE,
                 com.netease.nim.uikit.UserPreferences.isEarPhoneModeEnable()));
-        items.add(SettingTemplate.makeSeperator());
-        items.add(new SettingTemplate(TAG_RING, getString(com.netease.nim.demo.R.string.ring), SettingType.TYPE_TOGGLE,
-                UserPreferences.getRingToggle()));
-        items.add(new SettingTemplate(TAG_LED, getString(com.netease.nim.demo.R.string.led), SettingType.TYPE_TOGGLE,
-                UserPreferences.getLedToggle()));
-        items.add(SettingTemplate.makeSeperator());
-        items.add(new SettingTemplate(TAG_NOTICE_CONTENT, getString(com.netease.nim.demo.R.string.notice_content), SettingType.TYPE_TOGGLE,
-                UserPreferences.getNoticeContentToggle()));
-        items.add(SettingTemplate.makeSeperator());
+//        items.add(SettingTemplate.makeSeperator());
+//        items.add(new SettingTemplate(TAG_RING, getString(com.netease.nim.demo.R.string.ring), SettingType.TYPE_TOGGLE,
+//                UserPreferences.getRingToggle()));
+//        items.add(new SettingTemplate(TAG_LED, getString(com.netease.nim.demo.R.string.led), SettingType.TYPE_TOGGLE,
+//                UserPreferences.getLedToggle()));
+//        items.add(SettingTemplate.makeSeperator());
+//        items.add(new SettingTemplate(TAG_NOTICE_CONTENT, getString(com.netease.nim.demo.R.string.notice_content), SettingType.TYPE_TOGGLE,
+//                UserPreferences.getNoticeContentToggle()));
+//        items.add(SettingTemplate.makeSeperator());
 
-        disturbItem = new SettingTemplate(TAG_NO_DISTURBE, getString(com.netease.nim.demo.R.string.no_disturb), noDisturbTime);
-        items.add(disturbItem);
-        items.add(SettingTemplate.addLine());
-        items.add(new SettingTemplate(TAG_MULTIPORT_PUSH, getString(com.netease.nim.demo.R.string.multiport_push), SettingType.TYPE_TOGGLE,
-                !NIMClient.getService(SettingsService.class).isMultiportPushOpen()));
+//        disturbItem = new SettingTemplate(TAG_NO_DISTURBE, getString(com.netease.nim.demo.R.string.no_disturb), noDisturbTime);
+//        items.add(disturbItem);
+//        items.add(SettingTemplate.addLine());
+//        items.add(new SettingTemplate(TAG_MULTIPORT_PUSH, getString(com.netease.nim.demo.R.string.multiport_push), SettingType.TYPE_TOGGLE,
+//                !NIMClient.getService(SettingsService.class).isMultiportPushOpen()));
         items.add(SettingTemplate.makeSeperator());
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.ICE_CREAM_SANDWICH) {
@@ -185,8 +185,8 @@ public class SettingFragment extends TFragment implements SettingsAdapter.Switch
         items.add(clearIndexItem);
         items.add(SettingTemplate.addLine());
 
-        items.add(new SettingTemplate(TAG_CUSTOM_NOTIFY, getString(com.netease.nim.demo.R.string.custom_notification)));
-        items.add(SettingTemplate.addLine());
+//        items.add(new SettingTemplate(TAG_CUSTOM_NOTIFY, getString(com.netease.nim.demo.R.string.custom_notification)));
+//        items.add(SettingTemplate.addLine());
         items.add(SettingTemplate.addLine());
         items.add(new SettingTemplate(TAG_ABOUT, getString(com.netease.nim.demo.R.string.setting_about)));
 
