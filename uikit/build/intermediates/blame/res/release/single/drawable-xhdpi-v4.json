@@ -100,12 +100,12 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-xhdpi\\nim_music_icon_play.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_team_member_add_pressed.png",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-xhdpi\\nim_team_member_add_pressed.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_record_start.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-xhdpi\\nim_record_start.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_team_member_add_pressed.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-xhdpi\\nim_team_member_add_pressed.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
@@ -256,12 +256,16 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-xhdpi\\nim_message_input_plus.png"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nav_search_btn.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-xhdpi\\nav_search_btn.png"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_team_owner_icon.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-xhdpi\\nim_team_owner_icon.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nav_search_btn.png",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-xhdpi\\nav_search_btn.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\logo_android_xxhdpi.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-xhdpi\\logo_android_xxhdpi.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_cameras.png",

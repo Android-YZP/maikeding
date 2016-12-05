@@ -126,6 +126,26 @@
             android:theme="@style/LoginTheme"
             android:windowSoftInputMode="adjustResize|stateHidden" />
 
+        <!-- 需求 -->
+        <activity
+            android:name="com.netease.nim.demo.demand.activity.DemandDetailActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name="com.netease.nim.demo.demand.activity.DemandScheduleActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name="com.netease.nim.demo.demand.activity.DemandPayActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+
         <!-- 关于 -->
         <activity
             android:name="com.netease.nim.demo.main.activity.AboutActivity"

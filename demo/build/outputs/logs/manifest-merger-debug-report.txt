@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:2:1-419:12
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:2:1-440:12
 	package
 		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:3:5-35
 	android:versionName
@@ -106,7 +106,7 @@ ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:44:5-83
 	android:name
 		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:44:22-80
 application
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:46:5-417:19
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:46:5-438:19
 MERGED from [maikeding:uikit:unspecified] D:\AndroidStudioProjects\maikeding\demo\build\intermediates\exploded-aar\maikeding\uikit\unspecified\AndroidManifest.xml:9:5-137:19
 MERGED from [com.android.support:appcompat-v7:23.3.0] D:\AndroidStudioProjects\maikeding\demo\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-vector-drawable:23.3.0] D:\AndroidStudioProjects\maikeding\demo\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:7:5-20
@@ -235,456 +235,492 @@ ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:118:9-124
 		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:123:13-46
 	android:name
 		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:119:13-48
-activity#com.netease.nim.demo.main.activity.AboutActivity
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:127:9-133:75
+activity#com.netease.nim.demo.demand.activity.DemandDetailActivity
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:127:9-132:75
 	android:screenOrientation
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:131:13-49
-	android:label
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:130:13-42
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:130:13-49
 	android:windowSoftInputMode
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:133:13-72
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:132:13-72
 	android:configChanges
 		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:129:13-48
 	android:theme
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:132:13-56
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:131:13-56
 	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:128:13-56
-activity#com.netease.nim.demo.main.activity.SettingsActivity
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:135:9-140:63
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:128:13-65
+activity#com.netease.nim.demo.demand.activity.DemandScheduleActivity
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:134:9-139:75
 	android:screenOrientation
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:138:13-49
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:137:13-49
 	android:windowSoftInputMode
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:140:13-60
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:139:13-72
 	android:configChanges
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:137:13-48
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:136:13-48
 	android:theme
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:139:13-56
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:138:13-56
 	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:136:13-59
-activity#com.netease.nim.demo.main.activity.NoDisturbActivity
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:142:9-147:75
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:135:13-67
+activity#com.netease.nim.demo.demand.activity.DemandPayActivity
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:141:9-146:75
 	android:screenOrientation
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:145:13-49
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:144:13-49
 	android:windowSoftInputMode
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:147:13-72
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:146:13-72
 	android:configChanges
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:144:13-48
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:143:13-48
 	android:theme
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:146:13-56
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:145:13-56
 	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:143:13-60
-activity#com.netease.nim.demo.contact.activity.AddFriendActivity
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:149:9-154:75
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:142:13-62
+activity#com.netease.nim.demo.main.activity.AboutActivity
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:149:9-155:75
 	android:screenOrientation
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:152:13-49
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:153:13-49
+	android:label
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:152:13-42
 	android:windowSoftInputMode
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:154:13-72
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:155:13-72
 	android:configChanges
 		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:151:13-48
 	android:theme
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:153:13-56
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:154:13-56
 	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:150:13-63
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:150:13-56
+activity#com.netease.nim.demo.main.activity.SettingsActivity
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:157:9-162:63
+	android:screenOrientation
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:160:13-49
+	android:windowSoftInputMode
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:162:13-60
+	android:configChanges
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:159:13-48
+	android:theme
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:161:13-56
+	android:name
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:158:13-59
+activity#com.netease.nim.demo.main.activity.NoDisturbActivity
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:164:9-169:75
+	android:screenOrientation
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:167:13-49
+	android:windowSoftInputMode
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:169:13-72
+	android:configChanges
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:166:13-48
+	android:theme
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:168:13-56
+	android:name
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:165:13-60
+activity#com.netease.nim.demo.contact.activity.AddFriendActivity
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:171:9-176:75
+	android:screenOrientation
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:174:13-49
+	android:windowSoftInputMode
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:176:13-72
+	android:configChanges
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:173:13-48
+	android:theme
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:175:13-56
+	android:name
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:172:13-63
 activity#com.netease.nim.demo.contact.activity.UserProfileActivity
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:156:9-161:75
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:178:9-183:75
 	android:screenOrientation
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:159:13-49
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:181:13-49
 	android:windowSoftInputMode
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:161:13-72
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:183:13-72
 	android:configChanges
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:158:13-48
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:180:13-48
 	android:theme
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:160:13-56
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:182:13-56
 	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:157:13-65
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:179:13-65
 activity#com.netease.nim.demo.contact.activity.UserProfileSettingActivity
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:163:9-168:75
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:185:9-190:75
 	android:screenOrientation
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:166:13-49
-	android:windowSoftInputMode
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:168:13-72
-	android:configChanges
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:165:13-48
-	android:theme
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:167:13-56
-	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:164:13-72
-activity#com.netease.nim.demo.contact.activity.UserProfileEditItemActivity
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:170:9-175:75
-	android:screenOrientation
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:173:13-49
-	android:windowSoftInputMode
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:175:13-72
-	android:configChanges
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:172:13-48
-	android:theme
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:174:13-56
-	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:171:13-73
-activity#com.netease.nim.demo.contact.activity.BlackListActivity
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:177:9-182:75
-	android:screenOrientation
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:180:13-49
-	android:windowSoftInputMode
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:182:13-72
-	android:configChanges
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:179:13-48
-	android:theme
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:181:13-56
-	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:178:13-63
-activity#com.netease.nim.demo.file.browser.FileBrowserActivity
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:185:9-191:75
-	android:screenOrientation
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:189:13-49
-	android:label
 		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:188:13-49
 	android:windowSoftInputMode
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:191:13-72
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:190:13-72
 	android:configChanges
 		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:187:13-48
 	android:theme
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:190:13-56
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:189:13-56
 	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:186:13-61
-activity#com.netease.nim.demo.main.activity.SystemMessageActivity
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:193:9-198:70
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:186:13-72
+activity#com.netease.nim.demo.contact.activity.UserProfileEditItemActivity
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:192:9-197:75
 	android:screenOrientation
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:196:13-49
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:195:13-49
 	android:windowSoftInputMode
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:198:13-67
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:197:13-72
 	android:configChanges
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:195:13-63
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:194:13-48
 	android:theme
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:197:13-56
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:196:13-56
 	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:194:13-64
-activity#com.netease.nim.demo.main.activity.CustomNotificationActivity
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:199:9-204:70
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:193:13-73
+activity#com.netease.nim.demo.contact.activity.BlackListActivity
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:199:9-204:75
 	android:screenOrientation
 		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:202:13-49
 	android:windowSoftInputMode
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:204:13-67
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:204:13-72
 	android:configChanges
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:201:13-63
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:201:13-48
 	android:theme
 		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:203:13-56
 	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:200:13-69
-activity#com.netease.nim.demo.session.activity.MessageHistoryActivity
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:205:9-210:70
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:200:13-63
+activity#com.netease.nim.demo.file.browser.FileBrowserActivity
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:207:9-213:75
 	android:screenOrientation
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:208:13-49
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:211:13-49
+	android:label
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:210:13-49
 	android:windowSoftInputMode
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:210:13-67
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:213:13-72
 	android:configChanges
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:207:13-63
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:209:13-48
 	android:theme
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:209:13-56
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:212:13-56
 	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:206:13-68
-activity#com.netease.nim.demo.session.activity.MessageInfoActivity
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:211:9-216:70
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:208:13-61
+activity#com.netease.nim.demo.main.activity.SystemMessageActivity
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:215:9-220:70
 	android:screenOrientation
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:214:13-49
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:218:13-49
 	android:windowSoftInputMode
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:216:13-67
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:220:13-67
 	android:configChanges
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:213:13-63
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:217:13-63
 	android:theme
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:215:13-56
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:219:13-56
 	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:212:13-65
-activity#com.netease.nim.demo.team.activity.AdvancedTeamSearchActivity
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:218:9-223:70
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:216:13-64
+activity#com.netease.nim.demo.main.activity.CustomNotificationActivity
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:221:9-226:70
 	android:screenOrientation
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:221:13-49
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:224:13-49
 	android:windowSoftInputMode
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:223:13-67
-	android:configChanges
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:220:13-63
-	android:theme
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:222:13-56
-	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:219:13-69
-activity#com.netease.nim.demo.team.activity.AdvancedTeamJoinActivity
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:225:9-230:70
-	android:screenOrientation
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:228:13-49
-	android:windowSoftInputMode
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:230:13-67
-	android:configChanges
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:227:13-63
-	android:theme
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:229:13-56
-	android:name
 		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:226:13-67
-activity#com.netease.nim.demo.main.activity.TeamListActivity
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:232:9-237:67
-	android:screenOrientation
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:235:13-49
-	android:windowSoftInputMode
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:237:13-64
 	android:configChanges
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:234:13-63
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:223:13-63
 	android:theme
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:236:13-56
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:225:13-56
 	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:233:13-59
-activity#com.netease.nim.demo.main.activity.GlobalSearchActivity
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:240:9-245:61
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:222:13-69
+activity#com.netease.nim.demo.session.activity.MessageHistoryActivity
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:227:9-232:70
+	android:screenOrientation
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:230:13-49
+	android:windowSoftInputMode
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:232:13-67
+	android:configChanges
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:229:13-63
+	android:theme
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:231:13-56
+	android:name
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:228:13-68
+activity#com.netease.nim.demo.session.activity.MessageInfoActivity
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:233:9-238:70
+	android:screenOrientation
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:236:13-49
+	android:windowSoftInputMode
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:238:13-67
+	android:configChanges
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:235:13-63
+	android:theme
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:237:13-56
+	android:name
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:234:13-65
+activity#com.netease.nim.demo.team.activity.AdvancedTeamSearchActivity
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:240:9-245:70
 	android:screenOrientation
 		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:243:13-49
 	android:windowSoftInputMode
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:245:13-59
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:245:13-67
 	android:configChanges
 		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:242:13-63
 	android:theme
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:244:13-52
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:244:13-56
 	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:241:13-63
-activity#com.netease.nim.demo.main.activity.GlobalSearchDetailActivity
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:247:9-251:58
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:241:13-69
+activity#com.netease.nim.demo.team.activity.AdvancedTeamJoinActivity
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:247:9-252:70
 	android:screenOrientation
 		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:250:13-49
+	android:windowSoftInputMode
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:252:13-67
 	android:configChanges
 		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:249:13-63
 	android:theme
 		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:251:13-56
 	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:248:13-69
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:248:13-67
+activity#com.netease.nim.demo.main.activity.TeamListActivity
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:254:9-259:67
+	android:screenOrientation
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:257:13-49
+	android:windowSoftInputMode
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:259:13-64
+	android:configChanges
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:256:13-63
+	android:theme
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:258:13-56
+	android:name
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:255:13-59
+activity#com.netease.nim.demo.main.activity.GlobalSearchActivity
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:262:9-267:62
+	android:screenOrientation
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:265:13-49
+	android:windowSoftInputMode
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:267:13-59
+	android:configChanges
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:264:13-63
+	android:theme
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:266:13-52
+	android:name
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:263:13-63
+activity#com.netease.nim.demo.main.activity.GlobalSearchDetailActivity
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:269:9-273:59
+	android:screenOrientation
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:272:13-49
+	android:configChanges
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:271:13-63
+	android:theme
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:273:13-56
+	android:name
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:270:13-69
 activity#com.netease.nim.demo.main.activity.GlobalSearchDetailActivity2
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:253:9-257:58
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:275:9-279:59
 	android:screenOrientation
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:256:13-49
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:278:13-49
 	android:configChanges
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:255:13-63
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:277:13-63
 	android:theme
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:257:13-56
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:279:13-56
 	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:254:13-70
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:276:13-70
 activity#com.netease.nim.demo.session.activity.WatchSnapChatPictureActivity
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:260:9-263:59
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:282:9-285:59
 	android:configChanges
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:262:13-51
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:284:13-51
 	android:theme
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:263:13-56
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:285:13-56
 	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:261:13-74
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:283:13-74
 activity#com.netease.nim.demo.location.activity.LocationAmapActivity
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:265:9-270:59
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:287:9-292:59
 	android:screenOrientation
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:269:13-49
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:291:13-49
 	android:label
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:268:13-49
-	android:configChanges
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:267:13-63
-	android:theme
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:270:13-56
-	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:266:13-67
-activity#com.netease.nim.demo.location.activity.NavigationAmapActivity
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:271:9-276:59
-	android:screenOrientation
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:275:13-49
-	android:label
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:274:13-54
-	android:configChanges
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:273:13-63
-	android:theme
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:276:13-56
-	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:272:13-69
-activity#com.netease.nim.demo.avchat.activity.AVChatActivity
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:279:9-284:63
-	android:screenOrientation
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:282:13-49
-	android:launchMode
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:281:13-48
-	android:windowSoftInputMode
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:284:13-60
-	android:theme
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:283:13-51
-	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:280:13-59
-activity#com.netease.nim.demo.rts.activity.RTSActivity
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:287:9-292:63
-	android:screenOrientation
 		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:290:13-49
+	android:configChanges
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:289:13-63
+	android:theme
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:292:13-56
+	android:name
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:288:13-67
+activity#com.netease.nim.demo.location.activity.NavigationAmapActivity
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:293:9-298:59
+	android:screenOrientation
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:297:13-49
+	android:label
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:296:13-54
+	android:configChanges
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:295:13-63
+	android:theme
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:298:13-56
+	android:name
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:294:13-69
+activity#com.netease.nim.demo.avchat.activity.AVChatActivity
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:301:9-306:63
+	android:screenOrientation
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:304:13-49
 	android:launchMode
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:289:13-48
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:303:13-48
 	android:windowSoftInputMode
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:292:13-60
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:306:13-60
 	android:theme
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:291:13-56
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:305:13-51
 	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:288:13-53
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:302:13-59
+activity#com.netease.nim.demo.rts.activity.RTSActivity
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:309:9-314:63
+	android:screenOrientation
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:312:13-49
+	android:launchMode
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:311:13-48
+	android:windowSoftInputMode
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:314:13-60
+	android:theme
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:313:13-56
+	android:name
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:310:13-53
 activity#com.netease.nim.demo.session.search.SearchMessageActivity
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:295:9-300:72
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:317:9-322:72
 	android:screenOrientation
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:298:13-49
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:320:13-49
 	android:windowSoftInputMode
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:300:13-69
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:322:13-69
 	android:configChanges
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:297:13-63
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:319:13-63
 	android:theme
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:299:13-52
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:321:13-52
 	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:296:13-65
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:318:13-65
 activity#com.netease.nim.demo.session.search.DisplayMessageActivity
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:302:9-307:70
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:324:9-329:70
 	android:screenOrientation
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:305:13-49
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:327:13-49
 	android:windowSoftInputMode
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:307:13-67
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:329:13-67
 	android:configChanges
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:304:13-63
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:326:13-63
 	android:theme
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:306:13-56
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:328:13-56
 	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:303:13-66
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:325:13-66
 activity#com.netease.nim.demo.avchat.activity.AVChatSettingsActivity
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:310:9-311:69
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:332:9-76
 	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:311:13-67
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:332:19-73
 activity#com.netease.nim.demo.login.maixinlogin.UserForgotCodeActivity
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:314:9-316:52
-	android:screenOrientation
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:316:13-49
-	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:315:13-69
-activity#com.netease.nim.demo.login.maixinlogin.UserForgotPhoneActivity
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:319:9-321:52
-	android:screenOrientation
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:321:13-49
-	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:320:13-70
-activity#com.netease.nim.demo.login.maixinreg.UserRegCodeActivity
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:324:9-326:52
-	android:screenOrientation
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:326:13-49
-	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:325:13-64
-activity#com.netease.nim.demo.login.maixinreg.UserRegPhoneActivity
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:329:9-331:52
-	android:screenOrientation
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:331:13-49
-	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:330:13-65
-activity#com.netease.nim.demo.login.maixinreg.UserRegUserNameActivity
 ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:335:9-337:52
 	android:screenOrientation
 		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:337:13-49
 	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:336:13-68
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:336:13-69
+activity#com.netease.nim.demo.login.maixinlogin.UserForgotPhoneActivity
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:340:9-342:52
+	android:screenOrientation
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:342:13-49
+	android:name
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:341:13-70
+activity#com.netease.nim.demo.login.maixinreg.UserRegCodeActivity
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:345:9-347:52
+	android:screenOrientation
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:347:13-49
+	android:name
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:346:13-64
+activity#com.netease.nim.demo.login.maixinreg.UserRegPhoneActivity
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:350:9-352:52
+	android:screenOrientation
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:352:13-49
+	android:name
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:351:13-65
+activity#com.netease.nim.demo.login.maixinreg.UserRegUserNameActivity
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:356:9-358:52
+	android:screenOrientation
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:358:13-49
+	android:name
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:357:13-68
 service#com.netease.nimlib.service.NimService
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:341:9-343:39
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:362:9-364:39
 	android:process
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:343:13-36
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:364:13-36
 	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:342:13-65
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:363:13-65
 service#com.netease.nimlib.service.NimService$Aux
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:346:9-348:39
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:367:9-369:39
 	android:process
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:348:13-36
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:369:13-36
 	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:347:13-69
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:368:13-69
 service#com.netease.nimlib.job.NIMJobService
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:351:9-355:39
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:372:9-376:39
 	android:process
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:355:13-36
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:376:13-36
 	android:exported
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:353:13-36
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:374:13-36
 	android:permission
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:354:13-69
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:375:13-69
 	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:352:13-64
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:373:13-64
 receiver#com.netease.nimlib.service.NimReceiver
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:358:9-366:20
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:379:9-387:20
 	android:process
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:361:13-36
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:382:13-36
 	android:exported
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:360:13-37
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:381:13-37
 	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:359:13-66
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:380:13-66
 intent-filter#android.intent.action.BOOT_COMPLETED+android.net.conn.CONNECTIVITY_CHANGE
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:362:13-365:29
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:383:13-386:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:363:17-79
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:384:17-79
 	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:363:25-76
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:384:25-76
 action#android.net.conn.CONNECTIVITY_CHANGE
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:364:17-79
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:385:17-79
 	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:364:25-76
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:385:25-76
 receiver#com.netease.nimlib.service.ResponseReceiver
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:369:9-80
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:390:9-80
 	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:369:19-77
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:390:19-77
 receiver#com.netease.nim.demo.receiver.CustomNotificationReceiver
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:373:9-380:20
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:394:9-401:20
 	android:enabled
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:375:13-35
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:396:13-35
 	android:exported
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:376:13-37
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:397:13-37
 	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:374:13-64
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:395:13-64
 intent-filter#com.netease.nim.demo.ACTION.RECEIVE_CUSTOM_NOTIFICATION
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:377:13-379:29
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:398:13-400:29
 action#com.netease.nim.demo.ACTION.RECEIVE_CUSTOM_NOTIFICATION
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:378:17-98
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:399:17-98
 	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:378:25-95
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:399:25-95
 receiver#com.netease.nimlib.receiver.RTSBroadcastReceiver
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:383:9-390:20
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:404:9-411:20
 	android:enabled
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:385:13-35
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:406:13-35
 	android:exported
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:386:13-37
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:407:13-37
 	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:384:13-76
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:405:13-76
 intent-filter#com.netease.nim.demo.ACTION.RECEIVE_RTS_NOTIFICATION
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:387:13-389:29
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:408:13-410:29
 action#com.netease.nim.demo.ACTION.RECEIVE_RTS_NOTIFICATION
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:388:17-95
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:409:17-95
 	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:388:25-92
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:409:25-92
 receiver#com.netease.nimlib.receiver.IncomingCallReceiver
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:393:9-397:20
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:414:9-418:20
 	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:393:19-82
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:414:19-82
 intent-filter#android.intent.action.PHONE_STATE
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:394:13-396:29
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:415:13-417:29
 action#android.intent.action.PHONE_STATE
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:395:17-76
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:416:17-76
 	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:395:25-73
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:416:25-73
 service#com.netease.cosine.core.CosineService
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:400:9-402:49
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:421:9-423:49
 	android:process
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:402:13-38
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:423:13-38
 	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:401:13-65
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:422:13-65
 receiver#com.netease.cosine.target.CosineReceiver
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:404:9-407:50
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:425:9-428:50
 	android:process
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:407:13-38
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:428:13-38
 	android:exported
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:406:13-36
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:427:13-36
 	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:405:13-68
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:426:13-68
 meta-data#com.netease.cosine.target
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:410:9-412:32
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:431:9-433:32
 	android:value
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:412:13-29
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:433:13-29
 	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:411:13-53
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:432:13-53
 meta-data#com.netease.cosine.target.receiver
-ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:413:9-415:70
+ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:434:9-436:70
 	android:value
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:415:13-67
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:436:13-67
 	android:name
-		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:414:13-62
+		ADDED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml:435:13-62
 uses-sdk
 INJECTED from D:\AndroidStudioProjects\maikeding\demo\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [maikeding:uikit:unspecified] D:\AndroidStudioProjects\maikeding\demo\build\intermediates\exploded-aar\maikeding\uikit\unspecified\AndroidManifest.xml:5:5-7:41

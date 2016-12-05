@@ -7,6 +7,9 @@
 -keep class com.netease.nim.demo.main.activity.MainActivity { <init>(); }
 -keep class com.netease.nim.demo.main.activity.MultiportActivity { <init>(); }
 -keep class com.netease.nim.demo.login.LoginActivity { <init>(); }
+-keep class com.netease.nim.demo.demand.activity.DemandDetailActivity { <init>(); }
+-keep class com.netease.nim.demo.demand.activity.DemandScheduleActivity { <init>(); }
+-keep class com.netease.nim.demo.demand.activity.DemandPayActivity { <init>(); }
 -keep class com.netease.nim.demo.main.activity.AboutActivity { <init>(); }
 -keep class com.netease.nim.demo.main.activity.SettingsActivity { <init>(); }
 -keep class com.netease.nim.demo.main.activity.NoDisturbActivity { <init>(); }

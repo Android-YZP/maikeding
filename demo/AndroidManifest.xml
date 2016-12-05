@@ -123,6 +123,28 @@
             android:theme="@style/LoginTheme"
             android:windowSoftInputMode="adjustResize|stateHidden" />
 
+        <!-- 需求 -->
+        <activity
+            android:name=".demand.activity.DemandDetailActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+
+        <activity
+            android:name=".demand.activity.DemandScheduleActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+
+        <activity
+            android:name=".demand.activity.DemandPayActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+
         <!-- 关于 -->
         <activity
             android:name=".main.activity.AboutActivity"
@@ -242,19 +264,19 @@
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
             android:theme="@style/global_search_bg"
-            android:windowSoftInputMode="stateUnspecified"/>
+            android:windowSoftInputMode="stateUnspecified" />
 
         <activity
             android:name=".main.activity.GlobalSearchDetailActivity"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <activity
             android:name=".main.activity.GlobalSearchDetailActivity2"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <!-- 查看阅后即焚 -->
         <activity
@@ -307,8 +329,7 @@
             android:windowSoftInputMode="stateHidden|adjustResize" />
 
         <!-- NRTC Settings -->
-        <activity
-            android:name=".avchat.activity.AVChatSettingsActivity"/>
+        <activity android:name=".avchat.activity.AVChatSettingsActivity" />
         <!--==========================================================================================-->
         <!-- NRTC Settings -->
         <activity

@@ -17,6 +17,7 @@ import android.widget.Toast;
 import com.netease.nim.demo.DemoCache;
 import com.netease.nim.demo.R;
 import com.netease.nim.demo.contact.constant.UserConstant;
+import com.netease.nim.demo.demand.activity.DemandDetailActivity;
 import com.netease.nim.demo.main.model.Extras;
 import com.netease.nim.demo.session.SessionHelper;
 import com.netease.nim.uikit.cache.FriendDataCache;
@@ -185,6 +186,14 @@ public class UserProfileActivity extends UI {
         ((TextView) signatureLayout.findViewById(R.id.attribute)).setText(R.string.signature);
         ((TextView) aliasLayout.findViewById(R.id.attribute)).setText(R.string.alias);
 
+        headImageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(UserProfileActivity.this, DemandDetailActivity.class);
+                intent.putExtra("demandId", 380);
+                startActivity(intent);
+            }
+        });
         addFriendBtn.setOnClickListener(onClickListener);
         chatBtn.setOnClickListener(onClickListener);
         removeFriendBtn.setOnClickListener(onClickListener);

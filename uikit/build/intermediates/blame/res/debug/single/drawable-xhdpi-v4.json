@@ -20,12 +20,12 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\nim_audio_animation_list_left_2.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-xhdpi\\nim_audio_animation_list_left_2.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
@@ -44,12 +44,12 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-xhdpi\\nim_message_input_keyboard.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\nim_message_input_keyboard_pressed.png",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-xhdpi\\nim_message_input_keyboard_pressed.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\nim_audio_animation_list_left_3.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-xhdpi\\nim_audio_animation_list_left_3.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\nim_message_input_keyboard_pressed.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-xhdpi\\nim_message_input_keyboard_pressed.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
@@ -156,6 +156,10 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_android_xxhdpi.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-xhdpi\\logo_android_xxhdpi.png"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\nim_team_owner_icon.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-xhdpi\\nim_team_owner_icon.png"
     },
@@ -176,12 +180,12 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\nim_message_input_emotion.png",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-xhdpi\\nim_message_input_emotion.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\nim_message_input_emotion.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-xhdpi\\nim_message_input_emotion.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\nim_message_input_plus.png",
@@ -240,12 +244,12 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-xhdpi\\nim_audio_animation_list_right_3.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
@@ -256,12 +260,12 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-xhdpi\\nim_cameras_hover.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\nim_video_play_icon_pressed.png",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-xhdpi\\nim_video_play_icon_pressed.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\nav_search_btn.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-xhdpi\\nav_search_btn.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\nim_video_play_icon_pressed.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-xhdpi\\nim_video_play_icon_pressed.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\nim_picker_orignal_checked.png",

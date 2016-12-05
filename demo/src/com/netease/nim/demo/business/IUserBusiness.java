@@ -37,6 +37,8 @@ public interface IUserBusiness {
 	 */
 	public abstract String getMobilemsgRegister(String phone) throws Exception;
 
+	String getDemandDetail(int demandId) throws Exception;
+
 	/**
 	 * 获取手机短信验证码验证信息
 	 * @param phone 手机号
