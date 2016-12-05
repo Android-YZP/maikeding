@@ -177,7 +177,6 @@ public class SessionHelper {
 //            buttons.add(infoButton);
             p2pCustomization.buttons = buttons;
         }
-
         return p2pCustomization;
     }
 
@@ -399,7 +398,6 @@ public class SessionHelper {
                     EasyAlertDialogHelper.createOkCancelDiolag(item.getContext(), null, "确定要清空吗？", true, new EasyAlertDialogHelper.OnDialogActionListener() {
                         @Override
                         public void doCancelAction() {
-
                         }
 
                         @Override

@@ -55,7 +55,6 @@ public class UserForgotPhoneActivity extends AppCompatActivity {
         mIvBack = (ImageView) findViewById(R.id.iv_common_topbar_back);
         mTvTitle = (TextView) findViewById(R.id.tv_common_topbar_title);
         mBtnCommitPhone = (Button) findViewById(R.id.btn_user_forgot_getcode_phone_commit);
-
         mEtPhone = (EditText) findViewById(R.id.et_user_forgot_phone);
     }
 
