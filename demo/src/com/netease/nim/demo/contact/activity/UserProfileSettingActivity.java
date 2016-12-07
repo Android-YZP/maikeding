@@ -13,6 +13,7 @@ import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
 import com.netease.nim.demo.R;
 import com.netease.nim.demo.config.CommonConstants;
 import com.netease.nim.demo.contact.constant.UserConstant;
@@ -40,7 +41,9 @@ import com.netease.nimlib.sdk.nos.NosService;
 import com.netease.nimlib.sdk.uinfo.constant.GenderEnum;
 import com.netease.nimlib.sdk.uinfo.constant.UserInfoFieldEnum;
 import com.netease.nimlib.sdk.uinfo.model.NimUserInfo;
+
 import org.json.JSONObject;
+
 import java.io.File;
 
 /**
@@ -91,9 +94,8 @@ public class UserProfileSettingActivity extends UI implements View.OnClickListen
         mUser = CommonUtil.getUserInfo(this);
 
         ToolBarOptions options = new ToolBarOptions();
-        options.titleId = R.string.user_information;
+        options.titleString = "";
         setToolBar(R.id.toolbar, options);
-
         account = getIntent().getStringExtra(Extras.EXTRA_ACCOUNT);
         findViews();
     }
@@ -162,7 +164,7 @@ public class UserProfileSettingActivity extends UI implements View.OnClickListen
     }
 
     private void updateUI() {
-        userHead.loadBuddyAvatar(account);
+          userHead.loadBuddyAvatar(account);
         if (userInfo != null && userInfo.getName() != null) {
             nickText.setText(userInfo.getName());
         } else {
@@ -369,7 +371,6 @@ public class UserProfileSettingActivity extends UI implements View.OnClickListen
                     break;
                 case CommonConstants.FLAG_SET_TARGET_SUCCESS:
                     //   setTargetCompleted();//操作完成
-
                     Toast.makeText(UserProfileSettingActivity.this, "同步完成", Toast.LENGTH_SHORT).show();
                     break;
                 default:

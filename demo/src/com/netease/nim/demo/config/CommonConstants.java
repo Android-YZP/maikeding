@@ -101,7 +101,7 @@ public class CommonConstants {
     //注册
     public static final String USER_REGISTER = NOW_ADDRESS + "user/register.json";
     //登录
-    public static final String USER_LOGIN = "http://192.168.3.205:8080/external/user/login.json";
+    public static final String USER_LOGIN = "http://192.168.3.132:8080/external/user/login.json";
     //忘记密码第一步
     public static final String USER_FORGOT_PASSWORD_ONE = NOW_ADDRESS + "user/forgot_password_one.json";
     //忘记密码第二步
