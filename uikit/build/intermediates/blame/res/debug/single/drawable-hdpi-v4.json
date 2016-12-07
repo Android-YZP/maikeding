@@ -12,12 +12,12 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\nim_scrollbar_handle_holo_dark.9.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-hdpi-v4\\abc_ic_search_api_mtrl_alpha.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_emoji_icon_inactive.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\nim_emoji_icon_inactive.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-hdpi-v4\\abc_ic_search_api_mtrl_alpha.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
@@ -140,10 +140,6 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\nim_message_plus_video_pressed.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_message_right_blue_bg.9.png",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\nim_message_right_blue_bg.9.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_popup_menu_bg.9.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\nim_popup_menu_bg.9.png"
     },
@@ -234,10 +230,6 @@
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_contact_checkbox_checked_red.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\nim_contact_checkbox_checked_red.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_message_right_blue_bg_pressed.9.png",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\nim_message_right_blue_bg_pressed.9.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_grey_delete_icon.png",
@@ -500,16 +492,16 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\nim_message_plus_photo_pressed.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-hdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_image_default.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\nim_image_default.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_default_img.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\nim_default_img.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_image_default.png",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\nim_image_default.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-hdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_moon_page_selected.png",
@@ -536,6 +528,10 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\nim_message_plus_photo_normal.png"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logo_android_xhdpi.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\logo_android_xhdpi.png"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_messages_list_empty_bg.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\nim_messages_list_empty_bg.png"
     },
@@ -556,12 +552,12 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\nim_watch_video_download_progress_background.9.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\explosion_four.png",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\explosion_four.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_contact_letter_view_hit_point.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\nim_contact_letter_view_hit_point.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\explosion_four.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\explosion_four.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_focused_holo.9.png",

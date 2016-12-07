@@ -87,6 +87,11 @@
     <string name="message_clear">清空本地消息记录</string>
     <string name="message_info">聊天信息</string>
 
+    <!-- 需求 -->
+    <string name="demand_detail">需求详情</string>
+    <string name="demand_schedule">需求进度</string>
+    <string name="demand_pay">付款信息</string>
+
     <!-- 通讯录 -->
     <string name="add_friend">加为好友</string>
     <string name="remove_friend">删除好友</string>

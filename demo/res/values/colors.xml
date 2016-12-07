@@ -4,6 +4,7 @@
     <color name="transparent">#00000000</color>
     <color name="main_tabbar_border_color2">#d2d2d2</color>
     <color name="white">#FFFFFF</color>
+    <color name="gray">#F1F1F1</color>
     <color name="theme">#d82058</color>
     <color name="black">#000000</color>
     <color name="grey">#333333</color>
@@ -54,6 +55,15 @@
     <color name="input_panel_text_color_757572">#757572</color>
     <color name="color_gray_cbd0d8">#cbd0d8</color>
     <color name="help_color">#ff999999</color>
+
+    <!-- demand -->
+    <color name="demand_default_text_color">#313131</color>
+    <color name="demand_price_text_color">#ef2121</color>
+    <color name="demand_number_color">#7d7d7d</color>
+    <color name="demand_schedule_line_color">#d2d2d2</color>
+    <color name="demand_pay_info_line_color1">#f39800</color>
+    <color name="demand_pay_info_line_color2">#336ee6</color>
+    <color name="demand_pay_info_line_color3">#aa63cd</color>
 
     <!-- image picker -->
     <color name="color_split_line_d9d9d9">#d9d9d9</color>

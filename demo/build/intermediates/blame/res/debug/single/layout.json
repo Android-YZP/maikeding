@@ -164,12 +164,12 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\layout\\main_tab_fragment_container.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_team_member_item.xml",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\maikeding\\uikit\\unspecified\\res\\layout\\nim_team_member_item.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\user_profile_gender_layout.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\layout\\user_profile_gender_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_team_member_item.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\maikeding\\uikit\\unspecified\\res\\layout\\nim_team_member_item.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\map_view_google_layout.xml",
@@ -238,6 +238,10 @@
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_advanced_team_join_activity.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\layout\\nim_advanced_team_join_activity.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\demand_detail_activity.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\layout\\demand_detail_activity.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_contacts_select.xml",
@@ -536,12 +540,12 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\notification_template_lines.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\rts_activity.xml",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\layout\\rts_activity.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_new_message_tip_layout.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\maikeding\\uikit\\unspecified\\res\\layout\\nim_new_message_tip_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\rts_activity.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\layout\\rts_activity.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
@@ -574,6 +578,10 @@
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\demand_pay_activity.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\layout\\demand_pay_activity.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_vertical.xml",
@@ -632,6 +640,10 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\maikeding\\uikit\\unspecified\\res\\layout\\nim_team_info_divider_item.xml"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\demand_schedule_activity.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\layout\\demand_schedule_activity.xml"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\message_search_list_view_item.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\layout\\message_search_list_view_item.xml"
     },
@@ -678,6 +690,10 @@
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\about_layout.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\layout\\about_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_demand_pay_info.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\layout\\list_item_demand_pay_info.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_preview_image_layout_zoom_control.xml",
@@ -764,6 +780,10 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\maikeding\\uikit\\unspecified\\res\\layout\\image_layout_multi_touch.xml"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\setting_list.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\layout\\setting_list.xml"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_easy_alert_dialog_title.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\maikeding\\uikit\\unspecified\\res\\layout\\nim_easy_alert_dialog_title.xml"
     },
@@ -802,6 +822,10 @@
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\no_disturb_footer.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\layout\\no_disturb_footer.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\settings_fragment.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\maikeding\\uikit\\unspecified\\res\\layout\\settings_fragment.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_watch_picture_activity.xml",

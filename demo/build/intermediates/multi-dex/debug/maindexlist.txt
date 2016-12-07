@@ -57,6 +57,7 @@ com/netease/nim/uikit/session/activity/WatchMessagePictureActivity$1.class
 org/xutils/view/annotation/Event.class
 com/netease/nim/demo/login/maixinreg/UserRegCodeActivity$4.class
 com/netease/nim/demo/avchat/activity/AVChatActivity$3.class
+com/netease/nim/demo/contact/activity/UserProfileActivity$7$3.class
 com/netease/nim/uikit/common/media/picker/model/PickerContract.class
 com/netease/nimlib/b/d/e/c.class
 org/xutils/http/cookie/CookieEntity.class
@@ -117,6 +118,7 @@ com/netease/nim/uikit/session/activity/WatchMessagePictureActivity.class
 com/netease/nimlib/rts/a/b/c/a/f.class
 android/support/v4/view/accessibility/AccessibilityNodeProviderCompat.class
 android/support/v7/appcompat/R.class
+com/netease/nim/demo/demand/activity/DemandPayActivity.class
 com/netease/nim/uikit/common/util/file/FileUtil.class
 com/netease/nim/uikit/common/ui/liv/LetterIndexView.class
 com/netease/nimlib/sdk/msg/constant/MsgTypeEnum.class
@@ -147,6 +149,7 @@ android/support/design/widget/SnackbarManager.class
 com/netease/nim/uikit/session/activity/CaptureVideoActivity$5.class
 android/support/v4/media/MediaMetadataCompat$TextKey.class
 com/netease/nim/uikit/team/activity/AdvancedTeamCreateAnnounceActivity.class
+com/netease/nim/demo/demand/activity/DemandScheduleActivity.class
 android/support/v4/media/VolumeProviderCompatApi21$Delegate.class
 com/netease/nim/demo/contact/activity/UserProfileSettingActivity$2.class
 com/netease/nimlib/chatroom/d/s.class
@@ -237,6 +240,7 @@ com/netease/nim/uikit/session/activity/WatchVideoActivity$4.class
 com/netease/nim/uikit/session/activity/WatchMessagePictureActivity$6.class
 android/support/v4/media/session/MediaSessionCompat$Callback.class
 android/support/design/widget/TabLayout$SlidingTabStrip.class
+com/netease/nim/demo/contact/activity/UserProfileSettingActivity$6.class
 com/netease/nimlib/service/NimService$Aux.class
 com/netease/nim/uikit/common/media/picker/activity/PreviewImageFromLocalActivity$1.class
 android/support/annotation/ColorRes.class
@@ -291,6 +295,7 @@ android/support/v4/media/RatingCompatApi21.class
 com/netease/nim/uikit/session/activity/WatchMessagePictureActivity$5.class
 com/netease/nim/uikit/cache/TeamDataCache$TeamDataChangedObserver.class
 com/netease/nim/uikit/team/activity/AdvancedTeamCreateAnnounceActivity$3.class
+com/netease/nim/demo/demand/activity/DemandDetailActivity$MyHandler.class
 android/support/v4/util/MapCollections.class
 com/netease/nimlib/sdk/uinfo/constant/GenderEnum.class
 com/netease/nim/demo/avchat/AVChatUI.class
@@ -299,6 +304,7 @@ com/netease/nim/demo/contact/activity/UserProfileActivity$7.class
 android/support/v4/view/ViewCompat$GBViewCompatImpl.class
 com/netease/nim/demo/session/search/SearchMessageAdapter.class
 android/support/design/widget/TabItem.class
+com/netease/nim/demo/demand/util/DBHelper.class
 android/support/design/widget/BottomSheetBehavior$SettleRunnable.class
 com/netease/nimlib/g/g.class
 com/netease/nim/uikit/contact_selector/activity/ContactSelectActivity$ContactSelectType.class
@@ -308,6 +314,7 @@ android/support/annotation/StringDef.class
 com/netease/nim/uikit/team/activity/AdvancedTeamAnnounceActivity$4.class
 com/netease/nim/uikit/contact/core/viewholder/MsgHolder.class
 android/support/v4/media/session/MediaSessionCompat.class
+com/netease/nim/demo/demand/activity/DemandDetailActivity.class
 android/support/v4/app/FragmentController.class
 com/netease/nim/demo/common/infra/ManagedTask.class
 android/support/v4/media/MediaBrowserCompat$MediaItem$1.class
@@ -421,6 +428,7 @@ android/support/v4/view/ViewCompatBase.class
 android/support/design/widget/ThemeUtils.class
 android/support/v7/appcompat/R$attr.class
 com/netease/nim/uikit/contact_selector/activity/ContactSelectActivity.class
+com/netease/nim/demo/contact/activity/UserProfileActivity$7$2.class
 android/support/v4/view/accessibility/AccessibilityEventCompat.class
 android/support/v4/app/NoSaveStateFrameLayout.class
 com/netease/nim/uikit/R$string.class
@@ -430,6 +438,7 @@ android/support/v4/view/ViewCompatJB.class
 com/netease/nim/demo/rts/doodle/DoodleView$Mode.class
 android/support/design/widget/TabLayout$ViewPagerOnTabSelectedListener.class
 com/amap/api/maps2d/AMap$OnMarkerClickListener.class
+org/xutils/db/Selector.class
 com/netease/nim/demo/contact/activity/AddFriendActivity.class
 com/alibaba/fastjson/JSONAware.class
 org/apache/lucene/search/MultiTermQuery.class
@@ -443,6 +452,7 @@ com/netease/nim/demo/team/activity/AdvancedTeamSearchActivity$2.class
 com/netease/nim/demo/login/maixinlogin/UserForgotCodeActivity.class
 com/netease/nim/demo/main/activity/CustomNotificationActivity$2.class
 android/support/v4/app/BaseFragmentActivityHoneycomb.class
+com/netease/nim/demo/contact/activity/UserProfileActivity$13.class
 android/support/v4/app/ActivityCompatApi23$RequestPermissionsRequestCodeValidator.class
 com/netease/nimlib/sdk/NimStrings.class
 com/netease/nim/demo/rts/activity/RTSActivity$7.class
@@ -482,7 +492,7 @@ android/support/v7/app/AppCompatActivity.class
 android/support/annotation/IntDef.class
 com/netease/nim/uikit/team/activity/TeamPropertySettingActivity$5.class
 com/netease/nim/demo/main/activity/MainActivity$1.class
-com/netease/nim/demo/file/browser/FileBrowserAdapter$FileManagerItem.class
+com/netease/nim/demo/contact/activity/UserProfileActivity$7$1.class
 com/netease/nim/demo/rts/activity/RTSActivity.class
 com/netease/nim/uikit/common/media/picker/activity/PreviewImageFromLocalActivity$8.class
 com/netease/nim/uikit/team/activity/TeamPropertySettingActivity$3.class
@@ -515,6 +525,7 @@ com/netease/nim/uikit/common/util/sys/ReflectionUtil.class
 com/netease/nim/demo/common/infra/TaskWorker.class
 com/netease/nimlib/i/a.class
 android/support/v4/view/ViewConfigurationCompat.class
+com/netease/nim/demo/demand/bean/DemandPayInfo.class
 com/netease/nim/uikit/common/adapter/TViewHolder.class
 com/netease/nimlib/sdk/friend/FriendService.class
 android/support/design/widget/CoordinatorLayout$ViewElevationComparator.class
@@ -642,6 +653,7 @@ android/support/design/R$layout.class
 com/netease/nim/uikit/common/util/media/BitmapDecoder.class
 com/netease/nimlib/sdk/rts/model/RTSCommonEvent.class
 android/support/v4/view/NestedScrollingParent.class
+org/xutils/ex/DbException.class
 com/netease/nim/demo/session/extension/RTSAttachment.class
 android/support/v4/util/DebugUtils.class
 com/netease/nim/demo/location/helper/NimGeocoder$1.class
@@ -704,7 +716,6 @@ com/netease/nim/uikit/uinfo/UserInfoHelper.class
 com/netease/nim/uikit/contact/ContactProvider.class
 com/netease/nim/uikit/common/ui/imageview/ImageGestureListener.class
 org/apache/lucene/index/SegmentCommitInfo.class
-com/netease/nim/demo/file/browser/FileBrowserViewHolder.class
 android/support/design/widget/TabLayout$TabLayoutOnPageChangeListener.class
 com/amap/api/location/AMapLocation.class
 com/netease/nim/demo/business/imp/UserBusinessImp.class
@@ -793,7 +804,6 @@ com/netease/nimlib/m/a/c/a.class
 com/netease/nimlib/b/d/g/i.class
 android/support/v4/media/session/PlaybackStateCompat$State.class
 com/netease/nimlib/chatroom/d/f.class
-com/netease/nim/demo/file/browser/FileBrowserActivity$1.class
 com/netease/nimlib/sdk/rts/model/RTSData.class
 com/netease/nim/uikit/team/activity/AdvancedTeamMemberInfoActivity$2.class
 com/netease/nim/uikit/team/activity/NormalTeamInfoActivity$9.class
@@ -881,6 +891,7 @@ com/netease/nim/demo/main/activity/TeamListActivity.class
 com/netease/nim/uikit/contact_selector/adapter/ContactSelectAvatarAdapter.class
 com/netease/nim/uikit/session/activity/P2PMessageActivity$2.class
 com/netease/nim/uikit/common/ui/widget/ClearableEditTextWithIcon.class
+com/netease/nim/demo/demand/activity/DemandDetailActivity$DemandDetailOnClickListener.class
 com/netease/nim/demo/main/viewholder/CustomNotificationViewHolder.class
 android/support/v7/graphics/drawable/DrawerArrowDrawable$ArrowDirection.class
 com/netease/nim/demo/login/maixinlogin/UserForgotCodeActivity$2.class
@@ -893,6 +904,7 @@ com/netease/nimlib/sdk/avchat/model/AVChatControlEvent.class
 com/amap/api/maps2d/AMap$OnInfoWindowClickListener.class
 android/support/v7/widget/RecyclerView$3.class
 android/support/design/widget/SwipeDismissBehavior.class
+com/netease/nim/demo/contact/activity/UserProfileSettingActivity$5.class
 com/netease/nim/demo/main/activity/TeamListActivity$3.class
 com/netease/nimlib/sdk/msg/model/CustomNotification.class
 com/netease/nimlib/b/d/f/m.class
@@ -942,7 +954,6 @@ com/netease/nim/demo/common/util/crash/AppCrashHandler.class
 android/support/v7/widget/RecyclerView$SimpleOnItemTouchListener.class
 android/support/v4/media/MediaDescriptionCompat.class
 android/support/v4/media/session/MediaSessionCompat$QueueItem.class
-com/netease/nim/demo/file/browser/FileBrowserAdapter.class
 android/support/v4/view/MenuItemCompat$OnActionExpandListener.class
 android/support/design/widget/Snackbar$1.class
 com/netease/nimlib/b/d/f/k.class
@@ -1151,6 +1162,7 @@ com/netease/nimlib/sdk/msg/constant/SystemMessageType.class
 android/support/v4/widget/EdgeEffectCompat.class
 com/netease/nim/uikit/team/activity/AdvancedTeamInfoActivity$33.class
 com/netease/nimlib/sdk/uinfo/UserInfoProvider$UserInfo.class
+com/netease/nim/demo/demand/bean/Demand.class
 com/netease/nim/demo/avchat/constant/CallStateEnum.class
 com/netease/nim/demo/avchat/activity/AVChatActivity$7.class
 android/support/v4/media/MediaBrowserCompat$1.class
@@ -1172,7 +1184,6 @@ android/support/design/widget/TabLayout$TabView.class
 com/netease/nim/uikit/common/ui/widget/SwitchButton.class
 com/netease/nim/demo/rts/doodle/SupportActionType.class
 com/netease/nim/demo/contact/activity/BlackListActivity$4.class
-com/netease/nim/demo/contact/activity/UserProfileActivity$6$3.class
 com/netease/nim/uikit/contact_selector/activity/ContactSelectActivity$2.class
 com/netease/nim/uikit/common/adapter/TAdapterDelegate.class
 com/netease/nimlib/sdk/StatusBarNotificationConfig.class
@@ -1213,6 +1224,7 @@ com/netease/nim/demo/avchat/activity/AVChatActivity$5.class
 com/amap/api/maps2d/AMap$OnCameraChangeListener.class
 com/netease/nimlib/chatroom/d/h.class
 android/support/v4/app/BaseFragmentActivityDonut.class
+com/netease/nim/demo/demand/activity/DemandDetailActivity$1.class
 org/apache/lucene/index/f.class
 com/netease/cosine/core/Packages.class
 android/support/design/widget/TabLayout$PagerAdapterObserver.class
@@ -1234,6 +1246,7 @@ com/netease/nim/uikit/common/ui/imageview/BaseZoomableImageView.class
 com/netease/nim/uikit/team/activity/AdvancedTeamAnnounceActivity.class
 com/netease/nim/uikit/common/util/sys/NetworkUtil.class
 android/support/annotation/AttrRes.class
+org/xutils/DbManager.class
 com/netease/nim/uikit/common/media/picker/fragment/PickerAlbumFragment$OnAlbumItemClickListener.class
 com/netease/nim/uikit/team/adapter/TeamMemberAdapter$TeamMemberItemTag.class
 com/netease/nim/uikit/team/activity/AdvancedTeamInfoActivity$13.class
@@ -1289,15 +1302,16 @@ android/support/v4/media/session/PlaybackStateCompatApi22.class
 android/support/v4/content/ContextCompat.class
 android/support/v7/widget/RecyclerView$Adapter.class
 com/netease/nim/demo/session/activity/MessageInfoActivity$3.class
+org/xutils/ex/BaseException.class
 com/netease/nim/uikit/NimUIKit.class
 android/support/design/widget/AppBarLayout$Behavior$SavedState.class
+com/netease/nim/demo/demand/adapter/DemandPayInfoListAdapter.class
 com/amap/api/location/AMapLocationListener.class
 com/netease/nim/uikit/team/activity/AdvancedTeamInfoActivity$14.class
 android/support/v4/os/ResultReceiver.class
 android/support/annotation/UiThread.class
 com/netease/nim/demo/session/activity/MessageInfoActivity$3$1.class
 com/netease/nim/uikit/common/media/picker/fragment/PickerImageFragment.class
-com/netease/nim/demo/contact/activity/UserProfileActivity$6$1.class
 com/netease/nim/demo/main/activity/SystemMessageActivity$3.class
 com/netease/nim/demo/main/activity/GlobalSearchActivity.class
 com/netease/nim/demo/R.class
@@ -1321,7 +1335,6 @@ android/support/design/widget/ViewGroupUtils.class
 com/amap/api/maps2d/model/LatLngBounds$Builder.class
 com/netease/nim/uikit/team/activity/AdvancedTeamMemberInfoActivity$9.class
 com/netease/nim/demo/main/activity/SystemMessageActivity$2.class
-com/netease/nim/demo/contact/activity/UserProfileActivity$6$2.class
 com/netease/nimlib/sdk/nos/NosService.class
 android/support/v4/media/MediaBrowserCompat$ItemReceiver.class
 android/support/v4/view/MotionEventCompat.class

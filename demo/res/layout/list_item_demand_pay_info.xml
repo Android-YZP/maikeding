@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gray"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/line_list_item_demand_pay_info"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:background="@color/demand_pay_info_line_color1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tv_list_item_demand_pay_info_name"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="进度款"
+                android:textColor="@color/demand_default_text_color"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_list_item_demand_pay_info_require"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="交付要求： 无交付物"
+                android:textColor="@color/demand_number_color"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_list_item_demand_pay_info_scale"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="付款比例： 5%"
+                android:textColor="@color/demand_number_color"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_list_item_demand_pay_info_money"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="付款金额： 25元"
+                android:textColor="@color/demand_number_color"
+                android:textSize="14dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

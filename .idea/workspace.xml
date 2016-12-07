@@ -6,83 +6,425 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="zzz" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a0fc040-050f-41d5-bde6-b021533c33dc" name="Default" comment="">
+    <list default="true" id="d52083d5-9800-4656-93a8-bbfd67f3c3f6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/res/drawable-hdpi/nav_back.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/res/drawable-xhdpi/apostrophe.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/res/drawable-xhdpi/certification_grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/res/drawable-xhdpi/certification_nor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/res/drawable-xhdpi/field_testing_grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/res/drawable-xhdpi/field_testing_nor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/res/drawable-xhdpi/finish.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/res/drawable-xhdpi/maikejia_attestation_grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/res/drawable-xhdpi/maikejia_attestation_nor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/res/drawable-xhdpi/performance_bond_grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/res/drawable-xhdpi/performance_bond_nor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/res/drawable-xhdpi/unfinish.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/res/drawable-xxhdpi/apostrophe.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/res/drawable-xxhdpi/certification_grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/res/drawable-xxhdpi/certification_nor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/res/drawable-xxhdpi/field_testing_grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/res/drawable-xxhdpi/field_testing_nor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/res/drawable-xxhdpi/finish.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/res/drawable-xxhdpi/maikejia_attestation_grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/res/drawable-xxhdpi/maikejia_attestation_nor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/res/drawable-xxhdpi/performance_bond_grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/res/drawable-xxhdpi/performance_bond_nor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/res/drawable-xxhdpi/unfinish.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/res/layout/demand_detail_activity.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/res/layout/demand_pay_activity.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/res/layout/demand_schedule_activity.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/res/layout/list_item_demand_pay_info.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/demand/activity/DemandDetailActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/demand/activity/DemandPayActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/demand/activity/DemandScheduleActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/demand/adapter/DemandPayInfoListAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/demand/bean/Demand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/demand/bean/DemandPayInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/demand/util/DBHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/demand/util/JsonUtils.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/maikeding.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileActivity$12$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileActivity$6$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileActivity$6$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileActivity$6$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/file/browser/FileBrowserActivity$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/res/drawable-xxhdpi/nav_back.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_demo_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_demo_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_demo_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_demo_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_demo_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_demo_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_demo_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_demo_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_uikit_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_uikit_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_uikit_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_uikit_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_uikit_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_uikit_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_uikit_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_uikit_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/design/R$color.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/design/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/design/R$drawable.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/design/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/design/R$id.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/design/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/design/R$layout.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/design/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/v7/appcompat/R$color.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/v7/appcompat/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/BuildConfig.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/BuildConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/NimApplication$5.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/NimApplication$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/NimApplication.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/NimApplication.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$color.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$dimen.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$dimen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$drawable.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$id.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$integer.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$layout.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$menu.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$raw.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$raw.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$string.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$style.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$style.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$styleable.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$styleable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$xml.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/R$xml.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/avchat/AVChatAudio.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/avchat/AVChatAudio.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/avchat/AVChatNotification.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/avchat/AVChatNotification.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/avchat/AVChatUI$8.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/avchat/AVChatUI$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/avchat/AVChatUI.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/avchat/AVChatUI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/avchat/AVChatVideo.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/avchat/AVChatVideo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/avchat/activity/AVChatActivity.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/avchat/activity/AVChatActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/avchat/activity/AVChatSettingsActivity.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/avchat/activity/AVChatSettingsActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/avchat/activity/AVChatSettingsFragment.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/avchat/activity/AVChatSettingsFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/common/imageView/GroupHeadImageView.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/common/imageView/GroupHeadImageView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/common/ui/viewpager/PagerSlidingTabStrip$1.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/common/ui/viewpager/PagerSlidingTabStrip$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/common/ui/viewpager/PagerSlidingTabStrip$2.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/common/ui/viewpager/PagerSlidingTabStrip$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/common/ui/viewpager/PagerSlidingTabStrip$3.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/common/ui/viewpager/PagerSlidingTabStrip$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/common/ui/viewpager/PagerSlidingTabStrip$4.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/common/ui/viewpager/PagerSlidingTabStrip$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/common/ui/viewpager/PagerSlidingTabStrip$5.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/common/ui/viewpager/PagerSlidingTabStrip$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/common/ui/viewpager/PagerSlidingTabStrip$OnCustomTabListener.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/common/ui/viewpager/PagerSlidingTabStrip$OnCustomTabListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/common/ui/viewpager/PagerSlidingTabStrip$SavedState$1.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/common/ui/viewpager/PagerSlidingTabStrip$SavedState$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/common/ui/viewpager/PagerSlidingTabStrip$SavedState.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/common/ui/viewpager/PagerSlidingTabStrip$SavedState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/common/ui/viewpager/PagerSlidingTabStrip.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/common/ui/viewpager/PagerSlidingTabStrip.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/AddFriendActivity$1.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/AddFriendActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/AddFriendActivity$2.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/AddFriendActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/AddFriendActivity.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/AddFriendActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/BlackListActivity.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/BlackListActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileActivity$1.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileActivity$10.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileActivity$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileActivity$11.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileActivity$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileActivity$12.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileActivity$12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileActivity$2.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileActivity$3.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileActivity$4.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileActivity$5.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileActivity$6.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileActivity$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileActivity$7.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileActivity$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileActivity$8.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileActivity$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileActivity$9.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileActivity$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileActivity.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileEditItemActivity$1.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileEditItemActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileEditItemActivity$3.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileEditItemActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileEditItemActivity.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileEditItemActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileSettingActivity$1.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileSettingActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileSettingActivity$2.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileSettingActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileSettingActivity$3$1.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileSettingActivity$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileSettingActivity$3.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileSettingActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileSettingActivity$4.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileSettingActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileSettingActivity.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/activity/UserProfileSettingActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/helper/UserUpdateHelper$1.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/contact/helper/UserUpdateHelper$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/file/FileIcons.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/file/FileIcons.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/file/browser/FileBrowserActivity.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/file/browser/FileBrowserActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/file/browser/FileBrowserViewHolder.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/file/browser/FileBrowserViewHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/location/activity/LocationAmapActivity$1.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/location/activity/LocationAmapActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/location/activity/LocationAmapActivity$2.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/location/activity/LocationAmapActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/location/activity/LocationAmapActivity.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/location/activity/LocationAmapActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/location/activity/NavigationAmapActivity.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/location/activity/NavigationAmapActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/location/adapter/IconListAdapter.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/location/adapter/IconListAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/location/helper/MapHelper.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/location/helper/MapHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/login/LoginActivity.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/login/LoginActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/login/LogoutHelper.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/login/LogoutHelper.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/AboutActivity.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/AboutActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/CustomNotificationActivity$6.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/CustomNotificationActivity$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/CustomNotificationActivity.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/CustomNotificationActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/GlobalSearchActivity.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/GlobalSearchActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/GlobalSearchDetailActivity.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/GlobalSearchDetailActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/GlobalSearchDetailActivity2.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/GlobalSearchDetailActivity2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/MainActivity$1.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/MainActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/MainActivity$2.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/MainActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/MainActivity.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/MultiportActivity.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/MultiportActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/NoDisturbActivity.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/NoDisturbActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/SettingsActivity$1.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/SettingsActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/SettingsActivity$2.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/SettingsActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/SettingsActivity$3.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/SettingsActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/SettingsActivity$4.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/SettingsActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/SettingsActivity.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/SettingsActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/SystemMessageActivity.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/SystemMessageActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/TeamListActivity.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/TeamListActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/WelcomeActivity.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/activity/WelcomeActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/adapter/SettingsAdapter.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/adapter/SettingsAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/fragment/ContactListFragment$1.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/fragment/ContactListFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/fragment/ContactListFragment$FuncItem$FuncViewHolder$1.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/fragment/ContactListFragment$FuncItem$FuncViewHolder$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/fragment/ContactListFragment$FuncItem$FuncViewHolder.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/fragment/ContactListFragment$FuncItem$FuncViewHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/fragment/ContactListFragment$FuncItem.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/fragment/ContactListFragment$FuncItem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/fragment/ContactListFragment.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/fragment/ContactListFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/fragment/HomeFragment$1.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/fragment/HomeFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/fragment/HomeFragment.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/fragment/HomeFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/fragment/MainTabFragment.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/fragment/MainTabFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/fragment/SessionListFragment$1.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/fragment/SessionListFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/fragment/SessionListFragment$2.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/fragment/SessionListFragment$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/fragment/SessionListFragment$3.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/fragment/SessionListFragment$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/fragment/SessionListFragment$4.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/fragment/SessionListFragment$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/fragment/SessionListFragment$5.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/fragment/SessionListFragment$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/fragment/SessionListFragment.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/fragment/SessionListFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/model/MainTab.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/model/MainTab.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/reminder/ReminderId.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/reminder/ReminderId.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/viewholder/CustomNotificationViewHolder.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/viewholder/CustomNotificationViewHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/viewholder/SystemMessageViewHolder.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/main/viewholder/SystemMessageViewHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/rts/activity/RTSActivity$1.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/rts/activity/RTSActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/rts/activity/RTSActivity$4.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/rts/activity/RTSActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/rts/activity/RTSActivity.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/rts/activity/RTSActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/SessionHelper.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/SessionHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/action/AVChatAction.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/action/AVChatAction.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/action/FileAction.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/action/FileAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/action/GuessAction.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/action/GuessAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/action/RTSAction.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/action/RTSAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/action/SnapChatAction.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/action/SnapChatAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/action/TipAction.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/action/TipAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/activity/MessageHistoryActivity.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/activity/MessageHistoryActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/activity/MessageInfoActivity$3$1.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/activity/MessageInfoActivity$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/activity/MessageInfoActivity$3.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/activity/MessageInfoActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/activity/MessageInfoActivity.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/activity/MessageInfoActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/activity/WatchSnapChatPictureActivity.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/activity/WatchSnapChatPictureActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/extension/RTSAttachment.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/extension/RTSAttachment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/search/DisplayMessageActivity.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/search/DisplayMessageActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/search/SearchMessageActivity.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/search/SearchMessageActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/search/SearchMessageAdapter$TextSearchResultViewHolder.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/search/SearchMessageAdapter$TextSearchResultViewHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/search/SearchMessageAdapter.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/search/SearchMessageAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/viewholder/MsgViewHolderAVChat.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/viewholder/MsgViewHolderAVChat.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/viewholder/MsgViewHolderFile.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/viewholder/MsgViewHolderFile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/viewholder/MsgViewHolderRTS.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/viewholder/MsgViewHolderRTS.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/viewholder/MsgViewHolderSnapChat.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/viewholder/MsgViewHolderSnapChat.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/viewholder/MsgViewHolderSticker.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/viewholder/MsgViewHolderSticker.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/viewholder/MsgViewHolderTip.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/session/viewholder/MsgViewHolderTip.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/team/TeamCreateHelper$1.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/team/TeamCreateHelper$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/team/TeamCreateHelper$2.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/team/TeamCreateHelper$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/team/TeamCreateHelper.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/team/TeamCreateHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/team/activity/AdvancedTeamJoinActivity$2.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/team/activity/AdvancedTeamJoinActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/team/activity/AdvancedTeamJoinActivity.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/team/activity/AdvancedTeamJoinActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/team/activity/AdvancedTeamSearchActivity$1.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/team/activity/AdvancedTeamSearchActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/team/activity/AdvancedTeamSearchActivity$2.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/team/activity/AdvancedTeamSearchActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/team/activity/AdvancedTeamSearchActivity.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/demo/team/activity/AdvancedTeamSearchActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/uikit/R$color.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/uikit/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/uikit/R$drawable.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/uikit/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/uikit/R$id.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/uikit/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/uikit/R$integer.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/uikit/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/uikit/R$layout.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/uikit/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/uikit/R$menu.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/uikit/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/uikit/R$raw.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/uikit/R$raw.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/uikit/R$string.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/uikit/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/uikit/R$style.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/uikit/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/uikit/R$styleable.class" afterPath="$PROJECT_DIR$/demo/build/intermediates/classes/debug/com/netease/nim/uikit/R$styleable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/multi-dex/debug/componentClasses.jar" afterPath="$PROJECT_DIR$/demo/build/intermediates/multi-dex/debug/componentClasses.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_star_black_36dp.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_star_black_36dp.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-hdpi-v4/nim_emoji_icon.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-hdpi-v4/nim_emoji_icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-hdpi-v4/nim_emoji_icon_inactive.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-hdpi-v4/nim_emoji_icon_inactive.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-hdpi/message_view_holder_left_snapchat_disable.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-hdpi/message_view_holder_left_snapchat_disable.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-hdpi/message_view_holder_right_snapchat_disable.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-hdpi/message_view_holder_right_snapchat_disable.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_clear_mtrl_alpha.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_clear_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_search_api_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_star_black_36dp.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_star_black_36dp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_star_half_black_16dp.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_star_half_black_16dp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xhdpi/actionbar_white_logo_icon.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xhdpi/actionbar_white_logo_icon.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xhdpi/message_view_holder_left_snapchat_disable.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xhdpi/message_view_holder_left_snapchat_disable.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xhdpi/message_view_holder_right_snapchat.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xhdpi/message_view_holder_right_snapchat.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xhdpi/message_view_holder_right_snapchat_disable.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xhdpi/message_view_holder_right_snapchat_disable.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_star_half_black_36dp.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_star_half_black_36dp.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_clear_mtrl_alpha.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_clear_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_star_black_16dp.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_star_black_16dp.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_star_half_black_36dp.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_star_half_black_36dp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/resources-debug-androidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/transforms/jarMerging/debug/jars/1/1f/combined.jar" afterPath="$PROJECT_DIR$/demo/build/intermediates/transforms/jarMerging/debug/jars/1/1f/combined.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/outputs/apk/demo-debug.apk" afterPath="$PROJECT_DIR$/demo/build/outputs/apk/demo-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/bundles/release/classes.jar" afterPath="$PROJECT_DIR$/uikit/build/intermediates/bundles/release/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/classes/release/android/support/design/R$drawable.class" afterPath="$PROJECT_DIR$/uikit/build/intermediates/classes/release/android/support/design/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/classes/release/android/support/design/R$layout.class" afterPath="$PROJECT_DIR$/uikit/build/intermediates/classes/release/android/support/design/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/classes/release/android/support/v7/appcompat/R$drawable.class" afterPath="$PROJECT_DIR$/uikit/build/intermediates/classes/release/android/support/v7/appcompat/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/classes/release/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/uikit/build/intermediates/classes/release/android/support/v7/appcompat/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/classes/release/com/netease/nim/uikit/R$drawable.class" afterPath="$PROJECT_DIR$/uikit/build/intermediates/classes/release/com/netease/nim/uikit/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/classes/release/com/netease/nim/uikit/R$id.class" afterPath="$PROJECT_DIR$/uikit/build/intermediates/classes/release/com/netease/nim/uikit/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/classes/release/com/netease/nim/uikit/R$integer.class" afterPath="$PROJECT_DIR$/uikit/build/intermediates/classes/release/com/netease/nim/uikit/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/classes/release/com/netease/nim/uikit/R$layout.class" afterPath="$PROJECT_DIR$/uikit/build/intermediates/classes/release/com/netease/nim/uikit/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/classes/release/com/netease/nim/uikit/R$menu.class" afterPath="$PROJECT_DIR$/uikit/build/intermediates/classes/release/com/netease/nim/uikit/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/classes/release/com/netease/nim/uikit/R$raw.class" afterPath="$PROJECT_DIR$/uikit/build/intermediates/classes/release/com/netease/nim/uikit/R$raw.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/classes/release/com/netease/nim/uikit/R$string.class" afterPath="$PROJECT_DIR$/uikit/build/intermediates/classes/release/com/netease/nim/uikit/R$string.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/classes/release/com/netease/nim/uikit/R$style.class" afterPath="$PROJECT_DIR$/uikit/build/intermediates/classes/release/com/netease/nim/uikit/R$style.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/classes/release/com/netease/nim/uikit/R$styleable.class" afterPath="$PROJECT_DIR$/uikit/build/intermediates/classes/release/com/netease/nim/uikit/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/classes/release/com/netease/nim/uikit/contact/ContactsFragment$2.class" afterPath="$PROJECT_DIR$/uikit/build/intermediates/classes/release/com/netease/nim/uikit/contact/ContactsFragment$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/classes/release/com/netease/nim/uikit/contact/ContactsFragment$3.class" afterPath="$PROJECT_DIR$/uikit/build/intermediates/classes/release/com/netease/nim/uikit/contact/ContactsFragment$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/classes/release/com/netease/nim/uikit/contact/ContactsFragment$4.class" afterPath="$PROJECT_DIR$/uikit/build/intermediates/classes/release/com/netease/nim/uikit/contact/ContactsFragment$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/classes/release/com/netease/nim/uikit/contact/ContactsFragment$5$1.class" afterPath="$PROJECT_DIR$/uikit/build/intermediates/classes/release/com/netease/nim/uikit/contact/ContactsFragment$5$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/classes/release/com/netease/nim/uikit/contact/ContactsFragment$5.class" afterPath="$PROJECT_DIR$/uikit/build/intermediates/classes/release/com/netease/nim/uikit/contact/ContactsFragment$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/classes/release/com/netease/nim/uikit/contact/ContactsFragment$ContactItemClickListener.class" afterPath="$PROJECT_DIR$/uikit/build/intermediates/classes/release/com/netease/nim/uikit/contact/ContactsFragment$ContactItemClickListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/classes/release/com/netease/nim/uikit/contact/ContactsFragment$ReloadFrequencyControl.class" afterPath="$PROJECT_DIR$/uikit/build/intermediates/classes/release/com/netease/nim/uikit/contact/ContactsFragment$ReloadFrequencyControl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/classes/release/com/netease/nim/uikit/contact/ContactsFragment.class" afterPath="$PROJECT_DIR$/uikit/build/intermediates/classes/release/com/netease/nim/uikit/contact/ContactsFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/abc_ic_menu_share_mtrl_alpha.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/abc_ic_menu_share_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/abc_ic_star_black_36dp.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/abc_ic_star_black_36dp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/abc_ic_star_half_black_16dp.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/abc_ic_star_half_black_16dp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/nim_emoji_icon_inactive.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/nim_emoji_icon_inactive.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-ldrtl-xxxhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-ldrtl-xxxhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_015.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_015.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/abc_ic_menu_cut_mtrl_alpha.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/abc_ic_menu_cut_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/abc_ic_star_black_16dp.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/abc_ic_star_black_16dp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/abc_ic_star_black_36dp.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/abc_ic_star_black_36dp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/abc_ic_star_half_black_16dp.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/abc_ic_star_half_black_16dp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/abc_ic_star_black_36dp.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/abc_ic_star_black_36dp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/nim_audio_animation_list_right_3.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/nim_audio_animation_list_right_3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/abc_ic_star_half_black_36dp.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/abc_ic_star_half_black_36dp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxxhdpi-v4/abc_ic_clear_mtrl_alpha.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxxhdpi-v4/abc_ic_clear_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxxhdpi-v4/abc_ic_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxxhdpi-v4/abc_ic_search_api_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/resources-debug-androidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/outputs/aar/uikit-debug.aar" afterPath="$PROJECT_DIR$/uikit/build/outputs/aar/uikit-debug.aar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/outputs/aar/uikit-release.aar" afterPath="$PROJECT_DIR$/uikit/build/outputs/aar/uikit-release.aar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/AMap_Services_V2_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/AMap_Services_V2_3_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Android_2DMap_V2_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Android_2DMap_V2_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Android_Location_V1_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Android_Location_V1_3_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_23_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_23_3_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_3_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/cosinesdk.xml" afterPath="$PROJECT_DIR$/.idea/libraries/cosinesdk.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/design_23_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/design_23_3_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/fastjson_1_1_34_android.xml" afterPath="$PROJECT_DIR$/.idea/libraries/fastjson_1_1_34_android.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/multidex_1_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/multidex_1_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/multidex_instrumentation_1_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/multidex_instrumentation_1_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/nim_avchat_3_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/nim_avchat_3_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/nim_basesdk_3_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/nim_basesdk_3_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/nim_chatroom_3_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/nim_chatroom_3_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/nim_lucene_3_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/nim_lucene_3_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/nim_rts_3_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/nim_rts_3_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/nrtc_sdk.xml" afterPath="$PROJECT_DIR$/.idea/libraries/nrtc_sdk.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_apache_http_legacy_android_23.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_apache_http_legacy_android_23.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_3_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_3_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_23_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_23_3_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_23_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_23_3_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/universal_image_loader_1_9_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/universal_image_loader_1_9_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/AndroidManifest.xml" afterPath="$PROJECT_DIR$/demo/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/generated/source/buildConfig/androidTest/debug/com/netease/nim/demo/test/BuildConfig.java" afterPath="$PROJECT_DIR$/demo/build/generated/source/buildConfig/androidTest/debug/com/netease/nim/demo/test/BuildConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/generated/source/buildConfig/debug/com/netease/nim/demo/BuildConfig.java" afterPath="$PROJECT_DIR$/demo/build/generated/source/buildConfig/debug/com/netease/nim/demo/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/generated/source/r/debug/android/support/design/R.java" afterPath="$PROJECT_DIR$/demo/build/generated/source/r/debug/android/support/design/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/demo/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/generated/source/r/debug/com/netease/nim/demo/R.java" afterPath="$PROJECT_DIR$/demo/build/generated/source/r/debug/com/netease/nim/demo/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/generated/source/r/debug/com/netease/nim/uikit/R.java" afterPath="$PROJECT_DIR$/demo/build/generated/source/r/debug/com/netease/nim/uikit/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/multi/values.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-hdpi.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-hdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-mdpi.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-mdpi.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/demo/build/intermediates/blame/res/debug/single/layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/demo/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/multi-dex/debug/components.flags" afterPath="$PROJECT_DIR$/demo/build/intermediates/multi-dex/debug/components.flags" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/multi-dex/debug/maindexlist.txt" afterPath="$PROJECT_DIR$/demo/build/intermediates/multi-dex/debug/maindexlist.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/multi-dex/debug/manifest_keep.txt" afterPath="$PROJECT_DIR$/demo/build/intermediates/multi-dex/debug/manifest_keep.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/layout/settings_logout_footer.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/layout/settings_logout_footer.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/menu/main_activity_menu.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/menu/main_activity_menu.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/demo/build/intermediates/res/merged/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/demo/build/intermediates/symbols/debug/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/demo/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/demo.iml" afterPath="$PROJECT_DIR$/demo/demo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/res/values/colors.xml" afterPath="$PROJECT_DIR$/demo/res/values/colors.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/res/values/strings.xml" afterPath="$PROJECT_DIR$/demo/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/business/IUserBusiness.java" afterPath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/business/IUserBusiness.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/business/imp/UserBusinessImp.java" afterPath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/business/imp/UserBusinessImp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/config/CommonConstants.java" afterPath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/config/CommonConstants.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/contact/activity/UserProfileActivity.java" afterPath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/contact/activity/UserProfileActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/file/browser/FileBrowserActivity.java" afterPath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/file/browser/FileBrowserActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/session/action/FileAction.java" afterPath="$PROJECT_DIR$/demo/src/com/netease/nim/demo/session/action/FileAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/generated/source/r/androidTest/debug/android/support/design/R.java" afterPath="$PROJECT_DIR$/uikit/build/generated/source/r/androidTest/debug/android/support/design/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/generated/source/r/androidTest/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/uikit/build/generated/source/r/androidTest/debug/android/support/v7/appcompat/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/generated/source/r/androidTest/debug/com/netease/nim/uikit/R.java" afterPath="$PROJECT_DIR$/uikit/build/generated/source/r/androidTest/debug/com/netease/nim/uikit/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/generated/source/r/androidTest/debug/com/netease/nim/uikit/test/R.java" afterPath="$PROJECT_DIR$/uikit/build/generated/source/r/androidTest/debug/com/netease/nim/uikit/test/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/generated/source/r/debug/android/support/design/R.java" afterPath="$PROJECT_DIR$/uikit/build/generated/source/r/debug/android/support/design/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/uikit/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/generated/source/r/debug/com/netease/nim/uikit/R.java" afterPath="$PROJECT_DIR$/uikit/build/generated/source/r/debug/com/netease/nim/uikit/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/generated/source/r/release/android/support/design/R.java" afterPath="$PROJECT_DIR$/uikit/build/generated/source/r/release/android/support/design/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/generated/source/r/release/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/uikit/build/generated/source/r/release/android/support/v7/appcompat/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/generated/source/r/release/com/netease/nim/uikit/R.java" afterPath="$PROJECT_DIR$/uikit/build/generated/source/r/release/com/netease/nim/uikit/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/release/multi/values.json" afterPath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/release/multi/values.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/androidTest/debug/multi/values.json" afterPath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/androidTest/debug/multi/values.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/androidTest/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/androidTest/debug/single/drawable-hdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/androidTest/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/androidTest/debug/single/drawable-mdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/androidTest/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/androidTest/debug/single/drawable-xhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/androidTest/debug/single/layout.json" afterPath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/androidTest/debug/single/layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/debug/multi/values.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/debug/single/drawable.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/debug/single/layout.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/release/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/release/single/drawable-hdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/release/single/drawable.json" afterPath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/release/single/drawable.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/release/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/release/single/drawable-xhdpi-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/release/single/layout.json" afterPath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/release/single/layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/bundles/debug/R.txt" afterPath="$PROJECT_DIR$/uikit/build/intermediates/bundles/debug/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/bundles/debug/res/values/values.xml" afterPath="$PROJECT_DIR$/uikit/build/intermediates/bundles/debug/res/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/bundles/release/R.txt" afterPath="$PROJECT_DIR$/uikit/build/intermediates/bundles/release/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/bundles/release/res/values/values.xml" afterPath="$PROJECT_DIR$/uikit/build/intermediates/bundles/release/res/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/uikit/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" afterPath="$PROJECT_DIR$/uikit/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/uikit/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/uikit/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/uikit/build/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/incremental/mergeReleaseResources/merger.xml" afterPath="$PROJECT_DIR$/uikit/build/intermediates/incremental/mergeReleaseResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/uikit/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/incremental/packageDebugResources/merger.xml" afterPath="$PROJECT_DIR$/uikit/build/intermediates/incremental/packageDebugResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/uikit/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/release/values/values.xml" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/release/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/incremental/packageReleaseResources/merger.xml" afterPath="$PROJECT_DIR$/uikit/build/intermediates/incremental/packageReleaseResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/values/values.xml" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/symbols/androidTest/debug/R.txt" afterPath="$PROJECT_DIR$/uikit/build/intermediates/symbols/androidTest/debug/R.txt" />
     </list>
     <ignored path="maikeding.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -103,71 +445,17 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <projects_view />
-      </state>
-    </system>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="maikeding" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="P2PMessageActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/uikit/src/com/netease/nim/uikit/session/activity/P2PMessageActivity.java">
+      <file leaf-file-name="DemandDetailActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/demand/activity/DemandDetailActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="168" column="0" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
+            <state relative-caret-position="-95">
+              <caret line="191" column="60" selection-start-line="191" selection-start-column="60" selection-end-line="191" selection-end-column="60" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileBrowserActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/file/browser/FileBrowserActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1581">
-              <caret line="43" column="37" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/session/action/FileAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileBrowserViewHolder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/file/browser/FileBrowserViewHolder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileBrowserAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/file/browser/FileBrowserAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-              <folding>
-                <element signature="e#576#577#0" expanded="true" />
-                <element signature="e#611#612#0" expanded="true" />
-                <element signature="e#646#647#0" expanded="true" />
-                <element signature="e#681#682#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -176,17 +464,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="zzzmfx" />
-      </map>
-    </option>
-    <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--follow-tags" />
-        <option name="title" value="Current Branch" />
-      </GitPushTagMode>
-    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="availableProjects">
@@ -2362,7 +2639,6 @@
     <option name="modificationStamps">
       <map>
         <entry key="D:\AndroidStudioProjects\maikeding" value="7399311550543" />
-        <entry key="D:\Android\AndroidStudioProjects\maikeding" value="7397647114733" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2775,40 +3051,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/avchat/AVChatAudio.java" />
-        <option value="$PROJECT_DIR$/uikit/res/layout/nim_message_activity.xml" />
-        <option value="$PROJECT_DIR$/uikit/src/com/netease/nim/uikit/common/activity/UI.java" />
-        <option value="$PROJECT_DIR$/demo/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/uikit/src/com/netease/nim/uikit/model/ToolBarOptions.java" />
-        <option value="$PROJECT_DIR$/uikit/src/com/netease/nim/uikit/session/activity/BaseMessageActivity.java" />
-        <option value="$PROJECT_DIR$/demo/res/layout/activity_user_login.xml" />
-        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/session/SessionHelper.java" />
-        <option value="$PROJECT_DIR$/demo/res/layout/map_view_amap_layout.xml" />
-        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/location/activity/LocationAmapActivity.java" />
-        <option value="$PROJECT_DIR$/uikit/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/demo/res/layout/map_view_amap_navigation_layout.xml" />
-        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/location/activity/NavigationAmapActivity.java" />
-        <option value="$PROJECT_DIR$/uikit/src/com/netease/nim/uikit/session/module/list/MessageListPanel.java" />
-        <option value="$PROJECT_DIR$/uikit/res/layout/nim_pick_image_activity.xml" />
-        <option value="$PROJECT_DIR$/uikit/src/com/netease/nim/uikit/common/media/picker/activity/PickImageActivity.java" />
-        <option value="$PROJECT_DIR$/uikit/res/layout/nim_crop_image_activity.xml" />
-        <option value="$PROJECT_DIR$/uikit/src/com/netease/nim/uikit/common/media/picker/activity/CropImageActivity.java" />
-        <option value="$PROJECT_DIR$/uikit/res/layout/nim_preview_image_from_camera_activity.xml" />
-        <option value="$PROJECT_DIR$/uikit/src/com/netease/nim/uikit/common/media/picker/activity/PreviewImageFromCameraActivity.java" />
-        <option value="$PROJECT_DIR$/uikit/res/layout/nim_picker_album_activity.xml" />
-        <option value="$PROJECT_DIR$/uikit/src/com/netease/nim/uikit/common/media/picker/activity/PickerAlbumActivity.java" />
-        <option value="$PROJECT_DIR$/uikit/src/com/netease/nim/uikit/common/media/picker/activity/PreviewImageFromLocalActivity.java" />
-        <option value="$PROJECT_DIR$/uikit/res/layout/nim_picker_image_preview_activity.xml" />
-        <option value="$PROJECT_DIR$/uikit/src/com/netease/nim/uikit/common/media/picker/activity/PickerAlbumPreviewActivity.java" />
-        <option value="$PROJECT_DIR$/uikit/res/layout/nim_watch_video_activity.xml" />
-        <option value="$PROJECT_DIR$/uikit/src/com/netease/nim/uikit/session/activity/WatchVideoActivity.java" />
-        <option value="$PROJECT_DIR$/demo/res/layout/file_browser_activity.xml" />
-        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/file/browser/FileBrowserViewHolder.java" />
-        <option value="$PROJECT_DIR$/demo/res/layout/file_browser_list_item.xml" />
-        <option value="$PROJECT_DIR$/uikit/src/com/netease/nim/uikit/session/actions/BaseAction.java" />
-        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/file/browser/FileBrowserActivity.java" />
-        <option value="$PROJECT_DIR$/uikit/src/com/netease/nim/uikit/session/activity/P2PMessageActivity.java" />
-        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/session/action/FileAction.java" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/demand/activity/DemandScheduleActivity.java" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/config/CommonConstants.java" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/demand/activity/DemandPayActivity.java" />
+        <option value="$PROJECT_DIR$/demo/res/layout/demand_detail_activity.xml" />
+        <option value="$PROJECT_DIR$/demo/res/layout/demand_schedule_activity.xml" />
+        <option value="$PROJECT_DIR$/demo/res/layout/demand_pay_activity.xml" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/demand/bean/DemandPayInfo.java" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/demand/bean/Demand.java" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/demand/util/DBHelper.java" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/demand/adapter/DemandPayInfoListAdapter.java" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/demand/activity/DemandDetailActivity.java" />
+        <option value="$PROJECT_DIR$/demo/src/com/netease/nim/demo/contact/activity/UserProfileActivity.java" />
       </list>
     </option>
   </component>
@@ -2825,7 +3079,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -2843,9 +3097,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches">
-        <subPane />
-      </pane>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2856,31 +3108,27 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
-      <pane id="AndroidView">
-        <subPane />
-      </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="maikeding" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="D:/soft/Android/sdk" />
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../youshi" />
-    <property name="device.picker.selection" value="G2W0214C08012344" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\AndroidStudioProjects\maikeding\demo\res\drawable-hdpi" />
-      <recent name="D:\AndroidStudioProjects\maikeding\uikit\res\drawable-xhdpi" />
-      <recent name="D:\AndroidStudioProjects\maikeding\uikit\res\drawable-hdpi" />
-      <recent name="D:\Android\AndroidStudioProjects\maikeding\uikit\res\drawable-xhdpi" />
-      <recent name="D:\Android\AndroidStudioProjects\maikeding\uikit\res\drawable-hdpi" />
-    </key>
+    <property name="device.picker.selection" value="G2W0214C08012344" />
   </component>
   <component name="RunManager" selected="Android App.demo">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
@@ -3181,48 +3429,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2a0fc040-050f-41d5-bde6-b021533c33dc" name="Default" comment="" />
-      <created>1479429360540</created>
+      <changelist id="d52083d5-9800-4656-93a8-bbfd67f3c3f6" name="Default" comment="" />
+      <created>1480905782924</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1479429360540</updated>
+      <updated>1480905782924</updated>
     </task>
-    <task id="LOCAL-00001" summary="1.首页界面布局调整">
-      <created>1479429901657</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1479429901657</updated>
-    </task>
-    <task id="LOCAL-00002" summary="1.maniffest删除聊天室">
-      <created>1479429988078</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1479429988078</updated>
-    </task>
-    <task id="LOCAL-00003" summary="zzz">
-      <created>1479432981311</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1479432981311</updated>
-    </task>
-    <task id="LOCAL-00004" summary="首页界面布局调整">
-      <created>1479433808089</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1479433808089</updated>
-    </task>
-    <task id="LOCAL-00005" summary="1.IM功能初步调整">
-      <created>1480293984163</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1480293984163</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -3231,38 +3443,36 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4142539" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33184856" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66815144" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13432837" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12953092" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug with JRebel for Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel for Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -3276,394 +3486,193 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="1.首页界面布局调整" />
-    <MESSAGE value="1.maniffest删除聊天室" />
-    <MESSAGE value="zzz" />
-    <MESSAGE value="首页界面布局调整" />
-    <MESSAGE value="1.IM功能初步调整" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.IM功能初步调整" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/uikit/src/com/netease/nim/uikit/common/media/picker/activity/PreviewImageFromLocalActivity.java">
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/demand/activity/DemandDetailActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="192" column="41" selection-start-line="192" selection-start-column="41" selection-end-line="192" selection-end-column="41" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/res/drawable-hdpi/nim_picker_image_selected.png">
-      <provider selected="true" editor-type-id="images">
+    <entry file="file://$PROJECT_DIR$/demo/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/business/imp/UserBusinessImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="418" column="75" selection-start-line="418" selection-start-column="75" selection-end-line="418" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/business/IUserBusiness.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/res/layout/list_item_demand_pay_info.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="72" column="30" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="39" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/src/com/netease/nim/uikit/common/media/picker/activity/PickerAlbumPreviewActivity.java">
+    <entry file="file://$PROJECT_DIR$/demo/res/layout/demand_detail_activity.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="172" column="4" selection-start-line="172" selection-start-column="4" selection-end-line="172" selection-end-column="4" />
+        <state relative-caret-position="1519">
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/src/com/netease/nim/uikit/common/media/picker/activity/PickImageActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4081">
-          <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
-        </state>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/src/com/netease/nim/uikit/session/actions/PickImageAction.java">
+    <entry file="file://$PROJECT_DIR$/demo/res/layout/demand_schedule_activity.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1625">
-          <caret line="61" column="27" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
+        <state relative-caret-position="294">
+          <caret line="57" column="45" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/main/fragment/SessionListFragment.java">
+    <entry file="file://$PROJECT_DIR$/demo/res/layout/demand_pay_activity.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="57" column="45" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/demand/bean/Demand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="253" column="49" selection-start-line="253" selection-start-column="49" selection-end-line="253" selection-end-column="49" />
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/src/com/netease/nim/uikit/NimUIKit.java">
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/demand/bean/DemandPayInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="121" column="23" selection-start-line="121" selection-start-column="23" selection-end-line="121" selection-end-column="23" />
+        <state relative-caret-position="366">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/uikit/libs/nim-basesdk-3.1.0.jar!/com/netease/nimlib/sdk/NIMClient.class">
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/demand/util/DBHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1875">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        <state relative-caret-position="444">
+          <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/src/com/netease/nim/uikit/session/module/ModuleProxy.java">
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/demand/adapter/DemandPayInfoListAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        <state relative-caret-position="464">
+          <caret line="74" column="9" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/src/com/netease/nim/uikit/session/module/list/MsgAdapter.java">
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/demand/activity/DemandPayActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+        <state relative-caret-position="-100">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/soft/Android/sdk/sources/android-23/android/view/GestureDetector.java">
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/demand/activity/DemandScheduleActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        <state relative-caret-position="-250">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/src/com/netease/nim/uikit/common/adapter/IViewReclaimer.java">
+    <entry file="file://$PROJECT_DIR$/demo/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/res/layout/nim_message_fragment.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/uikit/libs/nim-basesdk-3.1.0.jar!/com/netease/nimlib/sdk/msg/constant/SessionTypeEnum.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/uikit/libs/nim-basesdk-3.1.0.jar!/com/netease/nimlib/sdk/msg/model/IMMessage.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1084">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/src/com/netease/nim/uikit/common/ui/listview/ListViewUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-706">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/src/com/netease/nim/uikit/common/ui/listview/AutoRefreshListView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1781">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/src/com/netease/nim/uikit/common/ui/listview/MessageListView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1606">
-          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/src/com/netease/nim/uikit/recent/RecentContactsFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2025">
-          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/src/com/netease/nim/uikit/recent/RecentContactsCallback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/src/com/netease/nim/uikit/session/SessionEventListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/src/com/netease/nim/uikit/session/viewholder/MsgViewHolderAudio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/res/layout/nim_watch_video_activity.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/src/com/netease/nim/uikit/session/viewholder/MsgViewHolderBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/src/com/netease/nim/uikit/session/viewholder/MsgViewHolderVideo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/src/com/netease/nim/uikit/common/activity/UI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="109" column="44" selection-start-line="109" selection-start-column="29" selection-end-line="109" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="74" column="28" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/src/com/netease/nim/uikit/session/activity/WatchVideoActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/src/com/netease/nim/uikit/session/module/input/InputPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2500">
-          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/res/values/strings-avchat.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/src/com/netease/nim/uikit/common/adapter/TAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2606">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/res/layout/nim_message_activity.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/src/com/netease/nim/uikit/common/adapter/TAdapterDelegate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/res/drawable-hdpi/directory.png" />
-    <entry file="file://$PROJECT_DIR$/demo/build/generated/source/r/debug/com/netease/nim/demo/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="3176" column="32" selection-start-line="3176" selection-start-column="32" selection-end-line="3176" selection-end-column="32" />
+        <state relative-caret-position="178">
+          <caret line="83" column="54" selection-start-line="83" selection-start-column="54" selection-end-line="83" selection-end-column="54" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/res/layout/file_browser_list_item.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
+      <provider editor-type-id="android-manifest">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/file/browser/FileBrowserAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding>
-            <element signature="e#576#577#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/res/layout/file_browser_activity.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="755">
-          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://D:/soft/Android/sdk/sources/android-23/java/io/Serializable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2075">
-          <caret line="98" column="17" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/src/com/netease/nim/uikit/session/module/list/MessageListPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1300">
-          <caret line="113" column="11" selection-start-line="113" selection-start-column="11" selection-end-line="113" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/src/com/netease/nim/uikit/session/fragment/MessageFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2225">
-          <caret line="119" column="45" selection-start-line="119" selection-start-column="45" selection-end-line="119" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/session/SessionHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1961">
-          <caret line="125" column="28" selection-start-line="125" selection-start-column="28" selection-end-line="125" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/src/com/netease/nim/uikit/session/actions/BaseAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/src/com/netease/nim/uikit/session/SessionCustomization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/src/com/netease/nim/uikit/session/activity/BaseMessageActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="56" column="30" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="30" />
+        <state relative-caret-position="541">
+          <caret line="51" column="38" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/file/browser/FileBrowserViewHolder.java">
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/config/CommonConstants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
-          <folding />
+        <state relative-caret-position="191">
+          <caret line="77" column="31" selection-start-line="77" selection-start-column="31" selection-end-line="77" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/soft/Android/sdk/sources/android-23/android/app/Activity.java">
+    <entry file="file://D:/soft/Android/sdk/sources/android-23/java/lang/Throwable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="680" column="28" selection-start-line="680" selection-start-column="28" selection-end-line="680" selection-end-column="28" />
+        <state relative-caret-position="191">
+          <caret line="176" column="18" selection-start-line="176" selection-start-column="18" selection-end-line="176" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/file/browser/FileBrowserActivity.java">
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/utils/CommonUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1581">
-          <caret line="43" column="37" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="191">
+          <caret line="240" column="23" selection-start-line="240" selection-start-column="23" selection-end-line="240" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/session/action/FileAction.java">
+    <entry file="file://D:/soft/Android/sdk/sources/android-23/android/os/Handler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="191">
+          <caret line="516" column="25" selection-start-line="516" selection-start-column="25" selection-end-line="516" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/src/com/netease/nim/uikit/session/activity/P2PMessageActivity.java">
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/login/maixinlogin/UserLoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="168" column="0" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
+        <state relative-caret-position="416">
+          <caret line="274" column="14" selection-start-line="274" selection-start-column="14" selection-end-line="275" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/contact/activity/UserProfileEditItemActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/contact/activity/UserProfileActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="192" column="47" selection-start-line="192" selection-start-column="47" selection-end-line="192" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/com/netease/nim/demo/demand/activity/DemandDetailActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="191" column="60" selection-start-line="191" selection-start-column="60" selection-end-line="191" selection-end-column="60" />
           <folding />
         </state>
       </provider>

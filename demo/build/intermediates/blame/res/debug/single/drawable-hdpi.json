@@ -452,6 +452,10 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\file_ic_session_txt.png"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nav_back.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\nav_back.png"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_plus_guess_pressed.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-hdpi\\message_plus_guess_pressed.png"
     },

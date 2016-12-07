@@ -84,6 +84,10 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\layout\\nim_message_item_audio.xml"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\layout\\settings_fragment.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\layout\\settings_fragment.xml"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\layout\\nim_contacts_select.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\layout\\nim_contacts_select.xml"
     },
