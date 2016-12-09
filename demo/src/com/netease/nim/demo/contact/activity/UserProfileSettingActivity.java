@@ -94,7 +94,7 @@ public class UserProfileSettingActivity extends UI implements View.OnClickListen
         mUser = CommonUtil.getUserInfo(this);
 
         ToolBarOptions options = new ToolBarOptions();
-        options.titleString = "";
+        options.titleId = R.string.personal_info;
         setToolBar(R.id.toolbar, options);
         account = getIntent().getStringExtra(Extras.EXTRA_ACCOUNT);
         findViews();
@@ -267,8 +267,8 @@ public class UserProfileSettingActivity extends UI implements View.OnClickListen
         LogUtil.i(TAG, "start upload avatar, local file path=" + file.getAbsolutePath());
         new Handler().postDelayed(outimeTask, AVATAR_TIME_OUT);
         //上传服务器到麦客加服务器
-
         /**********************************************在这里会得到一个file头像文件，同步迈克家服务器，成功之后上传云信服务器*************************************************************/
+
         Log.d("YZP=======>", file.getTotalSpace() + "");
 //        sendPicToServer(file);
 

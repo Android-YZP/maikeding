@@ -125,6 +125,13 @@ public class SettingFragment extends TFragment implements SettingsAdapter.Switch
         if (mFooter == null) {
             mFooter = LayoutInflater.from(getActivity()).inflate(com.netease.nim.demo.R.layout.settings_logout_footer, null);
             listView.addFooterView(mFooter);
+            View logoutBtn = mFooter.findViewById(com.netease.nim.demo.R.id.settings_button_logout);
+            logoutBtn.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    logout();
+                }
+            });
         }
 
         initAdapter();
@@ -135,15 +142,7 @@ public class SettingFragment extends TFragment implements SettingsAdapter.Switch
                 onListItemClick(item);
             }
         });
-        if (mFooter == null) {
-            View logoutBtn = mFooter.findViewById(com.netease.nim.demo.R.id.settings_button_logout);
-            logoutBtn.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    logout();
-                }
-            });
-        }
+
     }
 
     private void initAdapter() {
@@ -162,28 +161,30 @@ public class SettingFragment extends TFragment implements SettingsAdapter.Switch
         items.add(SettingTemplate.makeSeperator());
         items.add(new SettingTemplate(TAG_RING, getString(com.netease.nim.demo.R.string.ring), SettingType.TYPE_TOGGLE,
                 UserPreferences.getRingToggle()));
+        items.add(SettingTemplate.addLine());
         items.add(new SettingTemplate(TAG_LED, getString(com.netease.nim.demo.R.string.led), SettingType.TYPE_TOGGLE,
                 UserPreferences.getLedToggle()));
-        items.add(SettingTemplate.makeSeperator());
-        items.add(new SettingTemplate(TAG_NOTICE_CONTENT, getString(com.netease.nim.demo.R.string.notice_content), SettingType.TYPE_TOGGLE,
-                UserPreferences.getNoticeContentToggle()));
-        items.add(SettingTemplate.makeSeperator());
-
-        disturbItem = new SettingTemplate(TAG_NO_DISTURBE, getString(com.netease.nim.demo.R.string.no_disturb), noDisturbTime);
-        items.add(disturbItem);
         items.add(SettingTemplate.addLine());
-        items.add(new SettingTemplate(TAG_MULTIPORT_PUSH, getString(com.netease.nim.demo.R.string.multiport_push), SettingType.TYPE_TOGGLE,
-                !NIMClient.getService(SettingsService.class).isMultiportPushOpen()));
-        items.add(SettingTemplate.makeSeperator());
+//        items.add(SettingTemplate.makeSeperator());
+//        items.add(new SettingTemplate(TAG_NOTICE_CONTENT, getString(com.netease.nim.demo.R.string.notice_content), SettingType.TYPE_TOGGLE,
+//                UserPreferences.getNoticeContentToggle()));
+//        items.add(SettingTemplate.makeSeperator());
+
+//        disturbItem = new SettingTemplate(TAG_NO_DISTURBE, getString(com.netease.nim.demo.R.string.no_disturb), noDisturbTime);
+//        items.add(disturbItem);
+//        items.add(SettingTemplate.addLine());
+//        items.add(new SettingTemplate(TAG_MULTIPORT_PUSH, getString(com.netease.nim.demo.R.string.multiport_push), SettingType.TYPE_TOGGLE,
+//                !NIMClient.getService(SettingsService.class).isMultiportPushOpen()));
+//        items.add(SettingTemplate.makeSeperator());
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.ICE_CREAM_SANDWICH) {
             items.add(new SettingTemplate(TAG_NRTC_SETTINGS, getString(com.netease.nim.demo.R.string.nrtc_settings)));
             items.add(SettingTemplate.makeSeperator());
         }
 
-        items.add(new SettingTemplate(TAG_MSG_IGNORE, "过滤通知",
-                SettingType.TYPE_TOGGLE, UserPreferences.getMsgIgnore()));
-        items.add(SettingTemplate.addLine());
+//        items.add(new SettingTemplate(TAG_MSG_IGNORE, "过滤通知",
+//                SettingType.TYPE_TOGGLE, UserPreferences.getMsgIgnore()));
+//        items.add(SettingTemplate.addLine());
         items.add(new SettingTemplate(TAG_CLEAR, getString(com.netease.nim.demo.R.string.about_clear_msg_history)));
         items.add(SettingTemplate.addLine());
 
@@ -191,9 +192,9 @@ public class SettingFragment extends TFragment implements SettingsAdapter.Switch
         items.add(clearIndexItem);
         items.add(SettingTemplate.addLine());
 
-        items.add(new SettingTemplate(TAG_CUSTOM_NOTIFY, getString(com.netease.nim.demo.R.string.custom_notification)));
-        items.add(SettingTemplate.addLine());
-        items.add(SettingTemplate.addLine());
+//      items.add(new SettingTemplate(TAG_CUSTOM_NOTIFY, getString(com.netease.nim.demo.R.string.custom_notification)));
+//        items.add(SettingTemplate.addLine());
+//        items.add(SettingTemplate.addLine());
         items.add(new SettingTemplate(TAG_ABOUT, getString(com.netease.nim.demo.R.string.setting_about)));
 
     }
