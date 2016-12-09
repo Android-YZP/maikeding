@@ -1,6 +1,7 @@
 package com.netease.nim.demo.session.action;
 
 import android.content.Intent;
+import android.util.Log;
 
 import com.netease.nim.demo.R;
 import com.netease.nim.demo.file.browser.FileBrowserActivity;
@@ -15,36 +16,29 @@ import java.io.File;
  * Created by hzxuwen on 2015/6/11.
  */
 public class FileAction extends BaseAction {
-    private static final int FILE_CODE = 1;//选择文件
 
     public FileAction() {
         super(R.drawable.message_plus_file_selector, R.string.input_panel_file);
     }
 
-    /**
-     * **********************文件************************
-     */
-    private void chooseFile() {
-//        Intent intent = new Intent(getActivity(), FileBrowserActivity.class);
-//        getActivity().startActivityForResult(intent, RequestCode.GET_LOCAL_FILE);
-//        Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
-//        intent.setType("*/*");
-//        getActivity().startActivityForResult(intent, RequestCode.GET_LOCAL_FILE);
-        FileBrowserActivity.startActivityForResult(getActivity(), makeRequestCode(RequestCode.GET_LOCAL_FILE));
-    }
-
     @Override
     public void onClick() {
-        chooseFile();
+        int requestCode = makeRequestCode(RequestCode.GET_LOCAL_FILE);
+        Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
+        intent.setType("*/*");
+        getActivity().startActivityForResult(intent, requestCode);
     }
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if (requestCode == RequestCode.GET_LOCAL_FILE) {
-            String path = data.getStringExtra(FileBrowserActivity.EXTRA_DATA_PATH);
-            File file = new File(path);
-            IMMessage message = MessageBuilder.createFileMessage(getAccount(), getSessionType(), file, file.getName());
-            sendMessage(message);
+        switch (requestCode) {
+            case RequestCode.GET_LOCAL_FILE://选择文件后
+                if (data != null) {
+                    File file = new File(data.getData().getPath());
+                    IMMessage message = MessageBuilder.createFileMessage(getAccount(), getSessionType(), file, file.getName());
+                    sendMessage(message);
+                }
+                break;
         }
     }
 }

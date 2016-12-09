@@ -994,11 +994,11 @@
     <string name="clear_msg_history_success">聊天记录已清空</string>
     <string name="click_set">点击设置</string>
     <string name="close">关闭</string>
-    <string name="computer_version">云信电脑版</string>
+    <string name="computer_version">电脑版</string>
     <string name="connect_vedio_device_fail">无法连接视频设备 ，请稍候再试</string>
     <string name="contact_selector">联系人选择器</string>
     <string name="copy_has_blank">复 制</string>
-    <string name="copyright">Copyright ©1997-2016 网易公司版权所有</string>
+    <string name="copyright">Copyright © 麦客创和版权所有</string>
     <string name="create">新建</string>
     <string name="create_advanced_team">创建高级群</string>
     <string name="create_normal_team">创建讨论组</string>
@@ -1123,7 +1123,7 @@
     <string name="message_info">聊天信息</string>
     <string name="message_search_no_result">无结果</string>
     <string name="message_search_title">搜索本地消息记录</string>
-    <string name="mobile_version">云信移动版</string>
+    <string name="mobile_version">移动版</string>
     <string name="move_out_blacklist">移出黑名单</string>
     <string name="msg_notice">消息提醒</string>
     <string name="msg_search">全文检索</string>
@@ -1163,7 +1163,7 @@
     <string name="no_announcement">暂无公告</string>
     <string name="no_data">暂无数据</string>
     <string name="no_disturb">免打扰</string>
-    <string name="no_disturb_tips">在设定的时间段内云信消息将不再提醒</string>
+    <string name="no_disturb_tips">在设定的时间段内消息将不再提醒</string>
     <string name="no_normal_team">您还没有讨论组</string>
     <string name="no_permission">没有权限</string>
     <string name="no_team">您还没有群</string>
@@ -1286,6 +1286,7 @@
     <string name="repeat_send_message">重发消息?</string>
     <string name="revoke_failed">发送时间超过2分钟的消息，不能被撤回</string>
     <string name="ring">响铃模式</string>
+    <string name="rts_title">教学白板</string>
     <string name="save">保存</string>
     <string name="save_to_device">保存到手机</string>
     <string name="sdcard_not_enough_error">存储空间不足，无法保存此次多媒体消息</string>
@@ -1417,7 +1418,7 @@
     <string name="video_record_symbol">REC</string>
     <string name="voice_to_text">转文字</string>
     <string name="waitfor_image_local">正在打开相册，请稍候\u2026</string>
-    <string name="web_version">云信网页版</string>
+    <string name="web_version">网页版</string>
     <string name="withdrawn_msg">撤 回</string>
     <string name="without_content">暂无</string>
     <style name="ActionMenuTheme" parent="Theme.AppCompat.Light">
@@ -2734,6 +2735,7 @@
     <style name="ThemeOverlay.AppCompat.Dark.ActionBar" parent="Base.ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <style name="ThemeOverlay.AppCompat.Light" parent="Base.ThemeOverlay.AppCompat.Light"/>
     <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">#fff</item>
         <item name="android:textSize">16sp</item>
     </style>
     <style name="WelcomeEntranceActionBarTheme" parent="AppTheme.NoActionBar">

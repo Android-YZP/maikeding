@@ -8,4 +8,5 @@ public class RequestCode {
 	public final static int PICKER_IMAGE_PREVIEW = 5;
 	public final static int PREVIEW_IMAGE_FROM_CAMERA = 6;
 	public final static int GET_LOCAL_IMAGE = 7;// 相册
+	public final static int PICK_FILE = 8;
 }

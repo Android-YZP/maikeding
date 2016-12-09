@@ -173,6 +173,7 @@
 
     <!--RTS白板-->
     <string name="doodle">白板</string>
+    <string name="rts_title">教学白板</string>
     <string name="start_session">正在邀请对方，请稍后</string>
     <string name="callee_reject">对方拒绝了本次请求</string>
     <string name="callee_ack_timeout">对方未接受请求</string>
@@ -195,7 +196,7 @@
     <string name="msg_notice">消息提醒</string>
     <string name="setting_about">关于</string>
     <string name="setting_close">已关闭</string>
-    <string name="no_disturb_tips">在设定的时间段内云信消息将不再提醒</string>
+    <string name="no_disturb_tips">在设定的时间段内消息将不再提醒</string>
     <string name="time_from">从</string>
     <string name="time_to">至</string>
     <string name="time_from_default">22:00</string>
@@ -214,9 +215,9 @@
     <!-- 多端登录 -->
     <string name="multiport_manager">多端登录管理</string>
     <string name="multiport_logout">下线</string>
-    <string name="computer_version">云信电脑版</string>
-    <string name="web_version">云信网页版</string>
-    <string name="mobile_version">云信移动版</string>
+    <string name="computer_version">电脑版</string>
+    <string name="web_version">网页版</string>
+    <string name="mobile_version">移动版</string>
     <string name="multiport_logging">正在使用</string>
     <string name="kickout_notify">下线通知</string>
     <string name="kickout_content">你的帐号被%1$s踢出下线，请确定帐号信息安全</string>

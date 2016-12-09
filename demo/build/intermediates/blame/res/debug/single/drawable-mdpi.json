@@ -4,6 +4,10 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-mdpi\\ic_stat_notify_msg.png"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\logo_login.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-mdpi\\logo_login.png"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\logo_android.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-mdpi\\logo_android.png"
     }

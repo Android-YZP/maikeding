@@ -1,5 +1,4 @@
 package com.netease.nim.demo.session.viewholder;
-
 import android.widget.TextView;
 
 import com.netease.nim.demo.R;

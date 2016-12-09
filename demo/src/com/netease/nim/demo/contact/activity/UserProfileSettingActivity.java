@@ -94,7 +94,7 @@ public class UserProfileSettingActivity extends UI implements View.OnClickListen
         mUser = CommonUtil.getUserInfo(this);
 
         ToolBarOptions options = new ToolBarOptions();
-        options.titleId = R.string.personal_info;
+        options.titleId = R.string.user_profile;
         setToolBar(R.id.toolbar, options);
         account = getIntent().getStringExtra(Extras.EXTRA_ACCOUNT);
         findViews();

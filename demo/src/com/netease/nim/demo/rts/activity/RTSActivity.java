@@ -143,7 +143,8 @@ public class RTSActivity extends UI implements View.OnClickListener {
 
         ToolBarOptions options = new ToolBarOptions();
         options.isNeedNavigate = false;
-        setToolBar(R.id.toolbar, options);
+        options.titleId = R.string.rts_title;
+        setToolBar(R.id.toolbar, options, R.id.toolbar_rts_title);
 
         isIncoming = getIntent().getBooleanExtra(KEY_INCOMING, false);
         findViews();
@@ -329,7 +330,7 @@ public class RTSActivity extends UI implements View.OnClickListener {
             if (rtsCalleeAckEvent.getEvent() == RTSEventType.CALLEE_ACK_AGREE) {
                 // 判断SDK自动开启通道是否成功
                 if (!rtsCalleeAckEvent.isTunReady()) {
-                    Toast.makeText(RTSActivity.this, "通道开启失败!请查看LOG", Toast.LENGTH_SHORT).show();
+//                    Toast.makeText(RTSActivity.this, "通道开启失败!请查看LOG", Toast.LENGTH_SHORT).show();
                     return;
                 }
                 acceptView(); // 进入会话界面
@@ -415,22 +416,22 @@ public class RTSActivity extends UI implements View.OnClickListener {
 
         @Override
         public void onConnectResult(RTSTunType tunType, long channelId, int code) {
-            Toast.makeText(RTSActivity.this, "onConnectResult, tunType=" + tunType.toString() +
-                    ", channelId=" + channelId +
-                    ", code=" + code, Toast.LENGTH_SHORT).show();
+//            Toast.makeText(RTSActivity.this, "onConnectResult, tunType=" + tunType.toString() +
+//                    ", channelId=" + channelId +
+//                    ", code=" + code, Toast.LENGTH_SHORT).show();
         }
 
         @Override
         public void onRecordInfo(RTSTunType tunType, String file) {
-            String tip = "onRecordInfo, tunType=" + tunType.toString() + ", file=" + file ;
-            Toast.makeText(RTSActivity.this, tip, Toast.LENGTH_SHORT).show();
-            LogUtil.i("RTS", tip);
+//            String tip = "onRecordInfo, tunType=" + tunType.toString() + ", file=" + file ;
+//            Toast.makeText(RTSActivity.this, tip, Toast.LENGTH_SHORT).show();
+//            LogUtil.i("RTS", tip);
         }
 
         @Override
         public void onChannelEstablished(RTSTunType tunType) {
-            Toast.makeText(RTSActivity.this, "onCallEstablished,tunType=" + tunType.toString(), Toast
-                    .LENGTH_SHORT).show();
+//            Toast.makeText(RTSActivity.this, "onCallEstablished,tunType=" + tunType.toString(), Toast
+//                    .LENGTH_SHORT).show();
 
             if (tunType == RTSTunType.AUDIO) {
                 RTSManager.getInstance().setSpeaker(sessionId, true); // 默认开启扬声器
@@ -439,8 +440,8 @@ public class RTSActivity extends UI implements View.OnClickListener {
 
         @Override
         public void onDisconnectServer(RTSTunType tunType) {
-            Toast.makeText(RTSActivity.this, "onDisconnectServer, tunType=" + tunType.toString(), Toast
-                    .LENGTH_SHORT).show();
+//            Toast.makeText(RTSActivity.this, "onDisconnectServer, tunType=" + tunType.toString(), Toast
+//                    .LENGTH_SHORT).show();
             if (tunType == RTSTunType.TCP) {
                 // 如果数据通道断了，那么关闭会话
                 Toast.makeText(RTSActivity.this, "TCP通道断开，自动结束会话", Toast.LENGTH_SHORT).show();
@@ -455,8 +456,8 @@ public class RTSActivity extends UI implements View.OnClickListener {
 
         @Override
         public void onError(RTSTunType tunType, int code) {
-            Toast.makeText(RTSActivity.this, "onError, tunType=" + tunType.toString() + ", error=" + code,
-                    Toast.LENGTH_LONG).show();
+//            Toast.makeText(RTSActivity.this, "onError, tunType=" + tunType.toString() + ", error=" + code,
+//                    Toast.LENGTH_LONG).show();
             endSession();
         }
 

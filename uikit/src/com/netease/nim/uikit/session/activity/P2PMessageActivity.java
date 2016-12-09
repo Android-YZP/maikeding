@@ -11,17 +11,21 @@ import com.netease.nim.uikit.R;
 import com.netease.nim.uikit.cache.FriendDataCache;
 import com.netease.nim.uikit.model.ToolBarOptions;
 import com.netease.nim.uikit.session.SessionCustomization;
+import com.netease.nim.uikit.session.actions.BaseAction;
 import com.netease.nim.uikit.session.constant.Extras;
+import com.netease.nim.uikit.session.constant.RequestCode;
 import com.netease.nim.uikit.session.fragment.MessageFragment;
 import com.netease.nim.uikit.uinfo.UserInfoHelper;
 import com.netease.nim.uikit.uinfo.UserInfoObservable;
 import com.netease.nimlib.sdk.NIMClient;
 import com.netease.nimlib.sdk.Observer;
+import com.netease.nimlib.sdk.msg.MessageBuilder;
 import com.netease.nimlib.sdk.msg.MsgServiceObserve;
 import com.netease.nimlib.sdk.msg.constant.SessionTypeEnum;
 import com.netease.nimlib.sdk.msg.model.CustomNotification;
 import com.netease.nimlib.sdk.msg.model.IMMessage;
 
+import java.io.File;
 import java.util.List;
 
 
@@ -30,7 +34,7 @@ import java.util.List;
  * <p/>
  * Created by huangjun on 2015/2/1.
  */
-public class P2PMessageActivity extends BaseMessageActivity {
+public class                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    P2PMessageActivity extends BaseMessageActivity {
 
     private boolean isResume = false;
 

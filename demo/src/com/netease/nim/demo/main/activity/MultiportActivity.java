@@ -45,7 +45,7 @@ public class MultiportActivity extends UI {
 
         ToolBarOptions options = new ToolBarOptions();
         options.titleId = R.string.multiport_manager;
-        setToolBar(R.id.toolbar, options);
+        setToolBar(R.id.toolbar, options, R.id.toolbar_multiport_title);
 
         findViews();
         parseIntent();
@@ -58,12 +58,12 @@ public class MultiportActivity extends UI {
 
 
     private void parseIntent() {
-        onlineClients = (List<OnlineClient>)getIntent().getSerializableExtra(EXTRA_DATA);
+        onlineClients = (List<OnlineClient>) getIntent().getSerializableExtra(EXTRA_DATA);
         count = onlineClients.size();
     }
 
     private void updateView() {
-        for(OnlineClient client : onlineClients) {
+        for (OnlineClient client : onlineClients) {
             TextView clientName = initVersionView(client);
             switch (client.getClientType()) {
                 case ClientType.Windows:
@@ -118,7 +118,7 @@ public class MultiportActivity extends UI {
 
     private void hideLayout(View layout, int finished) {
         layout.setVisibility(View.GONE);
-        if(finished == 1) {
+        if (finished == 1) {
             finish();
         }
     }
