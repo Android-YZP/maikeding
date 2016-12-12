@@ -600,12 +600,12 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\nim_message_input_plus.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\nim_messages_list_empty_bg.png",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\nim_messages_list_empty_bg.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\nim_messages_list_empty_bg.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\nim_messages_list_empty_bg.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\nim_message_plus_photo_pressed.png",

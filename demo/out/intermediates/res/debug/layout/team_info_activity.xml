@@ -14,7 +14,7 @@
         android:layout_height="fill_parent"
         android:orientation="vertical">
 
-        <com.netease.nim.demo.contact.ui.TeamInfoGridView
+        <com.mcwonders.mkd.contact.ui.TeamInfoGridView
             style="@style/grid_view"
             android:id="@+id/team_business_card_grid"
             android:layout_width="fill_parent"
@@ -27,7 +27,7 @@
             android:paddingRight="12dip"
             android:paddingTop="16dip"
             android:verticalSpacing="16dip">
-        </com.netease.nim.demo.contact.ui.TeamInfoGridView>
+        </com.mcwonders.mkd.contact.ui.TeamInfoGridView>
 
         <include
             android:id="@+id/settings_item_name"

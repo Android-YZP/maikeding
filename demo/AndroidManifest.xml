@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.netease.nim.demo"
+    package="com.mcwonders.mkd"
     android:installLocation="auto"
     android:versionCode="29"
     android:versionName="3.1.0">
@@ -34,17 +34,17 @@
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
-    <!-- SDK权限申明, 第三方APP接入时，请将com.netease.nim.demo替换为自己的包名 -->
+    <!-- SDK权限申明, 第三方APP接入时，请将com.mcwonders.mkd替换为自己的包名 -->
     <!-- 和下面的uses-permission一起加入到你的AndroidManifest文件中。 -->
     <permission
-        android:name="com.netease.nim.demo.permission.RECEIVE_MSG"
+        android:name="com.mcwonders.mkd.permission.RECEIVE_MSG"
         android:protectionLevel="signature" />
 
-    <!-- 接受SDK消息广播权限， 第三方APP接入时，请将com.netease.nim.demo替换为自己的包名 -->
-    <uses-permission android:name="com.netease.nim.demo.permission.RECEIVE_MSG" />
+    <!-- 接受SDK消息广播权限， 第三方APP接入时，请将com.mcwonders.mkd替换为自己的包名 -->
+    <uses-permission android:name="com.mcwonders.mkd.permission.RECEIVE_MSG" />
 
     <application
-        android:name=".utils.MyApplication"
+        android:name="com.mcwonders.mkd.utils.MyApplication"
         android:allowBackup="true"
         android:icon="@drawable/logo"
         android:label="@string/app_name"
@@ -55,7 +55,7 @@
             android:name="com.amap.api.v2.apikey"
             android:value="${AMAP_KEY}" />
         <meta-data
-            android:name="com.netease.nim.appKey"
+            android:name="com.mcwonders.mkd.appKey"
             android:value="65ee5f0a9a88cfe35b5077f96a85034a" />
 
         <uses-library
@@ -371,24 +371,24 @@
         <!-- 云信进程间通信receiver -->
         <receiver android:name="com.netease.nimlib.service.ResponseReceiver" />
 
-        <!-- 申明自定义通知的广播接收器，第三方APP集成时，action中的com.netease.nim.demo请替换为自己的包名 -->
-        <!-- 需要权限申明 <uses-permission android:name="com.netease.nim.demo.permission.RECEIVE_MSG"/> -->
+        <!-- 申明自定义通知的广播接收器，第三方APP集成时，action中的com.mcwonders.mkd请替换为自己的包名 -->
+        <!-- 需要权限申明 <uses-permission android:name="com.mcwonders.mkd.permission.RECEIVE_MSG"/> -->
         <receiver
-            android:name=".receiver.CustomNotificationReceiver"
+            android:name="com.mcwonders.mkd.receiver.CustomNotificationReceiver"
             android:enabled="true"
             android:exported="false">
             <intent-filter>
-                <action android:name="com.netease.nim.demo.ACTION.RECEIVE_CUSTOM_NOTIFICATION" />
+                <action android:name="com.mcwonders.mkd.ACTION.RECEIVE_CUSTOM_NOTIFICATION" />
             </intent-filter>
         </receiver>
 
-        <!-- 申明白板会话的广播接收器，第三方APP集成时，action中的com.netease.nim.demo请替换为自己的包名 -->
+        <!-- 申明白板会话的广播接收器，第三方APP集成时，action中的com.mcwonders.mkd请替换为自己的包名 -->
         <receiver
             android:name="com.netease.nimlib.receiver.RTSBroadcastReceiver"
             android:enabled="true"
             android:exported="false">
             <intent-filter>
-                <action android:name="com.netease.nim.demo.ACTION.RECEIVE_RTS_NOTIFICATION" />
+                <action android:name="com.mcwonders.mkd.ACTION.RECEIVE_RTS_NOTIFICATION" />
             </intent-filter>
         </receiver>
 

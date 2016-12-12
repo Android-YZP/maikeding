@@ -36,7 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/app_bar_layout" />
 
-    <com.netease.nim.demo.common.ui.viewpager.PagerSlidingTabStrip
+    <com.mcwonders.mkd.common.ui.viewpager.PagerSlidingTabStrip
         android:id="@+id/tabs"
         android:layout_width="match_parent"
         android:layout_height="@dimen/pager_sliding_tab_strip_height"
@@ -50,7 +50,7 @@
         android:layout_above="@id/tabs"
         android:background="@color/main_tabbar_border_color" />
 
-    <com.netease.nim.uikit.common.ui.drop.DropCover
+    <com.mcwonders.uikit.common.ui.drop.DropCover
         android:id="@+id/unread_cover"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

@@ -14,7 +14,7 @@
         android:text="@string/no_data"
         android:textSize="17sp"/>
 
-    <com.netease.nim.uikit.common.ui.ptr.PullToRefreshListView
+    <com.mcwonders.uikit.common.ui.ptr.PullToRefreshListView
         android:id="@+id/chat_room_online_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

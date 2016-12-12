@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.netease.nim.demo;
+package com.mcwonders.mkd;
 
 public final class R {
     public static final class anim {
@@ -2305,25 +2305,25 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionBar_background com.netease.nim.demo:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundSplit com.netease.nim.demo:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundStacked com.netease.nim.demo:backgroundStacked}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_customNavigationLayout com.netease.nim.demo:customNavigationLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_displayOptions com.netease.nim.demo:displayOptions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_divider com.netease.nim.demo:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_height com.netease.nim.demo:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeLayout com.netease.nim.demo:homeLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_icon com.netease.nim.demo:icon}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.netease.nim.demo:indeterminateProgressStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_itemPadding com.netease.nim.demo:itemPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_logo com.netease.nim.demo:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_navigationMode com.netease.nim.demo:navigationMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarPadding com.netease.nim.demo:progressBarPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarStyle com.netease.nim.demo:progressBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitle com.netease.nim.demo:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.netease.nim.demo:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_title com.netease.nim.demo:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_titleTextStyle com.netease.nim.demo:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_background com.mcwonders.mkd:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundSplit com.mcwonders.mkd:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundStacked com.mcwonders.mkd:backgroundStacked}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_customNavigationLayout com.mcwonders.mkd:customNavigationLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_displayOptions com.mcwonders.mkd:displayOptions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_divider com.mcwonders.mkd:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_height com.mcwonders.mkd:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeLayout com.mcwonders.mkd:homeLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_icon com.mcwonders.mkd:icon}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.mcwonders.mkd:indeterminateProgressStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_itemPadding com.mcwonders.mkd:itemPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_logo com.mcwonders.mkd:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_navigationMode com.mcwonders.mkd:navigationMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarPadding com.mcwonders.mkd:progressBarPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarStyle com.mcwonders.mkd:progressBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitle com.mcwonders.mkd:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.mcwonders.mkd:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_title com.mcwonders.mkd:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_titleTextStyle com.mcwonders.mkd:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionBar_background
            @see #ActionBar_backgroundSplit
@@ -2353,17 +2353,17 @@ containing a value of this type.
             0x7f01004d, 0x7f01004e, 0x7f01004f
         };
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#background}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#background}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:background
+          @attr name com.mcwonders.mkd:background
         */
         public static final int ActionBar_background = 10;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2371,11 +2371,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.netease.nim.demo:backgroundSplit
+          @attr name com.mcwonders.mkd:backgroundSplit
         */
         public static final int ActionBar_backgroundSplit = 12;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#backgroundStacked}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#backgroundStacked}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2383,21 +2383,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.netease.nim.demo:backgroundStacked
+          @attr name com.mcwonders.mkd:backgroundStacked
         */
         public static final int ActionBar_backgroundStacked = 11;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#customNavigationLayout}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#customNavigationLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:customNavigationLayout
+          @attr name com.mcwonders.mkd:customNavigationLayout
         */
         public static final int ActionBar_customNavigationLayout = 13;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#displayOptions}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#displayOptions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2414,21 +2414,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>showCustom</code></td><td>0x10</td><td></td></tr>
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
-          @attr name com.netease.nim.demo:displayOptions
+          @attr name com.mcwonders.mkd:displayOptions
         */
         public static final int ActionBar_displayOptions = 3;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#divider}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:divider
+          @attr name com.mcwonders.mkd:divider
         */
         public static final int ActionBar_divider = 9;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#height}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#height}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2440,41 +2440,41 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:height
+          @attr name com.mcwonders.mkd:height
         */
         public static final int ActionBar_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#homeLayout}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#homeLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:homeLayout
+          @attr name com.mcwonders.mkd:homeLayout
         */
         public static final int ActionBar_homeLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#icon}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#icon}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:icon
+          @attr name com.mcwonders.mkd:icon
         */
         public static final int ActionBar_icon = 7;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#indeterminateProgressStyle}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#indeterminateProgressStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:indeterminateProgressStyle
+          @attr name com.mcwonders.mkd:indeterminateProgressStyle
         */
         public static final int ActionBar_indeterminateProgressStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#itemPadding}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#itemPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2486,21 +2486,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:itemPadding
+          @attr name com.mcwonders.mkd:itemPadding
         */
         public static final int ActionBar_itemPadding = 18;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#logo}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#logo}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:logo
+          @attr name com.mcwonders.mkd:logo
         */
         public static final int ActionBar_logo = 8;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#navigationMode}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#navigationMode}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2514,11 +2514,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>listMode</code></td><td>1</td><td></td></tr>
 <tr><td><code>tabMode</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.netease.nim.demo:navigationMode
+          @attr name com.mcwonders.mkd:navigationMode
         */
         public static final int ActionBar_navigationMode = 2;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#progressBarPadding}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#progressBarPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2530,21 +2530,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:progressBarPadding
+          @attr name com.mcwonders.mkd:progressBarPadding
         */
         public static final int ActionBar_progressBarPadding = 17;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#progressBarStyle}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#progressBarStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:progressBarStyle
+          @attr name com.mcwonders.mkd:progressBarStyle
         */
         public static final int ActionBar_progressBarStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#subtitle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2554,21 +2554,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:subtitle
+          @attr name com.mcwonders.mkd:subtitle
         */
         public static final int ActionBar_subtitle = 4;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:subtitleTextStyle
+          @attr name com.mcwonders.mkd:subtitleTextStyle
         */
         public static final int ActionBar_subtitleTextStyle = 6;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#title}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#title}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2578,17 +2578,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:title
+          @attr name com.mcwonders.mkd:title
         */
         public static final int ActionBar_title = 1;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:titleTextStyle
+          @attr name com.mcwonders.mkd:titleTextStyle
         */
         public static final int ActionBar_titleTextStyle = 5;
         /** Attributes that can be used with a ActionBarLayout.
@@ -2616,13 +2616,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionBarWindow_windowActionBar com.netease.nim.demo:windowActionBar}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBarWindow_windowActionBarOverlay com.netease.nim.demo:windowActionBarOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBarWindow_windowFixedHeightMajor com.netease.nim.demo:windowFixedHeightMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBarWindow_windowFixedHeightMinor com.netease.nim.demo:windowFixedHeightMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBarWindow_windowFixedWidthMajor com.netease.nim.demo:windowFixedWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBarWindow_windowFixedWidthMinor com.netease.nim.demo:windowFixedWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBarWindow_windowSplitActionBar com.netease.nim.demo:windowSplitActionBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBarWindow_windowActionBar com.mcwonders.mkd:windowActionBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBarWindow_windowActionBarOverlay com.mcwonders.mkd:windowActionBarOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBarWindow_windowFixedHeightMajor com.mcwonders.mkd:windowFixedHeightMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBarWindow_windowFixedHeightMinor com.mcwonders.mkd:windowFixedHeightMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBarWindow_windowFixedWidthMajor com.mcwonders.mkd:windowFixedWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBarWindow_windowFixedWidthMinor com.mcwonders.mkd:windowFixedWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBarWindow_windowSplitActionBar com.mcwonders.mkd:windowSplitActionBar}</code></td><td></td></tr>
            </table>
            @see #ActionBarWindow_windowActionBar
            @see #ActionBarWindow_windowActionBarOverlay
@@ -2637,7 +2637,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010054, 0x7f010055, 0x7f010056
         };
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#windowActionBar}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#windowActionBar}
           attribute's value can be found in the {@link #ActionBarWindow} array.
 
 
@@ -2647,11 +2647,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:windowActionBar
+          @attr name com.mcwonders.mkd:windowActionBar
         */
         public static final int ActionBarWindow_windowActionBar = 0;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#windowActionBarOverlay}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#windowActionBarOverlay}
           attribute's value can be found in the {@link #ActionBarWindow} array.
 
 
@@ -2661,11 +2661,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:windowActionBarOverlay
+          @attr name com.mcwonders.mkd:windowActionBarOverlay
         */
         public static final int ActionBarWindow_windowActionBarOverlay = 1;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#windowFixedHeightMajor}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#windowFixedHeightMajor}
           attribute's value can be found in the {@link #ActionBarWindow} array.
 
 
@@ -2680,11 +2680,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:windowFixedHeightMajor
+          @attr name com.mcwonders.mkd:windowFixedHeightMajor
         */
         public static final int ActionBarWindow_windowFixedHeightMajor = 6;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#windowFixedHeightMinor}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#windowFixedHeightMinor}
           attribute's value can be found in the {@link #ActionBarWindow} array.
 
 
@@ -2699,11 +2699,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:windowFixedHeightMinor
+          @attr name com.mcwonders.mkd:windowFixedHeightMinor
         */
         public static final int ActionBarWindow_windowFixedHeightMinor = 4;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#windowFixedWidthMajor}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#windowFixedWidthMajor}
           attribute's value can be found in the {@link #ActionBarWindow} array.
 
 
@@ -2718,11 +2718,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:windowFixedWidthMajor
+          @attr name com.mcwonders.mkd:windowFixedWidthMajor
         */
         public static final int ActionBarWindow_windowFixedWidthMajor = 3;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#windowFixedWidthMinor}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#windowFixedWidthMinor}
           attribute's value can be found in the {@link #ActionBarWindow} array.
 
 
@@ -2737,11 +2737,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:windowFixedWidthMinor
+          @attr name com.mcwonders.mkd:windowFixedWidthMinor
         */
         public static final int ActionBarWindow_windowFixedWidthMinor = 5;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#windowSplitActionBar}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#windowSplitActionBar}
           attribute's value can be found in the {@link #ActionBarWindow} array.
 
 
@@ -2751,7 +2751,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:windowSplitActionBar
+          @attr name com.mcwonders.mkd:windowSplitActionBar
         */
         public static final int ActionBarWindow_windowSplitActionBar = 2;
         /** Attributes that can be used with a ActionMenuItemView.
@@ -2784,11 +2784,11 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionMode_background com.netease.nim.demo:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_backgroundSplit com.netease.nim.demo:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_height com.netease.nim.demo:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.netease.nim.demo:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_titleTextStyle com.netease.nim.demo:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_background com.mcwonders.mkd:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_backgroundSplit com.mcwonders.mkd:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_height com.mcwonders.mkd:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.mcwonders.mkd:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_titleTextStyle com.mcwonders.mkd:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionMode_background
            @see #ActionMode_backgroundSplit
@@ -2801,17 +2801,17 @@ containing a value of this type.
             0x7f010049
         };
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#background}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#background}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:background
+          @attr name com.mcwonders.mkd:background
         */
         public static final int ActionMode_background = 3;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -2819,11 +2819,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.netease.nim.demo:backgroundSplit
+          @attr name com.mcwonders.mkd:backgroundSplit
         */
         public static final int ActionMode_backgroundSplit = 4;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#height}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#height}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -2835,27 +2835,27 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:height
+          @attr name com.mcwonders.mkd:height
         */
         public static final int ActionMode_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:subtitleTextStyle
+          @attr name com.mcwonders.mkd:subtitleTextStyle
         */
         public static final int ActionMode_subtitleTextStyle = 2;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:titleTextStyle
+          @attr name com.mcwonders.mkd:titleTextStyle
         */
         public static final int ActionMode_titleTextStyle = 1;
         /** Attributes that can be used with a ActivityChooserView.
@@ -2864,8 +2864,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.netease.nim.demo:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.netease.nim.demo:initialActivityCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.mcwonders.mkd:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.mcwonders.mkd:initialActivityCount}</code></td><td></td></tr>
            </table>
            @see #ActivityChooserView_expandActivityOverflowButtonDrawable
            @see #ActivityChooserView_initialActivityCount
@@ -2874,17 +2874,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010057, 0x7f010058
         };
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#expandActivityOverflowButtonDrawable}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#expandActivityOverflowButtonDrawable}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:expandActivityOverflowButtonDrawable
+          @attr name com.mcwonders.mkd:expandActivityOverflowButtonDrawable
         */
         public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#initialActivityCount}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#initialActivityCount}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -2894,7 +2894,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:initialActivityCount
+          @attr name com.mcwonders.mkd:initialActivityCount
         */
         public static final int ActivityChooserView_initialActivityCount = 0;
         /** Attributes that can be used with a BasicImageView.
@@ -2903,11 +2903,11 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #BasicImageView_cache_type com.netease.nim.demo:cache_type}</code></td><td></td></tr>
-           <tr><td><code>{@link #BasicImageView_cache_vitality com.netease.nim.demo:cache_vitality}</code></td><td></td></tr>
-           <tr><td><code>{@link #BasicImageView_empty com.netease.nim.demo:empty}</code></td><td></td></tr>
-           <tr><td><code>{@link #BasicImageView_image_fade_in com.netease.nim.demo:image_fade_in}</code></td><td></td></tr>
-           <tr><td><code>{@link #BasicImageView_scaleTypeEx com.netease.nim.demo:scaleTypeEx}</code></td><td></td></tr>
+           <tr><td><code>{@link #BasicImageView_cache_type com.mcwonders.mkd:cache_type}</code></td><td></td></tr>
+           <tr><td><code>{@link #BasicImageView_cache_vitality com.mcwonders.mkd:cache_vitality}</code></td><td></td></tr>
+           <tr><td><code>{@link #BasicImageView_empty com.mcwonders.mkd:empty}</code></td><td></td></tr>
+           <tr><td><code>{@link #BasicImageView_image_fade_in com.mcwonders.mkd:image_fade_in}</code></td><td></td></tr>
+           <tr><td><code>{@link #BasicImageView_scaleTypeEx com.mcwonders.mkd:scaleTypeEx}</code></td><td></td></tr>
            </table>
            @see #BasicImageView_cache_type
            @see #BasicImageView_cache_vitality
@@ -2920,7 +2920,7 @@ containing a value of this type.
             0x7f01005d
         };
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#cache_type}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#cache_type}
           attribute's value can be found in the {@link #BasicImageView} array.
 
 
@@ -2934,11 +2934,11 @@ containing a value of this type.
 <tr><td><code>StickerList</code></td><td>1</td><td></td></tr>
 <tr><td><code>FAV</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.netease.nim.demo:cache_type
+          @attr name com.mcwonders.mkd:cache_type
         */
         public static final int BasicImageView_cache_type = 0;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#cache_vitality}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#cache_vitality}
           attribute's value can be found in the {@link #BasicImageView} array.
 
 
@@ -2952,21 +2952,21 @@ containing a value of this type.
 <tr><td><code>Default</code></td><td>1</td><td></td></tr>
 <tr><td><code>Permanent</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.netease.nim.demo:cache_vitality
+          @attr name com.mcwonders.mkd:cache_vitality
         */
         public static final int BasicImageView_cache_vitality = 1;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#empty}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#empty}
           attribute's value can be found in the {@link #BasicImageView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:empty
+          @attr name com.mcwonders.mkd:empty
         */
         public static final int BasicImageView_empty = 2;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#image_fade_in}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#image_fade_in}
           attribute's value can be found in the {@link #BasicImageView} array.
 
 
@@ -2976,11 +2976,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:image_fade_in
+          @attr name com.mcwonders.mkd:image_fade_in
         */
         public static final int BasicImageView_image_fade_in = 3;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#scaleTypeEx}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#scaleTypeEx}
           attribute's value can be found in the {@link #BasicImageView} array.
 
 
@@ -2997,7 +2997,7 @@ containing a value of this type.
 <tr><td><code>topLeftCrop</code></td><td>4</td><td></td></tr>
 <tr><td><code>bottomRightCrop</code></td><td>5</td><td></td></tr>
 </table>
-          @attr name com.netease.nim.demo:scaleTypeEx
+          @attr name com.mcwonders.mkd:scaleTypeEx
         */
         public static final int BasicImageView_scaleTypeEx = 4;
         /** Attributes that can be used with a CompatTextView.
@@ -3006,7 +3006,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CompatTextView_textAllCaps com.netease.nim.demo:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompatTextView_textAllCaps com.mcwonders.mkd:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #CompatTextView_textAllCaps
          */
@@ -3014,14 +3014,14 @@ containing a value of this type.
             0x7f01005e
         };
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#textAllCaps}
           attribute's value can be found in the {@link #CompatTextView} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name com.netease.nim.demo:textAllCaps
+          @attr name com.mcwonders.mkd:textAllCaps
         */
         public static final int CompatTextView_textAllCaps = 0;
         /** Attributes that can be used with a LinearLayoutICS.
@@ -3030,9 +3030,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #LinearLayoutICS_divider com.netease.nim.demo:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutICS_dividerPadding com.netease.nim.demo:dividerPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutICS_showDividers com.netease.nim.demo:showDividers}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutICS_divider com.mcwonders.mkd:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutICS_dividerPadding com.mcwonders.mkd:dividerPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutICS_showDividers com.mcwonders.mkd:showDividers}</code></td><td></td></tr>
            </table>
            @see #LinearLayoutICS_divider
            @see #LinearLayoutICS_dividerPadding
@@ -3042,17 +3042,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010046, 0x7f01005f, 0x7f010060
         };
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#divider}
           attribute's value can be found in the {@link #LinearLayoutICS} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:divider
+          @attr name com.mcwonders.mkd:divider
         */
         public static final int LinearLayoutICS_divider = 0;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#dividerPadding}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#dividerPadding}
           attribute's value can be found in the {@link #LinearLayoutICS} array.
 
 
@@ -3064,11 +3064,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:dividerPadding
+          @attr name com.mcwonders.mkd:dividerPadding
         */
         public static final int LinearLayoutICS_dividerPadding = 2;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#showDividers}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#showDividers}
           attribute's value can be found in the {@link #LinearLayoutICS} array.
 
 
@@ -3083,7 +3083,7 @@ containing a value of this type.
 <tr><td><code>middle</code></td><td>2</td><td></td></tr>
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name com.netease.nim.demo:showDividers
+          @attr name com.mcwonders.mkd:showDividers
         */
         public static final int LinearLayoutICS_showDividers = 1;
         /** Attributes that can be used with a MenuGroup.
@@ -3152,9 +3152,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MenuItem_actionLayout com.netease.nim.demo:actionLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionProviderClass com.netease.nim.demo:actionProviderClass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionViewClass com.netease.nim.demo:actionViewClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionLayout com.mcwonders.mkd:actionLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionProviderClass com.mcwonders.mkd:actionProviderClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionViewClass com.mcwonders.mkd:actionViewClass}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checked android:checked}</code></td><td></td></tr>
@@ -3168,7 +3168,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuItem_android_title android:title}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_titleCondensed android:titleCondensed}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_visible android:visible}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_showAsAction com.netease.nim.demo:showAsAction}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_showAsAction com.mcwonders.mkd:showAsAction}</code></td><td></td></tr>
            </table>
            @see #MenuItem_actionLayout
            @see #MenuItem_actionProviderClass
@@ -3196,17 +3196,17 @@ containing a value of this type.
             0x7f010064
         };
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#actionLayout}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#actionLayout}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:actionLayout
+          @attr name com.mcwonders.mkd:actionLayout
         */
         public static final int MenuItem_actionLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#actionProviderClass}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#actionProviderClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -3216,11 +3216,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:actionProviderClass
+          @attr name com.mcwonders.mkd:actionProviderClass
         */
         public static final int MenuItem_actionProviderClass = 16;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#actionViewClass}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#actionViewClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -3230,7 +3230,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:actionViewClass
+          @attr name com.mcwonders.mkd:actionViewClass
         */
         public static final int MenuItem_actionViewClass = 15;
         /**
@@ -3312,7 +3312,7 @@ containing a value of this type.
         */
         public static final int MenuItem_android_visible = 4;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#showAsAction}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#showAsAction}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -3328,7 +3328,7 @@ containing a value of this type.
 <tr><td><code>withText</code></td><td>4</td><td></td></tr>
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
-          @attr name com.netease.nim.demo:showAsAction
+          @attr name com.mcwonders.mkd:showAsAction
         */
         public static final int MenuItem_showAsAction = 13;
         /** Attributes that can be used with a MenuView.
@@ -3413,19 +3413,19 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsCheckedTextColor com.netease.nim.demo:pstsCheckedTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsDividerColor com.netease.nim.demo:pstsDividerColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsDividerPadding com.netease.nim.demo:pstsDividerPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsIndicatorColor com.netease.nim.demo:pstsIndicatorColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsIndicatorHeight com.netease.nim.demo:pstsIndicatorHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsScrollOffset com.netease.nim.demo:pstsScrollOffset}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsShouldExpand com.netease.nim.demo:pstsShouldExpand}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsTabBackground com.netease.nim.demo:pstsTabBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsTabPaddingLeftRight com.netease.nim.demo:pstsTabPaddingLeftRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsTextAllCaps com.netease.nim.demo:pstsTextAllCaps}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsUncheckedTextColor com.netease.nim.demo:pstsUncheckedTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsUnderlineColor com.netease.nim.demo:pstsUnderlineColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsUnderlineHeight com.netease.nim.demo:pstsUnderlineHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsCheckedTextColor com.mcwonders.mkd:pstsCheckedTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsDividerColor com.mcwonders.mkd:pstsDividerColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsDividerPadding com.mcwonders.mkd:pstsDividerPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsIndicatorColor com.mcwonders.mkd:pstsIndicatorColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsIndicatorHeight com.mcwonders.mkd:pstsIndicatorHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsScrollOffset com.mcwonders.mkd:pstsScrollOffset}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsShouldExpand com.mcwonders.mkd:pstsShouldExpand}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsTabBackground com.mcwonders.mkd:pstsTabBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsTabPaddingLeftRight com.mcwonders.mkd:pstsTabPaddingLeftRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsTextAllCaps com.mcwonders.mkd:pstsTextAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsUncheckedTextColor com.mcwonders.mkd:pstsUncheckedTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsUnderlineColor com.mcwonders.mkd:pstsUnderlineColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsUnderlineHeight com.mcwonders.mkd:pstsUnderlineHeight}</code></td><td></td></tr>
            </table>
            @see #PagerSlidingTabStrip_pstsCheckedTextColor
            @see #PagerSlidingTabStrip_pstsDividerColor
@@ -3448,17 +3448,17 @@ containing a value of this type.
             0x7f010071
         };
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#pstsCheckedTextColor}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#pstsCheckedTextColor}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:pstsCheckedTextColor
+          @attr name com.mcwonders.mkd:pstsCheckedTextColor
         */
         public static final int PagerSlidingTabStrip_pstsCheckedTextColor = 3;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#pstsDividerColor}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#pstsDividerColor}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -3469,11 +3469,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:pstsDividerColor
+          @attr name com.mcwonders.mkd:pstsDividerColor
         */
         public static final int PagerSlidingTabStrip_pstsDividerColor = 2;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#pstsDividerPadding}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#pstsDividerPadding}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -3485,11 +3485,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:pstsDividerPadding
+          @attr name com.mcwonders.mkd:pstsDividerPadding
         */
         public static final int PagerSlidingTabStrip_pstsDividerPadding = 7;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#pstsIndicatorColor}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#pstsIndicatorColor}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -3500,11 +3500,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:pstsIndicatorColor
+          @attr name com.mcwonders.mkd:pstsIndicatorColor
         */
         public static final int PagerSlidingTabStrip_pstsIndicatorColor = 0;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#pstsIndicatorHeight}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#pstsIndicatorHeight}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -3516,11 +3516,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:pstsIndicatorHeight
+          @attr name com.mcwonders.mkd:pstsIndicatorHeight
         */
         public static final int PagerSlidingTabStrip_pstsIndicatorHeight = 5;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#pstsScrollOffset}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#pstsScrollOffset}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -3532,11 +3532,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:pstsScrollOffset
+          @attr name com.mcwonders.mkd:pstsScrollOffset
         */
         public static final int PagerSlidingTabStrip_pstsScrollOffset = 9;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#pstsShouldExpand}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#pstsShouldExpand}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -3546,21 +3546,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:pstsShouldExpand
+          @attr name com.mcwonders.mkd:pstsShouldExpand
         */
         public static final int PagerSlidingTabStrip_pstsShouldExpand = 11;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#pstsTabBackground}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#pstsTabBackground}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:pstsTabBackground
+          @attr name com.mcwonders.mkd:pstsTabBackground
         */
         public static final int PagerSlidingTabStrip_pstsTabBackground = 10;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#pstsTabPaddingLeftRight}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#pstsTabPaddingLeftRight}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -3572,11 +3572,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:pstsTabPaddingLeftRight
+          @attr name com.mcwonders.mkd:pstsTabPaddingLeftRight
         */
         public static final int PagerSlidingTabStrip_pstsTabPaddingLeftRight = 8;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#pstsTextAllCaps}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#pstsTextAllCaps}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -3586,21 +3586,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:pstsTextAllCaps
+          @attr name com.mcwonders.mkd:pstsTextAllCaps
         */
         public static final int PagerSlidingTabStrip_pstsTextAllCaps = 12;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#pstsUncheckedTextColor}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#pstsUncheckedTextColor}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:pstsUncheckedTextColor
+          @attr name com.mcwonders.mkd:pstsUncheckedTextColor
         */
         public static final int PagerSlidingTabStrip_pstsUncheckedTextColor = 4;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#pstsUnderlineColor}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#pstsUnderlineColor}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -3611,11 +3611,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:pstsUnderlineColor
+          @attr name com.mcwonders.mkd:pstsUnderlineColor
         */
         public static final int PagerSlidingTabStrip_pstsUnderlineColor = 1;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#pstsUnderlineHeight}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#pstsUnderlineHeight}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -3627,7 +3627,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:pstsUnderlineHeight
+          @attr name com.mcwonders.mkd:pstsUnderlineHeight
         */
         public static final int PagerSlidingTabStrip_pstsUnderlineHeight = 6;
         /** Attributes that can be used with a PullToRefresh.
@@ -3636,27 +3636,27 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrAdapterViewBackground com.netease.nim.demo:ptrAdapterViewBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrAnimationStyle com.netease.nim.demo:ptrAnimationStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrDrawable com.netease.nim.demo:ptrDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrDrawableBottom com.netease.nim.demo:ptrDrawableBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrDrawableEnd com.netease.nim.demo:ptrDrawableEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrDrawableStart com.netease.nim.demo:ptrDrawableStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrDrawableTop com.netease.nim.demo:ptrDrawableTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrHeaderBackground com.netease.nim.demo:ptrHeaderBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrHeaderBackgroundEnd com.netease.nim.demo:ptrHeaderBackgroundEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrHeaderBackgroundStart com.netease.nim.demo:ptrHeaderBackgroundStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrHeaderSubTextAppearance com.netease.nim.demo:ptrHeaderSubTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrHeaderSubTextColor com.netease.nim.demo:ptrHeaderSubTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrHeaderTextAppearance com.netease.nim.demo:ptrHeaderTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrHeaderTextColor com.netease.nim.demo:ptrHeaderTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrListViewExtrasEnabled com.netease.nim.demo:ptrListViewExtrasEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrMode com.netease.nim.demo:ptrMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrOverScroll com.netease.nim.demo:ptrOverScroll}</code></td><td></td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrRefreshableViewBackground com.netease.nim.demo:ptrRefreshableViewBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrRotateDrawableWhilePulling com.netease.nim.demo:ptrRotateDrawableWhilePulling}</code></td><td></td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrScrollingWhileRefreshingEnabled com.netease.nim.demo:ptrScrollingWhileRefreshingEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrShowIndicator com.netease.nim.demo:ptrShowIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #PullToRefresh_ptrAdapterViewBackground com.mcwonders.mkd:ptrAdapterViewBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #PullToRefresh_ptrAnimationStyle com.mcwonders.mkd:ptrAnimationStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #PullToRefresh_ptrDrawable com.mcwonders.mkd:ptrDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #PullToRefresh_ptrDrawableBottom com.mcwonders.mkd:ptrDrawableBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #PullToRefresh_ptrDrawableEnd com.mcwonders.mkd:ptrDrawableEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #PullToRefresh_ptrDrawableStart com.mcwonders.mkd:ptrDrawableStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #PullToRefresh_ptrDrawableTop com.mcwonders.mkd:ptrDrawableTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #PullToRefresh_ptrHeaderBackground com.mcwonders.mkd:ptrHeaderBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #PullToRefresh_ptrHeaderBackgroundEnd com.mcwonders.mkd:ptrHeaderBackgroundEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #PullToRefresh_ptrHeaderBackgroundStart com.mcwonders.mkd:ptrHeaderBackgroundStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #PullToRefresh_ptrHeaderSubTextAppearance com.mcwonders.mkd:ptrHeaderSubTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #PullToRefresh_ptrHeaderSubTextColor com.mcwonders.mkd:ptrHeaderSubTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PullToRefresh_ptrHeaderTextAppearance com.mcwonders.mkd:ptrHeaderTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #PullToRefresh_ptrHeaderTextColor com.mcwonders.mkd:ptrHeaderTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PullToRefresh_ptrListViewExtrasEnabled com.mcwonders.mkd:ptrListViewExtrasEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #PullToRefresh_ptrMode com.mcwonders.mkd:ptrMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #PullToRefresh_ptrOverScroll com.mcwonders.mkd:ptrOverScroll}</code></td><td></td></tr>
+           <tr><td><code>{@link #PullToRefresh_ptrRefreshableViewBackground com.mcwonders.mkd:ptrRefreshableViewBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #PullToRefresh_ptrRotateDrawableWhilePulling com.mcwonders.mkd:ptrRotateDrawableWhilePulling}</code></td><td></td></tr>
+           <tr><td><code>{@link #PullToRefresh_ptrScrollingWhileRefreshingEnabled com.mcwonders.mkd:ptrScrollingWhileRefreshingEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #PullToRefresh_ptrShowIndicator com.mcwonders.mkd:ptrShowIndicator}</code></td><td></td></tr>
            </table>
            @see #PullToRefresh_ptrAdapterViewBackground
            @see #PullToRefresh_ptrAnimationStyle
@@ -3689,7 +3689,7 @@ containing a value of this type.
             0x7f010086
         };
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#ptrAdapterViewBackground}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#ptrAdapterViewBackground}
           attribute's value can be found in the {@link #PullToRefresh} array.
 
 
@@ -3697,11 +3697,11 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.netease.nim.demo:ptrAdapterViewBackground
+          @attr name com.mcwonders.mkd:ptrAdapterViewBackground
         */
         public static final int PullToRefresh_ptrAdapterViewBackground = 18;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#ptrAnimationStyle}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#ptrAnimationStyle}
           attribute's value can be found in the {@link #PullToRefresh} array.
 
 
@@ -3714,61 +3714,61 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>rotate</code></td><td>0x0</td><td></td></tr>
 <tr><td><code>flip</code></td><td>0x1</td><td></td></tr>
 </table>
-          @attr name com.netease.nim.demo:ptrAnimationStyle
+          @attr name com.mcwonders.mkd:ptrAnimationStyle
         */
         public static final int PullToRefresh_ptrAnimationStyle = 14;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#ptrDrawable}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#ptrDrawable}
           attribute's value can be found in the {@link #PullToRefresh} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:ptrDrawable
+          @attr name com.mcwonders.mkd:ptrDrawable
         */
         public static final int PullToRefresh_ptrDrawable = 10;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#ptrDrawableBottom}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#ptrDrawableBottom}
           attribute's value can be found in the {@link #PullToRefresh} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:ptrDrawableBottom
+          @attr name com.mcwonders.mkd:ptrDrawableBottom
         */
         public static final int PullToRefresh_ptrDrawableBottom = 20;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#ptrDrawableEnd}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#ptrDrawableEnd}
           attribute's value can be found in the {@link #PullToRefresh} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:ptrDrawableEnd
+          @attr name com.mcwonders.mkd:ptrDrawableEnd
         */
         public static final int PullToRefresh_ptrDrawableEnd = 12;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#ptrDrawableStart}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#ptrDrawableStart}
           attribute's value can be found in the {@link #PullToRefresh} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:ptrDrawableStart
+          @attr name com.mcwonders.mkd:ptrDrawableStart
         */
         public static final int PullToRefresh_ptrDrawableStart = 11;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#ptrDrawableTop}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#ptrDrawableTop}
           attribute's value can be found in the {@link #PullToRefresh} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:ptrDrawableTop
+          @attr name com.mcwonders.mkd:ptrDrawableTop
         */
         public static final int PullToRefresh_ptrDrawableTop = 19;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#ptrHeaderBackground}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#ptrHeaderBackground}
           attribute's value can be found in the {@link #PullToRefresh} array.
 
 
@@ -3776,11 +3776,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.netease.nim.demo:ptrHeaderBackground
+          @attr name com.mcwonders.mkd:ptrHeaderBackground
         */
         public static final int PullToRefresh_ptrHeaderBackground = 1;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#ptrHeaderBackgroundEnd}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#ptrHeaderBackgroundEnd}
           attribute's value can be found in the {@link #PullToRefresh} array.
 
 
@@ -3788,11 +3788,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.netease.nim.demo:ptrHeaderBackgroundEnd
+          @attr name com.mcwonders.mkd:ptrHeaderBackgroundEnd
         */
         public static final int PullToRefresh_ptrHeaderBackgroundEnd = 3;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#ptrHeaderBackgroundStart}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#ptrHeaderBackgroundStart}
           attribute's value can be found in the {@link #PullToRefresh} array.
 
 
@@ -3800,21 +3800,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.netease.nim.demo:ptrHeaderBackgroundStart
+          @attr name com.mcwonders.mkd:ptrHeaderBackgroundStart
         */
         public static final int PullToRefresh_ptrHeaderBackgroundStart = 2;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#ptrHeaderSubTextAppearance}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#ptrHeaderSubTextAppearance}
           attribute's value can be found in the {@link #PullToRefresh} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:ptrHeaderSubTextAppearance
+          @attr name com.mcwonders.mkd:ptrHeaderSubTextAppearance
         */
         public static final int PullToRefresh_ptrHeaderSubTextAppearance = 7;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#ptrHeaderSubTextColor}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#ptrHeaderSubTextColor}
           attribute's value can be found in the {@link #PullToRefresh} array.
 
 
@@ -3822,21 +3822,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.netease.nim.demo:ptrHeaderSubTextColor
+          @attr name com.mcwonders.mkd:ptrHeaderSubTextColor
         */
         public static final int PullToRefresh_ptrHeaderSubTextColor = 5;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#ptrHeaderTextAppearance}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#ptrHeaderTextAppearance}
           attribute's value can be found in the {@link #PullToRefresh} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:ptrHeaderTextAppearance
+          @attr name com.mcwonders.mkd:ptrHeaderTextAppearance
         */
         public static final int PullToRefresh_ptrHeaderTextAppearance = 6;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#ptrHeaderTextColor}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#ptrHeaderTextColor}
           attribute's value can be found in the {@link #PullToRefresh} array.
 
 
@@ -3844,22 +3844,22 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.netease.nim.demo:ptrHeaderTextColor
+          @attr name com.mcwonders.mkd:ptrHeaderTextColor
         */
         public static final int PullToRefresh_ptrHeaderTextColor = 4;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#ptrListViewExtrasEnabled}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#ptrListViewExtrasEnabled}
           attribute's value can be found in the {@link #PullToRefresh} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name com.netease.nim.demo:ptrListViewExtrasEnabled
+          @attr name com.mcwonders.mkd:ptrListViewExtrasEnabled
         */
         public static final int PullToRefresh_ptrListViewExtrasEnabled = 16;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#ptrMode}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#ptrMode}
           attribute's value can be found in the {@link #PullToRefresh} array.
 
 
@@ -3877,22 +3877,22 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>pullDownFromTop</code></td><td>0x1</td><td></td></tr>
 <tr><td><code>pullUpFromBottom</code></td><td>0x2</td><td></td></tr>
 </table>
-          @attr name com.netease.nim.demo:ptrMode
+          @attr name com.mcwonders.mkd:ptrMode
         */
         public static final int PullToRefresh_ptrMode = 8;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#ptrOverScroll}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#ptrOverScroll}
           attribute's value can be found in the {@link #PullToRefresh} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name com.netease.nim.demo:ptrOverScroll
+          @attr name com.mcwonders.mkd:ptrOverScroll
         */
         public static final int PullToRefresh_ptrOverScroll = 13;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#ptrRefreshableViewBackground}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#ptrRefreshableViewBackground}
           attribute's value can be found in the {@link #PullToRefresh} array.
 
 
@@ -3900,40 +3900,40 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.netease.nim.demo:ptrRefreshableViewBackground
+          @attr name com.mcwonders.mkd:ptrRefreshableViewBackground
         */
         public static final int PullToRefresh_ptrRefreshableViewBackground = 0;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#ptrRotateDrawableWhilePulling}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#ptrRotateDrawableWhilePulling}
           attribute's value can be found in the {@link #PullToRefresh} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name com.netease.nim.demo:ptrRotateDrawableWhilePulling
+          @attr name com.mcwonders.mkd:ptrRotateDrawableWhilePulling
         */
         public static final int PullToRefresh_ptrRotateDrawableWhilePulling = 17;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#ptrScrollingWhileRefreshingEnabled}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#ptrScrollingWhileRefreshingEnabled}
           attribute's value can be found in the {@link #PullToRefresh} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name com.netease.nim.demo:ptrScrollingWhileRefreshingEnabled
+          @attr name com.mcwonders.mkd:ptrScrollingWhileRefreshingEnabled
         */
         public static final int PullToRefresh_ptrScrollingWhileRefreshingEnabled = 15;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#ptrShowIndicator}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#ptrShowIndicator}
           attribute's value can be found in the {@link #PullToRefresh} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name com.netease.nim.demo:ptrShowIndicator
+          @attr name com.mcwonders.mkd:ptrShowIndicator
         */
         public static final int PullToRefresh_ptrShowIndicator = 9;
         /** Attributes that can be used with a SearchView.
@@ -3945,8 +3945,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_iconifiedByDefault com.netease.nim.demo:iconifiedByDefault}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryHint com.netease.nim.demo:queryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_iconifiedByDefault com.mcwonders.mkd:iconifiedByDefault}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryHint com.mcwonders.mkd:queryHint}</code></td><td></td></tr>
            </table>
            @see #SearchView_android_imeOptions
            @see #SearchView_android_inputType
@@ -3977,7 +3977,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SearchView_android_maxWidth = 0;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#iconifiedByDefault}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#iconifiedByDefault}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -3987,11 +3987,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:iconifiedByDefault
+          @attr name com.mcwonders.mkd:iconifiedByDefault
         */
         public static final int SearchView_iconifiedByDefault = 3;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#queryHint}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#queryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -4001,7 +4001,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:queryHint
+          @attr name com.mcwonders.mkd:queryHint
         */
         public static final int SearchView_queryHint = 4;
         /** Attributes that can be used with a Spinner.
@@ -4016,10 +4016,10 @@ containing a value of this type.
            <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_disableChildrenWhenDisabled com.netease.nim.demo:disableChildrenWhenDisabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_popupPromptView com.netease.nim.demo:popupPromptView}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_prompt com.netease.nim.demo:prompt}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_spinnerMode com.netease.nim.demo:spinnerMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_disableChildrenWhenDisabled com.mcwonders.mkd:disableChildrenWhenDisabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_popupPromptView com.mcwonders.mkd:popupPromptView}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_prompt com.mcwonders.mkd:prompt}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_spinnerMode com.mcwonders.mkd:spinnerMode}</code></td><td></td></tr>
            </table>
            @see #Spinner_android_dropDownHorizontalOffset
            @see #Spinner_android_dropDownSelector
@@ -4074,7 +4074,7 @@ containing a value of this type.
         */
         public static final int Spinner_android_popupBackground = 2;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#disableChildrenWhenDisabled}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#disableChildrenWhenDisabled}
           attribute's value can be found in the {@link #Spinner} array.
 
 
@@ -4084,31 +4084,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:disableChildrenWhenDisabled
+          @attr name com.mcwonders.mkd:disableChildrenWhenDisabled
         */
         public static final int Spinner_disableChildrenWhenDisabled = 9;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#popupPromptView}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#popupPromptView}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:popupPromptView
+          @attr name com.mcwonders.mkd:popupPromptView
         */
         public static final int Spinner_popupPromptView = 8;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#prompt}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#prompt}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:prompt
+          @attr name com.mcwonders.mkd:prompt
         */
         public static final int Spinner_prompt = 6;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#spinnerMode}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#spinnerMode}
           attribute's value can be found in the {@link #Spinner} array.
 
 
@@ -4121,7 +4121,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>dialog</code></td><td>0</td><td></td></tr>
 <tr><td><code>dropdown</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.netease.nim.demo:spinnerMode
+          @attr name com.mcwonders.mkd:spinnerMode
         */
         public static final int Spinner_spinnerMode = 7;
         /** Attributes that can be used with a Theme.
@@ -4130,12 +4130,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #Theme_actionDropDownStyle com.netease.nim.demo:actionDropDownStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight com.netease.nim.demo:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator com.netease.nim.demo:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListTheme com.netease.nim.demo:panelMenuListTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListWidth com.netease.nim.demo:panelMenuListWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_popupMenuStyle com.netease.nim.demo:popupMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionDropDownStyle com.mcwonders.mkd:actionDropDownStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight com.mcwonders.mkd:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator com.mcwonders.mkd:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListTheme com.mcwonders.mkd:panelMenuListTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListWidth com.mcwonders.mkd:panelMenuListWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_popupMenuStyle com.mcwonders.mkd:popupMenuStyle}</code></td><td></td></tr>
            </table>
            @see #Theme_actionDropDownStyle
            @see #Theme_dropdownListPreferredItemHeight
@@ -4149,17 +4149,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010091, 0x7f010092
         };
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#actionDropDownStyle}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#actionDropDownStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:actionDropDownStyle
+          @attr name com.mcwonders.mkd:actionDropDownStyle
         */
         public static final int Theme_actionDropDownStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#dropdownListPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#dropdownListPreferredItemHeight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4171,31 +4171,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:dropdownListPreferredItemHeight
+          @attr name com.mcwonders.mkd:dropdownListPreferredItemHeight
         */
         public static final int Theme_dropdownListPreferredItemHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#listChoiceBackgroundIndicator}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#listChoiceBackgroundIndicator}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:listChoiceBackgroundIndicator
+          @attr name com.mcwonders.mkd:listChoiceBackgroundIndicator
         */
         public static final int Theme_listChoiceBackgroundIndicator = 5;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#panelMenuListTheme}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#panelMenuListTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:panelMenuListTheme
+          @attr name com.mcwonders.mkd:panelMenuListTheme
         */
         public static final int Theme_panelMenuListTheme = 4;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#panelMenuListWidth}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#panelMenuListWidth}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4207,17 +4207,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:panelMenuListWidth
+          @attr name com.mcwonders.mkd:panelMenuListWidth
         */
         public static final int Theme_panelMenuListWidth = 3;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#popupMenuStyle}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#popupMenuStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:popupMenuStyle
+          @attr name com.mcwonders.mkd:popupMenuStyle
         */
         public static final int Theme_popupMenuStyle = 2;
         /** Attributes that can be used with a TwoTextView.
@@ -4226,12 +4226,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #TwoTextView_ttLeftText com.netease.nim.demo:ttLeftText}</code></td><td></td></tr>
-           <tr><td><code>{@link #TwoTextView_ttLeftTextColor com.netease.nim.demo:ttLeftTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TwoTextView_ttLeftTextSize com.netease.nim.demo:ttLeftTextSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #TwoTextView_ttRightText com.netease.nim.demo:ttRightText}</code></td><td></td></tr>
-           <tr><td><code>{@link #TwoTextView_ttRightTextColor com.netease.nim.demo:ttRightTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TwoTextView_ttRightTextSize com.netease.nim.demo:ttRightTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoTextView_ttLeftText com.mcwonders.mkd:ttLeftText}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoTextView_ttLeftTextColor com.mcwonders.mkd:ttLeftTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoTextView_ttLeftTextSize com.mcwonders.mkd:ttLeftTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoTextView_ttRightText com.mcwonders.mkd:ttRightText}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoTextView_ttRightTextColor com.mcwonders.mkd:ttRightTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoTextView_ttRightTextSize com.mcwonders.mkd:ttRightTextSize}</code></td><td></td></tr>
            </table>
            @see #TwoTextView_ttLeftText
            @see #TwoTextView_ttLeftTextColor
@@ -4245,28 +4245,28 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010097, 0x7f010098
         };
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#ttLeftText}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#ttLeftText}
           attribute's value can be found in the {@link #TwoTextView} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-          @attr name com.netease.nim.demo:ttLeftText
+          @attr name com.mcwonders.mkd:ttLeftText
         */
         public static final int TwoTextView_ttLeftText = 0;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#ttLeftTextColor}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#ttLeftTextColor}
           attribute's value can be found in the {@link #TwoTextView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:ttLeftTextColor
+          @attr name com.mcwonders.mkd:ttLeftTextColor
         */
         public static final int TwoTextView_ttLeftTextColor = 4;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#ttLeftTextSize}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#ttLeftTextSize}
           attribute's value can be found in the {@link #TwoTextView} array.
 
 
@@ -4278,32 +4278,32 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:ttLeftTextSize
+          @attr name com.mcwonders.mkd:ttLeftTextSize
         */
         public static final int TwoTextView_ttLeftTextSize = 2;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#ttRightText}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#ttRightText}
           attribute's value can be found in the {@link #TwoTextView} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-          @attr name com.netease.nim.demo:ttRightText
+          @attr name com.mcwonders.mkd:ttRightText
         */
         public static final int TwoTextView_ttRightText = 1;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#ttRightTextColor}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#ttRightTextColor}
           attribute's value can be found in the {@link #TwoTextView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.netease.nim.demo:ttRightTextColor
+          @attr name com.mcwonders.mkd:ttRightTextColor
         */
         public static final int TwoTextView_ttRightTextColor = 5;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#ttRightTextSize}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#ttRightTextSize}
           attribute's value can be found in the {@link #TwoTextView} array.
 
 
@@ -4315,7 +4315,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:ttRightTextSize
+          @attr name com.mcwonders.mkd:ttRightTextSize
         */
         public static final int TwoTextView_ttRightTextSize = 3;
         /** Attributes that can be used with a View.
@@ -4325,8 +4325,8 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingEnd com.netease.nim.demo:paddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingStart com.netease.nim.demo:paddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingEnd com.mcwonders.mkd:paddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingStart com.mcwonders.mkd:paddingStart}</code></td><td></td></tr>
            </table>
            @see #View_android_focusable
            @see #View_paddingEnd
@@ -4342,7 +4342,7 @@ containing a value of this type.
         */
         public static final int View_android_focusable = 0;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#paddingEnd}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#paddingEnd}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -4354,11 +4354,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:paddingEnd
+          @attr name com.mcwonders.mkd:paddingEnd
         */
         public static final int View_paddingEnd = 2;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#paddingStart}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#paddingStart}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -4370,7 +4370,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:paddingStart
+          @attr name com.mcwonders.mkd:paddingStart
         */
         public static final int View_paddingStart = 1;
         /** Attributes that can be used with a genericInputBox.
@@ -4379,19 +4379,19 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #genericInputBox_contentName com.netease.nim.demo:contentName}</code></td><td></td></tr>
-           <tr><td><code>{@link #genericInputBox_contentNameTextSize com.netease.nim.demo:contentNameTextSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #genericInputBox_contentNameWidth com.netease.nim.demo:contentNameWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #genericInputBox_extraImgButtonBg com.netease.nim.demo:extraImgButtonBg}</code></td><td></td></tr>
-           <tr><td><code>{@link #genericInputBox_inputGravity com.netease.nim.demo:inputGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #genericInputBox_inputHint com.netease.nim.demo:inputHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #genericInputBox_inputHintTextColor com.netease.nim.demo:inputHintTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #genericInputBox_inputTextColor com.netease.nim.demo:inputTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #genericInputBox_inputTextSize com.netease.nim.demo:inputTextSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #genericInputBox_inputType com.netease.nim.demo:inputType}</code></td><td></td></tr>
-           <tr><td><code>{@link #genericInputBox_maxLength com.netease.nim.demo:maxLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #genericInputBox_separateList com.netease.nim.demo:separateList}</code></td><td></td></tr>
-           <tr><td><code>{@link #genericInputBox_showClearBtn com.netease.nim.demo:showClearBtn}</code></td><td></td></tr>
+           <tr><td><code>{@link #genericInputBox_contentName com.mcwonders.mkd:contentName}</code></td><td></td></tr>
+           <tr><td><code>{@link #genericInputBox_contentNameTextSize com.mcwonders.mkd:contentNameTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #genericInputBox_contentNameWidth com.mcwonders.mkd:contentNameWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #genericInputBox_extraImgButtonBg com.mcwonders.mkd:extraImgButtonBg}</code></td><td></td></tr>
+           <tr><td><code>{@link #genericInputBox_inputGravity com.mcwonders.mkd:inputGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #genericInputBox_inputHint com.mcwonders.mkd:inputHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #genericInputBox_inputHintTextColor com.mcwonders.mkd:inputHintTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #genericInputBox_inputTextColor com.mcwonders.mkd:inputTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #genericInputBox_inputTextSize com.mcwonders.mkd:inputTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #genericInputBox_inputType com.mcwonders.mkd:inputType}</code></td><td></td></tr>
+           <tr><td><code>{@link #genericInputBox_maxLength com.mcwonders.mkd:maxLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #genericInputBox_separateList com.mcwonders.mkd:separateList}</code></td><td></td></tr>
+           <tr><td><code>{@link #genericInputBox_showClearBtn com.mcwonders.mkd:showClearBtn}</code></td><td></td></tr>
            </table>
            @see #genericInputBox_contentName
            @see #genericInputBox_contentNameTextSize
@@ -4414,18 +4414,18 @@ containing a value of this type.
             0x7f0100a7
         };
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#contentName}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#contentName}
           attribute's value can be found in the {@link #genericInputBox} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-          @attr name com.netease.nim.demo:contentName
+          @attr name com.mcwonders.mkd:contentName
         */
         public static final int genericInputBox_contentName = 0;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#contentNameTextSize}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#contentNameTextSize}
           attribute's value can be found in the {@link #genericInputBox} array.
 
 
@@ -4437,11 +4437,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:contentNameTextSize
+          @attr name com.mcwonders.mkd:contentNameTextSize
         */
         public static final int genericInputBox_contentNameTextSize = 1;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#contentNameWidth}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#contentNameWidth}
           attribute's value can be found in the {@link #genericInputBox} array.
 
 
@@ -4453,11 +4453,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:contentNameWidth
+          @attr name com.mcwonders.mkd:contentNameWidth
         */
         public static final int genericInputBox_contentNameWidth = 2;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#extraImgButtonBg}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#extraImgButtonBg}
           attribute's value can be found in the {@link #genericInputBox} array.
 
 
@@ -4465,11 +4465,11 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.netease.nim.demo:extraImgButtonBg
+          @attr name com.mcwonders.mkd:extraImgButtonBg
         */
         public static final int genericInputBox_extraImgButtonBg = 11;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#inputGravity}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#inputGravity}
           attribute's value can be found in the {@link #genericInputBox} array.
 
 
@@ -4482,22 +4482,22 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>Left</code></td><td>0x00000003</td><td></td></tr>
 <tr><td><code>Right</code></td><td>0x00000005</td><td></td></tr>
 </table>
-          @attr name com.netease.nim.demo:inputGravity
+          @attr name com.mcwonders.mkd:inputGravity
         */
         public static final int genericInputBox_inputGravity = 7;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#inputHint}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#inputHint}
           attribute's value can be found in the {@link #genericInputBox} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-          @attr name com.netease.nim.demo:inputHint
+          @attr name com.mcwonders.mkd:inputHint
         */
         public static final int genericInputBox_inputHint = 5;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#inputHintTextColor}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#inputHintTextColor}
           attribute's value can be found in the {@link #genericInputBox} array.
 
 
@@ -4505,11 +4505,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.netease.nim.demo:inputHintTextColor
+          @attr name com.mcwonders.mkd:inputHintTextColor
         */
         public static final int genericInputBox_inputHintTextColor = 6;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#inputTextColor}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#inputTextColor}
           attribute's value can be found in the {@link #genericInputBox} array.
 
 
@@ -4517,11 +4517,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.netease.nim.demo:inputTextColor
+          @attr name com.mcwonders.mkd:inputTextColor
         */
         public static final int genericInputBox_inputTextColor = 4;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#inputTextSize}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#inputTextSize}
           attribute's value can be found in the {@link #genericInputBox} array.
 
 
@@ -4533,11 +4533,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:inputTextSize
+          @attr name com.mcwonders.mkd:inputTextSize
         */
         public static final int genericInputBox_inputTextSize = 3;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#inputType}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#inputType}
           attribute's value can be found in the {@link #genericInputBox} array.
 
 
@@ -4553,11 +4553,11 @@ containing a value of this type.
 <tr><td><code>textPassword</code></td><td>0x81</td><td></td></tr>
 <tr><td><code>textNull</code></td><td>0x0</td><td></td></tr>
 </table>
-          @attr name com.netease.nim.demo:inputType
+          @attr name com.mcwonders.mkd:inputType
         */
         public static final int genericInputBox_inputType = 9;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#maxLength}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#maxLength}
           attribute's value can be found in the {@link #genericInputBox} array.
 
 
@@ -4567,11 +4567,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:maxLength
+          @attr name com.mcwonders.mkd:maxLength
         */
         public static final int genericInputBox_maxLength = 8;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#separateList}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#separateList}
           attribute's value can be found in the {@link #genericInputBox} array.
 
 
@@ -4581,11 +4581,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:separateList
+          @attr name com.mcwonders.mkd:separateList
         */
         public static final int genericInputBox_separateList = 12;
         /**
-          <p>This symbol is the offset where the {@link com.netease.nim.demo.R.attr#showClearBtn}
+          <p>This symbol is the offset where the {@link com.mcwonders.mkd.R.attr#showClearBtn}
           attribute's value can be found in the {@link #genericInputBox} array.
 
 
@@ -4595,7 +4595,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.netease.nim.demo:showClearBtn
+          @attr name com.mcwonders.mkd:showClearBtn
         */
         public static final int genericInputBox_showClearBtn = 10;
     };

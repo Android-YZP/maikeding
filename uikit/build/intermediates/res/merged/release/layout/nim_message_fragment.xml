@@ -12,7 +12,7 @@
         android:layout_height="0dip"
         android:layout_weight="1">
 
-        <com.netease.nim.uikit.session.helper.MsgBkImageView
+        <com.mcwonders.uikit.session.helper.MsgBkImageView
             android:id="@+id/message_activity_background"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
@@ -29,7 +29,7 @@
 
             </FrameLayout>
 
-            <com.netease.nim.uikit.common.ui.listview.MessageListView
+            <com.mcwonders.uikit.common.ui.listview.MessageListView
                 android:id="@+id/messageListView"
                 style="@style/list_view"
                 android:layout_width="match_parent"

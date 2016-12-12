@@ -112,12 +112,12 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\maikeding\\uikit\\unspecified\\res\\layout\\nim_message_item_picture.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_emoji_layout.xml",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\maikeding\\uikit\\unspecified\\res\\layout\\nim_emoji_layout.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_message_item_file.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\layout\\nim_message_item_file.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_emoji_layout.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\maikeding\\uikit\\unspecified\\res\\layout\\nim_emoji_layout.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\user_profile_edit_item.xml",
@@ -188,16 +188,16 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_search_view.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\tab_layout_main.xml",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\layout\\tab_layout_main.xml"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\mass_message_activity.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\maikeding\\uikit\\unspecified\\res\\layout\\mass_message_activity.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_advanced_team_search_activity.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\layout\\nim_advanced_team_search_activity.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\mass_message_activity.xml",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\maikeding\\uikit\\unspecified\\res\\layout\\mass_message_activity.xml"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\tab_layout_main.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\layout\\tab_layout_main.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_action_bar_right_picker_preview.xml",
@@ -260,12 +260,12 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\maikeding\\uikit\\unspecified\\res\\layout\\nim_recent_contacts.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\layout\\design_navigation_item.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\no_disturb_activity.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\layout\\no_disturb_activity.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\layout\\design_navigation_item.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
@@ -332,12 +332,12 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\maikeding\\uikit\\unspecified\\res\\layout\\nim_user_profile_toggle_item.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_picker_image_folder_activity.xml",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\maikeding\\uikit\\unspecified\\res\\layout\\nim_picker_image_folder_activity.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_preview_image_from_camera_activity.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\maikeding\\uikit\\unspecified\\res\\layout\\nim_preview_image_from_camera_activity.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_picker_image_folder_activity.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\maikeding\\uikit\\unspecified\\res\\layout\\nim_picker_image_folder_activity.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\map_view_amap_layout.xml",
@@ -540,24 +540,24 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\notification_template_lines.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_new_message_tip_layout.xml",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\maikeding\\uikit\\unspecified\\res\\layout\\nim_new_message_tip_layout.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\rts_activity.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\layout\\rts_activity.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_new_message_tip_layout.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\maikeding\\uikit\\unspecified\\res\\layout\\nim_new_message_tip_layout.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_menu_dialog_item.xml",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\maikeding\\uikit\\unspecified\\res\\layout\\nim_menu_dialog_item.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\avchat_activity.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\layout\\avchat_activity.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_menu_dialog_item.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\maikeding\\uikit\\unspecified\\res\\layout\\nim_menu_dialog_item.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
@@ -576,12 +576,12 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\layout\\map_view_amap_navigation_layout.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\notification_template_big_media.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\demand_pay_activity.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\layout\\demand_pay_activity.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\notification_template_big_media.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_vertical.xml",

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.netease.nim.demo.common.ui.imageview.HeadImageView xmlns:android="http://schemas.android.com/apk/res/android"
+<com.mcwonders.mkd.common.ui.imageview.HeadImageView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/imageViewHead"
     android:layout_width="40dip"
     android:layout_height="40dip"

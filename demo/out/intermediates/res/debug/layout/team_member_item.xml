@@ -9,7 +9,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true">
 
-        <com.netease.nim.demo.common.ui.imageview.HeadImageView
+        <com.mcwonders.mkd.common.ui.imageview.HeadImageView
             android:id="@+id/imageViewHeader"
             android:layout_width="50dip"
             android:layout_height="50dip"/>
