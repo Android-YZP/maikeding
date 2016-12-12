@@ -13,7 +13,7 @@
 
     <!-- <include layout="@layout/watch_picture_show_more_action_layout" /> -->
 
-    <com.netease.nim.demo.common.ui.imageview.MultiTouchZoomableImageView
+    <com.mcwonders.mkd.common.ui.imageview.MultiTouchZoomableImageView
         android:id="@+id/watch_image_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

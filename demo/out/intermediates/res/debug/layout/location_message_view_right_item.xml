@@ -26,7 +26,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/bubble_layout_margin_side" >
 
-            <com.netease.nim.demo.common.ui.imageview.MsgThumbImageView
+            <com.mcwonders.mkd.common.ui.imageview.MsgThumbImageView
                 android:id="@+id/asynMapLayout"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

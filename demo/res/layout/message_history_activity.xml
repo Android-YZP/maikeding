@@ -44,7 +44,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <com.netease.nim.uikit.common.ui.listview.MessageListView
+            <com.mcwonders.uikit.common.ui.listview.MessageListView
                 android:id="@+id/messageListView"
                 style="@style/list_view"
                 android:layout_width="match_parent"
@@ -54,7 +54,7 @@
                 android:fadingEdge="none"
                 android:focusable="false"
                 android:listSelector="@android:color/transparent"
-                android:scrollbars="vertical"></com.netease.nim.uikit.common.ui.listview.MessageListView>
+                android:scrollbars="vertical"></com.mcwonders.uikit.common.ui.listview.MessageListView>
         </LinearLayout>
     </FrameLayout>
 </LinearLayout>

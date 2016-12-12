@@ -18,7 +18,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical" >
 
-            <com.netease.nim.demo.common.ui.listview.MessageListView
+            <com.mcwonders.mkd.common.ui.listview.MessageListView
                 android:id="@+id/messageListView"
                 style="@style/list_view"
                 android:layout_width="match_parent"
@@ -29,7 +29,7 @@
                 android:focusable="false"
                 android:listSelector="@android:color/transparent"
                 android:scrollbars="vertical" >
-            </com.netease.nim.demo.common.ui.listview.MessageListView>
+            </com.mcwonders.mkd.common.ui.listview.MessageListView>
         </LinearLayout>
 
         <FrameLayout

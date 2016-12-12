@@ -408,12 +408,12 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\bundles\\debug\\res\\layout\\nim_easy_alert_dialog_with_listview.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\nim_action_bar_right_picker_preview.xml",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\bundles\\debug\\res\\layout\\nim_action_bar_right_picker_preview.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_navigation_item.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\nim_action_bar_right_picker_preview.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\bundles\\debug\\res\\layout\\nim_action_bar_right_picker_preview.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\nim_time_text_view_layout.xml",

@@ -16,7 +16,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <com.netease.nim.uikit.common.ui.imageview.HeadImageView
+            <com.mcwonders.uikit.common.ui.imageview.HeadImageView
                 android:id="@+id/head_image"
                 android:layout_width="@dimen/avatar_size_default"
                 android:layout_height="@dimen/avatar_size_default"
@@ -143,7 +143,7 @@
             android:layout_above="@id/operate_layout"
             android:background="@color/grey">
 
-            <com.netease.nim.demo.rts.doodle.DoodleView
+            <com.mcwonders.mkd.rts.doodle.DoodleView
                 android:id="@+id/doodle_view"
                 android:layout_width="600px"
                 android:layout_height="600px"

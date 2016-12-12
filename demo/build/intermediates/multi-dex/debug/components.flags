@@ -13,168 +13,168 @@
 -printconfiguration 'D:\AndroidStudioProjects\maikeding\demo\build\intermediates\multi-dex\debug\components.flags'
 
 
--keep class com.netease.nim.demo.utils.MyApplication {
+-keep class com.mcwonders.mkd.utils.MyApplication {
     <init>();
     void attachBaseContext(android.content.Context);
 }
 
--keep class com.netease.nim.demo.main.activity.WelcomeActivity {
+-keep class com.mcwonders.mkd.main.activity.WelcomeActivity {
     <init>();
 }
 
--keep class com.netease.nim.demo.login.maixinlogin.UserLoginActivity {
+-keep class com.mcwonders.mkd.login.maixinlogin.UserLoginActivity {
     <init>();
 }
 
--keep class com.netease.nim.demo.main.activity.MainActivity {
+-keep class com.mcwonders.mkd.main.activity.MainActivity {
     <init>();
 }
 
--keep class com.netease.nim.demo.main.activity.MultiportActivity {
+-keep class com.mcwonders.mkd.main.activity.MultiportActivity {
     <init>();
 }
 
--keep class com.netease.nim.demo.login.LoginActivity {
+-keep class com.mcwonders.mkd.login.LoginActivity {
     <init>();
 }
 
--keep class com.netease.nim.demo.demand.activity.DemandDetailActivity {
+-keep class com.mcwonders.mkd.demand.activity.DemandDetailActivity {
     <init>();
 }
 
--keep class com.netease.nim.demo.demand.activity.DemandScheduleActivity {
+-keep class com.mcwonders.mkd.demand.activity.DemandScheduleActivity {
     <init>();
 }
 
--keep class com.netease.nim.demo.demand.activity.DemandPayActivity {
+-keep class com.mcwonders.mkd.demand.activity.DemandPayActivity {
     <init>();
 }
 
--keep class com.netease.nim.demo.main.activity.AboutActivity {
+-keep class com.mcwonders.mkd.main.activity.AboutActivity {
     <init>();
 }
 
--keep class com.netease.nim.demo.main.activity.SettingsActivity {
+-keep class com.mcwonders.mkd.main.activity.SettingsActivity {
     <init>();
 }
 
--keep class com.netease.nim.demo.main.activity.NoDisturbActivity {
+-keep class com.mcwonders.mkd.main.activity.NoDisturbActivity {
     <init>();
 }
 
--keep class com.netease.nim.demo.contact.activity.AddFriendActivity {
+-keep class com.mcwonders.mkd.contact.activity.AddFriendActivity {
     <init>();
 }
 
--keep class com.netease.nim.demo.contact.activity.UserProfileActivity {
+-keep class com.mcwonders.mkd.contact.activity.UserProfileActivity {
     <init>();
 }
 
--keep class com.netease.nim.demo.contact.activity.UserProfileSettingActivity {
+-keep class com.mcwonders.mkd.contact.activity.UserProfileSettingActivity {
     <init>();
 }
 
--keep class com.netease.nim.demo.contact.activity.UserProfileEditItemActivity {
+-keep class com.mcwonders.mkd.contact.activity.UserProfileEditItemActivity {
     <init>();
 }
 
--keep class com.netease.nim.demo.contact.activity.BlackListActivity {
+-keep class com.mcwonders.mkd.contact.activity.BlackListActivity {
     <init>();
 }
 
--keep class com.netease.nim.demo.file.browser.FileBrowserActivity {
+-keep class com.mcwonders.mkd.file.browser.FileBrowserActivity {
     <init>();
 }
 
--keep class com.netease.nim.demo.main.activity.SystemMessageActivity {
+-keep class com.mcwonders.mkd.main.activity.SystemMessageActivity {
     <init>();
 }
 
--keep class com.netease.nim.demo.main.activity.CustomNotificationActivity {
+-keep class com.mcwonders.mkd.main.activity.CustomNotificationActivity {
     <init>();
 }
 
--keep class com.netease.nim.demo.session.activity.MessageHistoryActivity {
+-keep class com.mcwonders.mkd.session.activity.MessageHistoryActivity {
     <init>();
 }
 
--keep class com.netease.nim.demo.session.activity.MessageInfoActivity {
+-keep class com.mcwonders.mkd.session.activity.MessageInfoActivity {
     <init>();
 }
 
--keep class com.netease.nim.demo.team.activity.AdvancedTeamSearchActivity {
+-keep class com.mcwonders.mkd.team.activity.AdvancedTeamSearchActivity {
     <init>();
 }
 
--keep class com.netease.nim.demo.team.activity.AdvancedTeamJoinActivity {
+-keep class com.mcwonders.mkd.team.activity.AdvancedTeamJoinActivity {
     <init>();
 }
 
--keep class com.netease.nim.demo.main.activity.TeamListActivity {
+-keep class com.mcwonders.mkd.main.activity.TeamListActivity {
     <init>();
 }
 
--keep class com.netease.nim.demo.main.activity.GlobalSearchActivity {
+-keep class com.mcwonders.mkd.main.activity.GlobalSearchActivity {
     <init>();
 }
 
--keep class com.netease.nim.demo.main.activity.GlobalSearchDetailActivity {
+-keep class com.mcwonders.mkd.main.activity.GlobalSearchDetailActivity {
     <init>();
 }
 
--keep class com.netease.nim.demo.main.activity.GlobalSearchDetailActivity2 {
+-keep class com.mcwonders.mkd.main.activity.GlobalSearchDetailActivity2 {
     <init>();
 }
 
--keep class com.netease.nim.demo.session.activity.WatchSnapChatPictureActivity {
+-keep class com.mcwonders.mkd.session.activity.WatchSnapChatPictureActivity {
     <init>();
 }
 
--keep class com.netease.nim.demo.location.activity.LocationAmapActivity {
+-keep class com.mcwonders.mkd.location.activity.LocationAmapActivity {
     <init>();
 }
 
--keep class com.netease.nim.demo.location.activity.NavigationAmapActivity {
+-keep class com.mcwonders.mkd.location.activity.NavigationAmapActivity {
     <init>();
 }
 
--keep class com.netease.nim.demo.avchat.activity.AVChatActivity {
+-keep class com.mcwonders.mkd.avchat.activity.AVChatActivity {
     <init>();
 }
 
--keep class com.netease.nim.demo.rts.activity.RTSActivity {
+-keep class com.mcwonders.mkd.rts.activity.RTSActivity {
     <init>();
 }
 
--keep class com.netease.nim.demo.session.search.SearchMessageActivity {
+-keep class com.mcwonders.mkd.session.search.SearchMessageActivity {
     <init>();
 }
 
--keep class com.netease.nim.demo.session.search.DisplayMessageActivity {
+-keep class com.mcwonders.mkd.session.search.DisplayMessageActivity {
     <init>();
 }
 
--keep class com.netease.nim.demo.avchat.activity.AVChatSettingsActivity {
+-keep class com.mcwonders.mkd.avchat.activity.AVChatSettingsActivity {
     <init>();
 }
 
--keep class com.netease.nim.demo.login.maixinlogin.UserForgotCodeActivity {
+-keep class com.mcwonders.mkd.login.maixinlogin.UserForgotCodeActivity {
     <init>();
 }
 
--keep class com.netease.nim.demo.login.maixinlogin.UserForgotPhoneActivity {
+-keep class com.mcwonders.mkd.login.maixinlogin.UserForgotPhoneActivity {
     <init>();
 }
 
--keep class com.netease.nim.demo.login.maixinreg.UserRegCodeActivity {
+-keep class com.mcwonders.mkd.login.maixinreg.UserRegCodeActivity {
     <init>();
 }
 
--keep class com.netease.nim.demo.login.maixinreg.UserRegPhoneActivity {
+-keep class com.mcwonders.mkd.login.maixinreg.UserRegPhoneActivity {
     <init>();
 }
 
--keep class com.netease.nim.demo.login.maixinreg.UserRegUserNameActivity {
+-keep class com.mcwonders.mkd.login.maixinreg.UserRegUserNameActivity {
     <init>();
 }
 
@@ -198,7 +198,7 @@
     <init>();
 }
 
--keep class com.netease.nim.demo.receiver.CustomNotificationReceiver {
+-keep class com.mcwonders.mkd.receiver.CustomNotificationReceiver {
     <init>();
 }
 
@@ -218,83 +218,83 @@
     <init>();
 }
 
--keep class com.netease.nim.uikit.session.activity.P2PMessageActivity {
+-keep class com.mcwonders.uikit.session.activity.P2PMessageActivity {
     <init>();
 }
 
--keep class com.netease.nim.uikit.session.activity.TeamMessageActivity {
+-keep class com.mcwonders.uikit.session.activity.TeamMessageActivity {
     <init>();
 }
 
--keep class com.netease.nim.uikit.team.activity.NormalTeamInfoActivity {
+-keep class com.mcwonders.uikit.team.activity.NormalTeamInfoActivity {
     <init>();
 }
 
--keep class com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity {
+-keep class com.mcwonders.uikit.team.activity.AdvancedTeamInfoActivity {
     <init>();
 }
 
--keep class com.netease.nim.uikit.team.activity.AdvancedTeamMemberActivity {
+-keep class com.mcwonders.uikit.team.activity.AdvancedTeamMemberActivity {
     <init>();
 }
 
--keep class com.netease.nim.uikit.team.activity.AdvancedTeamAnnounceActivity {
+-keep class com.mcwonders.uikit.team.activity.AdvancedTeamAnnounceActivity {
     <init>();
 }
 
--keep class com.netease.nim.uikit.team.activity.AdvancedTeamMemberInfoActivity {
+-keep class com.mcwonders.uikit.team.activity.AdvancedTeamMemberInfoActivity {
     <init>();
 }
 
--keep class com.netease.nim.uikit.team.activity.AdvancedTeamNicknameActivity {
+-keep class com.mcwonders.uikit.team.activity.AdvancedTeamNicknameActivity {
     <init>();
 }
 
--keep class com.netease.nim.uikit.team.activity.AdvancedTeamCreateAnnounceActivity {
+-keep class com.mcwonders.uikit.team.activity.AdvancedTeamCreateAnnounceActivity {
     <init>();
 }
 
--keep class com.netease.nim.uikit.team.activity.TeamPropertySettingActivity {
+-keep class com.mcwonders.uikit.team.activity.TeamPropertySettingActivity {
     <init>();
 }
 
--keep class com.netease.nim.uikit.contact_selector.activity.ContactSelectActivity {
+-keep class com.mcwonders.uikit.contact_selector.activity.ContactSelectActivity {
     <init>();
 }
 
--keep class com.netease.nim.uikit.common.media.picker.activity.PickImageActivity {
+-keep class com.mcwonders.uikit.common.media.picker.activity.PickImageActivity {
     <init>();
 }
 
--keep class com.netease.nim.uikit.common.media.picker.activity.CropImageActivity {
+-keep class com.mcwonders.uikit.common.media.picker.activity.CropImageActivity {
     <init>();
 }
 
--keep class com.netease.nim.uikit.common.media.picker.activity.PickerAlbumActivity {
+-keep class com.mcwonders.uikit.common.media.picker.activity.PickerAlbumActivity {
     <init>();
 }
 
--keep class com.netease.nim.uikit.common.media.picker.activity.PickerAlbumPreviewActivity {
+-keep class com.mcwonders.uikit.common.media.picker.activity.PickerAlbumPreviewActivity {
     <init>();
 }
 
--keep class com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromLocalActivity {
+-keep class com.mcwonders.uikit.common.media.picker.activity.PreviewImageFromLocalActivity {
     <init>();
 }
 
--keep class com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromCameraActivity {
+-keep class com.mcwonders.uikit.common.media.picker.activity.PreviewImageFromCameraActivity {
     <init>();
 }
 
--keep class com.netease.nim.uikit.session.activity.CaptureVideoActivity {
+-keep class com.mcwonders.uikit.session.activity.CaptureVideoActivity {
     <init>();
 }
 
--keep class com.netease.nim.uikit.session.activity.WatchVideoActivity {
+-keep class com.mcwonders.uikit.session.activity.WatchVideoActivity {
     <init>();
 }
 
--keep class com.netease.nim.uikit.session.activity.WatchMessagePictureActivity {
+-keep class com.mcwonders.uikit.session.activity.WatchMessagePictureActivity {
     <init>();
 }
 

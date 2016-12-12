@@ -54,7 +54,7 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
-                    <com.netease.nim.uikit.common.ui.widget.ClearableEditTextWithIcon
+                    <com.mcwonders.uikit.common.ui.widget.ClearableEditTextWithIcon
                         android:id="@+id/edit_login_account"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -68,7 +68,7 @@
                         android:textCursorDrawable="@null"
                         android:textSize="15sp"/>
 
-                    <com.netease.nim.uikit.common.ui.widget.ClearableEditTextWithIcon
+                    <com.mcwonders.uikit.common.ui.widget.ClearableEditTextWithIcon
                         android:id="@+id/edit_login_password"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -92,7 +92,7 @@
                     android:orientation="vertical"
                     android:visibility="gone">
 
-                    <com.netease.nim.uikit.common.ui.widget.ClearableEditTextWithIcon
+                    <com.mcwonders.uikit.common.ui.widget.ClearableEditTextWithIcon
                         android:id="@+id/edit_register_account"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -108,7 +108,7 @@
                         android:textCursorDrawable="@null"
                         android:textSize="15sp"/>
 
-                    <com.netease.nim.uikit.common.ui.widget.ClearableEditTextWithIcon
+                    <com.mcwonders.uikit.common.ui.widget.ClearableEditTextWithIcon
                         android:id="@+id/edit_register_nickname"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -123,7 +123,7 @@
                         android:textCursorDrawable="@null"
                         android:textSize="15sp"/>
 
-                    <com.netease.nim.uikit.common.ui.widget.ClearableEditTextWithIcon
+                    <com.mcwonders.uikit.common.ui.widget.ClearableEditTextWithIcon
                         android:id="@+id/edit_register_password"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"

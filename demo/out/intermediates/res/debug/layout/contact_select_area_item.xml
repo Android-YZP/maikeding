@@ -4,7 +4,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
 
-    <com.netease.nim.demo.common.ui.imageview.HeadImageView
+    <com.mcwonders.mkd.common.ui.imageview.HeadImageView
         android:id="@+id/contact_select_area_image"
         android:layout_width="30dip"
         android:layout_height="30dip"

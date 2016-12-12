@@ -312,12 +312,12 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\drawable\\design_fab_background.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\drawable\\nim_message_view_bottom.xml",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable\\nim_message_view_bottom.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\drawable\\nim_portrait_mask_round.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable\\nim_portrait_mask_round.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\drawable\\nim_message_view_bottom.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable\\nim_message_view_bottom.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\drawable\\nim_progress_bar_foreground.xml",

@@ -40,7 +40,7 @@
             <!--</FrameLayout>-->
         </RelativeLayout>
 
-        <com.netease.nim.uikit.common.ui.imageview.HeadImageView
+        <com.mcwonders.uikit.common.ui.imageview.HeadImageView
             android:id="@+id/avchat_audio_head"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

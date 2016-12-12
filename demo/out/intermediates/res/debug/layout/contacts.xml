@@ -11,7 +11,7 @@
         android:orientation="horizontal"
         android:weightSum="10" >
 
-        <com.netease.nim.demo.common.ui.listview.PullToRefreshListView
+        <com.mcwonders.mkd.common.ui.listview.PullToRefreshListView
             android:id="@+id/lvContacts"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
@@ -44,7 +44,7 @@
             android:textSize="40.0dip"
             android:visibility="invisible" />
 
-        <com.netease.nim.demo.common.ui.liv.LetterIndexView
+        <com.mcwonders.mkd.common.ui.liv.LetterIndexView
             android:id="@+id/livIndex"
             android:layout_width="15dip"
             android:layout_height="fill_parent"

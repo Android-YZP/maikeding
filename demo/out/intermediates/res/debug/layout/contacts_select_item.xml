@@ -16,7 +16,7 @@
         android:layout_marginLeft="10dp"
         android:contentDescription="@string/empty" />
 
-    <com.netease.nim.demo.common.ui.imageview.HeadImageView
+    <com.mcwonders.mkd.common.ui.imageview.HeadImageView
         android:id="@+id/imgHead"
         android:layout_width="30dip"
         android:layout_height="30dip"

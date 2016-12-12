@@ -540,24 +540,24 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\notification_template_lines.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_new_message_tip_layout.xml",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\maikeding\\uikit\\unspecified\\res\\layout\\nim_new_message_tip_layout.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\rts_activity.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\layout\\rts_activity.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_new_message_tip_layout.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\maikeding\\uikit\\unspecified\\res\\layout\\nim_new_message_tip_layout.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_menu_dialog_item.xml",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\maikeding\\uikit\\unspecified\\res\\layout\\nim_menu_dialog_item.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\avchat_activity.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\layout\\avchat_activity.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_menu_dialog_item.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\exploded-aar\\maikeding\\uikit\\unspecified\\res\\layout\\nim_menu_dialog_item.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",

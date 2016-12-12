@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.netease.nim.demo"
+    package="com.mcwonders.mkd"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -36,7 +36,7 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
     <application
-        android:name="com.netease.nim.demo.NimApplication"
+        android:name="com.mcwonders.mkd.com.netease.demo.NimApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
@@ -54,7 +54,7 @@
 
         <!--
         <activity
-            android:name="com.netease.nim.demo.MainActivity"
+            android:name="com.mcwonders.mkd.MainActivity"
             android:label="@string/title_activity_main" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -67,7 +67,7 @@
 
         <!-- 启动界面&主界面 -->
         <activity
-            android:name="com.netease.nim.demo.main.activity.WelcomeActivity"
+            android:name="com.mcwonders.mkd.com.netease.demo.main.activity.WelcomeActivity"
             android:configChanges="keyboardHidden|orientation"
             android:hardwareAccelerated="true"
             android:label="@string/app_name"
@@ -85,14 +85,14 @@
 
         <!-- 登录界面 -->
         <activity
-            android:name="com.netease.nim.demo.login.activity.LoginActivity"
+            android:name="com.mcwonders.mkd.login.activity.LoginActivity"
             android:configChanges="orientation"
             android:label="@string/login"
             android:screenOrientation="portrait"
             android:theme="@style/BlueActionBarTheme"
             android:windowSoftInputMode="adjustResize|stateHidden" />
         <activity
-            android:name="com.netease.nim.demo.main.activity.AboutActivity"
+            android:name="com.mcwonders.mkd.com.netease.demo.main.activity.AboutActivity"
             android:configChanges="orientation"
             android:label="@string/about"
             android:screenOrientation="portrait"
@@ -101,13 +101,13 @@
 
         <!-- 会话窗口 -->
         <activity
-            android:name="com.netease.nim.demo.session.activity.P2PMessageActivity"
+            android:name="com.mcwonders.mkd.session.activity.P2PMessageActivity"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
             android:theme="@style/OverlayBaseActionBarTheme"
             android:windowSoftInputMode="stateHidden|adjustResize" />
         <activity
-            android:name="com.netease.nim.demo.session.activity.TeamMessageActivity"
+            android:name="com.mcwonders.mkd.session.activity.TeamMessageActivity"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
             android:theme="@style/OverlayBaseActionBarTheme"
@@ -115,19 +115,19 @@
 
         <!-- 群聊 -->
         <activity
-            android:name="com.netease.nim.demo.contact.activity.TeamInfoActivity"
+            android:name="com.mcwonders.mkd.contact.activity.TeamInfoActivity"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustResize" />
         <activity
-            android:name="com.netease.nim.demo.contact.activity.TeamNameSettingActivity"
+            android:name="com.mcwonders.mkd.contact.activity.TeamNameSettingActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateUnspecified" />
 
         <!-- 联系人选择器 -->
         <activity
-            android:name="com.netease.nim.demo.contact.activity.ContactSelectActivity"
+            android:name="com.mcwonders.mkd.contact.activity.ContactSelectActivity"
             android:configChanges="keyboardHidden|orientation"
             android:label="@string/contact_selector"
             android:screenOrientation="portrait"
@@ -135,21 +135,21 @@
 
         <!-- 照片选择 -->
         <activity
-            android:name="com.netease.nim.demo.session.activity.PickImageActivity"
+            android:name="com.mcwonders.mkd.session.activity.PickImageActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.netease.nim.demo.media.picker.activity.PickerAlbumActivity"
+            android:name="com.mcwonders.mkd.media.picker.activity.PickerAlbumActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.netease.nim.demo.media.picker.activity.PickerAlbumPreviewActivity"
+            android:name="com.mcwonders.mkd.media.picker.activity.PickerAlbumPreviewActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.netease.nim.demo.media.picker.activity.PreviewImageFromLocalActivity"
+            android:name="com.mcwonders.mkd.media.picker.activity.PreviewImageFromLocalActivity"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustResize" />
         <activity
-            android:name="com.netease.nim.demo.media.picker.activity.PreviewImageFromCameraActivity"
+            android:name="com.mcwonders.mkd.media.picker.activity.PreviewImageFromCameraActivity"
             android:configChanges="keyboardHidden|orientation"
             android:label="@string/input_panel_take"
             android:screenOrientation="portrait"
@@ -157,21 +157,21 @@
 
         <!-- 查看大图 -->
         <activity
-            android:name="com.netease.nim.demo.media.watch.image.WatchMessagePictureActivity"
+            android:name="com.mcwonders.mkd.media.watch.image.WatchMessagePictureActivity"
             android:configChanges="keyboardHidden" />
         <activity
-            android:name="com.netease.nim.demo.test.AddBuddyActivity"
+            android:name="com.mcwonders.mkd.test.AddBuddyActivity"
             android:label="@string/title_activity_add_buddy" >
         </activity>
 
         <!-- map -->
         <activity
-            android:name="com.netease.nim.demo.location.activity.LocationAmapActivity"
+            android:name="com.mcwonders.mkd.com.netease.demo.location.activity.LocationAmapActivity"
             android:configChanges="keyboardHidden|orientation"
             android:label="@string/location_map"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.netease.nim.demo.location.activity.NavigationAmapActivity"
+            android:name="com.mcwonders.mkd.com.netease.demo.location.activity.NavigationAmapActivity"
             android:configChanges="keyboardHidden|orientation"
             android:label="@string/location_navigate"
             android:screenOrientation="portrait" />

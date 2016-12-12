@@ -5,7 +5,7 @@
     android:background="@drawable/contact_list_item_selecter"
     android:minHeight="55dip" >
 
-    <com.netease.nim.demo.common.ui.imageview.HeadImageView
+    <com.mcwonders.mkd.common.ui.imageview.HeadImageView
         android:id="@+id/contacts_item_head"
         android:layout_width="30dip"
         android:layout_height="30dip"

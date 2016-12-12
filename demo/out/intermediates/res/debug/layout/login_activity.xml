@@ -22,7 +22,7 @@
                 android:background="@drawable/logo"
                 android:contentDescription="@string/empty" />
 
-            <com.netease.nim.demo.common.ui.textview.ClearableEditTextWithIcon
+            <com.mcwonders.mkd.common.ui.textview.ClearableEditTextWithIcon
                 android:id="@+id/editUserid"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -37,7 +37,7 @@
                 android:textColor="@color/white"
                 android:textColorHint="@color/color_white_66ffffff" />
 
-            <com.netease.nim.demo.common.ui.textview.ClearableEditTextWithIcon
+            <com.mcwonders.mkd.common.ui.textview.ClearableEditTextWithIcon
                 android:id="@+id/editPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

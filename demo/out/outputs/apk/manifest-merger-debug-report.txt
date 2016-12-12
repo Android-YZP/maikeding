@@ -127,7 +127,7 @@ ADDED from AndroidManifest.xml:50:9
 		ADDED from AndroidManifest.xml:52:13
 	android:name
 		ADDED from AndroidManifest.xml:51:13
-activity#com.netease.nim.demo.main.activity.WelcomeActivity
+activity#WelcomeActivity
 ADDED from AndroidManifest.xml:68:9
 	android:screenOrientation
 		ADDED from AndroidManifest.xml:74:13
@@ -159,7 +159,7 @@ category#android.intent.category.MULTIWINDOW_LAUNCHER
 ADDED from AndroidManifest.xml:81:17
 	android:name
 		ADDED from AndroidManifest.xml:81:27
-activity#com.netease.nim.demo.login.activity.LoginActivity
+activity#com.mcwonders.mkd.login.activity.LoginActivity
 ADDED from AndroidManifest.xml:86:9
 	android:screenOrientation
 		ADDED from AndroidManifest.xml:90:13
@@ -173,7 +173,7 @@ ADDED from AndroidManifest.xml:86:9
 		ADDED from AndroidManifest.xml:91:13
 	android:name
 		ADDED from AndroidManifest.xml:87:13
-activity#com.netease.nim.demo.main.activity.AboutActivity
+activity#AboutActivity
 ADDED from AndroidManifest.xml:93:9
 	android:screenOrientation
 		ADDED from AndroidManifest.xml:97:13
@@ -187,7 +187,7 @@ ADDED from AndroidManifest.xml:93:9
 		ADDED from AndroidManifest.xml:98:13
 	android:name
 		ADDED from AndroidManifest.xml:94:13
-activity#com.netease.nim.demo.session.activity.P2PMessageActivity
+activity#com.mcwonders.mkd.session.activity.P2PMessageActivity
 ADDED from AndroidManifest.xml:102:9
 	android:screenOrientation
 		ADDED from AndroidManifest.xml:105:13
@@ -199,7 +199,7 @@ ADDED from AndroidManifest.xml:102:9
 		ADDED from AndroidManifest.xml:106:13
 	android:name
 		ADDED from AndroidManifest.xml:103:13
-activity#com.netease.nim.demo.session.activity.TeamMessageActivity
+activity#com.mcwonders.mkd.session.activity.TeamMessageActivity
 ADDED from AndroidManifest.xml:109:9
 	android:screenOrientation
 		ADDED from AndroidManifest.xml:112:13
@@ -211,7 +211,7 @@ ADDED from AndroidManifest.xml:109:9
 		ADDED from AndroidManifest.xml:113:13
 	android:name
 		ADDED from AndroidManifest.xml:110:13
-activity#com.netease.nim.demo.contact.activity.TeamInfoActivity
+activity#com.mcwonders.mkd.contact.activity.TeamInfoActivity
 ADDED from AndroidManifest.xml:117:9
 	android:screenOrientation
 		ADDED from AndroidManifest.xml:120:13
@@ -221,7 +221,7 @@ ADDED from AndroidManifest.xml:117:9
 		ADDED from AndroidManifest.xml:119:13
 	android:name
 		ADDED from AndroidManifest.xml:118:13
-activity#com.netease.nim.demo.contact.activity.TeamNameSettingActivity
+activity#com.mcwonders.mkd.contact.activity.TeamNameSettingActivity
 ADDED from AndroidManifest.xml:122:9
 	android:screenOrientation
 		ADDED from AndroidManifest.xml:125:13
@@ -231,7 +231,7 @@ ADDED from AndroidManifest.xml:122:9
 		ADDED from AndroidManifest.xml:124:13
 	android:name
 		ADDED from AndroidManifest.xml:123:13
-activity#com.netease.nim.demo.contact.activity.ContactSelectActivity
+activity#com.mcwonders.mkd.contact.activity.ContactSelectActivity
 ADDED from AndroidManifest.xml:129:9
 	android:screenOrientation
 		ADDED from AndroidManifest.xml:133:13
@@ -243,25 +243,25 @@ ADDED from AndroidManifest.xml:129:9
 		ADDED from AndroidManifest.xml:131:13
 	android:name
 		ADDED from AndroidManifest.xml:130:13
-activity#com.netease.nim.demo.session.activity.PickImageActivity
+activity#com.mcwonders.mkd.session.activity.PickImageActivity
 ADDED from AndroidManifest.xml:137:9
 	android:screenOrientation
 		ADDED from AndroidManifest.xml:139:13
 	android:name
 		ADDED from AndroidManifest.xml:138:13
-activity#com.netease.nim.demo.media.picker.activity.PickerAlbumActivity
+activity#com.mcwonders.mkd.media.picker.activity.PickerAlbumActivity
 ADDED from AndroidManifest.xml:140:9
 	android:screenOrientation
 		ADDED from AndroidManifest.xml:142:13
 	android:name
 		ADDED from AndroidManifest.xml:141:13
-activity#com.netease.nim.demo.media.picker.activity.PickerAlbumPreviewActivity
+activity#com.mcwonders.mkd.media.picker.activity.PickerAlbumPreviewActivity
 ADDED from AndroidManifest.xml:143:9
 	android:screenOrientation
 		ADDED from AndroidManifest.xml:145:13
 	android:name
 		ADDED from AndroidManifest.xml:144:13
-activity#com.netease.nim.demo.media.picker.activity.PreviewImageFromLocalActivity
+activity#com.mcwonders.mkd.media.picker.activity.PreviewImageFromLocalActivity
 ADDED from AndroidManifest.xml:146:9
 	android:screenOrientation
 		ADDED from AndroidManifest.xml:149:13
@@ -271,7 +271,7 @@ ADDED from AndroidManifest.xml:146:9
 		ADDED from AndroidManifest.xml:148:13
 	android:name
 		ADDED from AndroidManifest.xml:147:13
-activity#com.netease.nim.demo.media.picker.activity.PreviewImageFromCameraActivity
+activity#com.mcwonders.mkd.media.picker.activity.PreviewImageFromCameraActivity
 ADDED from AndroidManifest.xml:151:9
 	android:screenOrientation
 		ADDED from AndroidManifest.xml:155:13
@@ -283,19 +283,19 @@ ADDED from AndroidManifest.xml:151:9
 		ADDED from AndroidManifest.xml:153:13
 	android:name
 		ADDED from AndroidManifest.xml:152:13
-activity#com.netease.nim.demo.media.watch.image.WatchMessagePictureActivity
+activity#com.mcwonders.mkd.media.watch.image.WatchMessagePictureActivity
 ADDED from AndroidManifest.xml:159:9
 	android:configChanges
 		ADDED from AndroidManifest.xml:161:13
 	android:name
 		ADDED from AndroidManifest.xml:160:13
-activity#com.netease.nim.demo.test.AddBuddyActivity
+activity#com.mcwonders.mkd.test.AddBuddyActivity
 ADDED from AndroidManifest.xml:162:9
 	android:label
 		ADDED from AndroidManifest.xml:164:13
 	android:name
 		ADDED from AndroidManifest.xml:163:13
-activity#com.netease.nim.demo.location.activity.LocationAmapActivity
+activity#LocationAmapActivity
 ADDED from AndroidManifest.xml:168:10
 	android:screenOrientation
 		ADDED from AndroidManifest.xml:172:13
@@ -305,7 +305,7 @@ ADDED from AndroidManifest.xml:168:10
 		ADDED from AndroidManifest.xml:170:13
 	android:name
 		ADDED from AndroidManifest.xml:169:13
-activity#com.netease.nim.demo.location.activity.NavigationAmapActivity
+activity#NavigationAmapActivity
 ADDED from AndroidManifest.xml:173:9
 	android:screenOrientation
 		ADDED from AndroidManifest.xml:177:13
