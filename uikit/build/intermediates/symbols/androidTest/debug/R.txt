@@ -1094,8 +1094,8 @@ int id iv_demand_schedule_release 0x7f0d008c
 int id launch_product_query 0x7f0d0007
 int id layoutDownload 0x7f0d01a6
 int id layoutPlayAudio 0x7f0d0135
-int id layout_demand_detail_pay1 0x7f0d0081
-int id layout_demand_detail_schedule1 0x7f0d007f
+int id layout_demand_detail_pay 0x7f0d0081
+int id layout_demand_detail_schedule 0x7f0d007f
 int id layout_scr_bottom 0x7f0d0115
 int id lblVideoFileInfo 0x7f0d01ab
 int id lblVideoTimes 0x7f0d01ac

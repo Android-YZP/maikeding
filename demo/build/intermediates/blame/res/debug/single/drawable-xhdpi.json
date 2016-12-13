@@ -76,12 +76,12 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-xhdpi\\user_login_username.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\logo.png",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-xhdpi\\logo.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\message_plus_tip_normal.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-xhdpi\\message_plus_tip_normal.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\logo.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-xhdpi\\logo.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\user_pwd_lock_icon.png",
@@ -100,12 +100,12 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-xhdpi\\about_logo.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\room_cover_64.png",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-xhdpi\\room_cover_64.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\room_cover_72.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-xhdpi\\room_cover_72.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\room_cover_64.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-xhdpi\\room_cover_64.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\nim_female.png",
@@ -152,12 +152,12 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-xhdpi\\main_menu.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\nick_name_icon.png",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-xhdpi\\nick_name_icon.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_add_friends.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-xhdpi\\ic_add_friends.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\nick_name_icon.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\demo\\res\\drawable-xhdpi\\nick_name_icon.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_delete_pressed.png",
