@@ -1,7 +1,5 @@
 package com.mcwonders.uikit.session.viewholder;
 
-import android.util.Log;
-
 import com.mcwonders.uikit.session.activity.WatchMessagePictureActivity;
 
 /**
@@ -16,7 +14,6 @@ public class MsgViewHolderPicture extends MsgViewHolderThumbBase {
 
     @Override
     protected void onItemClick() {
-        Log.d("zzz------Picture","22222222220");
         WatchMessagePictureActivity.start(context, message);
     }
 

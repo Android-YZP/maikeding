@@ -84,16 +84,16 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable\\nim_progress_small_white.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\nim_audio_animation_list_left.xml",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable\\nim_audio_animation_list_left.xml"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\nim_g_image_preview_white_btn_selecter.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable\\nim_g_image_preview_white_btn_selecter.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\nim_message_button_bottom_add_selector.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable\\nim_message_button_bottom_add_selector.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\nim_g_image_preview_white_btn_selecter.xml",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable\\nim_g_image_preview_white_btn_selecter.xml"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\nim_audio_animation_list_left.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable\\nim_audio_animation_list_left.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_edit_text_material.xml",

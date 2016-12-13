@@ -167,9 +167,9 @@ public class DemandDetailActivity extends UI {
                         mDemandDescribtion = "";
                         for (int i = 0; i < needs.length(); i++) {
                             JSONObject jobj = needs.getJSONObject(i);
-                            mDemandDescribtion += JsonUtils.getString(jobj, "description");
+                            String str = JsonUtils.getString(jobj, "description");
+                            mDemandDescribtion += str.substring(3, str.length() - 4);
                         }
-                        mDemandDescribtion = mDemandDescribtion.replace("<[^>]*>", "");
                         demand.setDescription(mDemandDescribtion);
                         JSONObject jobjTime = datas.getJSONObject("releasetime");
                         int year = JsonUtils.getInt(jobjTime, "year") + 1900;
