@@ -226,6 +226,18 @@
     <init>();
 }
 
+-keep class com.mcwonders.uikit.demand.activity.DemandDetailActivity {
+    <init>();
+}
+
+-keep class com.mcwonders.uikit.demand.activity.DemandScheduleActivity {
+    <init>();
+}
+
+-keep class com.mcwonders.uikit.demand.activity.DemandPayActivity {
+    <init>();
+}
+
 -keep class com.mcwonders.uikit.team.activity.NormalTeamInfoActivity {
     <init>();
 }

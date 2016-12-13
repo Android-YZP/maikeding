@@ -1,6 +1,5 @@
 com/netease/nimlib/b/d/b/c.class
 com/mcwonders/uikit/team/activity/AdvancedTeamInfoActivity$31.class
-com/mcwonders/mkd/contact/activity/UserProfileActivity$7$2.class
 org/apache/lucene/index/LiveIndexWriterConfig.class
 com/mcwonders/uikit/team/activity/AdvancedTeamAnnounceActivity$4.class
 android/support/v7/widget/RecyclerView$6.class
@@ -94,6 +93,7 @@ com/mcwonders/uikit/team/activity/AdvancedTeamInfoActivity$9.class
 com/mcwonders/mkd/contact/activity/BlackListActivity$3$1.class
 com/mcwonders/mkd/main/activity/GlobalSearchDetailActivity2$1.class
 android/support/v7/widget/RecyclerView$OnChildAttachStateChangeListener.class
+com/mcwonders/uikit/demand/activity/DemandDetailActivity.class
 com/mcwonders/uikit/team/activity/AdvancedTeamInfoActivity$15.class
 com/mcwonders/mkd/rts/activity/RTSActivity$1.class
 com/netease/nimlib/sdk/uinfo/constant/UserInfoFieldEnum.class
@@ -134,6 +134,7 @@ com/alibaba/fastjson/JSON.class
 android/support/annotation/Nullable.class
 com/netease/nimlib/avchat/a/c/a/d.class
 com/mcwonders/uikit/common/ui/listview/AutoRefreshListView.class
+com/mcwonders/uikit/demand/util/ConvertUtil.class
 android/support/annotation/RequiresPermission$Read.class
 android/support/design/widget/Snackbar$SnackbarLayout.class
 com/mcwonders/uikit/team/activity/AdvancedTeamMemberInfoActivity$7.class
@@ -434,7 +435,6 @@ com/mcwonders/uikit/common/ui/widget/SwitchButton.class
 android/support/design/widget/TabLayout$TabGravity.class
 android/support/v7/widget/RecyclerView$2.class
 com/netease/nimlib/b/d/g/h.class
-com/mcwonders/mkd/contact/activity/UserProfileActivity$13.class
 com/mcwonders/uikit/contact_selector/activity/ContactSelectActivity$ContactDataProviderEx.class
 com/netease/nimlib/receiver/IncomingCallReceiver.class
 android/support/v7/widget/RecyclerView$ViewCacheExtension.class
@@ -459,7 +459,6 @@ org/xutils/db/Selector.class
 com/alibaba/fastjson/JSONAware.class
 org/apache/lucene/search/MultiTermQuery.class
 com/mcwonders/uikit/common/media/picker/fragment/PickerImageFragment$OnPhotoSelectClickListener.class
-com/mcwonders/mkd/contact/activity/UserProfileActivity$7$3.class
 com/mcwonders/mkd/team/activity/AdvancedTeamSearchActivity.class
 android/support/v7/app/ActionBar$NavigationMode.class
 com/netease/nimlib/avchat/a/c/a/e.class
@@ -479,7 +478,6 @@ com/alibaba/fastjson/JSONException.class
 android/support/v4/widget/MaterialProgressDrawable$Ring.class
 com/netease/nimlib/b/c/g/f.class
 com/mcwonders/mkd/avchat/activity/AVChatActivity$3.class
-com/mcwonders/mkd/contact/activity/UserProfileActivity$7$1.class
 android/support/v4/app/SuperNotCalledException.class
 com/netease/nimlib/avchat/a/c/a/c.class
 com/mcwonders/uikit/session/activity/TeamMessageActivity$1.class
@@ -502,6 +500,7 @@ com/netease/nimlib/avchat/a/c/a/f.class
 com/mcwonders/mkd/contact/activity/UserProfileSettingActivity$1.class
 com/netease/nimlib/b/d/g/a.class
 com/netease/nimlib/sdk/msg/attachment/VideoAttachment.class
+com/mcwonders/uikit/demand/util/UserBusinessImp.class
 android/support/v7/widget/RecyclerView$OnScrollListener.class
 com/mcwonders/mkd/main/activity/SystemMessageActivity$3.class
 com/mcwonders/mkd/main/activity/NoDisturbActivity$1.class
@@ -536,6 +535,7 @@ com/mcwonders/mkd/contact/activity/UserProfileSettingActivity$6.class
 com/netease/nimlib/sdk/friend/FriendService.class
 android/support/design/widget/CoordinatorLayout$ViewElevationComparator.class
 com/netease/nimlib/sdk/settings/SettingsService.class
+com/mcwonders/uikit/demand/bean/DemandPayInfo.class
 com/mcwonders/mkd/main/activity/SystemMessageActivity$2.class
 com/netease/cosine/core/Core.class
 com/amap/api/maps2d/AMapUtils.class
@@ -544,6 +544,7 @@ com/netease/nimlib/b/d/b/a.class
 com/amap/api/services/geocoder/RegeocodeAddress.class
 com/mcwonders/mkd/main/activity/GlobalSearchDetailActivity2$2.class
 com/mcwonders/mkd/avchat/activity/AVChatActivity$5.class
+com/mcwonders/uikit/demand/bean/Demand.class
 com/mcwonders/mkd/session/search/SearchMessageActivity$8.class
 com/mcwonders/uikit/uinfo/UserInfoObservable$UserInfoObserver.class
 android/support/v4/widget/ResourceCursorAdapter.class
@@ -597,6 +598,7 @@ android/support/v4/media/MediaBrowserCompat$MediaBrowserImpl.class
 com/mcwonders/mkd/location/activity/LocationAmapActivity$1.class
 com/netease/cosine/core/CosineService.class
 android/support/multidex/MultiDex$V14.class
+com/mcwonders/uikit/demand/util/DBHelper.class
 android/support/v4/media/session/MediaSessionCompat$MediaSessionImpl.class
 org/xutils/http/app/InputStreamResponseParser.class
 com/netease/nimlib/sdk/rts/model/RTSNotifyOption.class
@@ -743,6 +745,7 @@ com/mcwonders/mkd/login/maixinreg/UserRegCodeActivity$6.class
 com/netease/nimlib/rts/e$a.class
 com/mcwonders/uikit/team/activity/AdvancedTeamInfoActivity$25.class
 com/mcwonders/uikit/common/activity/UI$2.class
+com/mcwonders/uikit/demand/activity/DemandDetailActivity$MyHandler.class
 com/mcwonders/uikit/session/activity/WatchMessagePictureActivity$2.class
 com/mcwonders/mkd/common/util/sys/SystemUtil.class
 org/apache/lucene/index/SegmentCommitInfo.class
@@ -788,6 +791,7 @@ com/mcwonders/uikit/team/helper/TeamHelper.class
 android/support/v7/app/ActionBar$TabListener.class
 android/support/v7/view/CollapsibleActionView.class
 com/mcwonders/uikit/common/ui/imageview/CropImageView.class
+com/mcwonders/uikit/demand/adapter/DemandPayInfoListAdapter.class
 com/netease/nimlib/avchat/a/c/a/b.class
 com/mcwonders/uikit/session/activity/TeamMessageActivity$2.class
 com/mcwonders/mkd/login/maixinreg/UserRegCodeActivity$1.class
@@ -876,6 +880,7 @@ android/support/v4/view/ViewCompat$HCViewCompatImpl.class
 android/support/v7/widget/ChildHelper.class
 android/support/v4/media/VolumeProviderCompat$ControlType.class
 android/support/v4/view/ViewPropertyAnimatorListenerAdapter.class
+com/mcwonders/uikit/demand/activity/DemandPayActivity.class
 com/mcwonders/uikit/cache/SimpleCallback.class
 com/mcwonders/uikit/team/activity/AdvancedTeamInfoActivity$26.class
 com/mcwonders/mkd/main/adapter/SettingsAdapter.class
@@ -1021,6 +1026,7 @@ android/support/v4/media/MediaBrowserCompat$MediaItem.class
 android/support/v4/view/ViewCompat$ScrollIndicators.class
 android/support/v4/media/session/PlaybackStateCompat$1.class
 com/netease/nimlib/b/d/f/f.class
+com/mcwonders/uikit/demand/activity/DemandScheduleActivity.class
 com/mcwonders/uikit/common/ui/dialog/EasyAlertDialog.class
 com/netease/nimlib/b/d/c/a.class
 android/support/v4/view/ViewCompatLollipop.class
@@ -1037,6 +1043,7 @@ com/mcwonders/uikit/common/media/picker/activity/PreviewImageFromCameraActivity.
 com/amap/api/location/LocationProviderProxy.class
 com/mcwonders/uikit/team/activity/AdvancedTeamInfoActivity$24.class
 android/support/v4/view/ViewCompat$JbMr1ViewCompatImpl.class
+com/mcwonders/uikit/demand/util/IUserBusiness.class
 android/support/v7/app/AppCompatDelegateImplBase.class
 com/netease/nimlib/sdk/chatroom/ChatRoomServiceObserver.class
 com/netease/nimlib/service/NimService.class
@@ -1059,6 +1066,7 @@ com/netease/nimlib/b/d/a/e.class
 android/support/design/widget/BottomSheetBehavior$SavedState.class
 org/xutils/http/annotation/HttpRequest.class
 android/support/design/widget/AppBarLayout.class
+com/mcwonders/uikit/demand/util/CommonConstants.class
 com/netease/nimlib/sdk/RequestCallbackWrapper.class
 com/mcwonders/uikit/cache/FriendDataCache$InstanceHolder.class
 com/google/gson/Gson.class
@@ -1108,6 +1116,7 @@ android/support/v4/view/ViewPager$OnPageChangeListener.class
 android/support/annotation/RequiresPermission$Write.class
 com/mcwonders/mkd/contact/activity/BlackListActivity$3.class
 com/mcwonders/mkd/main/activity/MultiportActivity$1.class
+com/mcwonders/uikit/demand/util/User.class
 com/mcwonders/mkd/login/maixinlogin/UserForgotCodeActivity$3.class
 com/mcwonders/uikit/session/activity/WatchVideoActivity$1.class
 com/mcwonders/uikit/team/activity/NormalTeamInfoActivity$7.class
@@ -1203,6 +1212,7 @@ android/support/annotation/StyleableRes.class
 com/mcwonders/mkd/location/helper/NimGeocoder$NimGeocoderListener.class
 com/netease/nimlib/b/d/f/c.class
 org/apache/lucene/index/TermsEnum.class
+com/mcwonders/mkd/contact/activity/UserProfileActivity$6$1.class
 com/nostra13/universalimageloader/core/ImageLoader.class
 org/xutils/db/annotation/Column.class
 org/apache/lucene/util/Constants.class
@@ -1210,6 +1220,7 @@ com/mcwonders/mkd/session/activity/MessageInfoActivity$3$1.class
 com/mcwonders/mkd/session/activity/MessageHistoryActivity.class
 android/support/annotation/LayoutRes.class
 android/support/design/widget/AppBarLayout$LayoutParams.class
+com/mcwonders/uikit/demand/activity/DemandDetailActivity$1.class
 com/mcwonders/uikit/team/activity/TeamPropertySettingActivity$5.class
 com/netease/nimlib/sdk/rts/constant/RTSEventType.class
 com/amap/api/maps2d/model/BitmapDescriptorFactory.class
@@ -1237,6 +1248,7 @@ com/netease/nimlib/sdk/avchat/AVChatStateObserver.class
 com/netease/nimlib/b/d/a/c.class
 android/support/v4/view/ViewCompatICSMr1.class
 com/netease/nimlib/sdk/friend/model/MuteListChangedNotify.class
+com/mcwonders/uikit/demand/util/ServiceException.class
 android/support/v4/app/FragmentManager.class
 com/mcwonders/mkd/login/LogoutHelper.class
 com/mcwonders/mkd/common/util/crash/AppCrashHandler.class
@@ -1318,6 +1330,8 @@ com/netease/nimlib/chatroom/d/n.class
 com/mcwonders/uikit/common/ui/dialog/CustomAlertDialog$onSeparateItemClickListener.class
 com/alibaba/fastjson/JSONStreamAware.class
 com/mcwonders/mkd/team/activity/AdvancedTeamSearchActivity$2.class
+com/mcwonders/uikit/demand/activity/DemandDetailActivity$2.class
+com/mcwonders/mkd/contact/activity/UserProfileActivity$6$2.class
 com/netease/cosine/CosineMeta.class
 com/mcwonders/uikit/session/actions/PickImageAction.class
 com/mcwonders/mkd/session/search/SearchMessageAdapter.class
@@ -1329,6 +1343,7 @@ android/support/v4/media/session/MediaSessionCompat$OnActiveChangeListener.class
 com/netease/nimlib/avchat/f$a.class
 com/mcwonders/mkd/rts/activity/RTSActivity$14.class
 com/mcwonders/mkd/main/activity/CustomNotificationActivity$5.class
+com/mcwonders/mkd/contact/activity/UserProfileActivity$6$3.class
 android/support/design/widget/ViewGroupUtils.class
 com/amap/api/maps2d/model/LatLngBounds$Builder.class
 com/mcwonders/mkd/main/activity/SettingsActivity.class
@@ -1347,6 +1362,7 @@ com/mcwonders/uikit/team/activity/TeamPropertySettingActivity$3.class
 com/netease/nimlib/sdk/msg/model/SystemMessage.class
 android/support/v4/media/VolumeProviderCompat$Callback.class
 com/netease/nimlib/sdk/msg/constant/SystemMessageStatus.class
+com/mcwonders/uikit/demand/activity/DemandDetailActivity$3.class
 com/mcwonders/uikit/session/activity/WatchVideoActivity$8.class
 android/support/v4/media/MediaBrowserCompat$SubscriptionCallback.class
 android/support/v7/widget/ViewInfoStore.class

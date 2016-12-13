@@ -14,23 +14,22 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.mcwonders.uikit.cache.NimUserInfoCache;
-import com.mcwonders.uikit.common.ui.dialog.EasyAlertDialog;
-import com.mcwonders.uikit.common.ui.dialog.EasyEditDialog;
-import com.mcwonders.uikit.common.util.log.LogUtil;
-import com.mcwonders.uikit.common.util.sys.NetworkUtil;
-import com.mcwonders.uikit.model.ToolBarOptions;
 import com.mcwonders.mkd.DemoCache;
 import com.mcwonders.mkd.contact.constant.UserConstant;
-import com.mcwonders.mkd.demand.activity.DemandDetailActivity;
 import com.mcwonders.mkd.main.model.Extras;
 import com.mcwonders.mkd.session.SessionHelper;
 import com.mcwonders.uikit.cache.FriendDataCache;
+import com.mcwonders.uikit.cache.NimUserInfoCache;
 import com.mcwonders.uikit.common.activity.UI;
 import com.mcwonders.uikit.common.ui.dialog.DialogMaker;
+import com.mcwonders.uikit.common.ui.dialog.EasyAlertDialog;
 import com.mcwonders.uikit.common.ui.dialog.EasyAlertDialogHelper;
+import com.mcwonders.uikit.common.ui.dialog.EasyEditDialog;
 import com.mcwonders.uikit.common.ui.imageview.HeadImageView;
 import com.mcwonders.uikit.common.ui.widget.SwitchButton;
+import com.mcwonders.uikit.common.util.log.LogUtil;
+import com.mcwonders.uikit.common.util.sys.NetworkUtil;
+import com.mcwonders.uikit.model.ToolBarOptions;
 import com.netease.nimlib.sdk.NIMClient;
 import com.netease.nimlib.sdk.Observer;
 import com.netease.nimlib.sdk.RequestCallback;
@@ -185,14 +184,6 @@ public class UserProfileActivity extends UI {
         ((TextView) signatureLayout.findViewById(com.mcwonders.mkd.R.id.attribute)).setText(com.mcwonders.mkd.R.string.signature);
         ((TextView) aliasLayout.findViewById(com.mcwonders.mkd.R.id.attribute)).setText(com.mcwonders.mkd.R.string.alias);
 
-        headImageView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(UserProfileActivity.this, DemandDetailActivity.class);
-                intent.putExtra("demandId", 380);
-                startActivity(intent);
-            }
-        });
         addFriendBtn.setOnClickListener(onClickListener);
         chatBtn.setOnClickListener(onClickListener);
         removeFriendBtn.setOnClickListener(onClickListener);

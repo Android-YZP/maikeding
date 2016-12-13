@@ -64,6 +64,10 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\field_testing_nor.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-xhdpi\\field_testing_nor.png"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
     },
@@ -110,6 +114,10 @@
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\maikejia_attestation_nor.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-xhdpi\\maikejia_attestation_nor.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png",
@@ -188,8 +196,16 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\maikejia_attestation_grey.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-xhdpi\\maikejia_attestation_grey.png"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\performance_bond_nor.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-xhdpi\\performance_bond_nor.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_message_unread_news_icon_normal.png",
@@ -214,6 +230,10 @@
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_picker_preview_unselected.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-xhdpi\\nim_picker_preview_unselected.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\finish.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-xhdpi\\finish.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
@@ -308,12 +328,20 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\field_testing_grey.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-xhdpi\\field_testing_grey.png"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_main_tab_new_message_notify.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-xhdpi\\nim_main_tab_new_message_notify.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\performance_bond_grey.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-xhdpi\\performance_bond_grey.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
@@ -340,6 +368,10 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-xhdpi\\nim_new_message_notify.png"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\apostrophe.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-xhdpi\\apostrophe.png"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
@@ -364,8 +396,16 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-xhdpi\\nim_picker_preview_normal.png"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\certification_nor.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-xhdpi\\certification_nor.png"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_message_input_plus_pressed.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-xhdpi\\nim_message_input_plus_pressed.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\unfinish.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-xhdpi\\unfinish.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_moon_page_unselected.png",
@@ -382,6 +422,10 @@
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\certification_grey.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-xhdpi\\certification_grey.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_picker_orignal_normal.png",

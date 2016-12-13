@@ -127,6 +127,13 @@
     <color name="contact_list_hover">#d9d9d9</color>
     <color name="contact_search_hit">#02d3a9</color>
     <color name="contacts_letters_color">#80807c</color>
+    <color name="demand_default_text_color">#313131</color>
+    <color name="demand_number_color">#7d7d7d</color>
+    <color name="demand_pay_info_line_color1">#f39800</color>
+    <color name="demand_pay_info_line_color2">#336ee6</color>
+    <color name="demand_pay_info_line_color3">#aa63cd</color>
+    <color name="demand_price_text_color">#ef2121</color>
+    <color name="demand_schedule_line_color">#d2d2d2</color>
     <color name="design_fab_shadow_end_color">@android:color/transparent</color>
     <color name="design_fab_shadow_mid_color">#14000000</color>
     <color name="design_fab_shadow_start_color">#44000000</color>
@@ -144,6 +151,7 @@
     <color name="foreground_material_dark">@android:color/white</color>
     <color name="foreground_material_light">@android:color/black</color>
     <color name="global_bg">#9000</color>
+    <color name="gray">#F1F1F1</color>
     <color name="gray7">#c5c4c4</color>
     <color name="green_4DC0A4">#4DC0A4</color>
     <color name="grey">#333333</color>
@@ -512,6 +520,9 @@
     <string name="create_team_success">创建成功</string>
     <string name="crop">裁剪</string>
     <string name="delete_has_blank">删 除</string>
+    <string name="demand_detail">需求详情</string>
+    <string name="demand_pay">付款信息</string>
+    <string name="demand_schedule">需求进度</string>
     <string name="dismiss_team">解散本群</string>
     <string name="dismiss_team_failed">解散群失败</string>
     <string name="dismiss_team_success">群已解散</string>

@@ -132,6 +132,10 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\layout\\nim_message_item_text.xml"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\layout\\list_item_demand_pay_info.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\layout\\list_item_demand_pay_info.xml"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\layout\\nim_sticker_picker_view.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\layout\\nim_sticker_picker_view.xml"
     },
@@ -162,6 +166,10 @@
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\layout\\nim_picker_image_folder_activity.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\layout\\nim_picker_image_folder_activity.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\layout\\demand_detail_activity.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\layout\\demand_detail_activity.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\layout\\abc_popup_menu_item_layout.xml",
@@ -306,6 +314,10 @@
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\layout\\nim_voice_trans_layout.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\layout\\nim_voice_trans_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\layout\\demand_pay_activity.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\layout\\demand_pay_activity.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\layout\\nim_message_item.xml",
@@ -458,6 +470,10 @@
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\layout\\design_navigation_menu_item.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\layout\\demand_schedule_activity.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\layout\\demand_schedule_activity.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\release\\layout\\design_layout_snackbar_include.xml",
