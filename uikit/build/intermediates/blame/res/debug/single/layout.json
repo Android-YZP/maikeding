@@ -272,12 +272,12 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\layout\\nim_sticker_picker_view.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\layout\\nim_easy_alert_dialog_title.xml",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\layout\\nim_easy_alert_dialog_title.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\layout\\nim_easy_alert_dialog_title.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\layout\\nim_easy_alert_dialog_title.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",

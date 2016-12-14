@@ -50,10 +50,15 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme.NoActionBar">
 
-        <!-- 如果IDE是Eclipse，此处可将build.gradle中的AMAP_KEY定义拷贝过来。 -->
+        <!-- debug版高德amap_key -->
         <meta-data
             android:name="com.amap.api.v2.apikey"
-            android:value="${AMAP_KEY}" />
+            android:value="23f04c99d368ea2e2d4d61169837add4" />
+
+        <!-- release版高德amap_key -->
+        <!--<meta-data-->
+        <!--android:name="com.amap.api.v2.apikey"-->
+        <!--android:value="d682a58f93df89adf7b2fc6ea9e2c6b6" />-->
 
         <meta-data
             android:name="com.mcwonders.mkd.appKey"
