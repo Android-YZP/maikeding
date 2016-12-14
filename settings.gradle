@@ -1,2 +1,2 @@
 include ':uikit' 
-include ':demo'
+include ':mkd'

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/maikeding.iml" filepath="$PROJECT_DIR$/maikeding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mkd/mkd.iml" filepath="$PROJECT_DIR$/mkd/mkd.iml" />
       <module fileurl="file://$PROJECT_DIR$/uikit/uikit.iml" filepath="$PROJECT_DIR$/uikit/uikit.iml" />
     </modules>
   </component>

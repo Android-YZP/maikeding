@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="cosinesdk">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/demo/libs/cosinesdk.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mkd/libs/cosinesdk.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
