@@ -1,7 +1,6 @@
 package com.mcwonders.uikit.session.viewholder;
 
 import com.netease.nimlib.sdk.msg.attachment.AudioAttachment;
-import com.netease.nimlib.sdk.msg.attachment.FileAttachment;
 import com.netease.nimlib.sdk.msg.attachment.ImageAttachment;
 import com.netease.nimlib.sdk.msg.attachment.LocationAttachment;
 import com.netease.nimlib.sdk.msg.attachment.MsgAttachment;
@@ -23,7 +22,6 @@ public class MsgViewHolderFactory {
 
     static {
         // built in
-        register(FileAttachment.class, MsgViewHolderFile.class);
         register(ImageAttachment.class, MsgViewHolderPicture.class);
         register(AudioAttachment.class, MsgViewHolderAudio.class);
         register(VideoAttachment.class, MsgViewHolderVideo.class);

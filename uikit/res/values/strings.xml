@@ -19,6 +19,11 @@
     <string name="now_allow_space">不能含有空格</string>
     <string name="readed">已读</string>
 
+    <!-- 需求 -->
+    <string name="demand_detail">需求详情</string>
+    <string name="demand_schedule">需求进度</string>
+    <string name="demand_pay">付款信息</string>
+
     <!-- session -->
     <string name="input_panel_photo">图 片</string>
     <string name="input_panel_video">视 频</string>

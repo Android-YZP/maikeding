@@ -3,6 +3,7 @@
 
     <color name="transparent">#00000000</color>
     <color name="white">#FFFFFF</color>
+    <color name="gray">#F1F1F1</color>
     <color name="light">#FFEEEEEE</color>
     <color name="black">#000000</color>
     <color name="grey">#333333</color>
@@ -36,6 +37,15 @@
 
     <!-- main bg color -->
     <color name="main_bg_color">#FFFFFF</color>
+
+    <!-- demand -->
+    <color name="demand_default_text_color">#313131</color>
+    <color name="demand_price_text_color">#ef2121</color>
+    <color name="demand_number_color">#7d7d7d</color>
+    <color name="demand_schedule_line_color">#d2d2d2</color>
+    <color name="demand_pay_info_line_color1">#f39800</color>
+    <color name="demand_pay_info_line_color2">#336ee6</color>
+    <color name="demand_pay_info_line_color3">#aa63cd</color>
 
     <!-- session -->
     <color name="color_message_default_bg">#e9ecf0</color>

@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="nrtc-sdk">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/demo/libs/nrtc-sdk.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mkd/libs/nrtc-sdk.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

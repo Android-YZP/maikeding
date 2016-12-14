@@ -188,6 +188,10 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\layout\\nim_popup_menu_layout.xml"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_demand_pay_info.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\layout\\list_item_demand_pay_info.xml"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\layout\\nim_contacts.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\layout\\nim_contacts.xml"
     },
@@ -352,6 +356,10 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\layout\\demand_pay_activity.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\layout\\demand_pay_activity.xml"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\layout\\nim_action_bar_right_clickable_tv.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\layout\\nim_action_bar_right_clickable_tv.xml"
     },
@@ -398,6 +406,10 @@
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\layout\\nim_actions_item_layout.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\layout\\nim_actions_item_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\layout\\demand_detail_activity.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\layout\\demand_detail_activity.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\layout\\nim_emoji_item.xml",
@@ -554,5 +566,9 @@
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\layout\\nim_advanced_team_announce_list_item.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\layout\\nim_advanced_team_announce_list_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\layout\\demand_schedule_activity.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\layout\\demand_schedule_activity.xml"
     }
 ]
