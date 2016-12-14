@@ -22,10 +22,12 @@ import com.mcwonders.mkd.config.ExtraOptions;
 import com.mcwonders.mkd.config.preference.Preferences;
 import com.mcwonders.mkd.config.preference.UserPreferences;
 import com.mcwonders.mkd.contact.ContactHelper;
+import com.mcwonders.mkd.login.maixinlogin.User;
 import com.mcwonders.mkd.main.activity.WelcomeActivity;
 import com.mcwonders.mkd.rts.activity.RTSActivity;
 import com.mcwonders.mkd.session.NimDemoLocationProvider;
 import com.mcwonders.mkd.session.SessionHelper;
+import com.mcwonders.mkd.utils.CommonUtil;
 import com.mcwonders.uikit.ImageLoaderKit;
 import com.mcwonders.uikit.NimUIKit;
 import com.mcwonders.uikit.cache.FriendDataCache;
@@ -104,12 +106,13 @@ public class NimApplication extends Application {
     }
 
     private LoginInfo getLoginInfo() {
-        String account = Preferences.getUserAccount();
-        String token = Preferences.getUserToken();
+        User userInfo = CommonUtil.getUserInfo(this);
+        String account = userInfo.getMobile();
+        String token = userInfo.getToken();
 
         if (!TextUtils.isEmpty(account) && !TextUtils.isEmpty(token)) {
             DemoCache.setAccount(account.toLowerCase());
-            return new LoginInfo(account, token);
+            return new LoginInfo(account, token,"65ee5f0a9a88cfe35b5077f96a85034a");
         } else {
             return null;
         }

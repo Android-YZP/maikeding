@@ -81,7 +81,8 @@ public class CommonConstants {
      * 测试地址
      */
     public static final String TEST_ADDRESS = "http://192.168.0.226:8080/external/";
-    public static final String TRUE_ADDRESS = "http://www.maikejia.com/external/";
+//    public static final String TRUE_ADDRESS = "http://www.maikejia.com/external/";
+    public static final String TRUE_ADDRESS = "http://192.168.3.135:8080/external/";
     public static final String NOW_ADDRESS = TRUE_ADDRESS;
 
     public static final String TEST_ADDRESS_WAP = "http://192.168.0.251:8080/";

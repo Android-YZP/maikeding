@@ -14,6 +14,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.mcwonders.mkd.R;
 import com.mcwonders.mkd.config.CommonConstants;
 import com.mcwonders.mkd.contact.constant.UserConstant;
 import com.mcwonders.mkd.contact.helper.UserUpdateHelper;
@@ -93,7 +94,8 @@ public class UserProfileSettingActivity extends UI implements View.OnClickListen
         mUser = CommonUtil.getUserInfo(this);
 
         ToolBarOptions options = new ToolBarOptions();
-        options.titleId = com.mcwonders.mkd.R.string.user_profile;
+        options.titleString = " ";
+        options.logoId = R.drawable.logo_login;
         setToolBar(com.mcwonders.mkd.R.id.toolbar, options);
         account = getIntent().getStringExtra(Extras.EXTRA_ACCOUNT);
         findViews();

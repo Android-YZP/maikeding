@@ -17,7 +17,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.google.gson.Gson;
 import com.mcwonders.mkd.config.CommonConstants;
 import com.mcwonders.mkd.utils.CommonUtil;
@@ -42,12 +41,11 @@ import com.netease.nimlib.sdk.RequestCallback;
 import com.netease.nimlib.sdk.auth.AuthService;
 import com.netease.nimlib.sdk.auth.ClientType;
 import com.netease.nimlib.sdk.auth.LoginInfo;
-
 import org.apache.http.conn.ConnectTimeoutException;
 import org.json.JSONObject;
-
 import java.lang.ref.WeakReference;
 import java.net.SocketTimeoutException;
+import cn.jpush.android.api.JPushInterface;
 
 public class UserLoginActivity extends AppCompatActivity {
 
@@ -84,8 +82,7 @@ public class UserLoginActivity extends AppCompatActivity {
         User userInfo = CommonUtil.getUserInfo(this);
         if (userInfo != null) {
             //自动登录
-            new UserLoginOnClickListener().yunXinlogin(userInfo.getMobile() + "", userInfo.getToken());
-            // 进入主界面
+            // 直接进入MainActivity进入主界面
             MainActivity.start(UserLoginActivity.this, null);
             finish();
             return;
@@ -269,7 +266,11 @@ public class UserLoginActivity extends AppCompatActivity {
                             User user = new Gson().fromJson(result, User.class);
                             CommonUtil.saveUserInfo(user, UserLoginActivity.this);
                             //登录云信
+                            Log.d("登录信息1",user.getMobile() + user.getToken());
                             yunXinlogin(user.getMobile() + "", user.getToken());
+                            //第一次手动登录时设置标签，自动登录时就不要设置标签了。
+                            /****************************设置极光推送的推送标签************************************************************/
+                            JPushInterface.setAlias(UserLoginActivity.this, user.getMobile() + "", null);//设置标签
                         } else {
                             //获取错误代码，并查询出错误文字 天外飞仙
                             String errorMsg = jsonObj.getString("errorMsg");
@@ -320,13 +321,10 @@ public class UserLoginActivity extends AppCompatActivity {
                         UserPreferences.setStatusConfig(DemoCache.getNotificationConfig());
                     }
                     NIMClient.updateStatusBarNotificationConfig(UserPreferences.getStatusConfig());
-
                     // 构建缓存
                     DataCacheManager.buildDataCacheAsync();
-
                     // 进入主界面
                     MainActivity.start(UserLoginActivity.this, null);
-
                     finish();
                 }
 
@@ -339,12 +337,18 @@ public class UserLoginActivity extends AppCompatActivity {
                     } else {
                         Toast.makeText(UserLoginActivity.this, "登录失败: " + code, Toast.LENGTH_SHORT).show();
                     }
+                    // 进入主界面
+                    MainActivity.start(UserLoginActivity.this, null);
+                    finish();
                 }
 
                 @Override
                 public void onException(Throwable exception) {
                     Toast.makeText(UserLoginActivity.this, R.string.login_exception, Toast.LENGTH_LONG).show();
                     onLoginDone();
+                    // 进入主界面
+                    MainActivity.start(UserLoginActivity.this, null);
+                    finish();
                 }
             });
         }
