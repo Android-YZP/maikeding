@@ -4,7 +4,7 @@
     android:id="@+id/activity_splash"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/logo_login"
+    android:background="@drawable/loading"
     tools:context="com.mcwonders.mkd.main.activity.SplashActivity">
 
 </RelativeLayout>
