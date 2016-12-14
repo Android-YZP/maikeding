@@ -1,10 +1,12 @@
 package com.mcwonders.mkd.main.fragment;
 
 import android.app.Activity;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
+import android.support.v7.app.AlertDialog;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -62,6 +64,7 @@ public class SettingFragment extends TFragment implements SettingsAdapter.Switch
     private static final int TAG_NOTICE_CONTENT = 13; // 通知栏提醒配置
     private static final int TAG_CLEAR_INDEX = 18; // 清空全文检索缓存
     private static final int TAG_MULTIPORT_PUSH = 19; // 桌面端登录，是否推送
+    private static final int LOGOUT = 20; // 退出登录
 
     private ContactsCustomization customization;
     ListView listView;
@@ -129,7 +132,8 @@ public class SettingFragment extends TFragment implements SettingsAdapter.Switch
             logoutBtn.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    logout();
+                    dialog(LOGOUT);
+
                 }
             });
         }
@@ -216,11 +220,10 @@ public class SettingFragment extends TFragment implements SettingsAdapter.Switch
                 startActivity(new Intent(getActivity(), AboutActivity.class));
                 break;
             case TAG_CLEAR:
-                NIMClient.getService(MsgService.class).clearMsgDatabase(true);
-                Toast.makeText(getActivity(), com.mcwonders.mkd.R.string.clear_msg_history_success, Toast.LENGTH_SHORT).show();
+                dialog(TAG_CLEAR);
                 break;
             case TAG_CLEAR_INDEX:
-                clearIndex();
+                dialog(TAG_CLEAR_INDEX);
                 break;
             case TAG_NRTC_SETTINGS:
                 startActivity(new Intent(getActivity(), AVChatSettingsActivity.class));
@@ -228,6 +231,46 @@ public class SettingFragment extends TFragment implements SettingsAdapter.Switch
             default:
                 break;
         }
+    }
+
+
+    protected void dialog(final int Kind) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+        if (Kind == LOGOUT){
+            builder.setMessage("确认退出吗？");
+        }else {
+            builder.setMessage("确认清除吗？");
+        }
+        builder.setPositiveButton("确认", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.dismiss();
+                switch (Kind) {
+                    case TAG_CLEAR:
+                        NIMClient.getService(MsgService.class).clearMsgDatabase(true);
+                        Toast.makeText(getActivity(), com.mcwonders.mkd.R.string.clear_msg_history_success, Toast.LENGTH_SHORT).show();
+                        break;
+                    case TAG_CLEAR_INDEX:
+                        clearIndex();
+                        break;
+                    case LOGOUT:
+                        logout();
+                        break;
+                    default:
+                        break;
+                }
+            }
+        });
+
+        builder.setNegativeButton("取消", new DialogInterface.OnClickListener() {
+
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.dismiss();
+            }
+        });
+
+        builder.create().show();
     }
 
     /**

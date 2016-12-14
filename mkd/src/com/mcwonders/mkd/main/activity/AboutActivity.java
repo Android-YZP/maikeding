@@ -41,6 +41,6 @@ public class AboutActivity extends UI {
 	private void initViewData() {
         // 如果使用的IDE是Eclipse， 将该函数体注释掉。这里使用了Android Studio编译期添加BuildConfig字段的特性
         versionGit.setText(" Version: V 1.0" );
-		versionDate.setText("Build Date:" + BuildConfig.BUILD_DATE);
+//		versionDate.setText("Build Date:" + BuildConfig.BUILD_DATE);
 	}
 }

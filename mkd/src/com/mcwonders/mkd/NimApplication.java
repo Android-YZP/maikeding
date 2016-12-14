@@ -107,15 +107,17 @@ public class NimApplication extends Application {
 
     private LoginInfo getLoginInfo() {
         User userInfo = CommonUtil.getUserInfo(this);
-        String account = userInfo.getMobile();
-        String token = userInfo.getToken();
-
-        if (!TextUtils.isEmpty(account) && !TextUtils.isEmpty(token)) {
-            DemoCache.setAccount(account.toLowerCase());
-            return new LoginInfo(account, token,"65ee5f0a9a88cfe35b5077f96a85034a");
-        } else {
-            return null;
+        if(userInfo!=null){
+            String account = userInfo.getMobile();
+            String token = userInfo.getToken();
+            if (!TextUtils.isEmpty(account) && !TextUtils.isEmpty(token)) {
+                DemoCache.setAccount(account.toLowerCase());
+                return new LoginInfo(account, token,"65ee5f0a9a88cfe35b5077f96a85034a");
+            } else {
+                return null;
+            }
         }
+        return null;
     }
 
     private SDKOptions getOptions() {
@@ -134,7 +136,7 @@ public class NimApplication extends Application {
         config.notificationSound = "android.resource://com.mcwonders.mkd/raw/msg";
 
         // 呼吸灯配置
-        config.ledARGB = Color.GREEN;
+        config.ledARGB = Color.BLUE;
         config.ledOnMs = 1000;
         config.ledOffMs = 1500;
 
