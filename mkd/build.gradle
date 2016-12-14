@@ -33,27 +33,12 @@ android {
 
     signingConfigs {
         debug { storeFile file("debug.keystore") }
-
-        release {
-            storeFile file('release.keystore')
-            storePassword 'thisiskeystorepassword'
-            keyAlias 'nim_demo'
-            keyPassword 'thisiskeypassword'
-        }
     }
 
     buildTypes {
         debug {
             signingConfig signingConfigs.debug
-            manifestPlaceholders = [ AMAP_KEY:"09fd4efd3e28e9bf1f449ecec7d34bfe" ]
-        }
-
-        release {
-            minifyEnabled true
-            zipAlignEnabled true
-            proguardFile('proguard.cfg')
-            signingConfig signingConfigs.release
-            manifestPlaceholders = [ AMAP_KEY:"ee20324fba1c7f4ad7a4a207e7f08e8d" ]
+            manifestPlaceholders = [ AMAP_KEY:"23f04c99d368ea2e2d4d61169837add4" ]
         }
     }
     sourceSets {

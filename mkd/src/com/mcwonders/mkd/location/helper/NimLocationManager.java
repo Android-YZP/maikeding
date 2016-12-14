@@ -1,10 +1,6 @@
 package com.mcwonders.mkd.location.helper;
 
 
-import java.io.IOException;
-import java.util.List;
-import java.util.Locale;
-
 import android.content.Context;
 import android.location.Address;
 import android.location.Criteria;
@@ -20,23 +16,27 @@ import com.amap.api.location.AMapLocation;
 import com.amap.api.location.AMapLocationListener;
 import com.amap.api.location.LocationManagerProxy;
 import com.amap.api.location.LocationProviderProxy;
-import com.mcwonders.mkd.location.model.NimLocation;
 import com.mcwonders.mkd.common.infra.TaskExecutor;
+import com.mcwonders.mkd.location.model.NimLocation;
 import com.mcwonders.uikit.common.util.log.LogUtil;
+
+import java.io.IOException;
+import java.util.List;
+import java.util.Locale;
 
 public class NimLocationManager implements AMapLocationListener {
 	private static final String TAG = "NimLocationManager";
 	private Context mContext;
-	
+
 	/** msg handler */
 	private static final int MSG_LOCATION_WITH_ADDRESS_OK = 1;
 	private static final int MSG_LOCATION_POINT_OK = 2;
     private static final int MSG_LOCATION_ERROR = 3;
-	
+
 	private NimLocationListener mListener;
-	
+
 	Criteria criteria; // onResume 重新激活 if mProvider == null
-	
+
 	/** AMap location */
     private LocationManagerProxy aMapLocationManager;
 
@@ -44,16 +44,16 @@ public class NimLocationManager implements AMapLocationListener {
 //    private LocationManager mSysLocationMgr = null;
     private String mProvider;
     private Geocoder mGeocoder;
-    
+
     private MsgHandler mMsgHandler = new MsgHandler();
     private TaskExecutor executor = new TaskExecutor(TAG, TaskExecutor.defaultConfig, true);
-	
+
 	public NimLocationManager(Context context, NimLocationListener oneShotListener) {
 		mContext = context;
         mGeocoder = new Geocoder(mContext, Locale.getDefault());
 		mListener = oneShotListener;
 	}
-	
+
 	public static boolean isLocationEnable(Context context) {
 		LocationManager locationManager = (LocationManager) context.getSystemService(Context.LOCATION_SERVICE);
 		Criteria cri = new Criteria();
@@ -63,7 +63,7 @@ public class NimLocationManager implements AMapLocationListener {
 		cri.setCostAllowed(false);
 		String bestProvider = locationManager.getBestProvider(cri, true);
 		return !TextUtils.isEmpty(bestProvider);
-		
+
 	}
 
     @Override
@@ -105,7 +105,7 @@ public class NimLocationManager implements AMapLocationListener {
     public interface NimLocationListener {
 		public void onLocationChanged(NimLocation location);
 	}
-	
+
 	public Location getLastKnownLocation() {
         try {
             if(criteria == null) {
@@ -124,14 +124,14 @@ public class NimLocationManager implements AMapLocationListener {
 		}
         return null;
     }
-	
+
 	private void onLocation(NimLocation location, int what) {
         Message msg = mMsgHandler.obtainMessage();
         msg.what = what;
         msg.obj = location;
         mMsgHandler.sendMessage(msg);
     }
-	
+
 	private class MsgHandler extends Handler {
 
 		@Override
@@ -142,10 +142,10 @@ public class NimLocationManager implements AMapLocationListener {
                     if(msg.obj != null) {
                         NimLocation loc = (NimLocation) msg.obj;
                         loc.setStatus(NimLocation.Status.HAS_LOCATION_ADDRESS);
-                        
+
                         // 记录地址信息
                         loc.setFromLocation(true);
-                        
+
                         mListener.onLocationChanged(loc);
                     } else {
                     	NimLocation loc = new NimLocation();
@@ -178,7 +178,7 @@ public class NimLocationManager implements AMapLocationListener {
 		}
 
 	}
-	
+
 	private void getAMapLocationAddress(final AMapLocation loc) {
         if (TextUtils.isEmpty(loc.getAddress())) {
             executor.execute(new Runnable() {
@@ -200,7 +200,7 @@ public class NimLocationManager implements AMapLocationListener {
             onLocation(location, MSG_LOCATION_WITH_ADDRESS_OK);
         }
     }
-	
+
 	private boolean getLocationAddress(NimLocation location) {
         List<Address> list;
         boolean ret = false;
@@ -228,11 +228,11 @@ public class NimLocationManager implements AMapLocationListener {
 
         return ret;
     }
-	
+
 	public void deactive() {
 		stopAMapLocation();
 	}
-	
+
 	private void stopAMapLocation() {
         if (aMapLocationManager != null) {
             aMapLocationManager.removeUpdates(this);
@@ -240,11 +240,11 @@ public class NimLocationManager implements AMapLocationListener {
         }
         aMapLocationManager = null;
 	}
-	
+
 	public void activate() {
 		requestAmapLocation();
 	}
-	
+
 	private void requestAmapLocation() {
         if (aMapLocationManager == null) {
             aMapLocationManager = LocationManagerProxy.getInstance(mContext);
