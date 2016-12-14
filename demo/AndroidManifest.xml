@@ -53,7 +53,7 @@
         <!-- 如果IDE是Eclipse，此处可将build.gradle中的AMAP_KEY定义拷贝过来。 -->
         <meta-data
             android:name="com.amap.api.v2.apikey"
-            android:value="${AMAP_KEY}" />
+            android:value="23f04c99d368ea2e2d4d61169837add4" />
         <meta-data
             android:name="com.mcwonders.mkd.appKey"
             android:value="65ee5f0a9a88cfe35b5077f96a85034a" />

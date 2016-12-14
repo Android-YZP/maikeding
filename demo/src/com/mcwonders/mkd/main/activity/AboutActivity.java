@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 import com.mcwonders.mkd.BuildConfig;
+import com.mcwonders.mkd.R;
 import com.mcwonders.uikit.common.activity.UI;
 import com.mcwonders.uikit.model.ToolBarOptions;
 
@@ -16,10 +17,11 @@ public class AboutActivity extends UI {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(com.mcwonders.mkd.R.layout.about_layout);
-
 		ToolBarOptions options = new ToolBarOptions();
+		options.titleString = " ";
+		options.logoId = R.drawable.logo_login;
 		setToolBar(com.mcwonders.mkd.R.id.toolbar, options);
-
+		setToolBar(com.mcwonders.mkd.R.id.toolbar, options);
 		findViews();
 		initViewData();
 	}
@@ -38,7 +40,7 @@ public class AboutActivity extends UI {
 
 	private void initViewData() {
         // 如果使用的IDE是Eclipse， 将该函数体注释掉。这里使用了Android Studio编译期添加BuildConfig字段的特性
-        versionGit.setText("Git Version: " + BuildConfig.GIT_REVISION);
+        versionGit.setText(" Version: V 1.0" );
 		versionDate.setText("Build Date:" + BuildConfig.BUILD_DATE);
 	}
 }

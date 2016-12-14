@@ -6,7 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 
-import com.netease.nim.demo.main.activity.MainActivity;
+
+import com.mcwonders.mkd.main.activity.MainActivity;
 
 import org.json.JSONException;
 import org.json.JSONObject;

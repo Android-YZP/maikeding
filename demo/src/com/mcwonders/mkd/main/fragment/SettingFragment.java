@@ -177,14 +177,15 @@ public class SettingFragment extends TFragment implements SettingsAdapter.Switch
 //                !NIMClient.getService(SettingsService.class).isMultiportPushOpen()));
 //        items.add(SettingTemplate.makeSeperator());
 
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.ICE_CREAM_SANDWICH) {
-            items.add(new SettingTemplate(TAG_NRTC_SETTINGS, getString(com.mcwonders.mkd.R.string.nrtc_settings)));
-            items.add(SettingTemplate.makeSeperator());
-        }
+//        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.ICE_CREAM_SANDWICH) {
+//            items.add(new SettingTemplate(TAG_NRTC_SETTINGS, getString(com.mcwonders.mkd.R.string.nrtc_settings)));
+//            items.add(SettingTemplate.makeSeperator());
+//        }
 
 //        items.add(new SettingTemplate(TAG_MSG_IGNORE, "过滤通知",
 //                SettingType.TYPE_TOGGLE, UserPreferences.getMsgIgnore()));
 //        items.add(SettingTemplate.addLine());
+        items.add(SettingTemplate.makeSeperator());
         items.add(new SettingTemplate(TAG_CLEAR, getString(com.mcwonders.mkd.R.string.about_clear_msg_history)));
         items.add(SettingTemplate.addLine());
 
