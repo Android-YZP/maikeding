@@ -16,17 +16,18 @@
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
-            android:paddingLeft="5dp"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
+            android:paddingLeft="5dp"
             app:titleTextAppearance="@style/Toolbar.TitleText">
 
             <TextView
                 android:id="@+id/toolbar_message_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:singleLine="true"
+                android:layout_gravity="left"
+                android:maxLines="1"
+                android:paddingLeft="5dp"
                 android:textColor="@color/white"
                 android:textSize="16sp" />
         </android.support.v7.widget.Toolbar>

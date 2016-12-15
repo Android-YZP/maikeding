@@ -3,7 +3,8 @@ package com.mcwonders.uikit.session.activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.widget.Toast;
+import android.os.Handler;
+import android.os.Message;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
@@ -30,7 +31,7 @@ import java.util.List;
  * <p/>
  * Created by huangjun on 2015/2/1.
  */
-public class                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    P2PMessageActivity extends BaseMessageActivity {
+public class P2PMessageActivity extends BaseMessageActivity {
 
     private boolean isResume = false;
 
@@ -157,15 +158,23 @@ public class                                                                    
             int id = json.getIntValue("id");
             if (id == 1) {
                 // 正在输入
-                Toast.makeText(P2PMessageActivity.this, "对方正在输入...", Toast.LENGTH_LONG).show();
+                setTitle(UserInfoHelper.getUserTitleName("对方正在输入...", SessionTypeEnum.P2P));
+                handler.sendEmptyMessageDelayed(0, 3000);
+//                Toast.makeText(P2PMessageActivity.this, "对方正在输入...", Toast.LENGTH_LONG).show();
             } else {
-                Toast.makeText(P2PMessageActivity.this, "command: " + content, Toast.LENGTH_SHORT).show();
+//                Toast.makeText(P2PMessageActivity.this, "command: " + content, Toast.LENGTH_SHORT).show();
             }
-
         } catch (Exception e) {
-
         }
     }
+
+    private Handler handler = new Handler() {
+        @Override
+        public void handleMessage(Message msg) {
+            setTitle(UserInfoHelper.getUserTitleName(sessionId, SessionTypeEnum.P2P));
+            super.handleMessage(msg);
+        }
+    };
 
     @Override
     protected MessageFragment fragment() {
