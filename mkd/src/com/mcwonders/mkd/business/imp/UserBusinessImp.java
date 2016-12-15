@@ -470,6 +470,7 @@ public class UserBusinessImp implements IUserBusiness {
         _json_args.put("clientType", "Phone");
         //添加头信息
         String _md5_value = ConvertUtil.getMD5("MAIKEJIA");
+        Log.d("参数",_json_args.toString()+",头信息=====>(verifyCode)"+_md5_value.substring(0, 8));
         _result = this.getResultFromUrlConnection(CommonConstants.USER_LOGIN, _json_args.toString(), _md5_value.substring(0, 8));
         return _result;
     }

@@ -165,9 +165,9 @@ public class SettingFragment extends TFragment implements SettingsAdapter.Switch
         items.add(SettingTemplate.makeSeperator());
         items.add(new SettingTemplate(TAG_RING, getString(com.mcwonders.mkd.R.string.ring), SettingType.TYPE_TOGGLE,
                 UserPreferences.getRingToggle()));
-        items.add(SettingTemplate.addLine());
-        items.add(new SettingTemplate(TAG_LED, getString(com.mcwonders.mkd.R.string.led), SettingType.TYPE_TOGGLE,
-                UserPreferences.getLedToggle()));
+//        items.add(SettingTemplate.addLine());
+//        items.add(new SettingTemplate(TAG_LED, getString(com.mcwonders.mkd.R.string.led), SettingType.TYPE_TOGGLE,
+//                UserPreferences.getLedToggle()));
         items.add(SettingTemplate.addLine());
 //        items.add(SettingTemplate.makeSeperator());
 //        items.add(new SettingTemplate(TAG_NOTICE_CONTENT, getString(R.string.notice_content), SettingType.TYPE_TOGGLE,

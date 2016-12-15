@@ -24,8 +24,8 @@ android {
         }
 
         manifestPlaceholders = [
-                JPUSH_PKGNAME: "com.netease.nim.demo",
-                JPUSH_APPKEY : "4b07a39962042b8a92494cc7", //JPush上注册的包名对应的appkey（*换成你的*）
+                JPUSH_PKGNAME: "com.mcwonders.mkd",
+                JPUSH_APPKEY : "0dab82079076d69f7c2997d9", //JPush上注册的包名对应的appkey（*换成你的*）
                 JPUSH_CHANNEL: "developer-default", //暂时填写默认值即可.
         ]
 
