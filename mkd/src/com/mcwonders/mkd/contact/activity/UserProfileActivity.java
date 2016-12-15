@@ -468,7 +468,7 @@ public class UserProfileActivity extends UI {
         public void onClick(View v) {
             if (v == addFriendBtn) {
                 if (FLAG_ADD_FRIEND_DIRECTLY) {
-                    doAddFriend(null, true);  // 直接加为好友
+                    doAddFriend(null, false);  // 直接加为好友
                 } else {
                     onAddFriendByVerify(); // 发起好友验证请求
                 }
