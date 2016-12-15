@@ -1,11 +1,13 @@
 package com.mcwonders.mkd.main.viewholder;
 
+import android.app.AlertDialog;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.mcwonders.uikit.cache.NimUserInfoCache;
 import com.mcwonders.mkd.main.helper.MessageHelper;
+import com.mcwonders.uikit.cache.NimUserInfoCache;
 import com.mcwonders.uikit.common.adapter.TViewHolder;
 import com.mcwonders.uikit.common.ui.imageview.HeadImageView;
 import com.mcwonders.uikit.common.util.sys.TimeUtil;
@@ -102,6 +104,14 @@ public class SystemMessageViewHolder extends TViewHolder {
         }
 
         this.listener = l;
+        view.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (!TextUtils.isEmpty(message.getContent())) {
+                    new AlertDialog.Builder(context).setTitle("好友验证请求").setMessage(message.getContent()).create().show();
+                }
+            }
+        });
         agreeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

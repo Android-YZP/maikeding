@@ -94,9 +94,7 @@ public class UserProfileSettingActivity extends UI implements View.OnClickListen
         mUser = CommonUtil.getUserInfo(this);
 
         ToolBarOptions options = new ToolBarOptions();
-        options.titleString = " ";
-        options.logoId = R.drawable.logo_login;
-        setToolBar(com.mcwonders.mkd.R.id.toolbar, options);
+        setToolBar(R.id.toolbar, options, R.id.toolbar_profile_set_title);
         account = getIntent().getStringExtra(Extras.EXTRA_ACCOUNT);
         findViews();
     }

@@ -55,7 +55,7 @@ public class UserProfileActivity extends UI {
 
     private static final String TAG = UserProfileActivity.class.getSimpleName();
 
-    private final boolean FLAG_ADD_FRIEND_DIRECTLY = true; // 是否直接加为好友开关，false为需要好友申请
+    private final boolean FLAG_ADD_FRIEND_DIRECTLY = false; // 是否直接加为好友开关，false为需要好友申请
     private final String KEY_BLACK_LIST = "black_list";
     private final String KEY_MSG_NOTICE = "msg_notice";
 
@@ -468,7 +468,7 @@ public class UserProfileActivity extends UI {
         public void onClick(View v) {
             if (v == addFriendBtn) {
                 if (FLAG_ADD_FRIEND_DIRECTLY) {
-                    doAddFriend(null, true);  // 直接加为好友
+                    doAddFriend(null, true);  // 直接添加加好友
                 } else {
                     onAddFriendByVerify(); // 发起好友验证请求
                 }

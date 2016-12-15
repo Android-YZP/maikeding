@@ -4,7 +4,6 @@ import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import com.mcwonders.mkd.BuildConfig;
 import com.mcwonders.mkd.R;
 import com.mcwonders.mkd.utils.CommonUtil;
 import com.mcwonders.uikit.common.activity.UI;
@@ -20,10 +19,7 @@ public class AboutActivity extends UI {
 		super.onCreate(savedInstanceState);
 		setContentView(com.mcwonders.mkd.R.layout.about_layout);
 		ToolBarOptions options = new ToolBarOptions();
-		options.titleString = " ";
-		options.logoId = R.drawable.logo_login;
-		setToolBar(com.mcwonders.mkd.R.id.toolbar, options);
-		setToolBar(com.mcwonders.mkd.R.id.toolbar, options);
+		setToolBar(R.id.toolbar, options, R.id.toolbar_about_title);
 		findViews();
 		initViewData();
 	}
