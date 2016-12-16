@@ -2,10 +2,12 @@ package com.mcwonders.mkd.main.viewholder;
 
 import android.app.AlertDialog;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.mcwonders.mkd.R;
 import com.mcwonders.mkd.main.helper.MessageHelper;
 import com.mcwonders.uikit.cache.NimUserInfoCache;
 import com.mcwonders.uikit.common.adapter.TViewHolder;
@@ -69,9 +71,22 @@ public class SystemMessageViewHolder extends TViewHolder {
                 return true;
             }
         });
-        headImageView.loadBuddyAvatar(message.getFromAccount());
-        fromAccountText.setText(NimUserInfoCache.getInstance().getUserDisplayNameEx(message.getFromAccount()));
-        contentText.setText(MessageHelper.getVerifyNotificationText(message));
+        if (message.getFromAccount()!=null){
+            headImageView.loadBuddyAvatar(message.getFromAccount());
+        }else {
+            headImageView.setImageResource(R.drawable.login_logo);
+        }
+
+        if (message.getFromAccount()!=null) {
+            fromAccountText.setText(NimUserInfoCache.getInstance().getUserDisplayNameEx(message.getFromAccount()));
+        }else {
+            fromAccountText.setText("系统");
+        }
+        if (message.getFromAccount()!=null) {
+            contentText.setText(MessageHelper.getVerifyNotificationText(message));
+        }else {
+            contentText.setText(message.getContent());
+        }
         timeText.setText(TimeUtil.getTimeShowString(message.getTime(), false));
         if (!MessageHelper.isVerifyMessageNeedDeal(message)) {
             operatorLayout.setVisibility(View.GONE);

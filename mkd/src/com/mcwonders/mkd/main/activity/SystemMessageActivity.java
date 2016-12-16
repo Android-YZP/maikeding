@@ -4,6 +4,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.SystemClock;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -63,6 +65,8 @@ public class SystemMessageActivity extends UI implements TAdapterDelegate,
 
     // db
     private boolean firstLoad = true;
+    private String mTest;
+    private Long mTestTime;
 
     public static void start(Context context) {
         start(context, null, true);
@@ -73,7 +77,7 @@ public class SystemMessageActivity extends UI implements TAdapterDelegate,
         intent.setClass(context, SystemMessageActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
         if (clearTop) {
-            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP );
         }
         if (extras != null) {
             intent.putExtras(extras);
@@ -118,9 +122,23 @@ public class SystemMessageActivity extends UI implements TAdapterDelegate,
 
         initAdapter();
         initListView();
-
         loadMessages(); // load old data
         registerSystemObserver(true);
+        getDataFromNot();
+    }
+
+    //获得通知栏传递过来的数据
+    private void getDataFromNot() {
+        Intent intent = getIntent();
+        mTest = intent.getStringExtra("test");
+        mTestTime = intent.getLongExtra("testTime",0);
+        Log.d("测试传递数据",mTest+mTestTime);
+        SystemMessage systemMessage = new SystemMessage();
+        systemMessage.setContent(mTest);
+        systemMessage.setTime(mTestTime);
+        systemMessage.setType(5);
+        items.add(0, systemMessage);
+        refresh();
     }
 
     @Override

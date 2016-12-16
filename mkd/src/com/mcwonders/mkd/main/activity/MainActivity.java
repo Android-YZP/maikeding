@@ -2,8 +2,10 @@ package com.mcwonders.mkd.main.activity;
 
 import android.Manifest;
 import android.app.Activity;
+import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
@@ -15,6 +17,7 @@ import android.widget.Toast;
 import com.mcwonders.mkd.login.LogoutHelper;
 import com.mcwonders.mkd.main.fragment.HomeFragment;
 import com.mcwonders.mkd.session.SessionHelper;
+import com.mcwonders.mkd.utils.ExampleUtil;
 import com.mcwonders.mkd.utils.MyApplication;
 import com.mcwonders.uikit.LoginSyncDataStatusObserver;
 import com.mcwonders.uikit.common.util.log.LogUtil;
@@ -35,6 +38,10 @@ import com.netease.nimlib.sdk.Observer;
 import com.netease.nimlib.sdk.msg.model.IMMessage;
 
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
+
+import cn.jpush.android.api.JPushInterface;
 
 /**
  * 主界面
@@ -47,7 +54,7 @@ public class MainActivity extends UI {
     private static final int REQUEST_CODE_ADVANCED = 2;
     private static final String TAG = MainActivity.class.getSimpleName();
     private final int BASIC_PERMISSION_REQUEST_CODE = 100;
-
+    public static boolean isForeground = false;
     private HomeFragment mainFragment;
 
     public static void start(Context context) {
@@ -81,11 +88,24 @@ public class MainActivity extends UI {
         super.onCreate(savedInstanceState);
         setContentView(com.mcwonders.mkd.R.layout.activity_main_tab);
         MyApplication.activities.add(MainActivity.this);
+        //极光推送相关内容
+        registerMessageReceiver();  // used for receive msg
+        init();
+
     }
+
+    // 初始化 JPush。如果已经初始化，但没有登录成功，则执行重新登录。
+    private void init() {
+        JPushInterface.init(getApplicationContext());
+    }
+
 
     @Override
     protected void onResume() {
         super.onResume();
+        isForeground = true;
+        JPushInterface.onResume(getApplicationContext());
+
         requestBasicPermission();
         onParseIntent();
         // 等待同步数据完成
@@ -104,10 +124,75 @@ public class MainActivity extends UI {
     }
 
     @Override
+    protected void onPause() {
+        super.onPause();
+        isForeground = false;
+    }
+
+    @Override
     protected void onDestroy() {
         super.onDestroy();
         MyApplication.activities.clear();
+        unregisterReceiver(mMessageReceiver);
     }
+
+
+    //for receive customer msg from jpush server
+    private MessageReceiver mMessageReceiver;
+    public static final String MESSAGE_RECEIVED_ACTION = "com.example.jpushdemo.MESSAGE_RECEIVED_ACTION";
+    public static final String KEY_TITLE = "title";
+    public static final String KEY_MESSAGE = "message";
+    public static final String KEY_EXTRAS = "extras";
+
+    public void registerMessageReceiver() {
+        mMessageReceiver = new MessageReceiver();
+        IntentFilter filter = new IntentFilter();
+        filter.setPriority(IntentFilter.SYSTEM_HIGH_PRIORITY);
+        filter.addAction(MESSAGE_RECEIVED_ACTION);
+        registerReceiver(mMessageReceiver, filter);
+
+//        Set<String> set = new HashSet<>();
+////        set.add("呵呵");//名字任意，可多添加几个
+//        set.add(CommonUtil.getUserInfo(UIUtils.getContext()).getDatas().getUser_id() + "");//名字任意，可多添加几个
+//        UIUtils.LogUtils(CommonUtil.getUserInfo(UIUtils.getContext()).getDatas().getUser_id() + "");
+//        JPushInterface.setTags(getApplicationContext(), set, null);
+
+    }
+
+    public class MessageReceiver extends BroadcastReceiver {
+
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            if (MESSAGE_RECEIVED_ACTION.equals(intent.getAction())) {
+                String messge = intent.getStringExtra(KEY_MESSAGE);
+                String extras = intent.getStringExtra(KEY_EXTRAS);
+                StringBuilder showMsg = new StringBuilder();
+                showMsg.append(KEY_MESSAGE + " : " + messge + "\n");
+                if (!ExampleUtil.isEmpty(extras)) {
+                    showMsg.append(KEY_EXTRAS + " : " + extras + "\n");
+                }
+                setCostomMsg(showMsg.toString());
+            }
+        }
+
+        //显示自定义消息
+        private void setCostomMsg(String msg) {
+            if (null != msg) {
+
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
 
     /**
      * 基本权限管理

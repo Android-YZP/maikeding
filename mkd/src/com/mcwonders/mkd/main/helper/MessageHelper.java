@@ -1,6 +1,7 @@
 package com.mcwonders.mkd.main.helper;
 
 import android.text.TextUtils;
+import android.util.Log;
 
 import com.mcwonders.uikit.cache.NimUserInfoCache;
 import com.mcwonders.uikit.cache.TeamDataCache;
@@ -64,6 +65,7 @@ public class MessageHelper {
      */
     public static boolean isVerifyMessageNeedDeal(SystemMessage message) {
         if (message.getType() == SystemMessageType.AddFriend) {
+            Log.d("测试传递数据","addFriend");
             if (message.getAttachObject() != null) {
                 AddFriendNotify attachData = (AddFriendNotify) message.getAttachObject();
                 if (attachData.getEvent() == AddFriendNotify.Event.RECV_ADD_FRIEND_DIRECT ||
