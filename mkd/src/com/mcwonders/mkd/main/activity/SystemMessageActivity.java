@@ -130,15 +130,19 @@ public class SystemMessageActivity extends UI implements TAdapterDelegate,
     //获得通知栏传递过来的数据
     private void getDataFromNot() {
         Intent intent = getIntent();
-        mTest = intent.getStringExtra("test");
-        mTestTime = intent.getLongExtra("testTime",0);
-        Log.d("测试传递数据",mTest+mTestTime);
-        SystemMessage systemMessage = new SystemMessage();
-        systemMessage.setContent(mTest);
-        systemMessage.setTime(mTestTime);
-        systemMessage.setType(5);
-        items.add(0, systemMessage);
-        refresh();
+        boolean isComing = intent.getBooleanExtra("isComing", false);
+        if (isComing){
+            mTest = intent.getStringExtra("test");
+            mTestTime = intent.getLongExtra("testTime",0);
+            Log.d("测试传递数据",mTest+mTestTime);
+            SystemMessage systemMessage = new SystemMessage();
+            systemMessage.setContent(mTest);
+            systemMessage.setTime(mTestTime);
+            systemMessage.setType(5);
+            items.add(0, systemMessage);
+            refresh();
+        }
+
     }
 
     @Override

@@ -16,6 +16,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.mcwonders.mkd.R;
 import com.mcwonders.mkd.business.IUserBusiness;
 import com.mcwonders.mkd.business.imp.UserBusinessImp;
 import com.mcwonders.mkd.config.CommonConstants;
@@ -134,13 +135,13 @@ public class UserRegPhoneActivity extends AppCompatActivity {
 				//提交
 				UserCommitPhoneNumer();
 				break;
-//			case R.id.tv_user_reg_phone_read_protocal:
-//				//用户协议
-//				Intent _intent = new Intent(UserRegPhoneActivity.this,ArticleDetailActivity.class);
-//				_intent.putExtra("_article_title", "用户协议");
-//				_intent.putExtra("_article_id", 13);//用户协议
-//				UserRegPhoneActivity.this.startActivity(_intent);
-//				break;
+			case R.id.tv_user_reg_phone_read_protocal:
+				//用户协议
+				Intent _intent = new Intent(UserRegPhoneActivity.this,ArticleDetailActivity.class);
+				_intent.putExtra("_article_title", "用户协议");
+				_intent.putExtra("_article_id", 13);//用户协议
+				UserRegPhoneActivity.this.startActivity(_intent);
+				break;
 			case com.mcwonders.mkd.R.id.tv_user_reg_phone_isread:
 				//是否已读
 				if(mCbIsRead.isChecked()){

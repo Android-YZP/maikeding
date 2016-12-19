@@ -74,7 +74,7 @@ public class SystemMessageViewHolder extends TViewHolder {
         if (message.getFromAccount()!=null){
             headImageView.loadBuddyAvatar(message.getFromAccount());
         }else {
-            headImageView.setImageResource(R.drawable.login_logo);
+            headImageView.setImageResource(R.drawable.logo_login);
         }
 
         if (message.getFromAccount()!=null) {

@@ -380,7 +380,9 @@
         <activity
             android:name=".login.maixinreg.UserRegPhoneActivity"
             android:screenOrientation="portrait" />
-
+        <activity
+            android:name=".login.maixinreg.ArticleDetailActivity"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" />
 
         <!-- NRTC Settings -->
         <activity
