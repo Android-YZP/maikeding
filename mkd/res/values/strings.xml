@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">麦客叮</string>
+    <string name="app_name">麦可信</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="hello_world">Hello world!</string>
     <string name="empty"></string>
-    <string name="main_tab_session">麦客叮</string>
+    <string name="main_tab_session">麦可信</string>
     <string name="main_tab_contact">通讯录</string>
     <string name="main_tab_setting">设置</string>
     <string name="user_profile">个人名片</string>
