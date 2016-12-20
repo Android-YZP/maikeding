@@ -24,11 +24,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginRight="6dp"
+            android:layout_marginRight="54dp"
             android:layout_toRightOf="@id/head_image"
             android:ellipsize="end"
             android:includeFontPadding="false"
-            android:singleLine="true"
+            android:maxLines="1"
             android:textColor="@color/grey"
             android:textSize="16sp"/>
 

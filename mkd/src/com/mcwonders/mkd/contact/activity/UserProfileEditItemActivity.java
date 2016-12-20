@@ -149,7 +149,7 @@ public class UserProfileEditItemActivity extends UI implements View.OnClickListe
         } else if (key == UserConstant.KEY_EMAIL || key == UserConstant.KEY_SIGNATURE) {
             editText.setFilters(new InputFilter[]{new InputFilter.LengthFilter(30)});
         } else if (key == UserConstant.KEY_ALIAS) {
-            editText.setFilters(new InputFilter[]{new InputFilter.LengthFilter(16)});
+            editText.setFilters(new InputFilter[]{new InputFilter.LengthFilter(12)});
         }
         if (key == UserConstant.KEY_ALIAS) {
             Friend friend = FriendDataCache.getInstance().getFriendByAccount(data);
