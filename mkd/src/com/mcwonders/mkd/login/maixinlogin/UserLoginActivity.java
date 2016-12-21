@@ -10,17 +10,24 @@ import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.os.SystemClock;
 import android.support.v7.app.AppCompatActivity;
+import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
 import com.google.gson.Gson;
 import com.mcwonders.mkd.config.CommonConstants;
+import com.mcwonders.mkd.contact.activity.UserProfileEditItemActivity;
+import com.mcwonders.mkd.contact.constant.UserConstant;
+import com.mcwonders.mkd.contact.helper.UserUpdateHelper;
 import com.mcwonders.mkd.utils.CommonUtil;
 import com.mcwonders.uikit.cache.DataCacheManager;
+import com.mcwonders.uikit.common.ui.dialog.DialogMaker;
 import com.mcwonders.uikit.permission.annotation.OnMPermissionGranted;
 import com.mcwonders.mkd.DemoCache;
 import com.mcwonders.mkd.business.IUserBusiness;
@@ -38,13 +45,24 @@ import com.mcwonders.uikit.permission.annotation.OnMPermissionDenied;
 import com.netease.nimlib.sdk.AbortableFuture;
 import com.netease.nimlib.sdk.NIMClient;
 import com.netease.nimlib.sdk.RequestCallback;
+import com.netease.nimlib.sdk.RequestCallbackWrapper;
+import com.netease.nimlib.sdk.ResponseCode;
 import com.netease.nimlib.sdk.auth.AuthService;
 import com.netease.nimlib.sdk.auth.ClientType;
 import com.netease.nimlib.sdk.auth.LoginInfo;
+import com.netease.nimlib.sdk.friend.FriendService;
+import com.netease.nimlib.sdk.friend.constant.FriendFieldEnum;
+import com.netease.nimlib.sdk.uinfo.constant.UserInfoFieldEnum;
+
 import org.apache.http.conn.ConnectTimeoutException;
 import org.json.JSONObject;
+
+import java.io.Serializable;
 import java.lang.ref.WeakReference;
 import java.net.SocketTimeoutException;
+import java.util.HashMap;
+import java.util.Map;
+
 import cn.jpush.android.api.JPushInterface;
 
 public class UserLoginActivity extends AppCompatActivity {
@@ -62,6 +80,8 @@ public class UserLoginActivity extends AppCompatActivity {
 
     private static ProgressDialog mProgressDialog = null;
     private User mUser;
+    private Map<Integer, UserInfoFieldEnum> fieldMap;
+    private MKJUserInfo mMkjUserInfo;
 
     public static void start(Context context) {
         start(context, false);
@@ -183,6 +203,7 @@ public class UserLoginActivity extends AppCompatActivity {
     private class MyHandler extends Handler {
         private final WeakReference<Activity> mActivity;
 
+
         public MyHandler(UserLoginActivity activity) {
             mActivity = new WeakReference<Activity>(activity);
         }
@@ -199,6 +220,64 @@ public class UserLoginActivity extends AppCompatActivity {
                     ((UserLoginActivity) mActivity.get()).showTip(errorMsg);
                     break;
                 case CommonConstants.FLAG_GET_REG_USER_LOGIN_SUCCESS:
+                    Log.d("YZP=========>","FLAG_GET_REG_USER_LOGIN_SUCCESS");
+                    //更新云信的个人信息
+                    UserLoginOnClickListener userProFile = new UserLoginOnClickListener();
+
+                    //更新昵称
+                    if (!TextUtils.isEmpty(mMkjUserInfo.getUsername())) {
+                        userProFile.updateProFile(mMkjUserInfo.getUsername(), UserConstant.KEY_NICKNAME);
+                        Log.d("YZP=========>",mMkjUserInfo.getUsername());
+                    }
+
+                    //更新生日
+                    if (mMkjUserInfo.getUserbirthday().getYear() != 0) {
+                        String relMonth;
+                        String relDay;
+                        int year = mMkjUserInfo.getUserbirthday().getYear() + 1900;
+                        int month = mMkjUserInfo.getUserbirthday().getMonth();
+                        if (month < 10) {
+                            relMonth = "0" + month;
+                        } else {
+                            relMonth = "" + month;
+                        }
+                        int day = mMkjUserInfo.getUserbirthday().getDay();
+                        if (day < 10) {
+                            relDay = "0" + day;
+                        } else {
+                            relDay = "" + day;
+                        }
+                        userProFile.updateProFile(year + "-" + relMonth + "-" + relDay, UserConstant.KEY_BIRTH);
+                        Log.d("YZP=========>",year + "-" + relMonth + "-" + relDay);
+                    }
+
+                    //更新手机
+                    if (!TextUtils.isEmpty(mMkjUserInfo.getUserphone())) {
+                        userProFile.updateProFile(mMkjUserInfo.getUserphone(), UserConstant.KEY_PHONE);
+                        Log.d("YZP=========>",mMkjUserInfo.getUserphone());
+                    }
+
+
+                    //更新邮箱
+                    if (!TextUtils.isEmpty(mMkjUserInfo.getUseremail())) {
+                        userProFile.updateProFile(mMkjUserInfo.getUseremail(), UserConstant.KEY_EMAIL);
+                        Log.d("YZP=========>",mMkjUserInfo.getUseremail());
+                    }
+
+                    //更新签名
+                    if (!TextUtils.isEmpty(mMkjUserInfo.getUsersignature())) {
+                        userProFile.updateProFile(mMkjUserInfo.getUsersignature(), UserConstant.KEY_SIGNATURE);
+                        Log.d("YZP=========>",mMkjUserInfo.getUsersignature());
+                    }
+
+                    // 更新性别
+                    if (mMkjUserInfo.isUsergender()){//男
+                        userProFile.updateProFile(1, UserConstant.KEY_GENDER);
+                        Log.d("YZP=========>","男");
+                    }else{//女
+                        userProFile.updateProFile(2, UserConstant.KEY_GENDER);
+                        Log.d("YZP=========>","女");
+                    }
 
                     break;
                 default:
@@ -266,7 +345,7 @@ public class UserLoginActivity extends AppCompatActivity {
                             User user = new Gson().fromJson(result, User.class);
                             CommonUtil.saveUserInfo(user, UserLoginActivity.this);
                             //登录云信
-                            Log.d("登录信息1",user.getMobile() + user.getToken());
+                            Log.d("登录信息1", user.getMobile() + user.getToken());
                             yunXinlogin(user.getMobile() + "", user.getToken());
                             //第一次手动登录时设置标签，自动登录时就不要设置标签了。
                             /****************************设置极光推送的推送标签************************************************************/
@@ -323,9 +402,8 @@ public class UserLoginActivity extends AppCompatActivity {
                     NIMClient.updateStatusBarNotificationConfig(UserPreferences.getStatusConfig());
                     // 构建缓存
                     DataCacheManager.buildDataCacheAsync();
-                    // 进入主界面
-                    MainActivity.start(UserLoginActivity.this, null);
-                    finish();
+                    //云信登录成功之时,调用麦客加个人信息接口,获得接口更新到云信接口
+                    getMKJPerData(account);
                 }
 
                 @Override
@@ -351,6 +429,87 @@ public class UserLoginActivity extends AppCompatActivity {
                     finish();
                 }
             });
+        }
+
+
+        /**
+         * 从麦客加接口得到个人信息
+         */
+        private void getMKJPerData(final String account) {
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    try {
+                        String result = mUserBusiness.getUserInfo(account);
+                        JSONObject jsonObj = new JSONObject(result);
+                        boolean Success = jsonObj.getBoolean("success");
+                        if (Success) {
+                            mMkjUserInfo = new Gson().fromJson(result, MKJUserInfo.class);
+                            //储存用户信息到本地
+                            handler.sendEmptyMessage(CommonConstants.FLAG_GET_REG_USER_LOGIN_SUCCESS);
+                            Log.d("个人信息", result);
+                        } else {
+                            //获取错误代码，并查询出错误文字
+                            String errorMsg = jsonObj.getString("errorMsg");
+                            CommonUtil.sendErrorMessage(errorMsg, handler);
+                        }
+                    } catch (ConnectTimeoutException e) {
+                        e.printStackTrace();
+                        CommonUtil.sendErrorMessage(CommonConstants.MSG_REQUEST_TIMEOUT, handler);
+                    } catch (SocketTimeoutException e) {
+                        e.printStackTrace();
+                        CommonUtil.sendErrorMessage(CommonConstants.MSG_SERVER_RESPONSE_TIMEOUT, handler);
+                    } catch (ServiceException e) {
+                        e.printStackTrace();
+                        CommonUtil.sendErrorMessage(e.getMessage(), handler);
+                    } catch (Exception e) {
+                        //what = 0;sendmsg 0;
+                        CommonUtil.sendErrorMessage("注册-用户登录：" + CommonConstants.MSG_GET_ERROR, handler);
+                    }
+                }
+            }).start();
+
+        }
+
+        /**
+         * 更新个人信息
+         *
+         * @param content 内容
+         * @param key     类型
+         */
+        private void updateProFile(final Serializable content, final int key) {
+            final RequestCallbackWrapper callback = new RequestCallbackWrapper() {
+                @Override
+                public void onResult(int code, Object result, Throwable exception) {
+                    if (code == ResponseCode.RES_SUCCESS) {
+                        if (key == UserConstant.KEY_GENDER) {
+                            SystemClock.sleep(2000);
+                            // 进入主界面,更新成功之后进入主界面
+                            Log.d("YZP=========>","更新成功之后进入主界面");
+                            MainActivity.start(UserLoginActivity.this, null);
+                            finish();
+                        }
+                    } else if (code == ResponseCode.RES_ETIMEOUT) {
+                        Toast.makeText(UserLoginActivity.this, com.mcwonders.mkd.R.string.user_info_update_failed, Toast.LENGTH_SHORT).show();
+                    }
+                }
+            };
+            if (key == UserConstant.KEY_ALIAS) {
+                Map<FriendFieldEnum, Object> map = new HashMap<>();
+                map.put(FriendFieldEnum.ALIAS, content);
+                NIMClient.getService(FriendService.class).updateFriendFields(null, map).setCallback(callback);
+            } else {
+                if (fieldMap == null) {
+                    fieldMap = new HashMap<>();
+                    fieldMap.put(UserConstant.KEY_NICKNAME, UserInfoFieldEnum.Name);
+                    fieldMap.put(UserConstant.KEY_PHONE, UserInfoFieldEnum.MOBILE);
+                    fieldMap.put(UserConstant.KEY_SIGNATURE, UserInfoFieldEnum.SIGNATURE);
+                    fieldMap.put(UserConstant.KEY_EMAIL, UserInfoFieldEnum.EMAIL);
+                    fieldMap.put(UserConstant.KEY_BIRTH, UserInfoFieldEnum.BIRTHDAY);
+                    fieldMap.put(UserConstant.KEY_GENDER, UserInfoFieldEnum.GENDER);
+                }
+                UserUpdateHelper.update(fieldMap.get(key), content, callback);
+            }
         }
 
 

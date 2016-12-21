@@ -103,6 +103,10 @@ public class CommonConstants {
     public static final String USER_REGISTER = NOW_ADDRESS + "user/register.json";
     //登录
     public static final String USER_LOGIN = "http://192.168.3.135:8080/external/user/login.json";
+
+    public static final String UPDATE_USER_INFO = "http://192.168.3.135:8080/external/updateuser/updateuser.json";
+    //获得个人信息
+    public static final String USER_INFO = "http://192.168.3.135:8080/external/userMain/getuser.json";
     //忘记密码第一步
     public static final String USER_FORGOT_PASSWORD_ONE = NOW_ADDRESS + "user/forgot_password_one.json";
     //忘记密码第二步
@@ -388,8 +392,9 @@ public class CommonConstants {
     public static final int FLAG_SET_TARGET_SUCCESS = 21;
     /**
      * 上传图像
+     * member/userImg/upload.aspx
      */
-    public static final String UPLOAD_IMAGE = "https://cloud.maikejia.com:8081/" + "WebServices/WatchServices/UploadImage";
+    public static final String UPLOAD_IMAGE = "http://192.168.3.135:8080/external/updateuser/updateuser.json";
 
     /**
      * wap页

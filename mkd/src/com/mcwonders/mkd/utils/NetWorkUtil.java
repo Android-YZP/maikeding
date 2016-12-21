@@ -6,6 +6,7 @@ import com.mcwonders.mkd.config.CommonConstants;
 import com.mcwonders.mkd.exception.ServiceException;
 
 import org.apache.http.conn.ConnectTimeoutException;
+
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.DataInputStream;
@@ -31,19 +32,18 @@ import java.util.Map;
 public class NetWorkUtil {
     /**
      * 上传照片
+     *
      * @return
      * @throws Exception
      */
-    public static String getResultFromUrlConnectionWithPhoto(
-            String urlconn, String jsonargs,
-            String fileName, String LoginName, File mFile) throws Exception {
+    public static String getResultFromUrlConnectionWithPhoto(String urlconn, String jsonargs, String fileName, String LoginName, File mFile, String phone) throws Exception {
         String result = null;
         InputStream in = null;
         URL url = null;
         HttpURLConnection urlConnection = null;
         OutputStream out = null;
         String BOUNDARY = "|"; // request头和上传文件内容分隔符
-        DataInputStream in1 =null;
+        DataInputStream in1 = null;
         try {
             url = new URL(urlconn);
             urlConnection = (HttpURLConnection) url.openConnection();
@@ -61,6 +61,7 @@ public class NetWorkUtil {
                     "multipart/form-data; boundary=" + BOUNDARY);
             urlConnection.setRequestProperty("fileName", fileName);
             urlConnection.setRequestProperty("vertifyCode", LoginName);
+            urlConnection.setRequestProperty("phone", phone);
             urlConnection.connect();
             out = new DataOutputStream(urlConnection.getOutputStream());
             in1 = new DataInputStream(new FileInputStream(mFile));
@@ -75,7 +76,7 @@ public class NetWorkUtil {
             out.flush();
             out.close();
             int statusCode = urlConnection.getResponseCode();
-            Log.d(CommonConstants.LOGCAT_TAG_NAME + "_url_status", urlconn + ",status = "+statusCode);
+            Log.d(CommonConstants.LOGCAT_TAG_NAME + "_url_status", urlconn + ",status = " + statusCode);
             if (statusCode != HttpURLConnection.HTTP_OK) {
                 throw new ServiceException("服务器错误");
             }
@@ -115,7 +116,7 @@ public class NetWorkUtil {
     /**
      * 以post方式发送url请求
      */
-    public static String  getResultFromUrlConnection(String urlconn, String jsonargs, String sVerifyCode) throws Exception {
+    public static String getResultFromUrlConnection(String urlconn, String jsonargs, String sVerifyCode) throws Exception {
         String result = null;
 
         InputStream in = null;

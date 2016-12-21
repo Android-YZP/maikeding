@@ -14,14 +14,19 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.gson.Gson;
 import com.mcwonders.mkd.R;
+import com.mcwonders.mkd.business.IUserBusiness;
+import com.mcwonders.mkd.business.imp.UserBusinessImp;
 import com.mcwonders.mkd.config.CommonConstants;
 import com.mcwonders.mkd.contact.constant.UserConstant;
 import com.mcwonders.mkd.contact.helper.UserUpdateHelper;
 import com.mcwonders.mkd.exception.ServiceException;
+import com.mcwonders.mkd.login.maixinlogin.MKJUserInfo;
 import com.mcwonders.mkd.login.maixinlogin.User;
 import com.mcwonders.mkd.main.model.Extras;
 import com.mcwonders.mkd.utils.CommonUtil;
+import com.mcwonders.mkd.utils.ConvertUtil;
 import com.mcwonders.mkd.utils.JsonUtils;
 import com.mcwonders.mkd.utils.NetWorkUtil;
 import com.mcwonders.uikit.cache.NimUserInfoCache;
@@ -42,9 +47,11 @@ import com.netease.nimlib.sdk.uinfo.constant.GenderEnum;
 import com.netease.nimlib.sdk.uinfo.constant.UserInfoFieldEnum;
 import com.netease.nimlib.sdk.uinfo.model.NimUserInfo;
 
+import org.apache.http.conn.ConnectTimeoutException;
 import org.json.JSONObject;
 
 import java.io.File;
+import java.net.SocketTimeoutException;
 
 /**
  * Created by hzxuwen on 2015/9/14.
@@ -163,7 +170,7 @@ public class UserProfileSettingActivity extends UI implements View.OnClickListen
     }
 
     private void updateUI() {
-          userHead.loadBuddyAvatar(account);
+        userHead.loadBuddyAvatar(account);
         if (userInfo != null && userInfo.getName() != null) {
             nickText.setText(userInfo.getName());
         } else {
@@ -267,8 +274,8 @@ public class UserProfileSettingActivity extends UI implements View.OnClickListen
         new Handler().postDelayed(outimeTask, AVATAR_TIME_OUT);
         //上传服务器到麦客加服务器
         /**********************************************在这里会得到一个file头像文件，同步迈克家服务器，成功之后上传云信服务器*************************************************************/
-
-        Log.d("YZP=======>", file.getTotalSpace() + "");
+        sendPicToServer(file);
+        Log.d("YZP=======>", file.getName() + "");
 //        sendPicToServer(file);
 
         uploadAvatarFuture = NIMClient.getService(NosService.class).upload(file, PickImageAction.MIME_JPEG);
@@ -306,18 +313,12 @@ public class UserProfileSettingActivity extends UI implements View.OnClickListen
             @Override
             public void run() {
                 try {
-                    String _withPhoto = NetWorkUtil.getResultFromUrlConnectionWithPhoto(
-                            CommonConstants.UPLOAD_IMAGE,
-                            null, mpicName, mUser.getVerifyCode(), file);
+                    Log.d("==========>", mUser.getVerifyCode());
+                    String _md5_value = ConvertUtil.getMD5("MAIKEJIA");
+                    String _withPhoto = NetWorkUtil.getResultFromUrlConnectionWithPhoto(CommonConstants.UPLOAD_IMAGE,
+                            null, file.getName(), _md5_value.substring(0, 8), file, mUser.getMobile());
                     //解析出上传图片的地址
-                    JSONObject _result = new JSONObject(_withPhoto);
-                    String _datas = JsonUtils.getString(_result, "Datas");
-                    String _message = JsonUtils.getString(_result, "Message");
-                    JSONObject _userimage = new JSONObject(_datas);
-                    String _userimagePath = JsonUtils.getString(_userimage, "userimage");
-                    mUser.setUserImg(_userimagePath);
-                    CommonUtil.saveUserInfo(mUser, UserProfileSettingActivity.this);//更新本地信息
-                    CommonUtil.sendErrorMessage(_message, handler);
+                    Log.d("==========>", _withPhoto + "");
                 } catch (ServiceException e) {
                     e.printStackTrace();
                     CommonUtil.sendErrorMessage(e.getMessage(), handler);

@@ -139,7 +139,7 @@ public class UserRegPhoneActivity extends AppCompatActivity {
 				//用户协议
 				Intent _intent = new Intent(UserRegPhoneActivity.this,ArticleDetailActivity.class);
 				_intent.putExtra("_article_title", "用户协议");
-				_intent.putExtra("_article_id", 13);//用户协议
+				_intent.putExtra("_article_id", 13);//用户协议,这些都满足之后就是
 				UserRegPhoneActivity.this.startActivity(_intent);
 				break;
 			case com.mcwonders.mkd.R.id.tv_user_reg_phone_isread:

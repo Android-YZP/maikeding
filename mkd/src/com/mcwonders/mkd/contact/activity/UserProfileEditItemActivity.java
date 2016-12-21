@@ -5,6 +5,8 @@ import android.app.DatePickerDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
 import android.text.InputFilter;
 import android.text.InputType;
 import android.text.TextUtils;
@@ -16,7 +18,14 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.mcwonders.mkd.business.IUserBusiness;
+import com.mcwonders.mkd.business.imp.UserBusinessImp;
+import com.mcwonders.mkd.config.CommonConstants;
 import com.mcwonders.mkd.contact.helper.UserUpdateHelper;
+import com.mcwonders.mkd.exception.ServiceException;
+import com.mcwonders.mkd.login.maixinlogin.User;
+import com.mcwonders.mkd.login.maixinlogin.UserLoginActivity;
+import com.mcwonders.mkd.utils.CommonUtil;
 import com.mcwonders.uikit.common.util.sys.NetworkUtil;
 import com.mcwonders.uikit.model.ToolBarOptions;
 import com.mcwonders.mkd.contact.constant.UserConstant;
@@ -34,7 +43,12 @@ import com.netease.nimlib.sdk.friend.model.Friend;
 import com.netease.nimlib.sdk.uinfo.constant.GenderEnum;
 import com.netease.nimlib.sdk.uinfo.constant.UserInfoFieldEnum;
 
+import org.apache.http.conn.ConnectTimeoutException;
+import org.json.JSONObject;
+
 import java.io.Serializable;
+import java.lang.ref.WeakReference;
+import java.net.SocketTimeoutException;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
@@ -48,7 +62,8 @@ public class UserProfileEditItemActivity extends UI implements View.OnClickListe
     private static final String EXTRA_KEY = "EXTRA_KEY";
     private static final String EXTRA_DATA = "EXTRA_DATA";
     public static final int REQUEST_CODE = 1000;
-
+    //业务层
+    private IUserBusiness mUserBusiness = new UserBusinessImp();
     // data
     private int key;
     private String data;
@@ -72,6 +87,8 @@ public class UserProfileEditItemActivity extends UI implements View.OnClickListe
     private RelativeLayout birthPickerLayout;
     private TextView birthText;
     private int gender;
+    private User mUserInfo;
+
 
     public static final void startActivity(Context context, int key, String data) {
         Intent intent = new Intent();
@@ -85,6 +102,7 @@ public class UserProfileEditItemActivity extends UI implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         parseIntent();
+        mUserInfo = CommonUtil.getUserInfo(UserProfileEditItemActivity.this);
         if (key == UserConstant.KEY_NICKNAME || key == UserConstant.KEY_PHONE || key == UserConstant.KEY_EMAIL
                 || key == UserConstant.KEY_SIGNATURE || key == UserConstant.KEY_ALIAS) {
             setContentView(com.mcwonders.mkd.R.layout.user_profile_edittext_layout);
@@ -113,6 +131,9 @@ public class UserProfileEditItemActivity extends UI implements View.OnClickListe
         data = getIntent().getStringExtra(EXTRA_DATA);
     }
 
+    /**
+     * key值代表着是设置哪个类型
+     */
     private void setTitles() {
         switch (key) {
             case UserConstant.KEY_NICKNAME:
@@ -159,6 +180,7 @@ public class UserProfileEditItemActivity extends UI implements View.OnClickListe
                 editText.setHint("请输入备注名...");
             }
         } else {
+            Log.d("YZP=========>", data);
             editText.setText(data);
         }
         editText.setDeleteImage(com.mcwonders.mkd.R.drawable.nim_grey_delete_icon);
@@ -179,13 +201,47 @@ public class UserProfileEditItemActivity extends UI implements View.OnClickListe
                     return;
                 }
                 if (key == UserConstant.KEY_BIRTH) {
-                    update(birthText.getText().toString());
-                } else if (key == UserConstant.KEY_GENDER) {
-                    update(Integer.valueOf(gender));
-                } else {
-    /********************************这里会得到一个签名数据.同步到本地服务器成功之后再同步云信服务器************/
+                    /********************************这里会得到一个生日数据数据.同步到本地服务器成功之后再同步云信服务器************/
+                    Log.d("YZP=========>KEY_BIRTH", birthText.getText().toString());
 
-                    Log.d("YZP=========>",editText.getText().toString().trim());
+                    setMKJPerData(mUserInfo.getMobile(), birthText.getText().toString(), "3");
+                    update(birthText.getText().toString());
+
+
+                } else if (key == UserConstant.KEY_GENDER) {
+                    /********************************这里会得到一个性别数据数据.同步到本地服务器成功之后再同步云信服务器************/
+                    Log.d("YZP=========>KEY_GENDER", Integer.valueOf(gender) + "");
+                    String sax;
+                    if (Integer.valueOf(gender) == 1) {
+                        sax = "男";
+                    } else {
+                        sax = "女";
+                    }
+                    setMKJPerData(mUserInfo.getMobile(), sax, "2");
+                    update(Integer.valueOf(gender));
+                } else if (key == UserConstant.KEY_NICKNAME) {
+                    /********************************这里会得到一个昵称数据.同步到本地服务器成功之后再同步云信服务器************/
+
+                    Log.d("YZP=========>NICKNAME", editText.getText().toString().trim());
+                    setMKJPerData(mUserInfo.getMobile(), editText.getText().toString(), "1");
+                    update(editText.getText().toString().trim());
+                } else if (key == UserConstant.KEY_EMAIL) {
+                    /********************************这里会得到一个EMAIL数据.同步到本地服务器成功之后再同步云信服务器************/
+
+                    Log.d("YZP=========>KEY_EMAIL", editText.getText().toString().trim());
+                    setMKJPerData(mUserInfo.getMobile(), editText.getText().toString(), "5");
+                    update(editText.getText().toString().trim());
+                } else if (key == UserConstant.KEY_PHONE) {
+                    /********************************这里会得到一个KEY_PHONE数据.同步到本地服务器成功之后再同步云信服务器************/
+
+                    Log.d("YZP=========>KEY_PHONE", editText.getText().toString().trim());
+                    setMKJPerData(mUserInfo.getMobile(), editText.getText().toString(), "4");
+                    update(editText.getText().toString().trim());
+                } else if (key == UserConstant.KEY_SIGNATURE) {
+                    /********************************这里会得到一个KEY_SIGNATURE数据.同步到本地服务器成功之后再同步云信服务器************/
+
+                    Log.d("YZP=========>SIGNATURE", editText.getText().toString().trim());
+                    setMKJPerData(mUserInfo.getMobile(), editText.getText().toString(), "6");
                     update(editText.getText().toString().trim());
                 }
             }
@@ -250,6 +306,72 @@ public class UserProfileEditItemActivity extends UI implements View.OnClickListe
             case com.mcwonders.mkd.R.id.birth_picker_layout:
                 openTimePicker();
                 break;
+        }
+    }
+
+
+    /**
+     * 从麦客加接口得到个人信息
+     */
+    private void setMKJPerData(final String account, final String value, final String type) {
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    String result = mUserBusiness.setUserInfo(account, value, type);
+
+                    JSONObject jsonObj = new JSONObject(result);
+                    boolean Success = jsonObj.getBoolean("success");
+                    if (Success) {
+                        Log.d("YZP=========>", "修改成功");
+                    }
+                } catch (ConnectTimeoutException e) {
+                    e.printStackTrace();
+                    CommonUtil.sendErrorMessage(CommonConstants.MSG_REQUEST_TIMEOUT, handler);
+                } catch (SocketTimeoutException e) {
+                    e.printStackTrace();
+                    CommonUtil.sendErrorMessage(CommonConstants.MSG_SERVER_RESPONSE_TIMEOUT, handler);
+                } catch (ServiceException e) {
+                    e.printStackTrace();
+                    CommonUtil.sendErrorMessage(e.getMessage(), handler);
+                } catch (Exception e) {
+                    //what = 0;sendmsg 0;
+                    CommonUtil.sendErrorMessage(CommonConstants.MSG_GET_ERROR, handler);
+                }
+            }
+        }).start();
+
+    }
+
+
+    private MyHandler handler = new MyHandler(UserProfileEditItemActivity.this);
+
+    private void showTip(String str) {
+        Toast.makeText(this, str, Toast.LENGTH_SHORT).show();
+    }
+
+    private class MyHandler extends Handler {
+        private final WeakReference<Activity> mActivity;
+
+
+        public MyHandler(UserProfileEditItemActivity activity) {
+            mActivity = new WeakReference<Activity>(activity);
+        }
+
+        @Override
+        public void handleMessage(Message msg) {
+            int flag = msg.what;
+            switch (flag) {
+                case 0:
+                    String errorMsg = (String) msg.getData().getSerializable("ErrorMsg");
+                    ((UserProfileEditItemActivity) mActivity.get()).showTip(errorMsg);
+                    break;
+                case CommonConstants.FLAG_GET_REG_USER_LOGIN_SUCCESS:
+
+                    break;
+                default:
+                    break;
+            }
         }
     }
 
@@ -331,7 +453,7 @@ public class UserProfileEditItemActivity extends UI implements View.OnClickListe
 
         @Override
         public void onDateChanged(DatePicker view, int year, int month, int day) {
-            if(year >= minYear && year <= maxYear){
+            if (year >= minYear && year <= maxYear) {
                 currYear = year;
                 currMonthOfYear = month;
                 currDayOfMonth = day;
@@ -345,11 +467,11 @@ public class UserProfileEditItemActivity extends UI implements View.OnClickListe
             }
         }
 
-        public void setMaxYear(int year){
+        public void setMaxYear(int year) {
             maxYear = year;
         }
 
-        public void setMinYear(int year){
+        public void setMinYear(int year) {
             minYear = year;
         }
 
