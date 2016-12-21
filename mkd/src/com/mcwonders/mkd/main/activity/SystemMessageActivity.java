@@ -4,7 +4,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
-import android.os.SystemClock;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -51,7 +50,7 @@ import java.util.Set;
 public class SystemMessageActivity extends UI implements TAdapterDelegate,
         AutoRefreshListView.OnRefreshListener, SystemMessageViewHolder.SystemMessageListener {
 
-    private static final boolean MERGE_ADD_FRIEND_VERIFY = false; // 是否要合并好友申请，同一个用户仅保留最近一条申请内容（默认不合并）
+    private static final boolean MERGE_ADD_FRIEND_VERIFY = true; // 是否要合并好友申请，同一个用户仅保留最近一条申请内容（默认不合并）
 
     private static final int LOAD_MESSAGE_COUNT = 10;
 
@@ -77,7 +76,7 @@ public class SystemMessageActivity extends UI implements TAdapterDelegate,
         intent.setClass(context, SystemMessageActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
         if (clearTop) {
-            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP );
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         }
         if (extras != null) {
             intent.putExtras(extras);
@@ -131,10 +130,10 @@ public class SystemMessageActivity extends UI implements TAdapterDelegate,
     private void getDataFromNot() {
         Intent intent = getIntent();
         boolean isComing = intent.getBooleanExtra("isComing", false);
-        if (isComing){
+        if (isComing) {
             mTest = intent.getStringExtra("test");
-            mTestTime = intent.getLongExtra("testTime",0);
-            Log.d("测试传递数据",mTest+mTestTime);
+            mTestTime = intent.getLongExtra("testTime", 0);
+            Log.d("测试传递数据", mTest + mTestTime);
             SystemMessage systemMessage = new SystemMessage();
             systemMessage.setContent(mTest);
             systemMessage.setTime(mTestTime);
