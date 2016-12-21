@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
-import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.view.LayoutInflater;
@@ -14,23 +13,23 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.mcwonders.mkd.login.maixinlogin.UserLoginActivity;
-import com.mcwonders.mkd.main.model.SettingTemplate;
-import com.mcwonders.mkd.utils.CommonUtil;
-import com.mcwonders.uikit.contact.ContactsCustomization;
 import com.mcwonders.mkd.DemoCache;
-import com.mcwonders.mkd.config.preference.UserPreferences;
-import com.mcwonders.mkd.main.activity.CustomNotificationActivity;
-import com.mcwonders.mkd.main.activity.MainActivity;
 import com.mcwonders.mkd.avchat.activity.AVChatSettingsActivity;
 import com.mcwonders.mkd.config.preference.Preferences;
+import com.mcwonders.mkd.config.preference.UserPreferences;
 import com.mcwonders.mkd.contact.activity.UserProfileSettingActivity;
+import com.mcwonders.mkd.login.maixinlogin.UserLoginActivity;
 import com.mcwonders.mkd.main.activity.AboutActivity;
+import com.mcwonders.mkd.main.activity.CustomNotificationActivity;
+import com.mcwonders.mkd.main.activity.MainActivity;
 import com.mcwonders.mkd.main.activity.NoDisturbActivity;
 import com.mcwonders.mkd.main.adapter.SettingsAdapter;
+import com.mcwonders.mkd.main.model.SettingTemplate;
 import com.mcwonders.mkd.main.model.SettingType;
+import com.mcwonders.mkd.utils.CommonUtil;
 import com.mcwonders.uikit.R;
 import com.mcwonders.uikit.common.fragment.TFragment;
+import com.mcwonders.uikit.contact.ContactsCustomization;
 import com.mcwonders.uikit.session.audio.MessageAudioControl;
 import com.netease.nimlib.sdk.NIMClient;
 import com.netease.nimlib.sdk.Observer;
@@ -174,12 +173,12 @@ public class SettingFragment extends TFragment implements SettingsAdapter.Switch
 //                UserPreferences.getNoticeContentToggle()));
 //        items.add(SettingTemplate.makeSeperator());
 
-//        disturbItem = new SettingTemplate(TAG_NO_DISTURBE, getString(R.string.no_disturb), noDisturbTime);
-//        items.add(disturbItem);
-//        items.add(SettingTemplate.addLine());
-//        items.add(new SettingTemplate(TAG_MULTIPORT_PUSH, getString(R.string.multiport_push), SettingType.TYPE_TOGGLE,
-//                !NIMClient.getService(SettingsService.class).isMultiportPushOpen()));
-//        items.add(SettingTemplate.makeSeperator());
+        disturbItem = new SettingTemplate(TAG_NO_DISTURBE, getString(com.mcwonders.mkd.R.string.no_disturb), noDisturbTime);
+        items.add(disturbItem);
+        items.add(SettingTemplate.addLine());
+        items.add(new SettingTemplate(TAG_MULTIPORT_PUSH, getString(com.mcwonders.mkd.R.string.multiport_push), SettingType.TYPE_TOGGLE,
+                !NIMClient.getService(SettingsService.class).isMultiportPushOpen()));
+        items.add(SettingTemplate.makeSeperator());
 
 //        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.ICE_CREAM_SANDWICH) {
 //            items.add(new SettingTemplate(TAG_NRTC_SETTINGS, getString(com.mcwonders.mkd.R.string.nrtc_settings)));

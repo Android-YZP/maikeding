@@ -9,6 +9,7 @@ import android.widget.ImageView.ScaleType;
 import android.widget.TextView;
 
 import com.mcwonders.mkd.DemoCache;
+import com.mcwonders.mkd.R;
 import com.mcwonders.mkd.contact.activity.BlackListActivity;
 import com.mcwonders.mkd.main.helper.SystemMessageUnreadManager;
 import com.mcwonders.mkd.main.model.MainTab;
@@ -47,6 +48,7 @@ public class ContactListFragment extends MainTabFragment {
      */
     public final static class FuncItem extends AbsContactItem {
         static final FuncItem VERIFY = new FuncItem();
+        static final FuncItem SYSTEM_NOTIFY = new FuncItem();
         static final FuncItem BLACK_LIST = new FuncItem();
         static final FuncItem MY_COMPUTER = new FuncItem();
 
@@ -77,7 +79,7 @@ public class ContactListFragment extends MainTabFragment {
             @Override
             public void refresh(ContactDataAdapter contactAdapter, int position, FuncItem item) {
                 if (item == VERIFY) {
-                    funcName.setText("验证提醒");
+                    funcName.setText("验证消息");
                     image.setImageResource(com.mcwonders.mkd.R.drawable.icon_verify_remind);
                     image.setScaleType(ScaleType.FIT_XY);
                     int unreadCount = SystemMessageUnreadManager.getInstance().getSysMsgUnreadCount();
@@ -91,8 +93,10 @@ public class ContactListFragment extends MainTabFragment {
                             updateUnreadNum(item.getUnread());
                         }
                     });
-                }
-                else if (item == BLACK_LIST) {
+                } else if (item == SYSTEM_NOTIFY) {
+                    funcName.setText("系统通知");
+                    image.setImageResource(R.drawable.system_notify);
+                } else if (item == BLACK_LIST) {
                     funcName.setText("黑名单");
                     image.setImageResource(com.mcwonders.mkd.R.drawable.ic_black_list);
                 } else if (item == MY_COMPUTER) {
@@ -108,7 +112,7 @@ public class ContactListFragment extends MainTabFragment {
 
             private void updateUnreadNum(int unreadCount) {
                 // 2.*版本viewholder复用问题
-                if (unreadCount > 0 && funcName.getText().toString().equals("验证提醒")) {
+                if (unreadCount > 0 && funcName.getText().toString().equals("验证消息")) {
                     unreadNum.setVisibility(View.VISIBLE);
                     unreadNum.setText("" + unreadCount);
                 } else {
@@ -120,6 +124,7 @@ public class ContactListFragment extends MainTabFragment {
         static List<AbsContactItem> provide() {
             List<AbsContactItem> items = new ArrayList<AbsContactItem>();
             items.add(VERIFY);
+            items.add(SYSTEM_NOTIFY);
             items.add(BLACK_LIST);
             items.add(MY_COMPUTER);
             return items;
@@ -134,7 +139,8 @@ public class ContactListFragment extends MainTabFragment {
 //            } else if (item == ADVANCED_TEAM) {
 //                TeamListActivity.start(context, ItemTypes.TEAMS.ADVANCED_TEAM);
 //            }
-            else if (item == MY_COMPUTER) {
+            else if (item == SYSTEM_NOTIFY) {
+            } else if (item == MY_COMPUTER) {
                 SessionHelper.startP2PSession(context, DemoCache.getAccount());
             } else if (item == BLACK_LIST) {
                 BlackListActivity.start(context);

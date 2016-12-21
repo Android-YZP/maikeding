@@ -25,20 +25,20 @@
     <string name="demand_pay">付款信息</string>
 
     <!-- session -->
-    <string name="input_panel_photo">图 片</string>
-    <string name="input_panel_video">视 频</string>
-    <string name="input_panel_location">位 置</string>
-    <string name="input_panel_take">拍 摄</string>
+    <string name="input_panel_photo">图片</string>
+    <string name="input_panel_video">视频</string>
+    <string name="input_panel_location">位置</string>
+    <string name="input_panel_take">拍摄</string>
     <string name="im_choose_pic">请选择JPG PNG BMP GIF格式的图片文件</string>
     <string name="repeat_download_message">重新下载?</string>
-    <string name="repeat_send_has_blank">重 发</string>
+    <string name="repeat_send_has_blank">重发</string>
     <string name="repeat_send_message">重发消息?</string>
-    <string name="copy_has_blank">复 制</string>
-    <string name="delete_has_blank">删 除</string>
+    <string name="copy_has_blank">复制</string>
+    <string name="delete_has_blank">删除</string>
     <string name="voice_to_text">转文字</string>
     <string name="forward_to_person">转发给好友</string>
     <string name="forward_to_team">转发给群组</string>
-    <string name="withdrawn_msg">撤 回</string>
+    <string name="withdrawn_msg">撤回</string>
     <string name="save">保存</string>
     <string name="main_msg_list_delete_chatting">删除该聊天</string>
     <string name="main_msg_list_sticky_on_top">置顶该聊天</string>
