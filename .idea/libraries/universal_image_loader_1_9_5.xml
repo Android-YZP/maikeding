@@ -4,8 +4,6 @@
       <root url="jar://$PROJECT_DIR$/uikit/libs/universal-image-loader-1.9.5.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES>
-      <root url="jar://$PROJECT_DIR$/uikit/doc/universal-image-loader-1.9.5-sources.jar!/" />
-    </SOURCES>
+    <SOURCES />
   </library>
 </component>
