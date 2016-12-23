@@ -376,7 +376,7 @@ public class ContactsFragment extends TFragment {
         }
 
         boolean needReload = false;
-        if(!force) {
+        if (!force) {
             // 非force：与通讯录无关的（非好友）变更通知，去掉
             for (String account : accounts) {
                 if (FriendDataCache.getInstance().isMyFriend(account)) {
@@ -384,7 +384,7 @@ public class ContactsFragment extends TFragment {
                     break;
                 }
             }
-        } else{
+        } else {
             needReload = true;
         }
 

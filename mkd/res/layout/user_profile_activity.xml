@@ -42,13 +42,15 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@color/white"
             android:paddingBottom="13dp"
             android:paddingTop="13dp">
 
             <com.mcwonders.uikit.common.ui.imageview.HeadImageView
                 android:id="@+id/user_head_image"
-                android:layout_width="@dimen/avatar_size_in_profile"
-                android:layout_height="@dimen/avatar_size_in_profile"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_alignParentLeft="true"
                 android:layout_marginLeft="15dp" />
 
@@ -108,8 +110,10 @@
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="2px"
+            android:layout_height="0px"
             android:layout_below="@+id/attribute"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
             android:background="@color/color_split_line_d9d9d9" />
 
         <include
@@ -143,9 +147,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@id/phone_attribute"
+                android:layout_alignParentRight="true"
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="15dp"
-                android:layout_toRightOf="@id/phone_attribute"
+                android:layout_marginRight="10dp"
                 android:autoLink="phone"
                 android:padding="5dp"
                 android:text="11111111111111"
@@ -155,6 +160,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="2px"
                 android:layout_below="@id/phone_value"
+                android:layout_marginLeft="15dp"
                 android:layout_marginTop="10dp"
                 android:background="@color/color_split_line_d9d9d9" />
 
@@ -201,7 +207,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dip"
-                android:background="@drawable/nim_team_create_btn_selector"
+                android:background="@drawable/nim_blue_round_button_selector"
                 android:minHeight="50dp"
                 android:text="@string/begin_chat"
                 android:textColor="@color/white"
@@ -216,7 +222,7 @@
                 android:background="@drawable/nim_white_round_button_selector"
                 android:minHeight="50dp"
                 android:text="@string/remove_friend"
-                android:textColor="@color/color_red_f04c62"
+                android:textColor="@color/white"
                 android:textSize="@dimen/text_size_17"
                 android:visibility="gone" />
 
@@ -228,7 +234,7 @@
                 android:background="@drawable/nim_team_create_btn_selector"
                 android:minHeight="50dp"
                 android:text="@string/add_friend"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="@dimen/text_size_17"
                 android:visibility="gone" />
         </LinearLayout>
