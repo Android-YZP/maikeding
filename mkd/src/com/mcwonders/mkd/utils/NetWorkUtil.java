@@ -13,6 +13,7 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
@@ -60,7 +61,7 @@ public class NetWorkUtil {
             urlConnection.setRequestProperty("Content-Type",
                     "multipart/form-data; boundary=" + BOUNDARY);
             urlConnection.setRequestProperty("fileName", fileName);
-            urlConnection.setRequestProperty("vertifyCode", LoginName);
+            urlConnection.setRequestProperty("verifyCode", LoginName);
             urlConnection.setRequestProperty("phone", phone);
             urlConnection.connect();
             out = new DataOutputStream(urlConnection.getOutputStream());
@@ -111,6 +112,8 @@ public class NetWorkUtil {
         }
         return result;
     }
+
+
 
 
     /**

@@ -171,10 +171,10 @@ public class UserProfileSettingActivity extends UI implements View.OnClickListen
 
     private void updateUI() {
         userHead.loadBuddyAvatar(account);
-        if (userInfo != null && userInfo.getName() != null) {
+        if (!TextUtils.isEmpty(userInfo.getName())) {
             nickText.setText(userInfo.getName());
         } else {
-            nickText.setText("");
+            nickText.setText("未设置");
         }
 
         if (userInfo.getGenderEnum() != null) {
@@ -186,17 +186,26 @@ public class UserProfileSettingActivity extends UI implements View.OnClickListen
                 genderText.setText("其他");
             }
         }
-        if (userInfo.getBirthday() != null) {
+        if (!TextUtils.isEmpty(userInfo.getBirthday())) {
             birthText.setText(userInfo.getBirthday());
+        } else {
+            birthText.setText("未设置");
         }
-        if (userInfo.getMobile() != null) {
+
+        if (!TextUtils.isEmpty(userInfo.getMobile())) {
             phoneText.setText(userInfo.getMobile());
+        } else {
+            phoneText.setText("未设置");
         }
-        if (userInfo.getEmail() != null) {
+        if (!TextUtils.isEmpty(userInfo.getEmail())) {
             emailText.setText(userInfo.getEmail());
+        } else {
+            emailText.setText("未设置");
         }
-        if (userInfo.getSignature() != null) {
+        if (!TextUtils.isEmpty(userInfo.getSignature())) {
             signatureText.setText(userInfo.getSignature());
+        } else {
+            signatureText.setText("未设置");
         }
     }
 
@@ -214,6 +223,7 @@ public class UserProfileSettingActivity extends UI implements View.OnClickListen
                 PickImageHelper.pickImage(UserProfileSettingActivity.this, PICK_AVATAR_REQUEST, option);
                 break;
             case com.mcwonders.mkd.R.id.nick_layout:
+                if (nickText.getText().toString().equals("未设置")) nickText.setText("");
                 UserProfileEditItemActivity.startActivity(UserProfileSettingActivity.this, UserConstant.KEY_NICKNAME,
                         nickText.getText().toString());
                 break;
@@ -222,18 +232,22 @@ public class UserProfileSettingActivity extends UI implements View.OnClickListen
                         String.valueOf(userInfo.getGenderEnum().getValue()));
                 break;
             case com.mcwonders.mkd.R.id.birth_layout:
+                if (birthText.getText().toString().equals("未设置")) birthText.setText("");
                 UserProfileEditItemActivity.startActivity(UserProfileSettingActivity.this, UserConstant.KEY_BIRTH,
                         birthText.getText().toString());
                 break;
             case com.mcwonders.mkd.R.id.phone_layout:
+                if (phoneText.getText().toString().equals("未设置")) phoneText.setText("");
                 UserProfileEditItemActivity.startActivity(UserProfileSettingActivity.this, UserConstant.KEY_PHONE,
                         phoneText.getText().toString());
                 break;
             case com.mcwonders.mkd.R.id.email_layout:
+                if (emailText.getText().toString().equals("未设置")) emailText.setText("");
                 UserProfileEditItemActivity.startActivity(UserProfileSettingActivity.this, UserConstant.KEY_EMAIL,
                         emailText.getText().toString());
                 break;
             case com.mcwonders.mkd.R.id.signature_layout:
+                if (signatureText.getText().toString().equals("未设置")) signatureText.setText("");
                 UserProfileEditItemActivity.startActivity(UserProfileSettingActivity.this, UserConstant.KEY_SIGNATURE,
                         signatureText.getText().toString());
                 break;
@@ -276,7 +290,6 @@ public class UserProfileSettingActivity extends UI implements View.OnClickListen
         /**********************************************在这里会得到一个file头像文件，同步迈克家服务器，成功之后上传云信服务器*************************************************************/
         sendPicToServer(file);
         Log.d("YZP=======>", file.getName() + "");
-//        sendPicToServer(file);
 
         uploadAvatarFuture = NIMClient.getService(NosService.class).upload(file, PickImageAction.MIME_JPEG);
         uploadAvatarFuture.setCallback(new RequestCallbackWrapper<String>() {

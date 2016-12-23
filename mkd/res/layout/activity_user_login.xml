@@ -9,6 +9,7 @@
         android:layout_centerInParent="true"
         android:layout_marginLeft="28dp"
         android:layout_marginRight="28dp"
+        android:paddingBottom="60dp"
         android:gravity="center_horizontal"
         android:orientation="vertical">
 
@@ -40,17 +41,6 @@
             android:singleLine="true"
             android:textColor="#000000" />
 
-        <Button
-            android:id="@+id/btn_user_login_commit"
-            android:layout_width="match_parent"
-            android:layout_height="45dp"
-            android:layout_marginTop="17dp"
-            android:background="@drawable/selector_btn_user_login"
-            android:gravity="center"
-            android:text="登录"
-            android:textColor="#ffffff"
-            android:textSize="14sp" />
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -74,6 +64,19 @@
                 android:textColor="@color/common_content_dark_text_font_color"
                 android:textSize="@dimen/user_login_reg_or_forget_font_size" />
         </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_user_login_commit"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="17dp"
+            android:background="@drawable/selector_btn_user_login"
+            android:gravity="center"
+            android:text="登录"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+
     </LinearLayout>
 
 </RelativeLayout>
