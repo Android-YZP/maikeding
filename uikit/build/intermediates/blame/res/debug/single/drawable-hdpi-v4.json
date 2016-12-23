@@ -128,6 +128,10 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\nim_bg_message_tip.9.png"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_gray_round_button_pressed.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\nim_gray_round_button_pressed.9.png"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
@@ -176,12 +180,12 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_ic_trans_fail.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\nim_ic_trans_fail.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_slide_toggle.png",
@@ -322,6 +326,10 @@
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_emoji_ck_bg.9.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\nim_emoji_ck_bg.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_gray_round_button.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\nim_gray_round_button.9.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_message_input_keyboard_pressed.png",
@@ -492,16 +500,16 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\nim_message_plus_photo_pressed.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_image_default.png",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\nim_image_default.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-hdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_default_img.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\nim_default_img.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-hdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_image_default.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\nim_image_default.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_moon_page_selected.png",
@@ -584,12 +592,12 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_emoji_del.png",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\nim_emoji_del.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_cameras_hover.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\nim_cameras_hover.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_emoji_del.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\nim_emoji_del.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_actionbar_dark_logo_icon.png",

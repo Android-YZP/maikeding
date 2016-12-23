@@ -18,8 +18,8 @@
 
         <com.mcwonders.uikit.common.ui.imageview.HeadImageView
             android:id="@+id/from_account_head_image"
-            android:layout_width="@dimen/avatar_size_default"
-            android:layout_height="@dimen/avatar_size_default"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
             android:layout_centerVertical="true"
             android:layout_alignParentLeft="true"
             android:layout_marginLeft="10dp"
@@ -122,6 +122,6 @@
     <View
         android:id="@+id/bottom_line"
         style="@style/horizontal_light_thin_divider"
-        android:layout_marginLeft="70dp" />
+        android:layout_marginLeft="10dp" />
 
 </LinearLayout>

@@ -4,11 +4,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.mcwonders.mkd.main.adapter.SystemMessageAdapter;
@@ -118,30 +115,11 @@ public class SystemMessageActivity extends UI implements TAdapterDelegate,
         ToolBarOptions options = new ToolBarOptions();
         options.titleId = com.mcwonders.mkd.R.string.verify_reminder;
         setToolBar(com.mcwonders.mkd.R.id.toolbar, options, com.mcwonders.mkd.R.id.toolbar_notification_message_title);
-
+        initActionbar();
         initAdapter();
         initListView();
         loadMessages(); // load old data
         registerSystemObserver(true);
-        getDataFromNot();
-    }
-
-    //获得通知栏传递过来的数据
-    private void getDataFromNot() {
-        Intent intent = getIntent();
-        boolean isComing = intent.getBooleanExtra("isComing", false);
-        if (isComing) {
-            mTest = intent.getStringExtra("test");
-            mTestTime = intent.getLongExtra("testTime", 0);
-            Log.d("测试传递数据", mTest + mTestTime);
-            SystemMessage systemMessage = new SystemMessage();
-            systemMessage.setContent(mTest);
-            systemMessage.setTime(mTestTime);
-            systemMessage.setType(5);
-            items.add(0, systemMessage);
-            refresh();
-        }
-
     }
 
     @Override
@@ -165,23 +143,15 @@ public class SystemMessageActivity extends UI implements TAdapterDelegate,
         registerSystemObserver(false);
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(com.mcwonders.mkd.R.menu.notification_menu, menu);
-        return super.onCreateOptionsMenu(menu);
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case com.mcwonders.mkd.R.id.notification_menu_btn:
+    private void initActionbar() {
+        TextView toolbarView = findView(com.mcwonders.mkd.R.id.action_bar_right_clickable_textview);
+        toolbarView.setText("清空");
+        toolbarView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
                 deleteAllMessages();
-                break;
-            default:
-                break;
-        }
-        return super.onOptionsItemSelected(item);
+            }
+        });
     }
 
     private void initAdapter() {

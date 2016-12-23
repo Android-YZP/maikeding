@@ -28,6 +28,10 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\nim_message_input_emotion.png"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\nim_gray_round_button_pressed.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\nim_gray_round_button_pressed.9.png"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\nim_message_input_voice_normal.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\nim_message_input_voice_normal.png"
     },
@@ -38,6 +42,10 @@
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\nim_picker_preview_pressed.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\nim_picker_preview_pressed.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\nim_gray_round_button.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\nim_gray_round_button.9.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
@@ -344,12 +352,12 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\nim_team_member_item_delete_icon.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\nim_contact_checkbox_checked_grey.png",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\nim_contact_checkbox_checked_grey.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\nim_moon_page_unselected.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\nim_moon_page_unselected.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\nim_contact_checkbox_checked_grey.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\nim_contact_checkbox_checked_grey.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\nim_audio_animation_list_right_2.png",
@@ -404,16 +412,16 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\logo_android_xhdpi.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\nim_message_input_edittext_box_pressed.9.png",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\nim_message_input_edittext_box_pressed.9.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\nim_message_audio_playing_left_blue_bg.9.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\nim_message_audio_playing_left_blue_bg.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\nim_message_input_edittext_box_pressed.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\nim_message_input_edittext_box_pressed.9.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\nim_video_capture_start_btn.png",
