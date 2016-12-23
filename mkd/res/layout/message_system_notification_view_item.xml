@@ -122,6 +122,6 @@
     <View
         android:id="@+id/bottom_line"
         style="@style/horizontal_light_thin_divider"
-        android:layout_marginLeft="70dp" />
+        android:layout_marginLeft="10dp" />
 
 </LinearLayout>

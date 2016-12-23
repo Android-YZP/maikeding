@@ -17,7 +17,7 @@
     <string name="network_is_not_available">网络连接失败，请检查你的网络设置</string>
     <string name="login_hint_account">请输入帐号</string>
     <string name="login_hint_password">请输入密码</string>
-    <string name="input_account">请输入帐号，限20位字母或者数字</string>
+    <string name="input_account">请输入帐号</string>
     <string name="register_account_tip">帐号限20位字母或者数字</string>
     <string name="input_nickname">请输入昵称，限10位汉字、字母或者数字</string>
     <string name="register_nick_name_tip">昵称限10位汉字、字母或者数字</string>
