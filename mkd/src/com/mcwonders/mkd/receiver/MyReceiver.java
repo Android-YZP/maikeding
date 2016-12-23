@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.os.SystemClock;
 import android.util.Log;
 
+import com.mcwonders.mkd.main.activity.MessageActivity;
 import com.mcwonders.mkd.main.activity.SystemMessageActivity;
 
 import org.json.JSONException;
@@ -50,7 +51,7 @@ public class MyReceiver extends BroadcastReceiver {
             Log.d(TAG, "[MyReceiver] 用户点击打开了通知");
 
 //        	打开自定义的Activity
-            Intent i = new Intent(context, SystemMessageActivity.class);
+            Intent i = new Intent(context, MessageActivity.class);
             i.putExtras(bundle);
             i.putExtra("isComing", true);
             i.putExtra("test", "这是测试数据");

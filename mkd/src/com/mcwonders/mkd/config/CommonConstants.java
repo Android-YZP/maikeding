@@ -394,7 +394,7 @@ public class CommonConstants {
      * 上传图像
      * member/userImg/upload.aspx
      */
-    public static final String UPLOAD_IMAGE = "http://192.168.3.135:8080/external/updateuser/updateuser.json";
+    public static final String UPLOAD_IMAGE = "http://192.168.3.135:8080/external/front/upload.json";
 
     /**
      * wap页

@@ -38,7 +38,7 @@ android {
     buildTypes {
         debug {
             signingConfig signingConfigs.debug
-            manifestPlaceholders = [ AMAP_KEY:"23f04c99d368ea2e2d4d61169837add4" ]
+            manifestPlaceholders = [AMAP_KEY: "23f04c99d368ea2e2d4d61169837add4"]
         }
     }
     sourceSets {
@@ -75,9 +75,11 @@ android {
 dependencies {
     compile fileTree(include: '*.jar', dir: 'libs')
     compile project(path: ':uikit')
+    // 此处以SDK 2.1.8版本为例
     compile 'org.xutils:xutils:3.3.36'
     compile 'com.android.support:multidex:1.0.0'
     compile 'org.greenrobot:eventbus:3.0.0'
     compile 'com.google.code.gson:gson:2.7'
-    compile 'cn.jiguang:jpush:2.1.8'  // 此处以SDK 2.1.8版本为例
+    compile 'cn.jiguang:jpush:2.1.8'
+    compile 'com.android.support:appcompat-v7:23.4.0'
 }

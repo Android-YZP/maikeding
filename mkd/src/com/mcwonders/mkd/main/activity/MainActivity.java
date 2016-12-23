@@ -14,8 +14,10 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.mcwonders.mkd.config.preference.UserPreferences;
 import com.mcwonders.mkd.login.LogoutHelper;
 import com.mcwonders.mkd.main.fragment.HomeFragment;
+import com.mcwonders.mkd.main.fragment.SettingFragment;
 import com.mcwonders.mkd.session.SessionHelper;
 import com.mcwonders.mkd.utils.ExampleUtil;
 import com.mcwonders.mkd.utils.MyApplication;
@@ -35,6 +37,7 @@ import com.mcwonders.uikit.permission.annotation.OnMPermissionDenied;
 import com.netease.nimlib.sdk.NIMClient;
 import com.netease.nimlib.sdk.NimIntent;
 import com.netease.nimlib.sdk.Observer;
+import com.netease.nimlib.sdk.StatusBarNotificationConfig;
 import com.netease.nimlib.sdk.msg.model.IMMessage;
 
 import java.util.ArrayList;
@@ -335,6 +338,30 @@ public class MainActivity extends UI {
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
+        //免打扰的数据返回
+        if (resultCode == Activity.RESULT_OK) {
+            switch (requestCode) {
+                case NoDisturbActivity.NO_DISTURB_REQ:
+                    //接收到消息之后发送广播
+                    boolean isChecked = data.getBooleanExtra(NoDisturbActivity.EXTRA_ISCHECKED, false);
+                    String startTime = data.getStringExtra(NoDisturbActivity.EXTRA_START_TIME);
+                    String endTime = data.getStringExtra(NoDisturbActivity.EXTRA_END_TIME);
+
+                    Intent intent = new Intent();  //Itent就是我们要发送的内容
+
+                    intent.putExtra(NoDisturbActivity.EXTRA_ISCHECKED,isChecked);
+                    intent.putExtra(NoDisturbActivity.EXTRA_START_TIME,startTime);
+                    intent.putExtra(NoDisturbActivity.EXTRA_END_TIME,endTime);
+                    intent.setAction("NoDisturbing");   //设置你这个广播的action，只有和这个action一样的接受者才能接受者才能接收广播
+                    sendBroadcast(intent);   //发送广播
+                    return;
+                default:
+                    break;
+            }
+
+        }
+
+
         if (resultCode == Activity.RESULT_OK) {
             if (requestCode == REQUEST_CODE_NORMAL) {
                 final ArrayList<String> selected = data.getStringArrayListExtra(ContactSelectActivity.RESULT_DATA);
@@ -348,7 +375,11 @@ public class MainActivity extends UI {
                 TeamCreateHelper.createAdvancedTeam(MainActivity.this, selected);
             }
         }
+
+
+
     }
+
 
     // 注销
     private void onLogout() {

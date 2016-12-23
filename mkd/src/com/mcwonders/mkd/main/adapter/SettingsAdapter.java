@@ -143,7 +143,7 @@ public class SettingsAdapter extends BaseAdapter {
         if(lp != null) {
             lp.height = 200;
             viewHolder.root.setLayoutParams(lp);
-            viewHolder.root.setBackgroundColor(Color.TRANSPARENT);
+//            viewHolder.root.setBackgroundColor(Color.TRANSPARENT);
         }
         viewHolder.headImageView.setVisibility(View.VISIBLE);
         viewHolder.headTitleView.setVisibility(View.VISIBLE);

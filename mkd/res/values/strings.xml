@@ -227,15 +227,15 @@
     <string name="snapchat_title">阅后即焚</string>
 
     <!-- 个人名片 -->
-    <string name="birthday">生 日</string>
-    <string name="phone">手 机</string>
-    <string name="email">邮 箱</string>
-    <string name="signature">签 名</string>
-    <string name="head">头 像</string>
+    <string name="birthday">生日</string>
+    <string name="phone">手机</string>
+    <string name="email">邮箱</string>
+    <string name="signature">签名</string>
+    <string name="head">头像</string>
     <string name="user_information">个人信息</string>
-    <string name="nickname">昵 称</string>
+    <string name="nickname">昵称</string>
     <string name="alias">备注名</string>
-    <string name="gender">性 别</string>
+    <string name="gender">性别</string>
     <string name="male">男</string>
     <string name="female">女</string>
     <string name="other">其他</string>

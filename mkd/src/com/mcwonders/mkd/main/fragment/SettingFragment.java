@@ -1,12 +1,16 @@
 package com.mcwonders.mkd.main.fragment;
 
 import android.app.Activity;
+import android.content.BroadcastReceiver;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -74,6 +78,7 @@ public class SettingFragment extends TFragment implements SettingsAdapter.Switch
     private SettingTemplate disturbItem;
     private SettingTemplate clearIndexItem;
     private View mFooter;
+    private ReceiveBroadCast mReceiveBroadCast;
 
 
     public void setContactsCustomization(ContactsCustomization customization) {
@@ -87,12 +92,14 @@ public class SettingFragment extends TFragment implements SettingsAdapter.Switch
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         return inflater.inflate(R.layout.settings_fragment, container, false);
+
     }
 
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         registerObservers(true);
+        registeBR();
     }
 
     @Override
@@ -100,6 +107,13 @@ public class SettingFragment extends TFragment implements SettingsAdapter.Switch
         super.onResume();
         initUI();
         initData();
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        //注销广播
+        getActivity().unregisterReceiver(mReceiveBroadCast);
     }
 
     private void registerObservers(boolean register) {
@@ -120,6 +134,7 @@ public class SettingFragment extends TFragment implements SettingsAdapter.Switch
             noDisturbTime = String.format("%s到%s", UserPreferences.getStatusConfig().downTimeBegin,
                     UserPreferences.getStatusConfig().downTimeEnd);
         }
+        Log.d("免打扰1",noDisturbTime+"");
     }
 
     private void initUI() {
@@ -156,30 +171,32 @@ public class SettingFragment extends TFragment implements SettingsAdapter.Switch
 
     private void initItems() {
         items.clear();
+        items.add(SettingTemplate.makeSeperator());
         items.add(new SettingTemplate(TAG_HEAD, SettingType.TYPE_HEAD));
+        items.add(SettingTemplate.makeSeperator());
         items.add(new SettingTemplate(TAG_NOTICE, getString(com.mcwonders.mkd.R.string.msg_notice), SettingType.TYPE_TOGGLE,
                 UserPreferences.getNotificationToggle()));
         items.add(SettingTemplate.addLine());
         items.add(new SettingTemplate(TAG_SPEAKER, getString(com.mcwonders.mkd.R.string.msg_speaker), SettingType.TYPE_TOGGLE,
                 com.mcwonders.uikit.UserPreferences.isEarPhoneModeEnable()));
-        items.add(SettingTemplate.makeSeperator());
-        items.add(new SettingTemplate(TAG_RING, getString(com.mcwonders.mkd.R.string.ring), SettingType.TYPE_TOGGLE,
-                UserPreferences.getRingToggle()));
-//        items.add(SettingTemplate.addLine());
+//        items.add(SettingTemplate.makeSeperator());
+//        items.add(new SettingTemplate(TAG_RING, getString(com.mcwonders.mkd.R.string.ring), SettingType.TYPE_TOGGLE,
+//                UserPreferences.getRingToggle()));
+        items.add(SettingTemplate.addLine());
 //        items.add(new SettingTemplate(TAG_LED, getString(com.mcwonders.mkd.R.string.led), SettingType.TYPE_TOGGLE,
 //                UserPreferences.getLedToggle()));
-        items.add(SettingTemplate.addLine());
+//        items.add(SettingTemplate.addLine());
 //        items.add(SettingTemplate.makeSeperator());
 //        items.add(new SettingTemplate(TAG_NOTICE_CONTENT, getString(R.string.notice_content), SettingType.TYPE_TOGGLE,
 //                UserPreferences.getNoticeContentToggle()));
 //        items.add(SettingTemplate.makeSeperator());
-
-//        disturbItem = new SettingTemplate(TAG_NO_DISTURBE, getString(R.string.no_disturb), noDisturbTime);
-//        items.add(disturbItem);
+        Log.d("免打扰1",noDisturbTime+"");
+        disturbItem = new SettingTemplate(TAG_NO_DISTURBE, "免打扰", noDisturbTime);
+        items.add(disturbItem);
 //        items.add(SettingTemplate.addLine());
 //        items.add(new SettingTemplate(TAG_MULTIPORT_PUSH, getString(R.string.multiport_push), SettingType.TYPE_TOGGLE,
 //                !NIMClient.getService(SettingsService.class).isMultiportPushOpen()));
-//        items.add(SettingTemplate.makeSeperator());
+        items.add(SettingTemplate.makeSeperator());
 
 //        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.ICE_CREAM_SANDWICH) {
 //            items.add(new SettingTemplate(TAG_NRTC_SETTINGS, getString(com.mcwonders.mkd.R.string.nrtc_settings)));
@@ -189,7 +206,7 @@ public class SettingFragment extends TFragment implements SettingsAdapter.Switch
 //        items.add(new SettingTemplate(TAG_MSG_IGNORE, "过滤通知",
 //                SettingType.TYPE_TOGGLE, UserPreferences.getMsgIgnore()));
 //        items.add(SettingTemplate.addLine());
-        items.add(SettingTemplate.makeSeperator());
+//        items.add(SettingTemplate.makeSeperator());
         items.add(new SettingTemplate(TAG_CLEAR, getString(com.mcwonders.mkd.R.string.about_clear_msg_history)));
         items.add(SettingTemplate.addLine());
 
@@ -197,11 +214,9 @@ public class SettingFragment extends TFragment implements SettingsAdapter.Switch
         items.add(clearIndexItem);
         items.add(SettingTemplate.addLine());
 
-//      items.add(new SettingTemplate(TAG_CUSTOM_NOTIFY, getString(R.string.custom_notification)));
-//        items.add(SettingTemplate.addLine());
-//        items.add(SettingTemplate.addLine());
+//       items.add(new SettingTemplate(TAG_CUSTOM_NOTIFY, getString(R.string.custom_notification)));
         items.add(new SettingTemplate(TAG_ABOUT, getString(com.mcwonders.mkd.R.string.setting_about)));
-
+//        items.add(SettingTemplate.addLine());
     }
 
     private void onListItemClick(SettingTemplate item) {
@@ -236,9 +251,9 @@ public class SettingFragment extends TFragment implements SettingsAdapter.Switch
 
     protected void dialog(final int Kind) {
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-        if (Kind == LOGOUT){
+        if (Kind == LOGOUT) {
             builder.setMessage("确认退出吗？");
-        }else {
+        } else {
             builder.setMessage("确认清除吗？");
         }
         builder.setPositiveButton("确认", new DialogInterface.OnClickListener() {
@@ -387,19 +402,46 @@ public class SettingFragment extends TFragment implements SettingsAdapter.Switch
         });
     }
 
-    @Override
-    public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-        if (resultCode == Activity.RESULT_OK) {
-            switch (requestCode) {
-                case NoDisturbActivity.NO_DISTURB_REQ:
-                    setNoDisturbTime(data);
-                    break;
-                default:
-                    break;
-            }
-        }
+    //注册广播
+    private void registeBR(){
+        // 注册广播接收
+        mReceiveBroadCast = new ReceiveBroadCast();
+        IntentFilter filter = new IntentFilter();
+        filter.addAction("NoDisturbing");    //只有持有相同的action的接受者才能接收此广播
+        getActivity().registerReceiver(mReceiveBroadCast, filter);
     }
+
+
+    //广播接受者
+    public class ReceiveBroadCast extends BroadcastReceiver {
+
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            //得到广播中得到的数据，并显示出来
+            boolean isChecked = intent.getBooleanExtra(NoDisturbActivity.EXTRA_ISCHECKED, false);
+            String start = intent.getStringExtra(NoDisturbActivity.EXTRA_START_TIME);
+            String end = intent.getStringExtra(NoDisturbActivity.EXTRA_END_TIME);
+            Log.d("test",isChecked+start+end+"++++++++++");
+            setNoDisturbTime(intent);
+        }
+
+    }
+
+
+//    @Override
+//    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+//        super.onActivityResult(requestCode, resultCode, data);
+//        if (resultCode == Activity.RESULT_OK) {
+//            switch (requestCode) {
+//                case NoDisturbActivity.NO_DISTURB_REQ:
+//                    Log.d("打扰2","++++++++++++");
+//                    setNoDisturbTime(data);
+//                    break;
+//                default:
+//                    break;
+//            }
+//        }
+//    }
 
     /**
      * 设置免打扰时间
@@ -407,6 +449,7 @@ public class SettingFragment extends TFragment implements SettingsAdapter.Switch
      * @param data
      */
     private void setNoDisturbTime(Intent data) {
+        Log.d("2121221", "53543");
         boolean isChecked = data.getBooleanExtra(NoDisturbActivity.EXTRA_ISCHECKED, false);
         noDisturbTime = getString(com.mcwonders.mkd.R.string.setting_close);
         StatusBarNotificationConfig config = UserPreferences.getStatusConfig();
