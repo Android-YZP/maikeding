@@ -24,7 +24,6 @@
             android:id="@+id/contact_list_view"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:layout_toLeftOf="@+id/liv_index"
             android:layout_marginBottom="49dp"
             android:cacheColorHint="@color/transparent"
             android:divider="@color/transparent"

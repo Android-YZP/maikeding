@@ -74,6 +74,6 @@
         style="@style/horizontal_light_thin_divider"
         android:layout_marginLeft="10dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginRight="10dp"/>
+        android:layout_marginRight="20dp"/>
 
 </RelativeLayout>
