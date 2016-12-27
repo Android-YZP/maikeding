@@ -94,6 +94,7 @@
     <color name="color_yellow_796413">#796413</color>
     <color name="color_yellow_b39729">#b39729</color>
     <color name="contact_letter_idx_bg">#33000000</color>
+    <color name="contact_letter_nor_bg">#00000000</color>
     <color name="contact_list_hover">#d9d9d9</color>
     <color name="contact_search_hit">#02d3a9</color>
     <color name="contacts_letters_color">#80807c</color>

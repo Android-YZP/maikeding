@@ -20,6 +20,10 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\nim_emoji_icon_inactive.png"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_team_delete_btn_pressed.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\nim_team_delete_btn_pressed.9.png"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
@@ -312,8 +316,16 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\nim_message_right_red_bg.9.png"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_team_blue_btn_pressed.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\nim_team_blue_btn_pressed.9.png"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_contact_checkbox_checked_grey.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\nim_contact_checkbox_checked_grey.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_team_delete_btn.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\nim_team_delete_btn.9.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_message_input_emotion.png",
@@ -514,6 +526,10 @@
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_moon_page_selected.png",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\nim_moon_page_selected.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_team_blue_btn.9.png",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\drawable-hdpi\\nim_team_blue_btn.9.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_new_message_notify.png",

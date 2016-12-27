@@ -213,8 +213,8 @@ public class UserProfileActivity extends UI {
     }
 
     private void addToggleBtn(boolean black, boolean notice) {
-        blackSwitch = addToggleItemView(KEY_BLACK_LIST, com.mcwonders.mkd.R.string.black_list, black);
         noticeSwitch = addToggleItemView(KEY_MSG_NOTICE, com.mcwonders.mkd.R.string.msg_notice, notice);
+        blackSwitch = addToggleItemView(KEY_BLACK_LIST, com.mcwonders.mkd.R.string.black_list, black);
     }
 
     private void setToggleBtn(SwitchButton btn, boolean isChecked) {
@@ -309,8 +309,8 @@ public class UserProfileActivity extends UI {
             if (blackSwitch == null || noticeSwitch == null) {
                 addToggleBtn(black, notice);
             } else {
-                setToggleBtn(blackSwitch, black);
                 setToggleBtn(noticeSwitch, notice);
+                setToggleBtn(blackSwitch, black);
             }
             Log.i(TAG, "black=" + black + ", notice=" + notice);
             updateUserOperatorView();

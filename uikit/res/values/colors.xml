@@ -59,6 +59,7 @@
     <!-- contact -->
     <color name="contact_list_hover">#d9d9d9</color>
     <color name="contact_letter_idx_bg">#33000000</color>
+    <color name="contact_letter_nor_bg">#00000000</color>
     <color name="contacts_letters_color">#80807c</color>
     <color name="color_background">#ECF1F5</color>
     <color name="press_mask">#33000000</color>
