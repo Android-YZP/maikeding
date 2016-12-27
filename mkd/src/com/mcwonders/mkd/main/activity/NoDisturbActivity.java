@@ -11,6 +11,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.TimePicker;
 
+import com.mcwonders.mkd.R;
 import com.mcwonders.mkd.main.model.SettingTemplate;
 import com.mcwonders.uikit.model.ToolBarOptions;
 import com.mcwonders.mkd.config.preference.UserPreferences;
@@ -61,10 +62,9 @@ public class NoDisturbActivity extends UI implements SettingsAdapter.SwitchChang
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(com.mcwonders.mkd.R.layout.no_disturb_activity);
-        ToolBarOptions options = new ToolBarOptions();
-        options.titleId = com.mcwonders.mkd.R.string.no_disturb;
-        setToolBar(com.mcwonders.mkd.R.id.toolbar, options);
 
+        ToolBarOptions options = new ToolBarOptions();
+        setToolBar(R.id.toolbar, options, R.id.toolbar_disturb_title);
         parseIntentData();
         findViews();
     }

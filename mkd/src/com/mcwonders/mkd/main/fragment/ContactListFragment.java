@@ -11,6 +11,7 @@ import android.widget.TextView;
 import com.mcwonders.mkd.DemoCache;
 import com.mcwonders.mkd.R;
 import com.mcwonders.mkd.contact.activity.BlackListActivity;
+import com.mcwonders.mkd.main.activity.MessageActivity;
 import com.mcwonders.mkd.main.helper.SystemMessageUnreadManager;
 import com.mcwonders.mkd.main.model.MainTab;
 import com.mcwonders.mkd.main.reminder.ReminderId;
@@ -140,6 +141,7 @@ public class ContactListFragment extends MainTabFragment {
 //                TeamListActivity.start(context, ItemTypes.TEAMS.ADVANCED_TEAM);
 //            }
             else if (item == SYSTEM_NOTIFY) {
+                MessageActivity.start(context);
             } else if (item == MY_COMPUTER) {
                 SessionHelper.startP2PSession(context, DemoCache.getAccount());
             } else if (item == BLACK_LIST) {

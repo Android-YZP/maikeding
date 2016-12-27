@@ -1,5 +1,6 @@
 package com.mcwonders.mkd.main.activity;
 
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Handler;
@@ -20,6 +21,7 @@ import com.mcwonders.mkd.R;
 import com.mcwonders.mkd.business.IUserBusiness;
 import com.mcwonders.mkd.business.imp.UserBusinessImp;
 import com.mcwonders.mkd.config.CommonConstants;
+import com.mcwonders.mkd.contact.activity.BlackListActivity;
 import com.mcwonders.mkd.demand.util.JsonUtils;
 import com.mcwonders.mkd.exception.ServiceException;
 import com.mcwonders.mkd.login.maixinlogin.User;
@@ -93,7 +95,12 @@ public class MessageActivity extends AppCompatActivity {
 
     };
 
-
+    public static void start(Context context) {
+        Intent intent = new Intent();
+        intent.setClass(context, MessageActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+        context.startActivity(intent);
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -114,7 +121,7 @@ public class MessageActivity extends AppCompatActivity {
         mTvTitle.setText("系统通知");
         mUserMessages = new ArrayList<>();
         mUser = CommonUtil.getUserInfo(this);
-        mSRLMessage.setRefreshing(true);
+//        mSRLMessage.setRefreshing(true);
         initDataMessagesList();//从网络获取数据
         //listView 的初始化
         mYlvMessage.initBottomView();
@@ -149,6 +156,7 @@ public class MessageActivity extends AppCompatActivity {
                 //清空数据
                 isNoMoreData = false;
                 mYlvMessage.initBottomView();
+                mUserMessages.clear();
                 initDataMessagesList();//从网络获取数据
             }
         });

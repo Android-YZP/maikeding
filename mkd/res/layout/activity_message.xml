@@ -5,20 +5,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/white"
     tools:context="com.mcwonders.mkd.main.activity.MessageActivity">
 
     <include
         layout="@layout/layout_common_topbar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/common_topbar_height" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@color/gray" />
+
     <android.support.v4.widget.SwipeRefreshLayout
         android:id="@+id/srl_message_item"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <com.mcwonders.mkd.main.view.YListView
             android:id="@+id/ylv_message_item"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:divider="@null" />
 
     </android.support.v4.widget.SwipeRefreshLayout>
 

@@ -36,6 +36,7 @@ public class YListView extends ListView implements OnScrollListener {
     public YListView(Context context) {
         super(context);
         this.context = context;
+
         initListView();
     }
 
@@ -54,25 +55,32 @@ public class YListView extends ListView implements OnScrollListener {
         setOnScrollListener(this);
         // 去掉底部分割线
         setFooterDividersEnabled(false);
+        //添加空的View
+        setEmptyView(LayoutInflater.from(this.context).inflate(
+                R.layout.message_empty_view, null));
     }
+
+
 
     /**
      * 初始化话底部页面
      */
     public void initBottomView() {
-
-        if (footerView == null) {
+        if (getFooterViewsCount() == 0) {
             footerView = LayoutInflater.from(this.context).inflate(
                     R.layout.listview_loadbar, null);
+            addFooterView(footerView);
         }
-        addFooterView(footerView);
     }
+
     /**
      * 初始化话底部页面
      */
     public void removeFootView() {
         removeFooterView(footerView);
+
     }
+
     public void onScrollStateChanged(AbsListView view, int scrollState) {
 
         //当滑动到底部时

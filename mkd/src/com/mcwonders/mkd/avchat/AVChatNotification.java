@@ -7,6 +7,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.support.v4.app.NotificationCompat;
 
+import com.mcwonders.mkd.R;
 import com.mcwonders.uikit.cache.NimUserInfoCache;
 import com.mcwonders.uikit.session.activity.P2PMessageActivity;
 import com.mcwonders.mkd.avchat.activity.AVChatActivity;
@@ -47,7 +48,7 @@ public class AVChatNotification {
             localIntent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
 
             String tickerText = String.format(context.getString(com.mcwonders.mkd.R.string.avchat_notification), displayName);
-            int iconId = com.mcwonders.mkd.R.drawable.ic_stat_notify_msg;
+            int iconId = R.drawable.logo_login;
 
             PendingIntent pendingIntent = PendingIntent.getActivity(context, CALLING_NOTIFY_ID, localIntent, PendingIntent
                     .FLAG_UPDATE_CURRENT);

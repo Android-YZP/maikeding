@@ -130,7 +130,7 @@ public class NimApplication extends Application {
         }
         // 点击通知需要跳转到的界面
         config.notificationEntrance = WelcomeActivity.class;
-        config.notificationSmallIconId = com.mcwonders.mkd.R.drawable.ic_stat_notify_msg;
+        config.notificationSmallIconId = R.drawable.logo_login;
 
         // 通知铃声的uri字符串
         config.notificationSound = "android.resource://com.mcwonders.mkd/raw/msg";

@@ -416,7 +416,7 @@ public class UserLoginActivity extends AppCompatActivity {
                         Toast.makeText(UserLoginActivity.this, "登录失败: " + code, Toast.LENGTH_SHORT).show();
                     }
                     // 进入主界面
-                    MainActivity.start(UserLoginActivity.this, null);
+//                    MainActivity.start(UserLoginActivity.this, null);
                     finish();
                 }
 
