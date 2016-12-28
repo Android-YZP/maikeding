@@ -77,8 +77,8 @@
     <!-- session -->
     <string name="input_panel_guess">猜 拳</string>
     <string name="input_panel_audio_call">语音通话</string>
-    <string name="input_panel_video_call">视频通话</string>
-    <string name="input_panel_file">发送文件</string>
+    <string name="input_panel_video_call">视频聊天</string>
+    <string name="input_panel_file">文件传输</string>
     <string name="input_panel_RTS">教学白板</string>
     <string name="input_panel_snapchat">阅后即焚</string>
     <string name="input_panel_tip">Tip</string>
