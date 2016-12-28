@@ -253,8 +253,10 @@ public class SettingFragment extends TFragment implements SettingsAdapter.Switch
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
         if (Kind == LOGOUT) {
             builder.setMessage("确认退出吗？");
-        } else {
-            builder.setMessage("确认清除吗？");
+        } else if(Kind ==TAG_CLEAR ){
+            builder.setMessage("确认清空聊天记录？");
+        }else if(Kind ==TAG_CLEAR_INDEX ){
+            builder.setMessage("确认清空检索缓存？");
         }
         builder.setPositiveButton("确认", new DialogInterface.OnClickListener() {
             @Override

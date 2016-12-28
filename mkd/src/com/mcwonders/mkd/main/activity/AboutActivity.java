@@ -42,7 +42,7 @@ public class AboutActivity extends UI {
             String pkName = this.getPackageName();
             String versionName = this.getPackageManager()
                     .getPackageInfo(pkName, 0).versionName;
-            versionGit.setText(" Version: V " + versionName);
+            versionGit.setText(" 版本号: V " + versionName);
         } catch (PackageManager.NameNotFoundException e) {
             e.printStackTrace();
         }

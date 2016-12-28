@@ -220,63 +220,66 @@ public class UserLoginActivity extends AppCompatActivity {
                     ((UserLoginActivity) mActivity.get()).showTip(errorMsg);
                     break;
                 case CommonConstants.FLAG_GET_REG_USER_LOGIN_SUCCESS:
-                    Log.d("YZP=========>","FLAG_GET_REG_USER_LOGIN_SUCCESS");
+                    Log.d("YZP=========>", "FLAG_GET_REG_USER_LOGIN_SUCCESS");
                     //更新云信的个人信息
                     UserLoginOnClickListener userProFile = new UserLoginOnClickListener();
 
                     //更新昵称
                     if (!TextUtils.isEmpty(mMkjUserInfo.getUsername())) {
                         userProFile.updateProFile(mMkjUserInfo.getUsername(), UserConstant.KEY_NICKNAME);
-                        Log.d("YZP=========>",mMkjUserInfo.getUsername());
+                        Log.d("YZP=========>", mMkjUserInfo.getUsername());
                     }
 
                     //更新生日
-                    if (mMkjUserInfo.getUserbirthday().getYear() != 0) {
-                        String relMonth;
-                        String relDay;
-                        int year = mMkjUserInfo.getUserbirthday().getYear() + 1900;
-                        int month = mMkjUserInfo.getUserbirthday().getMonth();
-                        if (month < 10) {
-                            relMonth = "0" + month;
-                        } else {
-                            relMonth = "" + month;
+                    if (mMkjUserInfo.getUserbirthday() != null) {
+                        if (mMkjUserInfo.getUserbirthday().getYear() != 0) {
+                            String relMonth;
+                            String relDay;
+                            int year = mMkjUserInfo.getUserbirthday().getYear() + 1900;
+                            int month = mMkjUserInfo.getUserbirthday().getMonth() + 1;
+                            if (month < 10) {
+                                relMonth = "0" + month;
+                            } else {
+                                relMonth = "" + month;
+                            }
+                            int day = mMkjUserInfo.getUserbirthday().getDate();
+                            if (day < 10) {
+                                relDay = "0" + day;
+                            } else {
+                                relDay = "" + day;
+                            }
+                            userProFile.updateProFile(year + "-" + relMonth + "-" + relDay, UserConstant.KEY_BIRTH);
+                            Log.d("YZP=========>", year + "-" + relMonth + "-" + relDay);
                         }
-                        int day = mMkjUserInfo.getUserbirthday().getDay();
-                        if (day < 10) {
-                            relDay = "0" + day;
-                        } else {
-                            relDay = "" + day;
-                        }
-                        userProFile.updateProFile(year + "-" + relMonth + "-" + relDay, UserConstant.KEY_BIRTH);
-                        Log.d("YZP=========>",year + "-" + relMonth + "-" + relDay);
                     }
+
 
                     //更新手机
                     if (!TextUtils.isEmpty(mMkjUserInfo.getUserphone())) {
                         userProFile.updateProFile(mMkjUserInfo.getUserphone(), UserConstant.KEY_PHONE);
-                        Log.d("YZP=========>",mMkjUserInfo.getUserphone());
+                        Log.d("YZP=========>", mMkjUserInfo.getUserphone());
                     }
 
 
                     //更新邮箱
                     if (!TextUtils.isEmpty(mMkjUserInfo.getUseremail())) {
                         userProFile.updateProFile(mMkjUserInfo.getUseremail(), UserConstant.KEY_EMAIL);
-                        Log.d("YZP=========>",mMkjUserInfo.getUseremail());
+                        Log.d("YZP=========>", mMkjUserInfo.getUseremail());
                     }
 
                     //更新签名
                     if (!TextUtils.isEmpty(mMkjUserInfo.getUsersignature())) {
                         userProFile.updateProFile(mMkjUserInfo.getUsersignature(), UserConstant.KEY_SIGNATURE);
-                        Log.d("YZP=========>",mMkjUserInfo.getUsersignature());
+                        Log.d("YZP=========>", mMkjUserInfo.getUsersignature());
                     }
 
                     // 更新性别
-                    if (mMkjUserInfo.isUsergender()){//男
+                    if (mMkjUserInfo.isUsergender()) {//男
                         userProFile.updateProFile(1, UserConstant.KEY_GENDER);
-                        Log.d("YZP=========>","男");
-                    }else{//女
+                        Log.d("YZP=========>", "男");
+                    } else {//女
                         userProFile.updateProFile(2, UserConstant.KEY_GENDER);
-                        Log.d("YZP=========>","女");
+                        Log.d("YZP=========>", "女");
                     }
 
                     break;
@@ -417,7 +420,7 @@ public class UserLoginActivity extends AppCompatActivity {
                     }
                     // 进入主界面
 //                    MainActivity.start(UserLoginActivity.this, null);
-                    finish();
+//                    finish();
                 }
 
                 @Override
@@ -425,8 +428,8 @@ public class UserLoginActivity extends AppCompatActivity {
                     Toast.makeText(UserLoginActivity.this, R.string.login_exception, Toast.LENGTH_LONG).show();
                     onLoginDone();
                     // 进入主界面
-                    MainActivity.start(UserLoginActivity.this, null);
-                    finish();
+//                    MainActivity.start(UserLoginActivity.this, null);
+//                    finish();
                 }
             });
         }
@@ -485,7 +488,7 @@ public class UserLoginActivity extends AppCompatActivity {
                         if (key == UserConstant.KEY_GENDER) {
                             SystemClock.sleep(2000);
                             // 进入主界面,更新成功之后进入主界面
-                            Log.d("YZP=========>","更新成功之后进入主界面");
+                            Log.d("YZP=========>", "更新成功之后进入主界面");
                             MainActivity.start(UserLoginActivity.this, null);
                             finish();
                         }

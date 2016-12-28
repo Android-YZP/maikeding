@@ -141,7 +141,7 @@ public class SettingsAdapter extends BaseAdapter {
     private void updateHeadItem(ViewHolder viewHolder) {
         ViewGroup.LayoutParams lp = viewHolder.root.getLayoutParams();
         if(lp != null) {
-            lp.height = 200;
+            lp.height = 300;
             viewHolder.root.setLayoutParams(lp);
 //            viewHolder.root.setBackgroundColor(Color.TRANSPARENT);
         }
