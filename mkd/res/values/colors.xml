@@ -5,12 +5,12 @@
     <color name="main_tabbar_border_color2">#d2d2d2</color>
     <color name="white">#FFFFFF</color>
     <color name="gray">#F1F1F1</color>
-    <color name="theme">#d82058</color>
+    <color name="theme">#1771d0</color>
     <color name="black">#000000</color>
     <color name="grey">#333333</color>
     <color name="global_bg">#9000</color>
     <color name="color_green_01d9ae">#01D9AE</color>
-    <color name="color_blue_0888ff">#d82058</color>
+    <color name="color_blue_0888ff">#1771d0</color>
     <color name="color_gray_d9d9d9">#d9d9d9</color>
     <color name="action_bar_tittle_color_555555">#555555</color>
     <color name="grey_white">#F7F7F7</color>
@@ -43,7 +43,7 @@
     <color name="color_green_4bbda2">#4bbda2</color>
     <color name="color_yellow_fcf3cd">#EFEFEF</color>
     <color name="color_blue_3a9efb">#3a9efb</color>
-    <color name="color_green_89fbff">#d82058</color>
+    <color name="color_green_89fbff">#1771d0</color>
 
     <!-- main bg color -->
     <color name="g_child_page_bg_color">#FFFFFF</color>
@@ -112,13 +112,13 @@
     <color name="index_search_et_text_font_color">#959595</color>
     <color name="index_search_listview_history_item_text_font_color">#959595</color>
     <color name="index_search_listview_history_item_divide_color">#d2d2d2</color>
-    <color name="index_search_listview_clean_history_font_color">#d82058</color>
+    <color name="index_search_listview_clean_history_font_color">#1771d0</color>
     <color name="index_search_listview_clean_history_bg_color">#e5e5e5</color>
 
     <!-- cate -->
     <color name="index_cate_bg_color">#fbfafa</color>
     <color name="index_cate_border_color">#b4b5b5</color>
-    <color name="index_cate_item_text_font_color">#d82058</color>
+    <color name="index_cate_item_text_font_color">#1771d0</color>
 
     <!-- creative -->
     <color name="index_creative_titlebar_title_text_font_color">#d81759</color>
@@ -150,7 +150,7 @@
 
     <!-- psinfo -->
     <color name="pscenter_psinfo_border_color">#dcdddd</color>
-    <color name="pscenter_psinfo_btn_border_color">#d82058</color>
+    <color name="pscenter_psinfo_btn_border_color">#1771d0</color>
 
     <color name="pscenter_psinfo_username_text_font_color">#595757</color>
     <color name="pscenter_psinfo_sign_text_font_color">#9f9fa0</color>
@@ -171,8 +171,8 @@
     <!-- |creativedetail start -->
     <color name="creativedetail_title_text_font_color">#626262</color>
     <color name="creativedetail_desc_text_font_color">#959595</color>
-    <color name="creativedetail_tabbar_line_color">#d82058</color>
-    <color name="creativedetail_source_leftbar_color">#d82058</color>
+    <color name="creativedetail_tabbar_line_color">#1771d0</color>
+    <color name="creativedetail_source_leftbar_color">#1771d0</color>
     <color name="creativedetail_detail_leftbar_color">#fbd731</color>
     <color name="creativedetail_bottombar_border_color">#e5e5e5</color>
 
@@ -183,7 +183,7 @@
     <color name="creativedetail_comment_username_font_color">#959595</color>
     <color name="creativedetail_comment_datetime_font_color">#b5b5b5</color>
     <color name="creativedetail_comment_content_font_color">#a0a0a0</color>
-    <color name="creativedetail_comment_reply_text_font_color">#d82058</color>
+    <color name="creativedetail_comment_reply_text_font_color">#1771d0</color>
 
     <color name="creativedetail_commentbar_commit_font_color">#a0a0a0</color>
     <color name="creativedetail_commentbar_commit_border_bg_color">#a0a0a0</color>
@@ -192,7 +192,7 @@
     <!-- |creativedetail end -->
 
     <!-- user login -->
-    <color name="user_login_btn_bg_color">#d82058</color>
+    <color name="user_login_btn_bg_color">#1771d0</color>
     <color name="user_login_bg_border_color">#d81759</color>
     <color name="user_login_btn_press_color">#7fd81759</color>
 

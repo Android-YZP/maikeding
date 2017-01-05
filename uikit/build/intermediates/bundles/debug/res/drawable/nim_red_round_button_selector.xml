@@ -3,6 +3,7 @@
 
     <item android:drawable="@drawable/nim_gray_round_button_pressed" android:state_pressed="true"></item>
     <item android:drawable="@drawable/nim_gray_round_button" android:state_enabled="false"></item>
+
     <item android:drawable="@drawable/nim_gray_round_button"></item>
 
 </selector>

@@ -42,6 +42,7 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.mcwonders.mkd.R;
 import com.mcwonders.mkd.main.reminder.ReminderItem;
 import com.mcwonders.mkd.main.reminder.ReminderSettings;
 import com.mcwonders.uikit.common.ui.drop.DropFake;
@@ -266,7 +267,7 @@ public class PagerSlidingTabStrip extends HorizontalScrollView implements OnPage
             if (i == position) {
                 switch (i) {
                     case 0:
-                        imageView.setImageResource(com.mcwonders.mkd.R.drawable.bottom_home_sel);
+                        imageView.setImageResource(R.drawable.bottom_home_sel);
                         break;
                     case 1:
                         imageView.setImageResource(com.mcwonders.mkd.R.drawable.bottom_message_sel);
