@@ -3,6 +3,6 @@
 
     <item android:drawable="@color/contact_list_hover" android:state_pressed="true"></item>
     <item android:drawable="@color/contact_list_hover" android:state_focused="true"></item>
-    <item android:drawable="@android:color/transparent"></item>
+    <item android:drawable="@android:color/white"></item>
 
 </selector>

@@ -27,11 +27,13 @@ public class MsgViewHolderRTS extends MsgViewHolderBase {
 
     @Override
     protected int leftBackground() {
+        textView.setTextColor(context.getResources().getColor(R.color.black));
         return R.drawable.nim_message_left_white_bg;
     }
 
     @Override
     protected int rightBackground() {
+        textView.setTextColor(context.getResources().getColor(R.color.white));
         return R.drawable.nim_message_right_red_bg;
     }
 }

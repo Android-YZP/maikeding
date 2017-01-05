@@ -16,27 +16,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22a89629-05e4-49a7-ad79-be3e61276f61" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/AMap_Services_V2_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Android_2DMap_V2_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Android_Location_V1_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_23_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/cosinesdk.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/design_23_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/fastjson_1_1_34_android.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/nim_avchat_3_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/nim_basesdk_3_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/nim_chatroom_3_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/nim_lucene_3_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/nim_rts_3_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/nrtc_sdk.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/org_apache_http_legacy_android_23.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_23_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_23_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/universal_image_loader_1_9_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mkd/res/drawable-hdpi/about_logo.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
@@ -44,81 +23,91 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_uikit_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_uikit_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_uikit_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_uikit_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mkd/res/drawable-xhdpi/bottom_home_sel.png" afterPath="$PROJECT_DIR$/mkd/res/drawable-xhdpi/bottom_home_sel.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mkd/res/drawable-xhdpi/bottom_message_sel.png" afterPath="$PROJECT_DIR$/mkd/res/drawable-xhdpi/bottom_message_sel.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mkd/res/drawable-xhdpi/bottom_set_sel.png" afterPath="$PROJECT_DIR$/mkd/res/drawable-xhdpi/bottom_set_sel.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mkd/res/drawable-xhdpi/logo.png" afterPath="$PROJECT_DIR$/mkd/res/drawable-xhdpi/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mkd/res/drawable-xxhdpi/bottom_home_sel.png" afterPath="$PROJECT_DIR$/mkd/res/drawable-xxhdpi/bottom_home_sel.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mkd/res/drawable-xxhdpi/bottom_message_sel.png" afterPath="$PROJECT_DIR$/mkd/res/drawable-xxhdpi/bottom_message_sel.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mkd/res/drawable-xxhdpi/bottom_set_sel.png" afterPath="$PROJECT_DIR$/mkd/res/drawable-xxhdpi/bottom_set_sel.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mkd/res/drawable-xxhdpi/logo.png" afterPath="$PROJECT_DIR$/mkd/res/drawable-xxhdpi/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/bundles/release/res/drawable-hdpi-v4/nim_audio_animation_list_left_1.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/bundles/release/res/drawable-hdpi-v4/nim_audio_animation_list_left_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/bundles/release/res/drawable-hdpi-v4/nim_audio_animation_list_left_2.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/bundles/release/res/drawable-hdpi-v4/nim_audio_animation_list_left_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/bundles/release/res/drawable-hdpi-v4/nim_audio_animation_list_left_3.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/bundles/release/res/drawable-hdpi-v4/nim_audio_animation_list_left_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/bundles/release/res/drawable-xhdpi-v4/nim_audio_animation_list_left_1.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/bundles/release/res/drawable-xhdpi-v4/nim_audio_animation_list_left_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/bundles/release/res/drawable-xhdpi-v4/nim_audio_animation_list_left_2.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/bundles/release/res/drawable-xhdpi-v4/nim_audio_animation_list_left_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/bundles/release/res/drawable-xhdpi-v4/nim_audio_animation_list_left_3.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/bundles/release/res/drawable-xhdpi-v4/nim_audio_animation_list_left_3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/bundles/debug/res/drawable-hdpi-v4/nim_audio_animation_list_left_1.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/bundles/debug/res/drawable-hdpi-v4/nim_audio_animation_list_left_1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/bundles/debug/res/drawable-hdpi-v4/nim_audio_animation_list_left_2.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/bundles/debug/res/drawable-hdpi-v4/nim_audio_animation_list_left_2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/bundles/debug/res/drawable-hdpi-v4/nim_audio_animation_list_left_3.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/bundles/debug/res/drawable-hdpi-v4/nim_audio_animation_list_left_3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/bundles/debug/res/drawable-hdpi-v4/nim_slide_toggle_on.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/bundles/debug/res/drawable-hdpi-v4/nim_slide_toggle_on.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/nim_audio_animation_list_left_1.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/nim_audio_animation_list_left_1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/nim_audio_animation_list_left_2.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/nim_audio_animation_list_left_2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/nim_audio_animation_list_left_3.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/nim_audio_animation_list_left_3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/bundles/release/res/drawable-hdpi-v4/nim_message_input_send_normal.9.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/bundles/release/res/drawable-hdpi-v4/nim_message_input_send_normal.9.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/bundles/release/res/drawable-hdpi-v4/nim_message_input_send_pressed.9.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/bundles/release/res/drawable-hdpi-v4/nim_message_input_send_pressed.9.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/bundles/release/res/drawable-hdpi-v4/nim_picker_image_selected.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/bundles/release/res/drawable-hdpi-v4/nim_picker_image_selected.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/bundles/release/res/drawable-hdpi-v4/nim_picker_orignal_checked.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/bundles/release/res/drawable-hdpi-v4/nim_picker_orignal_checked.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/bundles/release/res/drawable-hdpi-v4/nim_slide_toggle_on.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/bundles/release/res/drawable-hdpi-v4/nim_slide_toggle_on.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/bundles/release/res/drawable-xhdpi-v4/nim_picker_image_selected.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/bundles/release/res/drawable-xhdpi-v4/nim_picker_image_selected.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/bundles/release/res/drawable-xhdpi-v4/nim_picker_orignal_checked.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/bundles/release/res/drawable-xhdpi-v4/nim_picker_orignal_checked.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/abc_ic_clear_mtrl_alpha.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/abc_ic_clear_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/abc_ic_menu_share_mtrl_alpha.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/abc_ic_menu_share_mtrl_alpha.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/abc_scrubber_control_off_mtrl_alpha.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/abc_scrubber_control_off_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-ldrtl-mdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-ldrtl-mdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/nim_audio_animation_list_left_1.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/nim_audio_animation_list_left_1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/nim_audio_animation_list_left_2.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/nim_audio_animation_list_left_2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/nim_audio_animation_list_left_3.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/nim_audio_animation_list_left_3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/nim_emoji_icon.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/nim_emoji_icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/nim_slide_toggle_on.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/nim_slide_toggle_on.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-ldrtl-xhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-ldrtl-xhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_015.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_015.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/abc_ic_star_black_36dp.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/abc_ic_star_black_36dp.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/abc_ic_star_black_36dp.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/abc_ic_star_black_36dp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/abc_ic_star_half_black_16dp.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/abc_ic_star_half_black_16dp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/nim_audio_animation_list_left_1.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/nim_audio_animation_list_left_1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/nim_audio_animation_list_left_2.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/nim_audio_animation_list_left_2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/nim_audio_animation_list_left_3.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/nim_audio_animation_list_left_3.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/abc_ic_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/abc_ic_search_api_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxxhdpi-v4/abc_ic_clear_mtrl_alpha.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxxhdpi-v4/abc_ic_clear_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxxhdpi-v4/abc_ic_star_black_16dp.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxxhdpi-v4/abc_ic_star_black_16dp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxxhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxxhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/debug/drawable-hdpi-v4/nim_audio_animation_list_left_1.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/debug/drawable-hdpi-v4/nim_audio_animation_list_left_1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/debug/drawable-hdpi-v4/nim_audio_animation_list_left_2.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/debug/drawable-hdpi-v4/nim_audio_animation_list_left_2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/debug/drawable-hdpi-v4/nim_audio_animation_list_left_3.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/debug/drawable-hdpi-v4/nim_audio_animation_list_left_3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/debug/drawable-hdpi-v4/nim_slide_toggle_on.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/debug/drawable-hdpi-v4/nim_slide_toggle_on.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/debug/drawable-xhdpi-v4/nim_audio_animation_list_left_1.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/debug/drawable-xhdpi-v4/nim_audio_animation_list_left_1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/debug/drawable-xhdpi-v4/nim_audio_animation_list_left_2.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/debug/drawable-xhdpi-v4/nim_audio_animation_list_left_2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/debug/drawable-xhdpi-v4/nim_audio_animation_list_left_3.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/debug/drawable-xhdpi-v4/nim_audio_animation_list_left_3.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/resources-debug-androidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/outputs/aar/uikit-debug.aar" afterPath="$PROJECT_DIR$/uikit/build/outputs/aar/uikit-debug.aar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/outputs/aar/uikit-release.aar" afterPath="$PROJECT_DIR$/uikit/build/outputs/aar/uikit-release.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/res/drawable-hdpi/nim_audio_animation_list_left_1.png" afterPath="$PROJECT_DIR$/uikit/res/drawable-hdpi/nim_audio_animation_list_left_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/res/drawable-hdpi/nim_audio_animation_list_left_2.png" afterPath="$PROJECT_DIR$/uikit/res/drawable-hdpi/nim_audio_animation_list_left_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/res/drawable-hdpi/nim_audio_animation_list_left_3.png" afterPath="$PROJECT_DIR$/uikit/res/drawable-hdpi/nim_audio_animation_list_left_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/res/drawable-hdpi/nim_message_right_red_bg.9.png" afterPath="$PROJECT_DIR$/uikit/res/drawable-hdpi/nim_message_right_red_bg.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/res/drawable-hdpi/nim_message_right_red_bg_pressed.9.png" afterPath="$PROJECT_DIR$/uikit/res/drawable-hdpi/nim_message_right_red_bg_pressed.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/res/drawable-hdpi/nim_team_blue_btn.9.png" afterPath="$PROJECT_DIR$/uikit/res/drawable-hdpi/nim_team_blue_btn.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/res/drawable-hdpi/nim_team_blue_btn_pressed.9.png" afterPath="$PROJECT_DIR$/uikit/res/drawable-hdpi/nim_team_blue_btn_pressed.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/res/drawable-xhdpi/nim_audio_animation_list_left_1.png" afterPath="$PROJECT_DIR$/uikit/res/drawable-xhdpi/nim_audio_animation_list_left_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/res/drawable-xhdpi/nim_audio_animation_list_left_2.png" afterPath="$PROJECT_DIR$/uikit/res/drawable-xhdpi/nim_audio_animation_list_left_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/res/drawable-xhdpi/nim_audio_animation_list_left_3.png" afterPath="$PROJECT_DIR$/uikit/res/drawable-xhdpi/nim_audio_animation_list_left_3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/res/drawable-hdpi/nim_message_input_send_normal.9.png" afterPath="$PROJECT_DIR$/uikit/res/drawable-hdpi/nim_message_input_send_normal.9.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/res/drawable-hdpi/nim_message_input_send_pressed.9.png" afterPath="$PROJECT_DIR$/uikit/res/drawable-hdpi/nim_message_input_send_pressed.9.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/res/drawable-hdpi/nim_picker_image_selected.png" afterPath="$PROJECT_DIR$/uikit/res/drawable-hdpi/nim_picker_image_selected.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/res/drawable-hdpi/nim_picker_orignal_checked.png" afterPath="$PROJECT_DIR$/uikit/res/drawable-hdpi/nim_picker_orignal_checked.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/res/drawable-xhdpi/nim_picker_image_selected.png" afterPath="$PROJECT_DIR$/uikit/res/drawable-xhdpi/nim_picker_image_selected.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/res/drawable-xhdpi/nim_picker_orignal_checked.png" afterPath="$PROJECT_DIR$/uikit/res/drawable-xhdpi/nim_picker_orignal_checked.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mkd/res/values/colors.xml" afterPath="$PROJECT_DIR$/mkd/res/values/colors.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/common/ui/viewpager/PagerSlidingTabStrip.java" afterPath="$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/common/ui/viewpager/PagerSlidingTabStrip.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/generated/source/r/androidTest/debug/android/support/design/R.java" afterPath="$PROJECT_DIR$/uikit/build/generated/source/r/androidTest/debug/android/support/design/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/generated/source/r/androidTest/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/uikit/build/generated/source/r/androidTest/debug/android/support/v7/appcompat/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/generated/source/r/debug/android/support/design/R.java" afterPath="$PROJECT_DIR$/uikit/build/generated/source/r/debug/android/support/design/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/uikit/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/session/viewholder/MsgViewHolderRTS.java" afterPath="$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/session/viewholder/MsgViewHolderRTS.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/androidTest/debug/multi/values.json" afterPath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/androidTest/debug/multi/values.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/androidTest/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/androidTest/debug/single/drawable-hdpi-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/androidTest/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/androidTest/debug/single/drawable-xhdpi-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/androidTest/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/androidTest/debug/single/drawable-xxhdpi-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/androidTest/debug/single/drawable-xxxhdpi-v4.json" afterPath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/androidTest/debug/single/drawable-xxxhdpi-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/androidTest/debug/single/drawable.json" afterPath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/androidTest/debug/single/drawable.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/debug/multi/values.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/debug/single/drawable.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/bundles/debug/res/drawable/nim_red_round_button_selector.xml" afterPath="$PROJECT_DIR$/uikit/build/intermediates/bundles/debug/res/drawable/nim_red_round_button_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/bundles/debug/res/drawable/nim_contact_list_item_selecter.xml" afterPath="$PROJECT_DIR$/uikit/build/intermediates/bundles/debug/res/drawable/nim_contact_list_item_selecter.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/bundles/debug/res/layout/nim_contacts.xml" afterPath="$PROJECT_DIR$/uikit/build/intermediates/bundles/debug/res/layout/nim_contacts.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/bundles/debug/res/values/values.xml" afterPath="$PROJECT_DIR$/uikit/build/intermediates/bundles/debug/res/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/bundles/release/res/drawable/nim_contact_list_item_selecter.xml" afterPath="$PROJECT_DIR$/uikit/build/intermediates/bundles/release/res/drawable/nim_contact_list_item_selecter.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/bundles/release/res/layout/nim_contacts.xml" afterPath="$PROJECT_DIR$/uikit/build/intermediates/bundles/release/res/layout/nim_contacts.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/uikit/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" afterPath="$PROJECT_DIR$/uikit/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/uikit/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/uikit/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/uikit/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/incremental/packageDebugResources/merger.xml" afterPath="$PROJECT_DIR$/uikit/build/intermediates/incremental/packageDebugResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/uikit/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable/nim_red_round_button_selector.xml" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable/nim_red_round_button_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable/nim_contact_list_item_selecter.xml" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable/nim_contact_list_item_selecter.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/layout/nim_contacts.xml" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/layout/nim_contacts.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/values/values.xml" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/debug/drawable/nim_red_round_button_selector.xml" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/debug/drawable/nim_red_round_button_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/res/drawable/nim_contact_list_item_selecter.xml" afterPath="$PROJECT_DIR$/uikit/res/drawable/nim_contact_list_item_selecter.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/res/layout/nim_contacts.xml" afterPath="$PROJECT_DIR$/uikit/res/layout/nim_contacts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/uikit.iml" afterPath="$PROJECT_DIR$/uikit/uikit.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/debug/drawable/nim_contact_list_item_selecter.xml" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/debug/drawable/nim_contact_list_item_selecter.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/debug/layout/nim_contacts.xml" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/debug/layout/nim_contacts.xml" />
     </list>
     <ignored path="maikeding.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -157,34 +146,89 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MsgViewHolderAudio.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uikit/src/com/mcwonders/uikit/session/viewholder/MsgViewHolderAudio.java">
+      <file leaf-file-name="UserProfileActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/contact/activity/UserProfileActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+            <state relative-caret-position="228">
+              <caret line="99" column="62" selection-start-line="99" selection-start-column="62" selection-end-line="99" selection-end-column="62" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nim_message_item_audio.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uikit/res/layout/nim_message_item_audio.xml">
+      <file leaf-file-name="user_profile_activity.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mkd/res/layout/user_profile_activity.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="221" column="56" selection-start-line="221" selection-start-column="56" selection-end-line="221" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
           <provider editor-type-id="android-designer2">
             <state />
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SettingFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/main/fragment/SettingFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+            <state relative-caret-position="201">
+              <caret line="143" column="101" selection-start-line="143" selection-start-column="101" selection-end-line="143" selection-end-column="101" />
+              <folding>
+                <element signature="e#8997#9046#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings_logout_footer.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mkd/res/layout/settings_logout_footer.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nim_white_round_button_selector.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mkd/res/drawable/nim_white_round_button_selector.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nim_audio_animation_list_left.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/uikit/res/drawable/nim_audio_animation_list_left.xml">
+      <file leaf-file-name="nim_team_create_btn.9.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uikit/res/drawable-hdpi/nim_team_create_btn.9.png">
+          <provider editor-type-id="images">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="ninepatcheditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nim_team_create_btn_pressed.9.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uikit/res/drawable-hdpi/nim_team_create_btn_pressed.9.png">
+          <provider editor-type-id="images">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="ninepatcheditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SettingsAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/main/adapter/SettingsAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="307">
+              <caret line="239" column="26" selection-start-line="239" selection-start-column="26" selection-end-line="239" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -2754,7 +2798,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/uikit/src/com/mcwonders/uikit/demand/util/CommonUtil.java" />
         <option value="$PROJECT_DIR$/uikit/src/com/mcwonders/uikit/demand/util/IUserBusiness.java" />
         <option value="$PROJECT_DIR$/uikit/src/com/mcwonders/uikit/demand/util/UserBusinessImp.java" />
         <option value="$PROJECT_DIR$/uikit/src/com/mcwonders/uikit/demand/util/User.java" />
@@ -2801,10 +2844,11 @@
         <option value="$PROJECT_DIR$/mkd/res/layout/message_system_notification_view_item.xml" />
         <option value="$PROJECT_DIR$/mkd/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/main/fragment/ContactListFragment.java" />
-        <option value="$PROJECT_DIR$/mkd/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/common/ui/viewpager/PagerSlidingTabStrip.java" />
         <option value="$PROJECT_DIR$/uikit/res/layout/nim_contacts.xml" />
         <option value="$PROJECT_DIR$/uikit/res/drawable/nim_contact_list_item_selecter.xml" />
+        <option value="$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/session/viewholder/MsgViewHolderRTS.java" />
+        <option value="$PROJECT_DIR$/mkd/res/values/colors.xml" />
       </list>
     </option>
   </component>
@@ -2839,27 +2883,69 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maikeding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane />
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="maikeding" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uikit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="maikeding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uikit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable-xhdpi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="maikeding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mkd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="maikeding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mkd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable-hdpi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="maikeding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -3359,8 +3445,8 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298887" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -3395,7 +3481,8 @@
     <MESSAGE value="1.同一个用户仅保留最近一条申请内容" />
     <MESSAGE value="1.最近联系人——列表分割线统一到顶，头像改小一点&#10;2.添加好友——按钮统一为搜索，提示文字统一为请输入账号" />
     <MESSAGE value="1.通讯录界面显示优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.通讯录界面显示优化" />
+    <MESSAGE value="1.主题图片颜色更换" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.主题图片颜色更换" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3411,223 +3498,214 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mkd/res/drawable/avchat_refuse_bg_selector.xml">
+    <entry file="file://$PROJECT_DIR$/mkd/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        <state relative-caret-position="191">
+          <caret line="73" column="36" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/res/drawable-hdpi/avchat_refuse_bg_pressed.9.png">
-      <provider selected="true" editor-type-id="ninepatcheditor">
-        <state />
+    <entry file="file://$PROJECT_DIR$/uikit/res/layout/nim_preview_image_layout_multi_touch.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
-      <provider editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/res/drawable-hdpi/avchat_right_type_audio.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/res/drawable-hdpi/avchat_right_type_video.png">
-      <provider selected="true" editor-type-id="images">
+      <provider editor-type-id="android-designer2">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/res/drawable-hdpi/avchat_speaker_icon_checked.png">
-      <provider selected="true" editor-type-id="images">
+    <entry file="file://$PROJECT_DIR$/uikit/res/layout/nim_picker_album_activity.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/res/drawable-hdpi/avchat_speaker_icon_disable.png">
-      <provider selected="true" editor-type-id="images">
+    <entry file="file://$PROJECT_DIR$/uikit/res/layout/nim_picker_image_preview_activity.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+          <folding>
+            <element signature="e#2316#2343#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/res/drawable-hdpi/avchat_speaker_icon_normal.png">
-      <provider selected="true" editor-type-id="images">
+    <entry file="file://$PROJECT_DIR$/uikit/src/com/mcwonders/uikit/common/media/picker/adapter/PickerPreviewPagerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="59" column="74" selection-start-line="59" selection-start-column="74" selection-end-line="59" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uikit/res/layout/nim_preview_image_layout_zoom_control.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="70" selection-start-line="9" selection-start-column="70" selection-end-line="9" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/res/drawable-hdpi/avchat_switch_mode_audio_icon.png">
-      <provider selected="true" editor-type-id="images">
+    <entry file="file://$PROJECT_DIR$/uikit/src/com/mcwonders/uikit/common/ui/imageview/MultiTouchZoomableImageView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uikit/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="120" column="75" selection-start-line="120" selection-start-column="75" selection-end-line="120" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/res/drawable-hdpi/avchat_speaker_icon_pressed.png">
-      <provider selected="true" editor-type-id="images">
+    <entry file="file://$PROJECT_DIR$/uikit/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="119" column="75" selection-start-line="119" selection-start-column="75" selection-end-line="119" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/res/drawable-hdpi/avchat_switch_mode_video_icon.png">
-      <provider selected="true" editor-type-id="images">
+    <entry file="file://$PROJECT_DIR$/mkd/out/intermediates/manifests/full/debug/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="143" column="66" selection-start-line="143" selection-start-column="66" selection-end-line="143" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/res/drawable-hdpi/avchat_video_bottom_logout_normal.png">
-      <provider selected="true" editor-type-id="images">
+    <entry file="file://$PROJECT_DIR$/mkd/build/intermediates/exploded-aar/maikeding/uikit/unspecified/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="119" column="58" selection-start-line="119" selection-start-column="58" selection-end-line="119" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/res/drawable-hdpi/avchat_video_bottom_logout_pressed.png">
-      <provider selected="true" editor-type-id="images">
+    <entry file="file://$PROJECT_DIR$/uikit/src/com/mcwonders/uikit/common/media/picker/activity/PickerAlbumActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1881">
+          <caret line="268" column="34" selection-start-line="268" selection-start-column="34" selection-end-line="268" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uikit/src/com/mcwonders/uikit/common/media/picker/activity/PickerAlbumPreviewActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1633">
+          <caret line="55" column="58" selection-start-line="55" selection-start-column="58" selection-end-line="55" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uikit/src/com/mcwonders/uikit/NimUIKit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="121" column="20" selection-start-line="121" selection-start-column="20" selection-end-line="121" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uikit/src/com/mcwonders/uikit/session/SessionCustomization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uikit/src/com/mcwonders/uikit/session/fragment/MessageFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="223" column="28" selection-start-line="223" selection-start-column="28" selection-end-line="223" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uikit/res/layout/nim_pick_image_activity.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/res/drawable-hdpi/avchat_video_close_camera_disable.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/uikit/src/com/mcwonders/uikit/session/actions/ImageAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/res/drawable-hdpi/avchat_video_close_camera_normal.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/uikit/src/com/mcwonders/uikit/common/media/picker/PickImageHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/res/drawable-hdpi/avchat_video_close_camera_pressed.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/uikit/src/com/mcwonders/uikit/session/actions/PickImageAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="65" column="21" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/res/drawable-hdpi/avchat_video_mute_disable.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/uikit/src/com/mcwonders/uikit/session/activity/P2PMessageActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/res/drawable-hdpi/avchat_video_mute_normal.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/uikit/src/com/mcwonders/uikit/session/activity/BaseMessageActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/res/drawable-hdpi/avchat_video_mute_pressed.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/res/drawable-hdpi/avchat_video_record_normal.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/res/drawable-hdpi/avchat_video_record_pressed.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/res/drawable-hdpi/avchat_video_switch_camera_disable.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/res/drawable-hdpi/avchat_video_switch_camera_pressed.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/res/drawable-hdpi/bg_team_announce.9.png">
-      <provider selected="true" editor-type-id="ninepatcheditor">
-        <state />
-      </provider>
-      <provider editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/res/drawable-hdpi/back_arrow.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/res/drawable-hdpi/btn_loaction_normal.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/res/drawable-hdpi/btn_loaction_pressed.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/res/drawable-hdpi/chat_room_back_arrow_normal.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/res/drawable-hdpi/chat_room_back_arrow_pressed.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/res/drawable-hdpi/edittext_white_normal.9.png">
-      <provider selected="true" editor-type-id="ninepatcheditor">
-        <state />
-      </provider>
-      <provider editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/res/drawable-hdpi/file.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/res/drawable-hdpi/file_ic_detail_excel.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/res/drawable-hdpi/file_ic_detail_gif.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/res/drawable-hdpi/files.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/res/drawable-hdpi/g_green_btn_pressed.9.png">
-      <provider selected="true" editor-type-id="ninepatcheditor">
-        <state />
-      </provider>
-      <provider editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/res/drawable-hdpi/g_ic_close_yellow_pressed.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/res/drawable-hdpi/g_ic_close_yellow.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/res/drawable-hdpi/g_ic_failed_small.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/res/drawable-hdpi/g_red_long_btn_pressed.9.png">
-      <provider selected="true" editor-type-id="ninepatcheditor">
-        <state />
-      </provider>
-      <provider editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/res/drawable-hdpi/g_red_long_btn_nomal.9.png">
-      <provider selected="true" editor-type-id="ninepatcheditor">
-        <state />
-      </provider>
-      <provider editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/res/drawable/g_red_long_btn_selector.xml">
+    <entry file="file://$PROJECT_DIR$/uikit/res/drawable/nim_message_button_bottom_send_selector.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
@@ -3635,74 +3713,261 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/src/com/mcwonders/uikit/session/actions/VideoAction.java">
+    <entry file="file://$PROJECT_DIR$/uikit/src/com/mcwonders/uikit/common/media/picker/activity/PickImageActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="-3501">
+          <caret line="65" column="52" selection-start-line="65" selection-start-column="52" selection-end-line="65" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/src/com/mcwonders/uikit/session/viewholder/MsgViewHolderAudio.java">
+    <entry file="file://$PROJECT_DIR$/uikit/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+        <state relative-caret-position="192">
+          <caret line="153" column="30" selection-start-line="153" selection-start-column="28" selection-end-line="153" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/res/layout/nim_message_item_audio.xml">
+    <entry file="file://$PROJECT_DIR$/mkd/build/generated/source/r/debug/com/mcwonders/mkd/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="5011" column="32" selection-start-line="5011" selection-start-column="32" selection-end-line="5011" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mkd/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="180" column="18" selection-start-line="180" selection-start-column="18" selection-end-line="180" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/rts/activity/RTSActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="619" column="39" selection-start-line="619" selection-start-column="39" selection-end-line="619" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/session/SessionHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="362" column="62" selection-start-line="362" selection-start-column="62" selection-end-line="362" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/session/extension/CustomAttachParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/session/extension/RTSAttachment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <folding>
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#827#874#0" expanded="true" />
+            <element signature="e#877#939#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mkd/res/layout/nim_message_item_rts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/session/viewholder/MsgViewHolderTip.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+        <state relative-caret-position="98">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/res/drawable-hdpi/nim_audio_animation_list_right_1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/uikit/src/com/mcwonders/uikit/session/viewholder/MsgViewHolderBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5165">
+          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/res/drawable-hdpi/nim_audio_animation_list_left_1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/res/drawable-xhdpi/nim_audio_animation_list_left_1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/res/drawable-hdpi/nim_audio_animation_list_left_2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/res/drawable-xhdpi/nim_audio_animation_list_left_2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/res/drawable-hdpi/nim_audio_animation_list_left_3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/res/drawable-xhdpi/nim_audio_animation_list_left_3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/res/drawable/nim_audio_animation_list_left.xml">
+    <entry file="file://$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/session/viewholder/MsgViewHolderFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/session/viewholder/MsgViewHolderRTS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/main/fragment/HomeFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3520">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/main/fragment/SessionListFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="112" column="93" selection-start-line="112" selection-start-column="93" selection-end-line="112" selection-end-column="93" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mkd/res/layout/network_status_bar.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mkd/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/contact/activity/UserProfileActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="99" column="62" selection-start-line="99" selection-start-column="62" selection-end-line="99" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mkd/res/layout/user_profile_activity.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="221" column="56" selection-start-line="221" selection-start-column="56" selection-end-line="221" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mkd/res/layout/setting_item_base.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/main/adapter/SettingsAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="239" column="26" selection-start-line="239" selection-start-column="26" selection-end-line="239" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uikit/res/layout/settings_fragment.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/main/fragment/SettingFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="143" column="101" selection-start-line="143" selection-start-column="101" selection-end-line="143" selection-end-column="101" />
+          <folding>
+            <element signature="e#8997#9046#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mkd/res/drawable-hdpi/nim_team_create_btn.9.png">
+      <provider editor-type-id="images">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="ninepatcheditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uikit/res/drawable-hdpi/nim_team_create_btn_pressed.9.png">
+      <provider editor-type-id="images">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="ninepatcheditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uikit/res/drawable-hdpi/nim_team_create_btn.9.png">
+      <provider editor-type-id="images">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="ninepatcheditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mkd/res/drawable/nim_white_round_button_selector.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mkd/res/layout/settings_logout_footer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
   </component>
