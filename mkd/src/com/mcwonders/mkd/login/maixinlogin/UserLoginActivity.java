@@ -62,6 +62,8 @@ import java.lang.ref.WeakReference;
 import java.net.SocketTimeoutException;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import cn.jpush.android.api.JPushInterface;
 
@@ -203,6 +205,16 @@ public class UserLoginActivity extends AppCompatActivity {
     private class MyHandler extends Handler {
         private final WeakReference<Activity> mActivity;
 
+        public boolean isEmail(String str) {
+            String regex = "[a-zA-Z_]{1,}[0-9]{0,}@(([a-zA-z0-9]-*){1,}\\.){1,3}[a-zA-z\\-]{1,}";
+            return match(regex, str);
+        }
+
+        private boolean match(String regex, String str) {
+            Pattern pattern = Pattern.compile(regex);
+            Matcher matcher = pattern.matcher(str);
+            return matcher.matches();
+        }
 
         public MyHandler(UserLoginActivity activity) {
             mActivity = new WeakReference<Activity>(activity);
@@ -262,7 +274,7 @@ public class UserLoginActivity extends AppCompatActivity {
 
 
                     //更新邮箱
-                    if (!TextUtils.isEmpty(mMkjUserInfo.getUseremail())) {
+                    if (!TextUtils.isEmpty(mMkjUserInfo.getUseremail()) && isEmail(mMkjUserInfo.getUseremail())) {
                         userProFile.updateProFile(mMkjUserInfo.getUseremail(), UserConstant.KEY_EMAIL);
                         Log.d("YZP=========>", mMkjUserInfo.getUseremail());
                     }

@@ -9,13 +9,13 @@
         android:layout_centerInParent="true"
         android:layout_marginLeft="28dp"
         android:layout_marginRight="28dp"
-        android:paddingBottom="60dp"
         android:gravity="center_horizontal"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:paddingBottom="60dp">
 
         <ImageView
-            android:layout_width="140dp"
-            android:layout_height="140dp"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
             android:background="@drawable/logo_login" />
 
         <EditText
@@ -23,23 +23,33 @@
             android:layout_width="match_parent"
             android:layout_height="45dp"
             android:layout_marginTop="50dp"
+            android:background="@color/transparent"
             android:drawableLeft="@drawable/user_login_username"
             android:drawablePadding="5dp"
             android:hint="用户名/手机号/邮箱号"
             android:singleLine="true"
             android:textColor="#000000" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_split_line_cccccc"/>
 
         <EditText
             android:id="@+id/et_user_login_password"
             android:layout_width="match_parent"
             android:layout_height="45dp"
             android:layout_marginTop="15dp"
+            android:background="@color/transparent"
             android:drawableLeft="@drawable/user_login_pwd"
             android:drawablePadding="5dp"
             android:hint="密码"
             android:inputType="textPassword"
             android:singleLine="true"
             android:textColor="#000000" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_split_line_cccccc"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -53,7 +63,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="注册"
-                android:textColor="@color/common_content_dark_text_font_color"
+                android:textColor="@color/color_black_b3000000"
                 android:textSize="@dimen/user_login_reg_or_forget_font_size" />
 
             <TextView
@@ -61,7 +71,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="忘记密码"
-                android:textColor="@color/common_content_dark_text_font_color"
+                android:textColor="@color/color_black_b3000000"
                 android:textSize="@dimen/user_login_reg_or_forget_font_size" />
         </LinearLayout>
 
