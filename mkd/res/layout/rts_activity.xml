@@ -58,7 +58,7 @@
                 android:layout_height="50dp"
                 android:layout_marginLeft="10dp"
                 android:layout_weight="1"
-                android:background="@drawable/nim_message_button_bottom_send_selector"
+                android:background="@drawable/nim_blue_round_button_selector"
                 android:text="@string/accept_session"
                 android:textColor="@color/white" />
 
@@ -118,7 +118,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_centerVertical="true"
                 android:layout_marginRight="15dip"
-                android:background="@drawable/nim_message_button_bottom_send_selector"
+                android:background="@drawable/nim_white_round_button_selector"
                 android:text="@string/doodle_clear"
                 android:textColor="@color/white"
                 android:textSize="14sp" />

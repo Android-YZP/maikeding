@@ -14,35 +14,30 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-import com.mcwonders.mkd.config.preference.UserPreferences;
-import com.mcwonders.mkd.login.LogoutHelper;
-import com.mcwonders.mkd.main.fragment.HomeFragment;
-import com.mcwonders.mkd.main.fragment.SettingFragment;
-import com.mcwonders.mkd.session.SessionHelper;
-import com.mcwonders.mkd.utils.ExampleUtil;
-import com.mcwonders.mkd.utils.MyApplication;
-import com.mcwonders.uikit.LoginSyncDataStatusObserver;
-import com.mcwonders.uikit.common.util.log.LogUtil;
-import com.mcwonders.uikit.permission.MPermission;
-import com.mcwonders.uikit.permission.annotation.OnMPermissionGranted;
-import com.mcwonders.mkd.main.model.Extras;
 import com.mcwonders.mkd.avchat.AVChatProfile;
 import com.mcwonders.mkd.avchat.activity.AVChatActivity;
 import com.mcwonders.mkd.contact.activity.AddFriendActivity;
+import com.mcwonders.mkd.login.LogoutHelper;
+import com.mcwonders.mkd.main.fragment.HomeFragment;
+import com.mcwonders.mkd.main.model.Extras;
+import com.mcwonders.mkd.session.SessionHelper;
 import com.mcwonders.mkd.team.TeamCreateHelper;
+import com.mcwonders.mkd.utils.ExampleUtil;
+import com.mcwonders.mkd.utils.MyApplication;
+import com.mcwonders.uikit.LoginSyncDataStatusObserver;
 import com.mcwonders.uikit.common.activity.UI;
 import com.mcwonders.uikit.common.ui.dialog.DialogMaker;
+import com.mcwonders.uikit.common.util.log.LogUtil;
 import com.mcwonders.uikit.contact_selector.activity.ContactSelectActivity;
+import com.mcwonders.uikit.permission.MPermission;
 import com.mcwonders.uikit.permission.annotation.OnMPermissionDenied;
+import com.mcwonders.uikit.permission.annotation.OnMPermissionGranted;
 import com.netease.nimlib.sdk.NIMClient;
 import com.netease.nimlib.sdk.NimIntent;
 import com.netease.nimlib.sdk.Observer;
-import com.netease.nimlib.sdk.StatusBarNotificationConfig;
 import com.netease.nimlib.sdk.msg.model.IMMessage;
 
 import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Set;
 
 import cn.jpush.android.api.JPushInterface;
 
@@ -110,7 +105,6 @@ public class MainActivity extends UI {
         JPushInterface.onResume(getApplicationContext());
 
         requestBasicPermission();
-        onParseIntent();
         // 等待同步数据完成
         boolean syncCompleted = LoginSyncDataStatusObserver.getInstance().observeSyncDataCompletedEvent(new Observer<Void>() {
             @Override

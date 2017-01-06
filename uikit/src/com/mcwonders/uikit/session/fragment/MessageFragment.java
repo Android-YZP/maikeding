@@ -91,6 +91,9 @@ public class MessageFragment extends TFragment implements ModuleProxy {
         super.onDestroy();
         messageListPanel.onDestroy();
         registerObservers(false);
+        if (getContext() == null) {
+
+        }
     }
 
     public boolean onBackPressed() {
