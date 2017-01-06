@@ -49,6 +49,8 @@ import com.netease.nimlib.sdk.settings.SettingsServiceObserver;
 import java.util.ArrayList;
 import java.util.List;
 
+import cn.jpush.android.api.JPushInterface;
+
 /**
  * 设置Fragment
  * Created by YZP on 2015/9/7.
@@ -300,6 +302,7 @@ public class SettingFragment extends TFragment implements SettingsAdapter.Switch
         UserLoginActivity.start(getActivity(), false);
         NIMClient.getService(AuthService.class).logout();
         getActivity().finish();
+        JPushInterface.setAlias(getActivity(), "1", null);//设置极光标签,让注销之后不能接收推送
     }
 
     /**
