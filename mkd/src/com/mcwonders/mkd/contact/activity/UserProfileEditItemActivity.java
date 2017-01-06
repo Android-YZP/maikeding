@@ -21,19 +21,18 @@ import android.widget.Toast;
 import com.mcwonders.mkd.business.IUserBusiness;
 import com.mcwonders.mkd.business.imp.UserBusinessImp;
 import com.mcwonders.mkd.config.CommonConstants;
+import com.mcwonders.mkd.contact.constant.UserConstant;
 import com.mcwonders.mkd.contact.helper.UserUpdateHelper;
 import com.mcwonders.mkd.exception.ServiceException;
 import com.mcwonders.mkd.login.maixinlogin.User;
-import com.mcwonders.mkd.login.maixinlogin.UserLoginActivity;
 import com.mcwonders.mkd.utils.CommonUtil;
-import com.mcwonders.uikit.common.util.sys.NetworkUtil;
-import com.mcwonders.uikit.model.ToolBarOptions;
-import com.mcwonders.mkd.contact.constant.UserConstant;
 import com.mcwonders.uikit.cache.FriendDataCache;
 import com.mcwonders.uikit.common.activity.UI;
 import com.mcwonders.uikit.common.ui.dialog.DialogMaker;
 import com.mcwonders.uikit.common.ui.widget.ClearableEditTextWithIcon;
+import com.mcwonders.uikit.common.util.sys.NetworkUtil;
 import com.mcwonders.uikit.common.util.sys.TimeUtil;
+import com.mcwonders.uikit.model.ToolBarOptions;
 import com.netease.nimlib.sdk.NIMClient;
 import com.netease.nimlib.sdk.RequestCallbackWrapper;
 import com.netease.nimlib.sdk.ResponseCode;
@@ -242,6 +241,9 @@ public class UserProfileEditItemActivity extends UI implements View.OnClickListe
 
                     Log.d("YZP=========>SIGNATURE", editText.getText().toString().trim());
                     setMKJPerData(mUserInfo.getMobile(), editText.getText().toString(), "6");
+                    update(editText.getText().toString().trim());
+                }else if (key == UserConstant.KEY_ALIAS) {
+                    Log.d("YZP=========>KEY_ALIAS", editText.getText().toString().trim());
                     update(editText.getText().toString().trim());
                 }
             }
