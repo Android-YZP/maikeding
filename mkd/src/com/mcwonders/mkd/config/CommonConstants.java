@@ -81,8 +81,8 @@ public class CommonConstants {
      * 测试地址
      */
     public static final String TEST_ADDRESS = "http://192.168.0.226:8080/external/";
-//    public static final String TRUE_ADDRESS = "http://www.maikejia.com/external/";
-    public static final String TRUE_ADDRESS = "http://192.168.3.135:8080/external/";
+    //    public static final String TRUE_ADDRESS = "http://www.maikejia.com/external/";
+    public static final String TRUE_ADDRESS = "http://211.103.20.5:38082/external/";
     public static final String NOW_ADDRESS = TRUE_ADDRESS;
 
     public static final String TEST_ADDRESS_WAP = "http://192.168.0.251:8080/";
@@ -102,11 +102,11 @@ public class CommonConstants {
     //注册
     public static final String USER_REGISTER = NOW_ADDRESS + "user/register.json";
     //登录
-    public static final String USER_LOGIN = "http://192.168.3.135:8080/external/user/login.json";
+    public static final String USER_LOGIN = NOW_ADDRESS + "user/login.json";
 
-    public static final String UPDATE_USER_INFO = "http://192.168.3.135:8080/external/updateuser/updateuser.json";
+    public static final String UPDATE_USER_INFO = NOW_ADDRESS + "updateuser/updateuser.json";
     //获得个人信息
-    public static final String USER_INFO = "http://192.168.3.135:8080/external/userMain/getuser.json";
+    public static final String USER_INFO = NOW_ADDRESS + "userMain/getuser.json";
     //忘记密码第一步
     public static final String USER_FORGOT_PASSWORD_ONE = NOW_ADDRESS + "user/forgot_password_one.json";
     //忘记密码第二步
@@ -114,7 +114,7 @@ public class CommonConstants {
     /**
      * 获取需求详情
      */
-    public static final String GET_DEMAND_DETAIL = "http://192.168.3.135:8080/external/demandact/demandbyid.json";
+    public static final String GET_DEMAND_DETAIL = TRUE_ADDRESS + "demandact/demandbyid.json";
     /**
      * 前台
      */

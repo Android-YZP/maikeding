@@ -74,6 +74,7 @@ public class MyReceiver extends BroadcastReceiver {
     // 打印所有的 intent extra 数据
     private static String printBundle(Bundle bundle) {
         StringBuilder sb = new StringBuilder();
+
         for (String key : bundle.keySet()) {
             if (key.equals(JPushInterface.EXTRA_NOTIFICATION_ID)) {
                 sb.append("\nkey1:" + key + ", value:" + bundle.getInt(key));
