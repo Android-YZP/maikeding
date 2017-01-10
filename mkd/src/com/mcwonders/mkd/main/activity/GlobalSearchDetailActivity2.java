@@ -8,22 +8,23 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.TextView;
 
+import com.mcwonders.mkd.R;
+import com.mcwonders.mkd.session.SessionHelper;
 import com.mcwonders.uikit.cache.NimUserInfoCache;
 import com.mcwonders.uikit.cache.TeamDataCache;
-import com.mcwonders.uikit.contact.core.provider.ContactDataProvider;
-import com.mcwonders.uikit.contact.core.provider.MsgDataProvider;
-import com.mcwonders.uikit.contact.core.viewholder.MsgHolder;
-import com.mcwonders.uikit.model.ToolBarOptions;
-import com.mcwonders.mkd.session.SessionHelper;
 import com.mcwonders.uikit.common.activity.UI;
 import com.mcwonders.uikit.common.ui.listview.AutoRefreshListView;
 import com.mcwonders.uikit.contact.core.item.AbsContactItem;
 import com.mcwonders.uikit.contact.core.item.ItemTypes;
 import com.mcwonders.uikit.contact.core.item.MsgItem;
 import com.mcwonders.uikit.contact.core.model.ContactDataAdapter;
+import com.mcwonders.uikit.contact.core.provider.ContactDataProvider;
+import com.mcwonders.uikit.contact.core.provider.MsgDataProvider;
 import com.mcwonders.uikit.contact.core.query.IContactDataProvider;
 import com.mcwonders.uikit.contact.core.query.TextQuery;
 import com.mcwonders.uikit.contact.core.viewholder.LabelHolder;
+import com.mcwonders.uikit.contact.core.viewholder.MsgHolder;
+import com.mcwonders.uikit.model.ToolBarOptions;
 import com.netease.nimlib.sdk.msg.constant.SessionTypeEnum;
 import com.netease.nimlib.sdk.search.model.MsgIndexRecord;
 
@@ -82,7 +83,7 @@ public class GlobalSearchDetailActivity2 extends UI implements OnItemClickListen
         } else if (sessionType == SessionTypeEnum.Team) {
             options.titleString = TeamDataCache.getInstance().getTeamName(sessionId);
         }
-        setToolBar(com.mcwonders.mkd.R.id.toolbar, options);
+        setToolBar(R.id.toolbar, options, R.id.toolbar_global_search_detail_title);
 
         // textView tip
         String tip = String.format("共%d条与\"%s\"相关的聊天记录", resultCount, query);
