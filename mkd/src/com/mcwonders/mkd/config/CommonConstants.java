@@ -114,7 +114,7 @@ public class CommonConstants {
     /**
      * 获取需求详情
      */
-    public static final String GET_DEMAND_DETAIL = "http://192.168.3.135:8080/external/demandact/demandbyid.json";
+    public static final String GET_DEMAND_DETAIL = "http://211.103.20.5:38082/external/demandact/demandbyid.json";
     /**
      * 前台
      */

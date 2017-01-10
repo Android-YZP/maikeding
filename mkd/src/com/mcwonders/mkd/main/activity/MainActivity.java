@@ -324,10 +324,10 @@ public class MainActivity extends UI {
 
     private void showMainFragment() {
         if (mainFragment == null && !isDestroyedCompatible()) {
+        }
             mainFragment = new HomeFragment();
             switchFragmentContent(mainFragment);
         }
-    }
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
