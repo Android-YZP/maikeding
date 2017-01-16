@@ -181,16 +181,6 @@ public class MainActivity extends UI {
     }
 
 
-
-
-
-
-
-
-
-
-
-
     /**
      * 基本权限管理
      */
@@ -324,10 +314,10 @@ public class MainActivity extends UI {
 
     private void showMainFragment() {
         if (mainFragment == null && !isDestroyedCompatible()) {
-        }
             mainFragment = new HomeFragment();
             switchFragmentContent(mainFragment);
         }
+    }
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -343,9 +333,9 @@ public class MainActivity extends UI {
 
                     Intent intent = new Intent();  //Itent就是我们要发送的内容
 
-                    intent.putExtra(NoDisturbActivity.EXTRA_ISCHECKED,isChecked);
-                    intent.putExtra(NoDisturbActivity.EXTRA_START_TIME,startTime);
-                    intent.putExtra(NoDisturbActivity.EXTRA_END_TIME,endTime);
+                    intent.putExtra(NoDisturbActivity.EXTRA_ISCHECKED, isChecked);
+                    intent.putExtra(NoDisturbActivity.EXTRA_START_TIME, startTime);
+                    intent.putExtra(NoDisturbActivity.EXTRA_END_TIME, endTime);
                     intent.setAction("NoDisturbing");   //设置你这个广播的action，只有和这个action一样的接受者才能接受者才能接收广播
                     sendBroadcast(intent);   //发送广播
                     return;
@@ -369,7 +359,6 @@ public class MainActivity extends UI {
                 TeamCreateHelper.createAdvancedTeam(MainActivity.this, selected);
             }
         }
-
 
 
     }
