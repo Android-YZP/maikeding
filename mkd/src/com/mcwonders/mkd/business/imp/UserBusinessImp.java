@@ -217,7 +217,7 @@ public class UserBusinessImp implements IUserBusiness {
         if (jsonargs != null && !jsonargs.equals("")) {
             _urlconn = urlconn + "?jsonString=" + jsonargs;
         }
-
+        Log.d("URL", _urlconn);
         try {
             url = new URL(_urlconn);
             urlConnection = (HttpURLConnection) url.openConnection();
@@ -469,22 +469,22 @@ public class UserBusinessImp implements IUserBusiness {
         _json_args.put("clientType", "Phone");
         //添加头信息
         String _md5_value = ConvertUtil.getMD5("MAIKEJIA");
-        Log.d("参数",_json_args.toString()+",头信息=====>(verifyCode)"+_md5_value.substring(0, 8));
+        Log.d("参数", _json_args.toString() + ",头信息=====>(verifyCode)" + _md5_value.substring(0, 8));
         _result = this.getResultFromUrlConnection(CommonConstants.USER_LOGIN, _json_args.toString(), _md5_value.substring(0, 8));
         return _result;
     }
 
     /**
      * 设置个人信息
-     * @throws Exception
-     * String jsonargs = "{account:'18795618280',value:'女',type:'2'}";//性别
-    //		String jsonargs = "{account:'18795618280',value:'2008-08-08',type:'3'}";// 生日
-    //		String jsonargs = "{account:'18795618280',value:'13291218351',type:'4'}"; //手机
-    //		String jsonargs = "{account:'18795618280',value:'签名嗯哼',type:'6'}"; //签名
-
-    //jc_user
-    //		String jsonargs = "{account:'18795618280',value:'我就看看昵称存进去没有',type:'1'}"; //昵称
-    String jsonargs = "{account:'18795618280',value:'666@qq.com',type:'5'}"; //邮箱
+     *
+     * @throws Exception String jsonargs = "{account:'18795618280',value:'女',type:'2'}";//性别
+     *                   //		String jsonargs = "{account:'18795618280',value:'2008-08-08',type:'3'}";// 生日
+     *                   //		String jsonargs = "{account:'18795618280',value:'13291218351',type:'4'}"; //手机
+     *                   //		String jsonargs = "{account:'18795618280',value:'签名嗯哼',type:'6'}"; //签名
+     *                   <p>
+     *                   //jc_user
+     *                   //		String jsonargs = "{account:'18795618280',value:'我就看看昵称存进去没有',type:'1'}"; //昵称
+     *                   String jsonargs = "{account:'18795618280',value:'666@qq.com',type:'5'}"; //邮箱
      */
     @Override
     public String setUserInfo(String account, String value, String type) throws Exception {
@@ -497,15 +497,15 @@ public class UserBusinessImp implements IUserBusiness {
         _json_args.put("type", type);
         //添加头信息
         String _md5_value = ConvertUtil.getMD5("MAIKEJIA");
-        Log.d("参数",_json_args.toString()+",头信息=====>(verifyCode)"+_md5_value.substring(0, 8));
+        Log.d("参数", _json_args.toString() + ",头信息=====>(verifyCode)" + _md5_value.substring(0, 8));
         _result = this.getResultFromUrlConnection(CommonConstants.UPDATE_USER_INFO, _json_args.toString(), _md5_value.substring(0, 8));
-        Log.d("参数",_result+"123");
+        Log.d("参数", _result + "123");
         return _result;
     }
 
 
     /**
-     *的得到个人信息
+     * 的得到个人信息
      */
     @Override
     public String getUserInfo(String account)
@@ -516,7 +516,7 @@ public class UserBusinessImp implements IUserBusiness {
         _json_args.put("account", account);
         //添加头信息
         String _md5_value = ConvertUtil.getMD5("MAIKEJIA");
-        Log.d("参数",_json_args.toString()+",头信息=====>(verifyCode)"+_md5_value.substring(0, 8));
+        Log.d("参数", _json_args.toString() + ",头信息=====>(verifyCode)" + _md5_value.substring(0, 8));
         _result = this.getResultFromUrlConnection(CommonConstants.USER_INFO, _json_args.toString(), _md5_value.substring(0, 8));
         return _result;
     }
