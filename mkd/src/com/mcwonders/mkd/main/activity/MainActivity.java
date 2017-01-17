@@ -18,6 +18,7 @@ import com.mcwonders.mkd.avchat.AVChatProfile;
 import com.mcwonders.mkd.avchat.activity.AVChatActivity;
 import com.mcwonders.mkd.contact.activity.AddFriendActivity;
 import com.mcwonders.mkd.login.LogoutHelper;
+import com.mcwonders.mkd.main.checkupdate.CheckUpdate;
 import com.mcwonders.mkd.main.fragment.HomeFragment;
 import com.mcwonders.mkd.main.model.Extras;
 import com.mcwonders.mkd.session.SessionHelper;
@@ -89,6 +90,7 @@ public class MainActivity extends UI {
         //极光推送相关内容
         registerMessageReceiver();  // used for receive msg
         init();
+        CheckUpdate.getInstance().startCheck(this);
 
     }
 

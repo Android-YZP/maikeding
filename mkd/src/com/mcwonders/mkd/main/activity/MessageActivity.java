@@ -75,7 +75,11 @@ public class MessageActivity extends AppCompatActivity {
                     }
                     break;
                 case CommonConstants.FLAG_GET_USER_MESSAGES_LIST_SYS_PUB_SUCCESS:
-                    updateUserMessagesListFromNet();
+                    if (mUserMessageListAdapter != null) {
+                        updateUserMessagesListFromNetByRefresh();
+                    } else {
+                        updateUserMessagesListFromNet();
+                    }
                     break;
                 case CommonConstants.FLAG_GET_USER_MESSAGES_LIST_SYS_PUB_AGAIN_SUCCESS:
                     updateUserMessagesListFromNetByRefresh();
@@ -101,6 +105,7 @@ public class MessageActivity extends AppCompatActivity {
         intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
         context.startActivity(intent);
     }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -154,10 +159,15 @@ public class MessageActivity extends AppCompatActivity {
             @Override
             public void onRefresh() {
                 //清空数据
-                isNoMoreData = false;
-                mYlvMessage.initBottomView();
-                mUserMessages.clear();
-                initDataMessagesList();//从网络获取数据
+                if (!mSRLMessage.isRefreshing()) {
+                    isNoMoreData = false;
+                    mYlvMessage.initBottomView();
+                    mUserMessages.clear();
+                    initDataMessagesList();//从网络获取数据
+                }else {
+                    mSRLMessage.setRefreshing(false);
+                }
+
             }
         });
     }

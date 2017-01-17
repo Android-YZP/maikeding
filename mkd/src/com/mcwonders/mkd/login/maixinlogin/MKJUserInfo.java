@@ -19,7 +19,7 @@ public class MKJUserInfo {
 
     private String userimg;
     private String username;
-    private boolean usergender;
+    private String usergender;
     /**
      * date : 11
      * day : 5
@@ -55,11 +55,11 @@ public class MKJUserInfo {
         this.username = username;
     }
 
-    public boolean isUsergender() {
+    public String getUsergender() {
         return usergender;
     }
 
-    public void setUsergender(boolean usergender) {
+    public void setUsergender(String usergender) {
         this.usergender = usergender;
     }
 

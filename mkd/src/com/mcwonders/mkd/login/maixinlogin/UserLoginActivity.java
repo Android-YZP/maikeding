@@ -22,12 +22,10 @@ import android.widget.Toast;
 
 import com.google.gson.Gson;
 import com.mcwonders.mkd.config.CommonConstants;
-import com.mcwonders.mkd.contact.activity.UserProfileEditItemActivity;
 import com.mcwonders.mkd.contact.constant.UserConstant;
 import com.mcwonders.mkd.contact.helper.UserUpdateHelper;
 import com.mcwonders.mkd.utils.CommonUtil;
 import com.mcwonders.uikit.cache.DataCacheManager;
-import com.mcwonders.uikit.common.ui.dialog.DialogMaker;
 import com.mcwonders.uikit.permission.annotation.OnMPermissionGranted;
 import com.mcwonders.mkd.DemoCache;
 import com.mcwonders.mkd.business.IUserBusiness;
@@ -286,14 +284,17 @@ public class UserLoginActivity extends AppCompatActivity {
                     }
 
                     // 更新性别
-                    if (mMkjUserInfo.isUsergender()) {//男
+
+                    if (mMkjUserInfo.getUsergender().equals("男")) {//男
                         userProFile.updateProFile(1, UserConstant.KEY_GENDER);
                         Log.d("YZP=========>", "男");
-                    } else {//女
+                    } else if (mMkjUserInfo.getUsergender().equals("女")) {//女
                         userProFile.updateProFile(2, UserConstant.KEY_GENDER);
                         Log.d("YZP=========>", "女");
+                    } else if (mMkjUserInfo.getUsergender().equals("保密")) {//女
+                        userProFile.updateProFile(0, UserConstant.KEY_GENDER);
+                        Log.d("YZP=========>", "保密");
                     }
-
                     break;
                 default:
                     break;

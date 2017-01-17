@@ -210,11 +210,13 @@ public class UserProfileEditItemActivity extends UI implements View.OnClickListe
                 } else if (key == UserConstant.KEY_GENDER) {
                     /********************************这里会得到一个性别数据数据.同步到本地服务器成功之后再同步云信服务器************/
                     Log.d("YZP=========>KEY_GENDER", Integer.valueOf(gender) + "");
-                    String sax;
+                    String sax = "男";
                     if (Integer.valueOf(gender) == 1) {
                         sax = "男";
-                    } else {
+                    } else if (Integer.valueOf(gender) == 2){
                         sax = "女";
+                    } else if (Integer.valueOf(gender) == 0){
+                        sax = "保密";
                     }
                     setMKJPerData(mUserInfo.getMobile(), sax, "2");
                     update(Integer.valueOf(gender));

@@ -467,6 +467,8 @@
         </receiver>
 
         <activity android:name=".main.activity.MessageActivity"></activity>
+
+        <service android:name=".main.checkupdate.DownloadService"/>
     </application>
 
 </manifest>
