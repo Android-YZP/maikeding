@@ -90,7 +90,8 @@ public class MainActivity extends UI {
         //极光推送相关内容
         registerMessageReceiver();  // used for receive msg
         init();
-        CheckUpdate.getInstance().startCheck(this);
+        //检查更新
+//        CheckUpdate.getInstance().startCheck(this);
 
     }
 

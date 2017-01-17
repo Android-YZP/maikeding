@@ -45,10 +45,8 @@ public class MessageActivity extends AppCompatActivity {
     private YListView mYlvMessage;
     private List<UserMessage> mUserMessages;
     private boolean isNoMoreData = false;
-
     //业务层
     private IUserBusiness mUserBusiness = new UserBusinessImp();
-
     private static int pageNo = 1;
     private static int pageSize = 25;
     private static int type = 1;//系统公告
@@ -159,14 +157,9 @@ public class MessageActivity extends AppCompatActivity {
             @Override
             public void onRefresh() {
                 //清空数据
-                if (!mSRLMessage.isRefreshing()) {
-                    isNoMoreData = false;
-                    mYlvMessage.initBottomView();
-                    mUserMessages.clear();
-                    initDataMessagesList();//从网络获取数据
-                }else {
-                    mSRLMessage.setRefreshing(false);
-                }
+                isNoMoreData = false;
+                mYlvMessage.initBottomView();
+                initDataMessagesList();//从网络获取数据
 
             }
         });
