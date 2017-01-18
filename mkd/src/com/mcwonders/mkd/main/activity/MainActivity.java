@@ -91,7 +91,7 @@ public class MainActivity extends UI {
         registerMessageReceiver();  // used for receive msg
         init();
         //检查更新
-//        CheckUpdate.getInstance().startCheck(this);
+        CheckUpdate.getInstance().startCheck(this);
 
     }
 

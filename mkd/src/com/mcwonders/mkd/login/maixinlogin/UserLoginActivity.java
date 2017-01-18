@@ -285,16 +285,16 @@ public class UserLoginActivity extends AppCompatActivity {
 
                     // 更新性别
 //
-//                    if (mMkjUserInfo.getUsergender().equals("男")) {//男
-//                        userProFile.updateProFile(1, UserConstant.KEY_GENDER);
-//                        Log.d("YZP=========>", "男");
-//                    } else if (mMkjUserInfo.getUsergender().equals("女")) {//女
-//                        userProFile.updateProFile(2, UserConstant.KEY_GENDER);
-//                        Log.d("YZP=========>", "女");
-//                    } else if (mMkjUserInfo.getUsergender().equals("保密")) {//女
-//                        userProFile.updateProFile(0, UserConstant.KEY_GENDER);
-//                        Log.d("YZP=========>", "保密");
-//                    }
+                    if (mMkjUserInfo.getUsergender().equals("男")) {//男
+                        userProFile.updateProFile(1, UserConstant.KEY_GENDER);
+                        Log.d("YZP=========>", mMkjUserInfo.getUsergender());
+                    } else if (mMkjUserInfo.getUsergender().equals("女")) {//女
+                        userProFile.updateProFile(2, UserConstant.KEY_GENDER);
+                        Log.d("YZP=========>", mMkjUserInfo.getUsergender());
+                    } else if (mMkjUserInfo.getUsergender().equals("保密")) {//女
+                        userProFile.updateProFile(0, UserConstant.KEY_GENDER);
+                        Log.d("YZP=========>", mMkjUserInfo.getUsergender());
+                    }
                     break;
                 default:
                     break;
