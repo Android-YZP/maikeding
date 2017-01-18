@@ -447,7 +447,6 @@ public class UserBusinessImp implements IUserBusiness {
         _json_args.put("mobile", mPhone);
         _json_args.put("password", password);
         _json_args.put("captcha", mCode);
-
         _json_args.put("clientVersion", "1.0");
         _json_args.put("clientType", "Phone");
         //添加头信息

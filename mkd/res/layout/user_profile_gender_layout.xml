@@ -99,7 +99,6 @@
         android:layout_height="wrap_content"
         android:background="@color/white"
         android:paddingBottom="17dp"
-        android:visibility="invisible"
         android:paddingTop="17dp">
 
         <TextView

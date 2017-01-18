@@ -183,7 +183,7 @@ public class UserProfileSettingActivity extends UI implements View.OnClickListen
             } else if (userInfo.getGenderEnum() == GenderEnum.FEMALE) {
                 genderText.setText("女");
             } else {
-                genderText.setText("其他");
+                genderText.setText("保密");
             }
         }
         if (!TextUtils.isEmpty(userInfo.getBirthday())) {

@@ -238,7 +238,7 @@
     <string name="gender">性别</string>
     <string name="male">男</string>
     <string name="female">女</string>
-    <string name="other">其他</string>
+    <string name="other">保密</string>
     <string name="phone_number">手机号码</string>
     <string name="set_head_image">设置头像</string>
     <string name="user_info_update_success">设置成功</string>
@@ -350,5 +350,7 @@
     <string name="nrtc_setting_voe_audio_ns_key">nrtc_setting_voe_audio_ns_key</string>
     <string name="nrtc_setting_voe_audio_ns">Noise Suppressor</string>
 
-
+    <string name="action_settings">Settings</string>
+    <string name="download_progress">正在下载:%1$d%%</string>
+    <string name="download_success">下载完成</string>
 </resources>

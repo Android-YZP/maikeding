@@ -45,10 +45,8 @@ public class MessageActivity extends AppCompatActivity {
     private YListView mYlvMessage;
     private List<UserMessage> mUserMessages;
     private boolean isNoMoreData = false;
-
     //业务层
     private IUserBusiness mUserBusiness = new UserBusinessImp();
-
     private static int pageNo = 1;
     private static int pageSize = 25;
     private static int type = 1;//系统公告
@@ -75,7 +73,11 @@ public class MessageActivity extends AppCompatActivity {
                     }
                     break;
                 case CommonConstants.FLAG_GET_USER_MESSAGES_LIST_SYS_PUB_SUCCESS:
-                    updateUserMessagesListFromNet();
+                    if (mUserMessageListAdapter != null) {
+                        updateUserMessagesListFromNetByRefresh();
+                    } else {
+                        updateUserMessagesListFromNet();
+                    }
                     break;
                 case CommonConstants.FLAG_GET_USER_MESSAGES_LIST_SYS_PUB_AGAIN_SUCCESS:
                     updateUserMessagesListFromNetByRefresh();
@@ -101,6 +103,7 @@ public class MessageActivity extends AppCompatActivity {
         intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
         context.startActivity(intent);
     }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -156,8 +159,8 @@ public class MessageActivity extends AppCompatActivity {
                 //清空数据
                 isNoMoreData = false;
                 mYlvMessage.initBottomView();
-                mUserMessages.clear();
                 initDataMessagesList();//从网络获取数据
+
             }
         });
     }
