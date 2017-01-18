@@ -13,6 +13,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.mcwonders.uikit.NimUIKit;
+import com.mcwonders.uikit.R;
 import com.mcwonders.uikit.cache.TeamDataCache;
 import com.mcwonders.uikit.common.adapter.TViewHolder;
 import com.mcwonders.uikit.common.ui.imageview.HeadImageView;
@@ -39,6 +40,7 @@ public abstract class MsgViewHolderBase extends TViewHolder {
 
     protected View alertButton;
     protected TextView timeTextView;
+    protected TextView blackTextView;
     protected ProgressBar progressBar;
     protected TextView nameTextView;
     protected FrameLayout contentContainer;
@@ -162,6 +164,7 @@ public abstract class MsgViewHolderBase extends TViewHolder {
     @Override
     protected final void inflate() {
         timeTextView = findViewById(com.mcwonders.uikit.R.id.message_item_time);
+        blackTextView = findViewById(R.id.message_item_black);
         avatarLeft = findViewById(com.mcwonders.uikit.R.id.message_item_portrait_left);
         avatarRight = findViewById(com.mcwonders.uikit.R.id.message_item_portrait_right);
         alertButton = findViewById(com.mcwonders.uikit.R.id.message_item_alert);
@@ -182,6 +185,7 @@ public abstract class MsgViewHolderBase extends TViewHolder {
         setHeadImageView();
         setNameTextView();
         setTimeTextView();
+        setBlackList();
         setStatus();
         setOnClickListener();
         setLongClickListener();
@@ -194,6 +198,18 @@ public abstract class MsgViewHolderBase extends TViewHolder {
     public void refreshCurrentItem() {
         if (message != null) {
             refresh(message);
+        }
+    }
+
+    /**
+     * 显示黑名单提示
+     */
+    private void setBlackList() {
+        if (getAdapter().needShowBlack(message)) {
+            blackTextView.setVisibility(View.VISIBLE);
+        } else {
+            blackTextView.setVisibility(View.GONE);
+            return;
         }
     }
 

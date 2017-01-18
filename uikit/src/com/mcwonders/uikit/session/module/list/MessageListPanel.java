@@ -293,6 +293,13 @@ public class MessageListPanel implements TAdapterDelegate {
         ListViewUtil.scrollToBottom(messageListView);
     }
 
+    // 发送消息后，如果已被对方拉黑
+    public void onBlack(IMMessage message) {
+        adapter.setBlack(message);
+        adapter.notifyDataSetChanged();
+        ListViewUtil.scrollToBottom(messageListView);
+    }
+
     /**
      * **************************** 排序 ***********************************
      */

@@ -7,20 +7,21 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.mcwonders.uikit.session.actions.ImageAction;
-import com.mcwonders.uikit.session.actions.VideoAction;
-import com.mcwonders.uikit.session.module.input.InputPanel;
-import com.mcwonders.uikit.session.module.list.MessageListPanel;
 import com.mcwonders.uikit.R;
 import com.mcwonders.uikit.common.fragment.TFragment;
 import com.mcwonders.uikit.session.SessionCustomization;
 import com.mcwonders.uikit.session.actions.BaseAction;
+import com.mcwonders.uikit.session.actions.ImageAction;
 import com.mcwonders.uikit.session.actions.LocationAction;
+import com.mcwonders.uikit.session.actions.VideoAction;
 import com.mcwonders.uikit.session.constant.Extras;
 import com.mcwonders.uikit.session.module.Container;
 import com.mcwonders.uikit.session.module.ModuleProxy;
+import com.mcwonders.uikit.session.module.input.InputPanel;
+import com.mcwonders.uikit.session.module.list.MessageListPanel;
 import com.netease.nimlib.sdk.NIMClient;
 import com.netease.nimlib.sdk.Observer;
+import com.netease.nimlib.sdk.RequestCallback;
 import com.netease.nimlib.sdk.msg.MsgService;
 import com.netease.nimlib.sdk.msg.MsgServiceObserve;
 import com.netease.nimlib.sdk.msg.constant.SessionTypeEnum;
@@ -184,14 +185,32 @@ public class MessageFragment extends TFragment implements ModuleProxy {
      * ********************** implements ModuleProxy *********************
      */
     @Override
-    public boolean sendMessage(IMMessage message) {
+    public boolean sendMessage(final IMMessage message) {
         if (!isAllowSendMessage(message)) {
             return false;
         }
 
         // send message to server and save to db
-        NIMClient.getService(MsgService.class).sendMessage(message, false);
+        NIMClient.getService(MsgService.class).sendMessage(message, false).setCallback(new RequestCallback<Void>() {
+            @Override
+            public void onSuccess(Void aVoid) {
+            }
 
+            @Override
+            public void onFailed(int i) {
+                switch (i) {
+                    case 7101:
+                        messageListPanel.onBlack(message);
+                        break;
+                    default:
+                        break;
+                }
+            }
+
+            @Override
+            public void onException(Throwable throwable) {
+            }
+        });
         messageListPanel.onMsgSend(message);
 
         return true;

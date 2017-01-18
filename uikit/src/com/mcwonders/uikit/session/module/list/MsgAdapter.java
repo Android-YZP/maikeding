@@ -24,6 +24,7 @@ public class MsgAdapter extends TAdapter<IMMessage> {
         super(context, items, delegate);
 
         timedItems = new HashSet<>();
+        timedBlack = new HashSet<>();
         progresses = new HashMap<>();
     }
 
@@ -69,10 +70,22 @@ public class MsgAdapter extends TAdapter<IMMessage> {
     /*********************** 时间显示处理 ****************************/
 
     private Set<String> timedItems; // 需要显示消息时间的消息ID
+    private Set<String> timedBlack; // 需要显示被拉入黑名单的消息ID
     private IMMessage lastShowTimeItem; // 用于消息时间显示,判断和上条消息间的时间间隔
 
     public boolean needShowTime(IMMessage message) {
         return timedItems.contains(message.getUuid());
+    }
+
+    public boolean needShowBlack(IMMessage message) {
+        return timedBlack.contains(message.getUuid());
+    }
+
+    /**
+     * 提示已被拉入黑名单
+     */
+    public void setBlack(IMMessage message) {
+        timedBlack.add(message.getUuid());
     }
 
     /**
