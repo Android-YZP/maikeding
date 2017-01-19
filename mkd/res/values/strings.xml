@@ -227,8 +227,8 @@
     <string name="snapchat_title">阅后即焚</string>
 
     <!-- 个人名片 -->
-    <string name="birthday">生日</string>
-    <string name="phone">手机</string>
+    <string name="birthday">出生日期</string>
+    <string name="phone">固定电话</string>
     <string name="email">邮箱</string>
     <string name="signature">签名</string>
     <string name="head">头像</string>

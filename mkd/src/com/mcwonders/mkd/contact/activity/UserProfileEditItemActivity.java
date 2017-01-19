@@ -389,11 +389,11 @@ public class UserProfileEditItemActivity extends UI implements View.OnClickListe
         MyDatePickerDialog datePickerDialog = new MyDatePickerDialog(this, new DatePickerDialog.OnDateSetListener() {
             @Override
             public void onDateSet(DatePicker view, int year, int monthOfYear, int dayOfMonth) {
+                Log.d("onDateSet",year+monthOfYear+dayOfMonth+"123");
                 birthYear = year;
                 birthMonth = monthOfYear;
                 birthDay = dayOfMonth;
                 updateDate();
-
             }
         }, birthYear, birthMonth, birthDay);
         datePickerDialog.show();
@@ -442,7 +442,7 @@ public class UserProfileEditItemActivity extends UI implements View.OnClickListe
     }
 
     private class MyDatePickerDialog extends DatePickerDialog {
-        private int maxYear = 2015;
+        private int maxYear = 2100;
         private int minYear = 1900;
         private int currYear;
         private int currMonthOfYear;

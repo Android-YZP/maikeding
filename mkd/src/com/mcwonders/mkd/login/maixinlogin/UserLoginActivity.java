@@ -21,6 +21,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.gson.Gson;
+import com.mcwonders.mkd.common.util.sys.SystemUtil;
 import com.mcwonders.mkd.config.CommonConstants;
 import com.mcwonders.mkd.contact.constant.UserConstant;
 import com.mcwonders.mkd.contact.helper.UserUpdateHelper;
@@ -220,8 +221,9 @@ public class UserLoginActivity extends AppCompatActivity {
 
         @Override
         public void handleMessage(Message msg) {
-            if (mProgressDialog != null) {
+            if (mProgressDialog != null && msg.what != CommonConstants.FLAG_GET_REG_USER_LOGIN_SUCCESS) {
                 mProgressDialog.dismiss();
+                Log.d("mProgressDialog", "mProgressDialog");
             }
             int flag = msg.what;
             switch (flag) {
@@ -284,16 +286,16 @@ public class UserLoginActivity extends AppCompatActivity {
                     }
 
                     // 更新性别
-
+//
                     if (mMkjUserInfo.getUsergender().equals("男")) {//男
                         userProFile.updateProFile(1, UserConstant.KEY_GENDER);
-                        Log.d("YZP=========>", "男");
+                        Log.d("YZP=========>", mMkjUserInfo.getUsergender());
                     } else if (mMkjUserInfo.getUsergender().equals("女")) {//女
                         userProFile.updateProFile(2, UserConstant.KEY_GENDER);
-                        Log.d("YZP=========>", "女");
+                        Log.d("YZP=========>", mMkjUserInfo.getUsergender());
                     } else if (mMkjUserInfo.getUsergender().equals("保密")) {//女
                         userProFile.updateProFile(0, UserConstant.KEY_GENDER);
-                        Log.d("YZP=========>", "保密");
+                        Log.d("YZP=========>", mMkjUserInfo.getUsergender());
                     }
                     break;
                 default:
@@ -499,10 +501,16 @@ public class UserLoginActivity extends AppCompatActivity {
                 public void onResult(int code, Object result, Throwable exception) {
                     if (code == ResponseCode.RES_SUCCESS) {
                         if (key == UserConstant.KEY_GENDER) {
-                            SystemClock.sleep(2000);
+//                            SystemClock.sleep(2000);
                             // 进入主界面,更新成功之后进入主界面
                             Log.d("YZP=========>", "更新成功之后进入主界面");
                             MainActivity.start(UserLoginActivity.this, null);
+
+                            if (mProgressDialog != null) {
+                                SystemClock.sleep(2000);
+                                mProgressDialog.dismiss();
+                                Log.d("mProgressDialog", "mProgressDialog.dismiss()");
+                            }
                             finish();
                         }
                     } else if (code == ResponseCode.RES_ETIMEOUT) {

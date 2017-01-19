@@ -82,7 +82,7 @@ public class CommonConstants {
      */
     public static final String TEST_ADDRESS = "http://192.168.0.226:8080/external/";
     //    public static final String TRUE_ADDRESS = "http://www.maikejia.com/external/";
-    public static final String TRUE_ADDRESS = "http://211.103.20.5:38082/external/";
+    public static final String TRUE_ADDRESS = "http://192.168.3.135:8080/external/";
     public static final String NOW_ADDRESS = TRUE_ADDRESS;
 
     public static final String TEST_ADDRESS_WAP = "http://192.168.0.251:8080/";
@@ -111,6 +111,8 @@ public class CommonConstants {
     public static final String USER_FORGOT_PASSWORD_ONE = NOW_ADDRESS + "user/forgot_password_one.json";
     //忘记密码第二步
     public static final String USER_FORGOT_PASSWORD_TWO = NOW_ADDRESS + "user/forgot_password_two.json";
+    //检查更新
+    public static final String CHECK_UPDATE = NOW_ADDRESS + "versionUpdate/version.json";
     /**
      * 获取需求详情
      */

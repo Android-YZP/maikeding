@@ -50,6 +50,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
+
         android:textColor="@color/color_gray_bfc2c5"
         android:textSize="12sp" />
 
@@ -67,7 +68,6 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-
         android:layout_marginBottom="10dp"
         android:orientation="vertical">
 
@@ -75,9 +75,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
             android:text="联系电话: 0510-80339888"
             android:textColor="#000"
-            android:layout_marginBottom="5dp"
             android:textSize="12sp" />
 
         <TextView
@@ -92,9 +92,21 @@
         android:id="@+id/image"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginBottom="18dp"
-        android:background="@drawable/logo_login"
         android:layout_above="@+id/version_detail_git"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/logo_login" />
+
+    <Button
+        android:id="@+id/btn_check_update"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:background="@drawable/selector_btn_user_login"
+        android:text="检查更新"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:layout_marginTop="64dp"
+        android:layout_below="@+id/version_detail_date"
         android:layout_centerHorizontal="true" />
 
 
