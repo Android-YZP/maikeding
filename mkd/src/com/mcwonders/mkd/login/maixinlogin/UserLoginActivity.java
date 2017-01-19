@@ -83,6 +83,7 @@ public class UserLoginActivity extends AppCompatActivity {
     private User mUser;
     private Map<Integer, UserInfoFieldEnum> fieldMap;
     private MKJUserInfo mMkjUserInfo;
+    private User user;
 
     public static void start(Context context) {
         start(context, false);
@@ -235,6 +236,9 @@ public class UserLoginActivity extends AppCompatActivity {
                     Log.d("YZP=========>", "FLAG_GET_REG_USER_LOGIN_SUCCESS");
                     //更新云信的个人信息
                     UserLoginOnClickListener userProFile = new UserLoginOnClickListener();
+                    //储存个人信息到本地
+                    CommonUtil.saveUserInfo(user, UserLoginActivity.this);
+                    Log.d("登录信息1", user.getMobile() + user.getToken());
 
                     //更新昵称
                     if (!TextUtils.isEmpty(mMkjUserInfo.getUsername())) {
@@ -360,10 +364,8 @@ public class UserLoginActivity extends AppCompatActivity {
                         if (Success) {
                             //填充用户信息
                             //储存用户信息到本地
-                            User user = new Gson().fromJson(result, User.class);
-                            CommonUtil.saveUserInfo(user, UserLoginActivity.this);
-                            //登录云信
-                            Log.d("登录信息1", user.getMobile() + user.getToken());
+                            user = new Gson().fromJson(result, User.class);
+
                             yunXinlogin(user.getMobile() + "", user.getToken());
                             //第一次手动登录时设置标签，自动登录时就不要设置标签了。
                             /****************************设置极光推送的推送标签************************************************************/
@@ -466,6 +468,7 @@ public class UserLoginActivity extends AppCompatActivity {
                             //储存用户信息到本地
                             handler.sendEmptyMessage(CommonConstants.FLAG_GET_REG_USER_LOGIN_SUCCESS);
                             Log.d("个人信息", result);
+
                         } else {
                             //获取错误代码，并查询出错误文字
                             String errorMsg = jsonObj.getString("errorMsg");
