@@ -2,9 +2,12 @@ package com.mcwonders.mkd.main.activity;
 
 import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.mcwonders.mkd.R;
+import com.mcwonders.mkd.main.checkupdate.CheckUpdate;
 import com.mcwonders.mkd.utils.CommonUtil;
 import com.mcwonders.uikit.common.activity.UI;
 import com.mcwonders.uikit.model.ToolBarOptions;
@@ -13,6 +16,7 @@ public class AboutActivity extends UI {
 
     private TextView versionGit;
     private TextView versionDate;
+    private Button mCheckUD;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,8 +36,15 @@ public class AboutActivity extends UI {
     private void findViews() {
         versionGit = (TextView) findViewById(com.mcwonders.mkd.R.id.version_detail_git);
         versionDate = (TextView) findViewById(com.mcwonders.mkd.R.id.version_detail_date);
+        mCheckUD = (Button) findViewById(R.id.btn_check_update);
 
 //        CustomActions.customButton((Button) findViewById(R.id.about_custom_button_1));
+        mCheckUD.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                CheckUpdate.getInstance().startCheck(AboutActivity.this);
+            }
+        });
     }
 
     private void initViewData() {
