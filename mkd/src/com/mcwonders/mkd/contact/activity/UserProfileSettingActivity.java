@@ -290,7 +290,6 @@ public class UserProfileSettingActivity extends UI implements View.OnClickListen
         /**********************************************在这里会得到一个file头像文件，同步迈克家服务器，成功之后上传云信服务器*************************************************************/
         sendPicToServer(file);
         Log.d("YZP=======>", file.getName() + "");
-
         uploadAvatarFuture = NIMClient.getService(NosService.class).upload(file, PickImageAction.MIME_JPEG);
         uploadAvatarFuture.setCallback(new RequestCallbackWrapper<String>() {
             @Override

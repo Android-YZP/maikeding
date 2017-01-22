@@ -78,7 +78,6 @@ public class UserLoginActivity extends AppCompatActivity {
     private final int BASIC_PERMISSION_REQUEST_CODE = 110;
     //业务层
     private IUserBusiness mUserBusiness = new UserBusinessImp();
-
     private static ProgressDialog mProgressDialog = null;
     private User mUser;
     private Map<Integer, UserInfoFieldEnum> fieldMap;
@@ -489,7 +488,6 @@ public class UserLoginActivity extends AppCompatActivity {
                     }
                 }
             }).start();
-
         }
 
         /**
