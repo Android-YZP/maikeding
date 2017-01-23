@@ -12,28 +12,28 @@
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\layout\\nim_picker_images_fragment.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\layout\\design_layout_tab_icon.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\layout\\design_layout_tab_icon.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\layout\\nim_message_item_picture.xml",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\layout\\nim_message_item_picture.xml"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\layout\\nim_recent_contact_list_item.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\layout\\nim_recent_contact_list_item.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\layout\\nim_message_item_unknown.xml",
         "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\layout\\nim_message_item_unknown.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\layout\\nim_recent_contact_list_item.xml",
-        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\layout\\nim_recent_contact_list_item.xml"
+        "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\layout\\nim_message_item_picture.xml",
+        "source": "D:\\AndroidStudioProjects\\maikeding\\uikit\\res\\layout\\nim_message_item_picture.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\maikeding\\uikit\\build\\intermediates\\res\\merged\\debug\\layout\\nim_message_activity.xml",
