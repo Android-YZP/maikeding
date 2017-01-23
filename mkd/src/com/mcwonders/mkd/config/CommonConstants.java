@@ -118,6 +118,10 @@ public class CommonConstants {
      */
     public static final String GET_DEMAND_DETAIL = TRUE_ADDRESS + "demandact/demandbyid.json";
     /**
+     * 通过手机号查询user_id
+     */
+    public static final String GET_USERID = "http://192.168.3.135:8080/external/" + "userInfoByMobile/userByMobile.json";
+    /**
      * 前台
      */
     //获取banner

@@ -39,6 +39,8 @@ public interface IUserBusiness {
      */
     public abstract String getMobilemsgRegister(String phone) throws Exception;
 
+    String getUserID(String phone) throws Exception;
+
     String getDemandDetail(int demandId) throws Exception;
 
     /**
