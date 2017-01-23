@@ -1,5 +1,6 @@
 package com.mcwonders.mkd.main.checkupdate;
 
+import android.app.Application;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -10,9 +11,11 @@ import android.os.Message;
 import android.support.v7.app.AlertDialog;
 import android.text.TextUtils;
 import android.util.Log;
+import android.widget.Toast;
 
 import com.mcwonders.mkd.config.CommonConstants;
 import com.mcwonders.mkd.exception.ServiceException;
+import com.mcwonders.mkd.main.activity.AboutActivity;
 
 import org.apache.http.conn.ConnectTimeoutException;
 import org.json.JSONException;
@@ -40,6 +43,7 @@ public class CheckUpdate {
     }
 
     private Context mcontext;
+    private boolean isAutoCheck ;
     private static CheckUpdate checkUpdate = null;
 
     public static CheckUpdate getInstance() {
@@ -50,46 +54,12 @@ public class CheckUpdate {
     }
 
 
-    public void startCheck(Context context) {
+    public void startCheck(Context context,boolean isAutoCheck) {
         mcontext = context;
+        this.isAutoCheck = isAutoCheck;
         new Thread(new Runnable() {
             @Override
             public void run() {
-                Log.d("=======>result", "12344");
-//                URL url;
-//                InputStream is = null;
-//                HttpURLConnection conn = null;
-//                try {
-//                    //获取服务器端内容，检查是否存在更新，自己开发的话可以采用volley来检查更新
-//                    url = new URL(CommonConstants.CHECK_UPDATE);
-//                    conn = (HttpURLConnection) url.openConnection();
-//                    conn.setConnectTimeout(5000);
-//                    conn.setRequestMethod("GET");
-//                    is = conn.getInputStream();
-//                    BufferedReader br = new BufferedReader(new InputStreamReader(is));
-//                    StringBuilder sb = new StringBuilder();
-//                    String line;
-//                    while ((line = br.readLine()) != null) {
-//                        sb.append(line);
-//                    }
-////                    LogUtils.e(sb);
-//                    br.close();
-//                    is.close();
-//                    Message message = new Message();
-//                    message.what = 0;
-//                    message.obj = sb.toString();
-//                    mhanler.sendMessage(message);
-//                } catch (MalformedURLException e) {
-//                    e.printStackTrace();
-//                } catch (IOException e) {
-//                    e.printStackTrace();
-//                } finally {
-//                    if (conn != null) {
-//                        conn.disconnect();
-//                    }
-//                }
-
-
                 String result = "";
                 InputStream in = null;
                 URL url = null;
@@ -97,12 +67,10 @@ public class CheckUpdate {
                 OutputStream out = null;
                 byte[] data = null;
 
-
                 try {
                     JSONObject _json_args = new JSONObject();
                     _json_args.put("name", "麦可信");
                     String jsonargs = _json_args.toString();
-
                     data = jsonargs.getBytes();
                     url = new URL(CommonConstants.CHECK_UPDATE);
                     urlConnection = (HttpURLConnection) url.openConnection();
@@ -128,6 +96,7 @@ public class CheckUpdate {
                     in = new BufferedInputStream(urlConnection.getInputStream());
                     result = getStrFromInputSteam(in);
                     Log.d("=======>result", result + "12344");
+
                     if (!TextUtils.isEmpty(result)){
                         Message message = new Message();
                         message.what = 0;
@@ -190,7 +159,6 @@ public class CheckUpdate {
 
                     if (urlConnection != null) {
                         urlConnection.disconnect();
-
                     }
                 }
 
@@ -253,7 +221,9 @@ public class CheckUpdate {
             builder.setNegativeButton("退出", null);
             builder.show();
         } else {
-            return;
+            if (!isAutoCheck){
+                Toast.makeText(mcontext,"当前已是最新版本",Toast.LENGTH_SHORT).show();
+            }
         }
     }
 

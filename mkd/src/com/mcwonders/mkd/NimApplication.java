@@ -108,7 +108,7 @@ public class NimApplication extends Application {
     private LoginInfo getLoginInfo() {
         User userInfo = CommonUtil.getUserInfo(this);
         if(userInfo!=null){
-            String account = userInfo.getMobile();
+            String account = userInfo.getId()+"";
             String token = userInfo.getToken();
             if (!TextUtils.isEmpty(account) && !TextUtils.isEmpty(token)) {
                 DemoCache.setAccount(account.toLowerCase());
