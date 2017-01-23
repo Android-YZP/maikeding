@@ -411,7 +411,7 @@ public class UserBusinessImp implements IUserBusiness {
         String _result = null;
         //封装成json数据
         JSONObject _json_args = new JSONObject();
-        _json_args.put("mobile", phone);
+        _json_args.put("username", phone);
         _json_args.put("clientVersion", "1.0");
         _json_args.put("clientType", "Phone");
         //添加头信息
