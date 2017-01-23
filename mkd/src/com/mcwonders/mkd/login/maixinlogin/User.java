@@ -21,7 +21,7 @@ public class User {
 	private String token;
 	private String account;
 	private String password;
-	private int id;
+	private String id;
 	private String userImg;
 	private String username;
 	private String mobile;
@@ -40,7 +40,7 @@ public class User {
 		this.password = password;
 	}
 
-	public void setId(int id) {
+	public void setId(String id) {
 		this.id = id;
 	}
 
@@ -76,7 +76,7 @@ public class User {
 		return password;
 	}
 
-	public int getId() {
+	public String getId() {
 		return id;
 	}
 

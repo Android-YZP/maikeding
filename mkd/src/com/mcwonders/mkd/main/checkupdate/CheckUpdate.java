@@ -43,6 +43,7 @@ public class CheckUpdate {
     }
 
     private Context mcontext;
+    private boolean isAutoCheck ;
     private static CheckUpdate checkUpdate = null;
 
     public static CheckUpdate getInstance() {
@@ -53,8 +54,9 @@ public class CheckUpdate {
     }
 
 
-    public void startCheck(Context context) {
+    public void startCheck(Context context,boolean isAutoCheck) {
         mcontext = context;
+        this.isAutoCheck = isAutoCheck;
         new Thread(new Runnable() {
             @Override
             public void run() {
@@ -94,6 +96,7 @@ public class CheckUpdate {
                     in = new BufferedInputStream(urlConnection.getInputStream());
                     result = getStrFromInputSteam(in);
                     Log.d("=======>result", result + "12344");
+
                     if (!TextUtils.isEmpty(result)){
                         Message message = new Message();
                         message.what = 0;
@@ -218,11 +221,9 @@ public class CheckUpdate {
             builder.setNegativeButton("退出", null);
             builder.show();
         } else {
-            if (mcontext.equals(AboutActivity.class)){
+            if (!isAutoCheck){
                 Toast.makeText(mcontext,"当前已是最新版本",Toast.LENGTH_SHORT).show();
             }
-            Toast.makeText(mcontext,"当前已是最新版本22222",Toast.LENGTH_SHORT).show();
-            return;
         }
     }
 

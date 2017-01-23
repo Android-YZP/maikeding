@@ -83,6 +83,7 @@ public class UserLoginActivity extends AppCompatActivity {
     private Map<Integer, UserInfoFieldEnum> fieldMap;
     private MKJUserInfo mMkjUserInfo;
     private User user;
+    private String mAccount;
 
     public static void start(Context context) {
         start(context, false);
@@ -329,10 +330,10 @@ public class UserLoginActivity extends AppCompatActivity {
             switch (view.getId()) {
                 case R.id.btn_user_login_commit:
 
-                    String account = mEtAccount.getText().toString();
+                    mAccount = mEtAccount.getText().toString();
                     String password = mEtPassword.getText().toString();
 
-                    if (account == null || account.equals("")) {
+                    if (mAccount == null || mAccount.equals("")) {
                         Toast.makeText(UserLoginActivity.this, "您未填写用户名", Toast.LENGTH_SHORT).show();
                         return;
                     }
@@ -344,7 +345,7 @@ public class UserLoginActivity extends AppCompatActivity {
                     //弹出加载进度条
                     mProgressDialog = ProgressDialog.show(UserLoginActivity.this, "请稍等", "正在玩命登录中...", true, true);
                     //开启副线程-发起登录
-                    userLoginFromNet(account, password);
+                    userLoginFromNet(mAccount, password);
 
                 default:
                     break;
@@ -358,14 +359,13 @@ public class UserLoginActivity extends AppCompatActivity {
                 public void run() {
                     try {
                         String result = mUserBusiness.getUserLogin(account, password);
+                        Log.d("test", result);
                         JSONObject jsonObj = new JSONObject(result);
                         boolean Success = jsonObj.getBoolean("success");
                         if (Success) {
                             //填充用户信息
-                            //储存用户信息到本地
                             user = new Gson().fromJson(result, User.class);
-
-                            yunXinlogin(user.getMobile() + "", user.getToken());
+                            yunXinlogin(user.getId() + "", user.getToken());
                             //第一次手动登录时设置标签，自动登录时就不要设置标签了。
                             /****************************设置极光推送的推送标签************************************************************/
                             JPushInterface.setAlias(UserLoginActivity.this, user.getMobile() + "", null);//设置标签
@@ -422,7 +422,8 @@ public class UserLoginActivity extends AppCompatActivity {
                     // 构建缓存
                     DataCacheManager.buildDataCacheAsync();
                     //云信登录成功之时,调用麦客加个人信息接口,获得接口更新到云信接口
-                    getMKJPerData(account);
+                    getMKJPerData(mAccount);
+
                 }
 
                 @Override

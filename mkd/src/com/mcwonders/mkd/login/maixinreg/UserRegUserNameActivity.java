@@ -279,7 +279,7 @@ public class UserRegUserNameActivity extends AppCompatActivity {
 				mUser = new User();
 				mUser.setAccount(JsonUtils.getString(jsonObj, "account"));
 				mUser.setPassword(JsonUtils.getString(jsonObj, "password"));
-				mUser.setId(JsonUtils.getInt(jsonObj, "id"));
+				mUser.setId(JsonUtils.getString(jsonObj, "id"));
 				mUser.setUserImg(JsonUtils.getString(jsonObj, "userImg"));
 				mUser.setUsername(JsonUtils.getString(jsonObj, "username"));
 				mUser.setMobile(JsonUtils.getString(jsonObj, "mobile"));

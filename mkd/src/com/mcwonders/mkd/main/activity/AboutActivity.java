@@ -42,7 +42,7 @@ public class AboutActivity extends UI {
         mCheckUD.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                CheckUpdate.getInstance().startCheck(AboutActivity.this);
+                CheckUpdate.getInstance().startCheck(AboutActivity.this,false);
             }
         });
     }
