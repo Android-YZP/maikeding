@@ -272,18 +272,18 @@ public class UserLoginActivity extends AppCompatActivity {
                     }
 
 
-                    //更新手机
-                    if (!TextUtils.isEmpty(mMkjUserInfo.getUserphone())) {
-                        userProFile.updateProFile(mMkjUserInfo.getUserphone(), UserConstant.KEY_PHONE);
-                        Log.d("YZP=========>", mMkjUserInfo.getUserphone());
-                    }
+//                    //更新手机
+//                    if (!TextUtils.isEmpty(mMkjUserInfo.getUserphone())) {
+//                        userProFile.updateProFile(mMkjUserInfo.getUserphone(), UserConstant.KEY_PHONE);
+//                        Log.d("YZP=========>", mMkjUserInfo.getUserphone());
+//                    }
 
 
-                    //更新邮箱
-                    if (!TextUtils.isEmpty(mMkjUserInfo.getUseremail()) && isEmail(mMkjUserInfo.getUseremail())) {
-                        userProFile.updateProFile(mMkjUserInfo.getUseremail(), UserConstant.KEY_EMAIL);
-                        Log.d("YZP=========>", mMkjUserInfo.getUseremail());
-                    }
+//                    //更新邮箱
+//                    if (!TextUtils.isEmpty(mMkjUserInfo.getUseremail()) && isEmail(mMkjUserInfo.getUseremail())) {
+//                        userProFile.updateProFile(mMkjUserInfo.getUseremail(), UserConstant.KEY_EMAIL);
+//                        Log.d("YZP=========>", mMkjUserInfo.getUseremail());
+//                    }
 
                     //更新签名
                     if (!TextUtils.isEmpty(mMkjUserInfo.getUsersignature())) {
