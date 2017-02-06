@@ -1,12 +1,9 @@
 package com.mcwonders.mkd.contact.activity;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Message;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
@@ -18,13 +15,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.mcwonders.mkd.DemoCache;
-import com.mcwonders.mkd.business.IUserBusiness;
-import com.mcwonders.mkd.business.imp.UserBusinessImp;
-import com.mcwonders.mkd.config.CommonConstants;
 import com.mcwonders.mkd.contact.constant.UserConstant;
 import com.mcwonders.mkd.main.model.Extras;
 import com.mcwonders.mkd.session.SessionHelper;
-import com.mcwonders.mkd.utils.CommonUtil;
 import com.mcwonders.uikit.cache.FriendDataCache;
 import com.mcwonders.uikit.cache.NimUserInfoCache;
 import com.mcwonders.uikit.common.activity.UI;
@@ -50,13 +43,11 @@ import com.netease.nimlib.sdk.friend.model.MuteListChangedNotify;
 import com.netease.nimlib.sdk.uinfo.constant.GenderEnum;
 import com.netease.nimlib.sdk.uinfo.model.NimUserInfo;
 
-import org.json.JSONObject;
-
-import java.lang.ref.WeakReference;
-import java.net.SocketTimeoutException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import static com.mcwonders.mkd.R.id.user_name;
 
 /**
  * 用户资料页面
@@ -96,9 +87,6 @@ public class UserProfileActivity extends UI {
     private SwitchButton blackSwitch;
     private SwitchButton noticeSwitch;
     private Map<String, Boolean> toggleStateMap;
-    private IUserBusiness mUserBusiness = new UserBusinessImp();
-    private static final int FLAG_GET_USERNAME_SUCCESS = 1;
-    private String user_name = "";
 
     public static void start(Context context, String account) {
         Intent intent = new Intent();
@@ -129,7 +117,6 @@ public class UserProfileActivity extends UI {
     protected void onResume() {
         super.onResume();
 
-        getUserName();
         updateUserInfo();
         updateToggleView();
     }
@@ -176,7 +163,7 @@ public class UserProfileActivity extends UI {
 
     private void findViews() {
         headImageView = findView(com.mcwonders.mkd.R.id.user_head_image);
-        nameText = findView(com.mcwonders.mkd.R.id.user_name);
+        nameText = findView(user_name);
         genderImage = findView(com.mcwonders.mkd.R.id.gender_img);
         accountText = findView(com.mcwonders.mkd.R.id.user_account);
         toggleLayout = findView(com.mcwonders.mkd.R.id.toggle_layout);
@@ -250,74 +237,14 @@ public class UserProfileActivity extends UI {
         });
     }
 
-    private static class MyHandler extends Handler {
-        private final WeakReference<Activity> mActivity;
-
-        public MyHandler(UserProfileActivity activity) {
-            mActivity = new WeakReference<Activity>(activity);
-        }
-
-        @Override
-        public void handleMessage(Message msg) {
-            int flag = msg.what;
-            switch (flag) {
-                case 0:
-                    String errorMsg = (String) msg.getData().getSerializable("ErrorMsg");
-                    ((UserProfileActivity) mActivity.get()).showTip(errorMsg);
-                    break;
-                case FLAG_GET_USERNAME_SUCCESS:
-                    //获取成功
-                    ((UserProfileActivity) mActivity.get()).setUserName();
-                    break;
-                default:
-                    break;
-            }
-        }
-    }
-
-    private MyHandler handler = new MyHandler(this);
-
-    private void showTip(String str) {
-        Toast.makeText(this, str, Toast.LENGTH_SHORT).show();
-    }
-
-    private void setUserName() {
-        accountText.setText("帐号：" + user_name);
-    }
-
-    private void getUserName() {
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                try {
-                    String result = mUserBusiness.getUserName(account);
-                    Log.d("zzz--------result", result.toString());
-                    JSONObject jsonObj = new JSONObject(result);
-                    boolean Success = jsonObj.getBoolean("success");
-                    if (Success) {
-                        user_name = jsonObj.getString("username");
-                        handler.sendEmptyMessage(FLAG_GET_USERNAME_SUCCESS);
-                    } else {
-                        String errorMsg = jsonObj.getString("errorMsg");
-                        CommonUtil.sendErrorMessage(errorMsg, handler);
-                    }
-                } catch (SocketTimeoutException e) {
-                    e.printStackTrace();
-                    CommonUtil.sendErrorMessage(CommonConstants.MSG_SERVER_RESPONSE_TIMEOUT, handler);
-                } catch (Exception e) {
-                }
-            }
-        }).start();
-    }
-
     private void updateUserInfoView() {
+        final NimUserInfo userInfo = NimUserInfoCache.getInstance().getUserInfo(account);
+        accountText.setText("帐号：" + userInfo.getExtension());
         headImageView.loadBuddyAvatar(account);
 
         if (DemoCache.getAccount().equals(account)) {
             nameText.setText(NimUserInfoCache.getInstance().getUserName(account));
         }
-
-        final NimUserInfo userInfo = NimUserInfoCache.getInstance().getUserInfo(account);
         if (userInfo == null) {
             LogUtil.e(TAG, "userInfo is null when updateUserInfoView");
             return;
@@ -341,15 +268,13 @@ public class UserProfileActivity extends UI {
         }
 
         if (!TextUtils.isEmpty(userInfo.getMobile())) {
-            phoneLayout.setVisibility(View.VISIBLE);
-            mobileText.setText(userInfo.getMobile());
+            phoneLayout.setVisibility(View.GONE);
         } else {
             phoneLayout.setVisibility(View.GONE);
         }
 
         if (!TextUtils.isEmpty(userInfo.getEmail())) {
-            emailLayout.setVisibility(View.VISIBLE);
-            emailText.setText(userInfo.getEmail());
+            emailLayout.setVisibility(View.GONE);
         } else {
             emailLayout.setVisibility(View.GONE);
         }

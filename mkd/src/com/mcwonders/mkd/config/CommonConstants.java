@@ -129,10 +129,6 @@ public class CommonConstants {
      */
     public static final String GET_USERID = TRUE_ADDRESS + "userInfoByUsername/userByUsername.json";
     /**
-     * 通过手机号查询user_id
-     */
-    public static final String GET_USERNAME = TRUE_ADDRESS + "userInfoByUserId/userByUserId.json";
-    /**
      * 前台
      */
     //获取banner

@@ -41,8 +41,6 @@ public interface IUserBusiness {
 
     String getUserID(String phone) throws Exception;
 
-    String getUserName(String phone) throws Exception;
-
     String getDemandDetail(int demandId) throws Exception;
 
     /**
