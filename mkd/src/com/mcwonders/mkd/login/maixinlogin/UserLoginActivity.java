@@ -510,11 +510,10 @@ public class UserLoginActivity extends AppCompatActivity {
                             Log.d("YZP=========>", "更新成功之后进入主界面");
                             MainActivity.start(UserLoginActivity.this, null);
 
-                            if (mProgressDialog != null) {
-                                SystemClock.sleep(2000);
-                                mProgressDialog.dismiss();
-                                Log.d("mProgressDialog", "mProgressDialog.dismiss()");
-                            }
+//                            if (mProgressDialog != null) {
+//                                mProgressDialog.dismiss();
+//                                Log.d("mProgressDialog", "mProgressDialog.dismiss()");
+//                            }
                             finish();
                         }
                     } else if (code == ResponseCode.RES_ETIMEOUT) {

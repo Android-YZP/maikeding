@@ -9,7 +9,7 @@ def getGitVersion() {
 }
 
 android {
-    compileSdkVersion 23
+    compileSdkVersion 'Google Inc.:Google APIs:23'
     buildToolsVersion '24.0.1'
     useLibrary 'org.apache.http.legacy'
 
