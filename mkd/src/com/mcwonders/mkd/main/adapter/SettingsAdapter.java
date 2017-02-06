@@ -151,7 +151,9 @@ public class SettingsAdapter extends BaseAdapter {
         }
         viewHolder.headImageView.setVisibility(View.VISIBLE);
         viewHolder.headTitleView.setVisibility(View.VISIBLE);
-        viewHolder.headTitleView.setText(NimUserInfoCache.getInstance().getUserDisplayName(DemoCache.getAccount()));
+        if (DemoCache.getAccount() != null) {
+            viewHolder.headTitleView.setText(NimUserInfoCache.getInstance().getUserDisplayName(DemoCache.getAccount()));
+        }
         viewHolder.headDetailView.setVisibility(View.VISIBLE);
         if (CommonUtil.getUserInfo(context) != null) {
             viewHolder.headDetailView.setText(String.format("账号:%s", CommonUtil.getUserInfo(context).getUsername()));

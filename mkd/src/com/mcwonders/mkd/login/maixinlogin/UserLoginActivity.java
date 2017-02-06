@@ -241,11 +241,13 @@ public class UserLoginActivity extends AppCompatActivity {
                     Log.d("登录信息1", user.getMobile() + user.getToken());
 
                     //更新昵称
-                    if (!TextUtils.isEmpty(mMkjUserInfo.getNickname())) {
+                    if (mMkjUserInfo.getNickname() != null && !TextUtils.isEmpty(mMkjUserInfo.getNickname())) {
                         userProFile.updateProFile(mMkjUserInfo.getNickname(), UserConstant.KEY_NICKNAME);
                         Log.d("YZP=========>", mMkjUserInfo.getNickname());
-                    }else {
-                        userProFile.updateProFile(mMkjUserInfo.getUsername(), UserConstant.KEY_NICKNAME);
+                    } else {
+                        if (mMkjUserInfo.getUsername() != null && !TextUtils.isEmpty(mMkjUserInfo.getUsername())) {
+                            userProFile.updateProFile(mMkjUserInfo.getUsername(), UserConstant.KEY_NICKNAME);
+                        }
                     }
 
                     //更新生日
@@ -286,7 +288,7 @@ public class UserLoginActivity extends AppCompatActivity {
 //                    }
 
                     //更新签名
-                    if (!TextUtils.isEmpty(mMkjUserInfo.getUsersignature())) {
+                    if (mMkjUserInfo.getUsersignature() != null && !TextUtils.isEmpty(mMkjUserInfo.getUsersignature())) {
                         userProFile.updateProFile(mMkjUserInfo.getUsersignature(), UserConstant.KEY_SIGNATURE);
                         Log.d("YZP=========>", mMkjUserInfo.getUsersignature());
                     }
@@ -517,7 +519,6 @@ public class UserLoginActivity extends AppCompatActivity {
                             finish();
                         }
                     } else if (code == ResponseCode.RES_ETIMEOUT) {
-                        Toast.makeText(UserLoginActivity.this, com.mcwonders.mkd.R.string.user_info_update_failed, Toast.LENGTH_SHORT).show();
                     }
                 }
             };
