@@ -93,6 +93,7 @@ public class AddFriendActivity extends UI {
         @Override
         public void handleMessage(Message msg) {
             int flag = msg.what;
+            DialogMaker.dismissProgressDialog();
             switch (flag) {
                 case 0:
                     String errorMsg = (String) msg.getData().getSerializable("ErrorMsg");

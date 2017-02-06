@@ -421,6 +421,23 @@ public class UserBusinessImp implements IUserBusiness {
     }
 
     /**
+     * 获取用户user_name
+     */
+    @Override
+    public String getUserName(String userID) throws Exception {
+        String _result = null;
+        //封装成json数据
+        JSONObject _json_args = new JSONObject();
+        _json_args.put("userid", userID);
+        _json_args.put("clientVersion", "1.0");
+        _json_args.put("clientType", "Phone");
+        //添加头信息
+        String _md5_value = ConvertUtil.getMD5("MAIKEJIA");
+        _result = this.getResultFromUrlConnection(CommonConstants.GET_USERNAME, _json_args.toString(), _md5_value.substring(0, 8));
+        return _result;
+    }
+
+    /**
      * 获取需求详情
      */
     @Override
