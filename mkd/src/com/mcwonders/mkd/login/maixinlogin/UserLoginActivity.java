@@ -241,9 +241,11 @@ public class UserLoginActivity extends AppCompatActivity {
                     Log.d("登录信息1", user.getMobile() + user.getToken());
 
                     //更新昵称
-                    if (!TextUtils.isEmpty(mMkjUserInfo.getUsername())) {
+                    if (!TextUtils.isEmpty(mMkjUserInfo.getNickname())) {
+                        userProFile.updateProFile(mMkjUserInfo.getNickname(), UserConstant.KEY_NICKNAME);
+                        Log.d("YZP=========>", mMkjUserInfo.getNickname());
+                    }else {
                         userProFile.updateProFile(mMkjUserInfo.getUsername(), UserConstant.KEY_NICKNAME);
-                        Log.d("YZP=========>", mMkjUserInfo.getUsername());
                     }
 
                     //更新生日

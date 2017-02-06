@@ -13,6 +13,7 @@ import android.widget.TextView;
 import com.mcwonders.mkd.DemoCache;
 import com.mcwonders.mkd.main.model.SettingTemplate;
 import com.mcwonders.mkd.main.model.SettingType;
+import com.mcwonders.mkd.utils.CommonUtil;
 import com.mcwonders.uikit.cache.NimUserInfoCache;
 import com.mcwonders.uikit.common.ui.imageview.HeadImageView;
 import com.mcwonders.uikit.common.ui.widget.SwitchButton;
@@ -149,7 +150,7 @@ public class SettingsAdapter extends BaseAdapter {
         viewHolder.headTitleView.setVisibility(View.VISIBLE);
         viewHolder.headTitleView.setText(NimUserInfoCache.getInstance().getUserDisplayName(DemoCache.getAccount()));
         viewHolder.headDetailView.setVisibility(View.VISIBLE);
-        viewHolder.headDetailView.setText(String.format("帐号:%s", DemoCache.getAccount()));
+        viewHolder.headDetailView.setText(String.format("账号:%s", CommonUtil.getUserInfo(context).getUsername()));
         viewHolder.titleView.setVisibility(View.GONE);
         viewHolder.headImageView.loadBuddyAvatar(DemoCache.getAccount());
         viewHolder.indicator.setImageResource(com.mcwonders.mkd.R.drawable.nim_arrow_right);
