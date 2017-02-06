@@ -83,7 +83,7 @@ public class CommonConstants {
     public static final String TEST_ADDRESS = "http://192.168.0.226:8080/external/";
     //    public static final String TRUE_ADDRESS = "http://www.maikejia.com/external/";
 
-//    public static final String TRUE_ADDRESS = "http://211.103.20.5:38082//external/";
+//        public static final String TRUE_ADDRESS = "http://211.103.20.5:38082//external/";
     public static final String TRUE_ADDRESS = "http://192.168.3.135:8080//external/";
     public static final String NOW_ADDRESS = TRUE_ADDRESS;
 
@@ -119,6 +119,14 @@ public class CommonConstants {
      * 获取需求详情
      */
     public static final String GET_DEMAND_DETAIL = TRUE_ADDRESS + "demandact/demandbyid.json";
+    /**
+     * 通过手机号查询user_id
+     */
+    public static final String GET_USERID = TRUE_ADDRESS + "userInfoByUsername/userByUsername.json";
+    /**
+     * 通过手机号查询user_id
+     */
+    public static final String GET_USERNAME = TRUE_ADDRESS + "userInfoByUserId/userByUserId.json";
     /**
      * 前台
      */
