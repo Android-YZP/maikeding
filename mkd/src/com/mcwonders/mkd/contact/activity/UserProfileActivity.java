@@ -268,15 +268,13 @@ public class UserProfileActivity extends UI {
         }
 
         if (!TextUtils.isEmpty(userInfo.getMobile())) {
-            phoneLayout.setVisibility(View.VISIBLE);
-            mobileText.setText(userInfo.getMobile());
+            phoneLayout.setVisibility(View.GONE);
         } else {
             phoneLayout.setVisibility(View.GONE);
         }
 
         if (!TextUtils.isEmpty(userInfo.getEmail())) {
-            emailLayout.setVisibility(View.VISIBLE);
-            emailText.setText(userInfo.getEmail());
+            emailLayout.setVisibility(View.GONE);
         } else {
             emailLayout.setVisibility(View.GONE);
         }
