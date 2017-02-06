@@ -124,8 +124,8 @@ public class UserProfileSettingActivity extends UI implements View.OnClickListen
         ((TextView) nickLayout.findViewById(com.mcwonders.mkd.R.id.attribute)).setText(com.mcwonders.mkd.R.string.nickname);
         ((TextView) genderLayout.findViewById(com.mcwonders.mkd.R.id.attribute)).setText(com.mcwonders.mkd.R.string.gender);
         ((TextView) birthLayout.findViewById(com.mcwonders.mkd.R.id.attribute)).setText(com.mcwonders.mkd.R.string.birthday);
-        ((TextView) phoneLayout.findViewById(com.mcwonders.mkd.R.id.attribute)).setText(com.mcwonders.mkd.R.string.phone);
-        ((TextView) emailLayout.findViewById(com.mcwonders.mkd.R.id.attribute)).setText(com.mcwonders.mkd.R.string.email);
+         phoneLayout.setVisibility(View.GONE);//刪除电话和邮箱
+         emailLayout.setVisibility(View.GONE);
         ((TextView) signatureLayout.findViewById(com.mcwonders.mkd.R.id.attribute)).setText(com.mcwonders.mkd.R.string.signature);
 
         nickText = (TextView) nickLayout.findViewById(com.mcwonders.mkd.R.id.value);

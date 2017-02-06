@@ -19,6 +19,7 @@ public class MKJUserInfo {
 
     private String userimg;
     private String username;
+    private String nickname;
     private String usergender;
     /**
      * date : 11
@@ -53,6 +54,14 @@ public class MKJUserInfo {
 
     public void setUsername(String username) {
         this.username = username;
+    }
+
+    public String getNickname() {
+        return nickname;
+    }
+
+    public void setNickname(String nickname) {
+        this.nickname = nickname;
     }
 
     public String getUsergender() {

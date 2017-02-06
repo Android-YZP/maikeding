@@ -241,9 +241,11 @@ public class UserLoginActivity extends AppCompatActivity {
                     Log.d("登录信息1", user.getMobile() + user.getToken());
 
                     //更新昵称
-                    if (!TextUtils.isEmpty(mMkjUserInfo.getUsername())) {
+                    if (!TextUtils.isEmpty(mMkjUserInfo.getNickname())) {
+                        userProFile.updateProFile(mMkjUserInfo.getNickname(), UserConstant.KEY_NICKNAME);
+                        Log.d("YZP=========>", mMkjUserInfo.getNickname());
+                    }else {
                         userProFile.updateProFile(mMkjUserInfo.getUsername(), UserConstant.KEY_NICKNAME);
-                        Log.d("YZP=========>", mMkjUserInfo.getUsername());
                     }
 
                     //更新生日
@@ -508,11 +510,10 @@ public class UserLoginActivity extends AppCompatActivity {
                             Log.d("YZP=========>", "更新成功之后进入主界面");
                             MainActivity.start(UserLoginActivity.this, null);
 
-                            if (mProgressDialog != null) {
-                                SystemClock.sleep(2000);
-                                mProgressDialog.dismiss();
-                                Log.d("mProgressDialog", "mProgressDialog.dismiss()");
-                            }
+//                            if (mProgressDialog != null) {
+//                                mProgressDialog.dismiss();
+//                                Log.d("mProgressDialog", "mProgressDialog.dismiss()");
+//                            }
                             finish();
                         }
                     } else if (code == ResponseCode.RES_ETIMEOUT) {
