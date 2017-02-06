@@ -210,7 +210,7 @@ public class NimUserInfoCache {
         if (userInfo != null && !TextUtils.isEmpty(userInfo.getName())) {
             return userInfo.getName();
         } else {
-            return account;
+            return userInfo.getExtension();
         }
     }
 

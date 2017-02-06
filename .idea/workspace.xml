@@ -17,57 +17,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22a89629-05e4-49a7-ad79-be3e61276f61" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/AMap_Services_V2_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Android_2DMap_V2_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Android_Location_V1_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_23_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/cosinesdk.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/design_23_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/fastjson_1_1_34_android.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/nim_avchat_3_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/nim_basesdk_3_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/nim_chatroom_3_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/nim_lucene_3_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/nim_rts_3_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/nrtc_sdk.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/org_apache_http_legacy_android_23.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_23_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_23_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/universal_image_loader_1_9_5.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/abc_ic_star_black_36dp.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/abc_ic_star_black_36dp.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/nim_cameras_hover.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/nim_cameras_hover.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxxhdpi-v4/abc_ic_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/merged/androidTest/debug/drawable-xxxhdpi-v4/abc_ic_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/uikit/build/intermediates/res/resources-debug-androidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_uikit_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_uikit_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_uikit_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_uikit_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/outputs/aar/uikit-release.aar" afterPath="$PROJECT_DIR$/uikit/build/outputs/aar/uikit-release.aar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/business/IUserBusiness.java" afterPath="$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/business/IUserBusiness.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/business/imp/UserBusinessImp.java" afterPath="$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/business/imp/UserBusinessImp.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/config/CommonConstants.java" afterPath="$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/config/CommonConstants.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/contact/activity/AddFriendActivity.java" afterPath="$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/contact/activity/AddFriendActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/contact/activity/UserProfileActivity.java" afterPath="$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/contact/activity/UserProfileActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/androidTest/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/androidTest/debug/single/drawable-hdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/androidTest/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/androidTest/debug/single/drawable-xhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/androidTest/debug/single/layout.json" afterPath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/androidTest/debug/single/layout.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/debug/single/drawable.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/uikit/build/intermediates/blame/res/debug/single/layout.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/uikit/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/uikit/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uikit/src/com/mcwonders/uikit/cache/NimUserInfoCache.java" afterPath="$PROJECT_DIR$/uikit/src/com/mcwonders/uikit/cache/NimUserInfoCache.java" />
     </list>
     <ignored path="maikeding.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -106,21 +69,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/main/activity/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="281" column="22" selection-start-line="281" selection-start-column="22" selection-end-line="281" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AddFriendActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/contact/activity/AddFriendActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="32" />
+            <state relative-caret-position="323">
+              <caret line="125" column="56" selection-start-line="125" selection-start-column="56" selection-end-line="125" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#4425#5432#0" expanded="true" />
@@ -130,66 +83,132 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DemandDetailActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/demand/activity/DemandDetailActivity.java">
+      <file leaf-file-name="IUserBusiness.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/business/IUserBusiness.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="145" column="64" selection-start-line="145" selection-start-column="64" selection-end-line="145" selection-end-column="64" />
+            <state relative-caret-position="191">
+              <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserProfileActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserBusinessImp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/business/imp/UserBusinessImp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="418" column="73" selection-start-line="418" selection-start-column="73" selection-end-line="418" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommonConstants.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/config/CommonConstants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="894">
+              <caret line="140" column="36" selection-start-line="140" selection-start-column="36" selection-end-line="140" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserProfileActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/contact/activity/UserProfileActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-82">
-              <caret line="289" column="21" selection-start-line="289" selection-start-column="21" selection-end-line="289" selection-end-column="21" />
+            <state relative-caret-position="95">
+              <caret line="138" column="9" selection-start-line="138" selection-start-column="9" selection-end-line="138" selection-end-column="9" />
               <folding>
-                <element signature="e#4364#4403#0" expanded="true" />
-                <element signature="e#5311#5502#0" expanded="true" />
-                <element signature="e#5501#5502#0" expanded="true" />
-                <element signature="e#7581#7616#0" expanded="true" />
-                <element signature="e#7701#7733#0" expanded="true" />
-                <element signature="e#7824#7856#0" expanded="true" />
-                <element signature="e#7951#7987#0" expanded="true" />
-                <element signature="e#8078#8110#0" expanded="true" />
-                <element signature="e#8325#8559#0" expanded="true" />
-                <element signature="e#8558#8559#0" expanded="true" />
-                <element signature="e#8938#8969#0" expanded="true" />
-                <element signature="e#9011#9212#0" expanded="true" />
-                <element signature="e#9211#9212#0" expanded="true" />
-                <element signature="e#9342#9379#0" expanded="true" />
-                <element signature="e#9446#9483#0" expanded="true" />
-                <element signature="e#9843#10056#0" expanded="true" />
-                <element signature="e#10055#10056#0" expanded="true" />
-                <element signature="e#11007#11008#0" expanded="true" />
-                <element signature="e#11075#11076#0" expanded="true" />
-                <element signature="e#11109#11110#0" expanded="true" />
-                <element signature="e#11163#11164#0" expanded="true" />
-                <element signature="e#12236#12237#0" expanded="true" />
-                <element signature="e#15708#15783#0" expanded="true" />
-                <element signature="e#17563#22072#0" expanded="true" />
-                <element signature="e#17868#17919#0" expanded="true" />
-                <element signature="e#18918#18969#0" expanded="true" />
-                <element signature="e#20094#20145#0" expanded="true" />
-                <element signature="e#21504#21555#0" expanded="true" />
-                <element signature="e#22071#22072#0" expanded="true" />
-                <element signature="e#22384#22884#0" expanded="true" />
-                <element signature="e#22883#22884#0" expanded="true" />
-                <element signature="e#23112#23171#0" expanded="true" />
-                <element signature="e#23222#23255#0" expanded="true" />
-                <element signature="e#23465#23496#0" expanded="true" />
-                <element signature="e#23498#23757#0" expanded="true" />
-                <element signature="e#23756#23757#0" expanded="true" />
-                <element signature="e#24154#24205#0" expanded="true" />
-                <element signature="e#25616#25667#0" expanded="true" />
-                <element signature="e#26398#26449#0" expanded="true" />
-                <element signature="e#26591#26642#0" expanded="true" />
-                <element signature="e#26660#26715#0" expanded="true" />
-                <element signature="e#27441#27489#0" expanded="true" />
-                <element signature="e#27888#27939#0" expanded="true" />
+                <element signature="e#3869#3908#0" expanded="true" />
+                <element signature="e#4793#4984#0" expanded="true" />
+                <element signature="e#5195#5196#0" expanded="true" />
+                <element signature="e#5243#5244#0" expanded="true" />
+                <element signature="e#5323#5324#0" expanded="true" />
+                <element signature="e#5371#5372#0" expanded="true" />
+                <element signature="e#5455#5456#0" expanded="true" />
+                <element signature="e#5503#5504#0" expanded="true" />
+                <element signature="e#5592#5593#0" expanded="true" />
+                <element signature="e#5640#5641#0" expanded="true" />
+                <element signature="e#7040#7075#0" expanded="true" />
+                <element signature="e#7160#7192#0" expanded="true" />
+                <element signature="e#7283#7315#0" expanded="true" />
+                <element signature="e#7410#7446#0" expanded="true" />
+                <element signature="e#7537#7569#0" expanded="true" />
+                <element signature="e#7784#8018#0" expanded="true" />
+                <element signature="e#8017#8018#0" expanded="true" />
+                <element signature="e#8397#8428#0" expanded="true" />
+                <element signature="e#8470#8671#0" expanded="true" />
+                <element signature="e#8670#8671#0" expanded="true" />
+                <element signature="e#8801#8838#0" expanded="true" />
+                <element signature="e#8905#8942#0" expanded="true" />
+                <element signature="e#9026#9027#0" expanded="true" />
+                <element signature="e#9065#9066#0" expanded="true" />
+                <element signature="e#9302#9515#0" expanded="true" />
+                <element signature="e#9514#9515#0" expanded="true" />
+                <element signature="e#13039#13114#0" expanded="true" />
+                <element signature="e#14894#19403#0" expanded="true" />
+                <element signature="e#15199#15250#0" expanded="true" />
+                <element signature="e#16249#16300#0" expanded="true" />
+                <element signature="e#17425#17476#0" expanded="true" />
+                <element signature="e#18835#18886#0" expanded="true" />
+                <element signature="e#19402#19403#0" expanded="true" />
+                <element signature="e#19715#20215#0" expanded="true" />
+                <element signature="e#20214#20215#0" expanded="true" />
+                <element signature="e#20443#20502#0" expanded="true" />
+                <element signature="e#20553#20586#0" expanded="true" />
+                <element signature="e#20796#20827#0" expanded="true" />
+                <element signature="e#20829#21088#0" expanded="true" />
+                <element signature="e#21087#21088#0" expanded="true" />
+                <element signature="e#21485#21536#0" expanded="true" />
+                <element signature="e#22947#22998#0" expanded="true" />
+                <element signature="e#23729#23780#0" expanded="true" />
+                <element signature="e#23922#23973#0" expanded="true" />
+                <element signature="e#23991#24046#0" expanded="true" />
+                <element signature="e#24772#24820#0" expanded="true" />
+                <element signature="e#25219#25270#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactListFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/main/fragment/ContactListFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="185" column="0" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uikit/src/com/mcwonders/uikit/contact/core/util/ContactHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NimUserInfoCache.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uikit/src/com/mcwonders/uikit/cache/NimUserInfoCache.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="337">
+              <caret line="212" column="40" selection-start-line="212" selection-start-column="28" selection-end-line="212" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NimUserInfo.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/uikit/libs/nim-basesdk-3.1.0.jar!/com/netease/nimlib/sdk/uinfo/model/NimUserInfo.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -2758,8 +2777,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mkd/res/layout/user_profile_set_activity.xml" />
-        <option value="$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/contact/activity/UserProfileSettingActivity.java" />
         <option value="$PROJECT_DIR$/mkd/res/layout/layout_common_topbar.xml" />
         <option value="$PROJECT_DIR$/uikit/res/layout/nim_message_activity.xml" />
         <option value="$PROJECT_DIR$/uikit/src/com/mcwonders/uikit/session/activity/P2PMessageActivity.java" />
@@ -2806,9 +2823,11 @@
         <option value="$PROJECT_DIR$/uikit/src/com/mcwonders/uikit/session/module/list/MessageListPanel.java" />
         <option value="$PROJECT_DIR$/mkd/res/layout/user_profile_item.xml" />
         <option value="$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/contact/activity/AddFriendActivity.java" />
+        <option value="$PROJECT_DIR$/uikit/src/com/mcwonders/uikit/cache/NimUserInfoCache.java" />
+        <option value="$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/contact/activity/UserProfileActivity.java" />
+        <option value="$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/business/IUserBusiness.java" />
         <option value="$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/business/imp/UserBusinessImp.java" />
         <option value="$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/config/CommonConstants.java" />
-        <option value="$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/contact/activity/UserProfileActivity.java" />
       </list>
     </option>
   </component>
@@ -2913,7 +2932,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="demand" />
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="maikeding" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mkd" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mcwonders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mkd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fragment" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2944,6 +2997,134 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="demand" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="maikeding" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mkd" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mcwonders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mkd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demand" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bean" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="maikeding" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mkd" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mcwonders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mkd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demand" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="maikeding" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mkd" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mcwonders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mkd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="maikeding" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mkd" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mcwonders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mkd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contact" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -3550,61 +3731,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/uikit/res/layout/nim_message_item.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2375">
-          <caret line="125" column="20" selection-start-line="125" selection-start-column="20" selection-end-line="125" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/res/layout/nim_recent_contacts.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/src/com/mcwonders/uikit/session/module/input/InputPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="438" column="24" selection-start-line="438" selection-start-column="24" selection-end-line="438" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/session/search/DisplayMessageActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
-          <caret line="78" column="16" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/session/activity/MessageHistoryActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/src/com/mcwonders/uikit/session/module/ModuleProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/soft/Android/sdk/sources/android-23/android/widget/BaseAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/uikit/libs/nim-basesdk-3.1.0.jar!/com/netease/nimlib/sdk/msg/model/QueryDirectionEnum.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -3815,7 +3941,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="16" column="76" selection-start-line="16" selection-start-column="76" selection-end-line="16" selection-end-column="76" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3824,27 +3949,6 @@
         <state relative-caret-position="0">
           <caret line="281" column="22" selection-start-line="281" selection-start-column="22" selection-end-line="281" selection-end-column="22" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/main/fragment/ContactListFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="171" column="32" selection-start-line="171" selection-start-column="32" selection-end-line="171" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/src/com/mcwonders/uikit/contact/core/model/ContactDataAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="62" column="11" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/src/com/mcwonders/uikit/contact/ContactsFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="188" column="61" selection-start-line="188" selection-start-column="61" selection-end-line="188" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -3866,7 +3970,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="143" column="13" selection-start-line="143" selection-start-column="13" selection-end-line="143" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3884,21 +3987,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/uikit/libs/nim-basesdk-3.1.0.jar!/com/netease/nimlib/sdk/uinfo/model/NimUserInfo.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uikit/src/com/mcwonders/uikit/cache/NimUserInfoCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="802">
-          <caret line="163" column="23" selection-start-line="163" selection-start-column="23" selection-end-line="163" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/demand/activity/DemandDetailActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="470">
@@ -3907,34 +3995,164 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/business/IUserBusiness.java">
+    <entry file="file://$PROJECT_DIR$/uikit/src/com/mcwonders/uikit/contact/core/model/ContactDataAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
+        <state relative-caret-position="342">
+          <caret line="40" column="58" selection-start-line="40" selection-start-column="58" selection-end-line="40" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/config/CommonConstants.java">
+    <entry file="file://$PROJECT_DIR$/uikit/src/com/mcwonders/uikit/contact/core/viewholder/ContactHolder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="128" column="31" selection-start-line="128" selection-start-column="31" selection-end-line="128" selection-end-column="31" />
+        <state relative-caret-position="280">
+          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/business/imp/UserBusinessImp.java">
+    <entry file="file://$PROJECT_DIR$/uikit/src/com/mcwonders/uikit/contact/core/model/IContact.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="435" column="73" selection-start-line="435" selection-start-column="73" selection-end-line="435" selection-end-column="73" />
+        <state relative-caret-position="717">
+          <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uikit/src/com/mcwonders/uikit/contact/core/viewholder/AbsContactViewHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uikit/src/com/mcwonders/uikit/contact/ContactsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="109" column="36" selection-start-line="109" selection-start-column="36" selection-end-line="109" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/main/fragment/ContactListFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="185" column="0" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/demand/util/JsonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/demand/util/DBHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/uikit/libs/nim-basesdk-3.1.0.jar!/com/netease/nimlib/sdk/uinfo/model/NimUserInfo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uikit/src/com/mcwonders/uikit/contact/core/util/ContactHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uikit/src/com/mcwonders/uikit/cache/NimUserInfoCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="212" column="40" selection-start-line="212" selection-start-column="28" selection-end-line="212" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mkd/build/generated/source/r/debug/com/mcwonders/mkd/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="4277" column="32" selection-start-line="4277" selection-start-column="32" selection-end-line="4277" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/contact/activity/UserProfileActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="138" column="9" selection-start-line="138" selection-start-column="9" selection-end-line="138" selection-end-column="9" />
+          <folding>
+            <element signature="e#3869#3908#0" expanded="true" />
+            <element signature="e#4793#4984#0" expanded="true" />
+            <element signature="e#5195#5196#0" expanded="true" />
+            <element signature="e#5243#5244#0" expanded="true" />
+            <element signature="e#5323#5324#0" expanded="true" />
+            <element signature="e#5371#5372#0" expanded="true" />
+            <element signature="e#5455#5456#0" expanded="true" />
+            <element signature="e#5503#5504#0" expanded="true" />
+            <element signature="e#5592#5593#0" expanded="true" />
+            <element signature="e#5640#5641#0" expanded="true" />
+            <element signature="e#7040#7075#0" expanded="true" />
+            <element signature="e#7160#7192#0" expanded="true" />
+            <element signature="e#7283#7315#0" expanded="true" />
+            <element signature="e#7410#7446#0" expanded="true" />
+            <element signature="e#7537#7569#0" expanded="true" />
+            <element signature="e#7784#8018#0" expanded="true" />
+            <element signature="e#8017#8018#0" expanded="true" />
+            <element signature="e#8397#8428#0" expanded="true" />
+            <element signature="e#8470#8671#0" expanded="true" />
+            <element signature="e#8670#8671#0" expanded="true" />
+            <element signature="e#8801#8838#0" expanded="true" />
+            <element signature="e#8905#8942#0" expanded="true" />
+            <element signature="e#9026#9027#0" expanded="true" />
+            <element signature="e#9065#9066#0" expanded="true" />
+            <element signature="e#9302#9515#0" expanded="true" />
+            <element signature="e#9514#9515#0" expanded="true" />
+            <element signature="e#13039#13114#0" expanded="true" />
+            <element signature="e#14894#19403#0" expanded="true" />
+            <element signature="e#15199#15250#0" expanded="true" />
+            <element signature="e#16249#16300#0" expanded="true" />
+            <element signature="e#17425#17476#0" expanded="true" />
+            <element signature="e#18835#18886#0" expanded="true" />
+            <element signature="e#19402#19403#0" expanded="true" />
+            <element signature="e#19715#20215#0" expanded="true" />
+            <element signature="e#20214#20215#0" expanded="true" />
+            <element signature="e#20443#20502#0" expanded="true" />
+            <element signature="e#20553#20586#0" expanded="true" />
+            <element signature="e#20796#20827#0" expanded="true" />
+            <element signature="e#20829#21088#0" expanded="true" />
+            <element signature="e#21087#21088#0" expanded="true" />
+            <element signature="e#21485#21536#0" expanded="true" />
+            <element signature="e#22947#22998#0" expanded="true" />
+            <element signature="e#23729#23780#0" expanded="true" />
+            <element signature="e#23922#23973#0" expanded="true" />
+            <element signature="e#23991#24046#0" expanded="true" />
+            <element signature="e#24772#24820#0" expanded="true" />
+            <element signature="e#25219#25270#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/contact/activity/AddFriendActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="32" />
+        <state relative-caret-position="323">
+          <caret line="125" column="56" selection-start-line="125" selection-start-column="56" selection-end-line="125" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#4425#5432#0" expanded="true" />
@@ -3943,55 +4161,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/contact/activity/UserProfileActivity.java">
+    <entry file="file://$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/business/IUserBusiness.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-82">
-          <caret line="289" column="21" selection-start-line="289" selection-start-column="21" selection-end-line="289" selection-end-column="21" />
-          <folding>
-            <element signature="e#4364#4403#0" expanded="true" />
-            <element signature="e#5311#5502#0" expanded="true" />
-            <element signature="e#5501#5502#0" expanded="true" />
-            <element signature="e#7581#7616#0" expanded="true" />
-            <element signature="e#7701#7733#0" expanded="true" />
-            <element signature="e#7824#7856#0" expanded="true" />
-            <element signature="e#7951#7987#0" expanded="true" />
-            <element signature="e#8078#8110#0" expanded="true" />
-            <element signature="e#8325#8559#0" expanded="true" />
-            <element signature="e#8558#8559#0" expanded="true" />
-            <element signature="e#8938#8969#0" expanded="true" />
-            <element signature="e#9011#9212#0" expanded="true" />
-            <element signature="e#9211#9212#0" expanded="true" />
-            <element signature="e#9342#9379#0" expanded="true" />
-            <element signature="e#9446#9483#0" expanded="true" />
-            <element signature="e#9843#10056#0" expanded="true" />
-            <element signature="e#10055#10056#0" expanded="true" />
-            <element signature="e#11007#11008#0" expanded="true" />
-            <element signature="e#11075#11076#0" expanded="true" />
-            <element signature="e#11109#11110#0" expanded="true" />
-            <element signature="e#11163#11164#0" expanded="true" />
-            <element signature="e#12236#12237#0" expanded="true" />
-            <element signature="e#15708#15783#0" expanded="true" />
-            <element signature="e#17563#22072#0" expanded="true" />
-            <element signature="e#17868#17919#0" expanded="true" />
-            <element signature="e#18918#18969#0" expanded="true" />
-            <element signature="e#20094#20145#0" expanded="true" />
-            <element signature="e#21504#21555#0" expanded="true" />
-            <element signature="e#22071#22072#0" expanded="true" />
-            <element signature="e#22384#22884#0" expanded="true" />
-            <element signature="e#22883#22884#0" expanded="true" />
-            <element signature="e#23112#23171#0" expanded="true" />
-            <element signature="e#23222#23255#0" expanded="true" />
-            <element signature="e#23465#23496#0" expanded="true" />
-            <element signature="e#23498#23757#0" expanded="true" />
-            <element signature="e#23756#23757#0" expanded="true" />
-            <element signature="e#24154#24205#0" expanded="true" />
-            <element signature="e#25616#25667#0" expanded="true" />
-            <element signature="e#26398#26449#0" expanded="true" />
-            <element signature="e#26591#26642#0" expanded="true" />
-            <element signature="e#26660#26715#0" expanded="true" />
-            <element signature="e#27441#27489#0" expanded="true" />
-            <element signature="e#27888#27939#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="191">
+          <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/business/imp/UserBusinessImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="418" column="73" selection-start-line="418" selection-start-column="73" selection-end-line="418" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mkd/src/com/mcwonders/mkd/config/CommonConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="894">
+          <caret line="140" column="36" selection-start-line="140" selection-start-column="36" selection-end-line="140" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
